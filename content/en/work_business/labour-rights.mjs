@@ -49,7 +49,7 @@ export default {
           'Overtime (horas extras) under art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): rates depend on the annual volume. Up to 100 hours/year: +25% for the first hour on a working day, +37.5% for subsequent hours, +50% on a rest day/public holiday. From the 101st hour/year: rates increase to +50%/+75%/+100%. A collective agreement may set more favourable conditions',
           'Night work (22:00-07:00): +25% extra',
           'Work on descanso semanal/feriado: usually +50% for each hour; in some cases descanso compensatório is also due. A collective agreement may set better conditions (Código do Trabalho arts. 268, 269)',
-          'Deductions: IRS (progressive scale 11.97-48%), Segurança Social 11%. The difference between gross and net is approximately 22-35% depending on salary',
+          'Deductions: IRS (progressive scale 12.5-48%), Segurança Social 11%. The difference between gross and net is approximately 22-35% depending on salary',
           'Payslip (recibo de vencimento): must be issued monthly, with a breakdown of all deductions'
         ]}
       ]
@@ -176,6 +176,6 @@ export default {
     { title: 'CGTP-IN', url: 'https://www.cgtp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UGT', url: 'https://www.ugt.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 365
 }

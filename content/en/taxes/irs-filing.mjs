@@ -6,6 +6,12 @@ export default {
   tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. It is filed annually from 1 April to 30 June in Portal das Finanças (tax portal).\n\nTax residents usually declare worldwide income; there are exemptions from filing under art. 58 CIRS (low/finally taxed income).\n\nThere is an automatic pre-filled version (IRS Automático) for simple cases covered by AT.',
   tags: ['irs', 'taxes', 'tax return'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 IRS cut bill (PPL 108/XVII): rates for brackets 1–6 drop by 0.3–0.5 p.p. retroactively from 01.01.2026 (e.g. bracket 1: 12.5→12.2%); parliamentary debate on 07.10.2026; if passed — lower withholding from November and on the Christmas bonus. The current 2026 scale is 12.5–48% — the wrong “11.97%” figure has been corrected in several guides.',
+  pendingLaw: {
+    summary: 'PPL n.º 108/XVII (submitted to Parliament on 21.09.2026, plenary debate on 07.10.2026; the government asks for all three votes at once): IRS rates for brackets 1–6 would drop — 12.5→12.2%, 15.7→15.2%, 21.2→20.7%, 24.1→23.6%, 31.1→30.6%, 34.9→34.6% (bracket limits unchanged, brackets 7–9 unchanged). It applies to all 2026 income retroactively from 01.01.2026: the government plans lower withholding from November and on the Christmas bonus, with the rest refunded through the IRS return filed in 2027. It is an authorisation law: after Parliament, a government decree-law and new withholding tables are still needed. Until then the 12.5–48% scale applies (Lei 73-A/2025).',
+    sourceUrl: 'https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377272'
+  },
   steps: [
     {
       id: 'who',
@@ -105,6 +111,6 @@ export default {
     { title: 'IRS Code (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Exemption from submitting the IRS return', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Folheto_IRS_Dispensa_Entrega.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

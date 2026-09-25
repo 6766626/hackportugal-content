@@ -3,9 +3,11 @@ export default {
   id: 'vaccinations-pt',
   categoryId: 'healthcare',
   title: 'Vacinas em Portugal — PNV, crianças, adultos, viagens',
-  tldr: 'O PNV (Plano Nacional de Vacinação) é o programa público de vacinação, gratuito no SNS para residentes com número de utente. As vacinas do PNV em Portugal são recomendadas e gratuitas, mas juridicamente, em geral, não são obrigatórias; escolas/médicos podem pedir o boletim de vacinas e encaminhar para vacinação de recuperação. Adultos: Td/Tdap — reforço contra tétano/difteria segundo o calendário etário do PNV; Tdap especialmente durante a gravidez. Gripe anualmente no outono/inverno para os grupos definidos pela DGS na campanha sazonal em vigor (normalmente 60+, grávidas, doenças crónicas, etc.), reforço COVID segundo a campanha sazonal da DGS. Vacinas de viagem e profilaxia: Hep A, febre tifoide, febre amarela, raiva, encefalite japonesa — na Consulta do Viajante / Centro de Vacinação Internacional. Malária — comprimidos profiláticos, não vacina.',
+  tldr: 'O PNV (Plano Nacional de Vacinação) é o programa público de vacinação, gratuito no SNS para residentes com número de utente. As vacinas do PNV em Portugal são recomendadas e gratuitas, mas juridicamente, em geral, não são obrigatórias; escolas/médicos podem pedir o boletim de vacinas e encaminhar para vacinação de recuperação. Adultos: Td/Tdap — reforço contra tétano/difteria segundo o calendário etário do PNV; Tdap especialmente durante a gravidez. Gripe anualmente no outono/inverno para os grupos definidos pela DGS na campanha sazonal em vigor (normalmente 60+, grávidas, doenças crónicas, etc.), reforço COVID segundo a campanha sazonal da DGS. 🆕 A campanha 2026/27 decorre de 30.09.2026 a 31.03.2027: o reforço COVID passa a ser a partir dos 70 anos (antes, 60), e a vacina da gripe passa a ser gratuita também para crianças de 2–4 anos. Vacinas de viagem e profilaxia: Hep A, febre tifoide, febre amarela, raiva, encefalite japonesa — na Consulta do Viajante / Centro de Vacinação Internacional. Malária — comprimidos profiláticos, não vacina.',
   tags: ['vacinas', 'pnv', 'sns', 'crianças', 'viagens'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Campanha de outono 2026/27 (30.09.2026–31.03.2027): o reforço COVID passa a ser a partir dos 70 anos (antes, 60); gripe gratuita também para crianças de 2–4 anos; gratuito nas farmácias — gripe dos 60–84 anos e dos 18–59 com fatores de risco, COVID dos 70–84 anos e dos 18–69 com fatores de risco; 85+ — nos centros de saúde do SNS (vacina de dose elevada).',
   steps: [
     {
       id: 'pnv-overview',
@@ -59,8 +61,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💉 Td/Tdap: reforço contra tétano/difteria segundo o calendário etário do PNV para adultos (normalmente Td aos 25/45/65 e depois com maior frequência após os 65 anos). Tdap especialmente durante a gravidez e por indicações específicas. Verifique o e-Boletim ou confirme no centro de saúde',
-          '💉 Gripe: anualmente na campanha sazonal da DGS — normalmente gratuita/recomendada para 60+, grávidas, pessoas com doenças crónicas/grupos de risco e profissionais de saúde. As condições exatas (SNS / farmácias) mudam de época para época, o preço da vacina paga depende da farmácia/clínica',
-          '💉 Reforço COVID: segundo a campanha sazonal em vigor da DGS, normalmente para idosos, imunocomprometidos, grupos de risco, grávidas e trabalhadores da saúde/área social. O limiar etário muda de época para época',
+          '💉 Gripe — campanha 30.09.2026–31.03.2027 (Norma DGS 006/2026): gratuita para 60+, grávidas, doentes crónicos e grupos de risco, profissionais de saúde e da área dos cuidados; 🆕 a partir desta época — também para crianças de 2–4 anos (as crianças de 6–23 meses vacinadas pela primeira vez recebem duas doses). Gratuita na farmácia: 60–84 anos sem condições adicionais e 18–59 anos com fatores de risco; 85+ e residentes em lares — nos centros de saúde do SNS (vacina de dose elevada). Fora destes grupos — paga na farmácia',
+          '💉 Reforço COVID — campanha 2026/27 (Norma DGS 007/2026): 🆕 o limiar etário subiu dos 60 para os 70 anos; também 18–69 anos com fatores de risco, imunocomprometidos, grávidas, profissionais de saúde e trabalhadores da área social. Gratuito na farmácia: 70–84 anos e 18–69 com fatores de risco; 85+ — nos centros de saúde do SNS',
           '💉 Hep B: se não recebeu na infância (antes de 1995 — não constava do PNV). Série 0/1/6 meses',
           '💉 MMR: se não tiver 2 doses (verifique o seu boletim de vacinas)',
           '💉 Zona: recomendada para 60+, não incluída no PNV (paga, 150–200 €/dose)',
@@ -133,10 +135,12 @@ export default {
     { label: 'Consulta do Viajante', amountEURMin: 0, amountEURMax: 60, note: 'a tarifa depende do prestador público/privado' }
   ],
   sources: [
+    { title: 'ECO — Vacinação da gripe arranca a 30 de setembro e é alargada a crianças dos dois aos quatro anos (17.09.2026)', url: 'https://eco.sapo.pt/2026/09/17/vacinacao-da-gripe-arranca-a-30-de-setembro-e-e-alargada-a-criancas-dos-dois-aos-quatro-anos/', kind: 'news', language: 'pt', lastRetrieved: '2026-09-25' },
+    { title: 'Ordem dos Farmacêuticos — Início da campanha de vacinação contra a gripe e a COVID-19 a 30 de setembro de 2026', url: 'https://www.ordemfarmaceuticos.pt/pt/noticias/inicio-da-campanha-de-vacinacao-contra-a-gripe-contra-a-covid-19-agendado-para-30-de-setembro/', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'DGS — Programa Nacional de Vacinação (Norma 018/2020 e atualizações)', url: 'https://www.dgs.pt/normas-orientacoes-e-informacoes/normas-e-circulares-normativas.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Vacinação', url: 'https://www.sns24.gov.pt/tema/vacinacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Consulta do Viajante e Centros de Vacinação Internacional', url: 'https://www.sns24.gov.pt/tema/vacinacao/consulta-do-viajante/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

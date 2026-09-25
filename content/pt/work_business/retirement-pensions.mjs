@@ -91,7 +91,7 @@ export default {
             { kind: 'checklist', items: [
               'Os residentes fiscais em Portugal são tributados sobre o rendimento mundial',
               'As pensões estrangeiras são declaradas no Anexo H da declaração de IRS',
-              'Imposto padrão: taxas progressivas 11,97-48%',
+              'Imposto padrão: taxas progressivas 12,5-48%',
               'Antigo NHR (até 2024): taxa fixa de 10% para pensões estrangeiras × 10 anos (para quem ainda conseguiu entrar)',
               'IFICI (novo, 2024+): NÃO cobre pensões estrangeiras',
               'Convenções para evitar a dupla tributação (DTT): Portugal tem com a Federação Russa, Brasil, EUA, Reino Unido, França, Alemanha, Espanha — normalmente a dupla tributação é evitada por crédito de imposto',
@@ -146,7 +146,8 @@ export default {
           '💰 Complemento Solidário para Idosos (CSI): complemento até ao rendimento mínimo (670 €/mês em 2026; valor de referência 8 040 €/ano) para reformados com baixos rendimentos',
           '🍴 Cantinas Sociais: refeições 1,5-3 € para idosos carenciados',
           '📞 Linha do Idoso (760 24 24 24): apoio e informação para idosos',
-          '🏥 Apoio Domiciliário: serviços de cuidados ao domicílio através do município / Misericórdias'
+          '🏥 Apoio Domiciliário: serviços de cuidados ao domicílio através do município / Misericórdias',
+          '🆕 Suplemento extraordinário único às pensões em dezembro de 2026 (decreto-lei aprovado em Conselho de Ministros a 17.09.2026, a aguardar publicação): 200 € para pensões até 537,13 €, 150 € — até 1 074,26 €, 100 € — até 1 611,39 €; pago automaticamente juntamente com a pensão de dezembro'
         ]}
       ]
     },
@@ -180,6 +181,6 @@ export default {
     { title: 'ASF — comparação de PPR', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento (EC) 883/2004 — coordenação da segurança social da UE', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32004R0883', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 365
 }

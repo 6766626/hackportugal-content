@@ -196,7 +196,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Bruto e líquido — em Portugal a diferença é significativa. Para um bruto de 2 000 €/mês:' },
         { kind: 'checklist', items: [
-          'IRS (imposto sobre o rendimento): ~11% em média (escalões de 11,97-48% em 9 intervalos — Orçamento do Estado 2026)',
+          'IRS (imposto sobre o rendimento): ~11% em média (escalões de 12,5-48% em 9 intervalos — Orçamento do Estado 2026)',
           'Segurança Social (contribuições sociais): 11%',
           'Líquido: ~1 560 € (ou seja, o empregador paga 2 000 € brutos e ainda paga 23,75% de TSU por cima — custo real ~2 475 €)',
           'Estatuto IFICI (se for aplicável): taxa fixa de 20% sobre rendimento qualificado',
@@ -212,6 +212,6 @@ export default {
     { title: 'Portal das Finanças (portal fiscal) — taxas de IRS 2026', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — taxas 2026', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

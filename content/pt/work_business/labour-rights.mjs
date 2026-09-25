@@ -49,7 +49,7 @@ export default {
           'Trabalho suplementar (horas extras) nos termos do art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): as taxas dependem do volume anual. Até 100 horas/ano: +25% pela primeira hora em dia útil, +37,5% pelas seguintes, +50% em dia de descanso/feriado. A partir da 101.ª hora/ano: as taxas sobem para +50%/+75%/+100%. O contrato coletivo pode estabelecer condições mais favoráveis',
           'Trabalho noturno (22:00-07:00): +25% adicional',
           'Trabalho em descanso semanal/feriado: normalmente +50% por cada hora; em alguns casos também há direito a descanso compensatório. O contrato coletivo pode estabelecer condições melhores (Código do Trabalho arts. 268, 269)',
-          'Descontos: IRS (escala progressiva 11,97-48%), Segurança Social 11%. A diferença entre bruto e líquido é de cerca de 22-35%, consoante o salário',
+          'Descontos: IRS (escala progressiva 12,5-48%), Segurança Social 11%. A diferença entre bruto e líquido é de cerca de 22-35%, consoante o salário',
           'Recibo de vencimento: deve ser emitido mensalmente, com discriminação de todos os descontos'
         ]}
       ]
@@ -176,6 +176,6 @@ export default {
     { title: 'CGTP-IN', url: 'https://www.cgtp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UGT', url: 'https://www.ugt.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 365
 }

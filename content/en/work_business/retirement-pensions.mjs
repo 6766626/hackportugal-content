@@ -91,7 +91,7 @@ export default {
             { kind: 'checklist', items: [
               'Portuguese tax residents are taxed on their worldwide income',
               'Foreign pensions are declared in Anexo H of the IRS return',
-              'Standard tax: progressive scale 11.97-48%',
+              'Standard tax: progressive scale 12.5-48%',
               'Old NHR (before 2024): fixed 10% for foreign pensions × 10 years (for those who qualified in time)',
               'IFICI (new, 2024+): does NOT cover foreign pensions',
               'Double tax treaties (DTT): Portugal has them with the Russian Federation, Brazil, the USA, the United Kingdom, France, Germany, Spain — double taxation is usually avoided through a credit',
@@ -146,7 +146,8 @@ export default {
           '💰 Complemento Solidário para Idosos (CSI): top-up to minimum income (€670/month in 2026; reference value €8,040/year) for low-income retirees',
           '🍴 Cantinas Sociais: meals €1.5-3 for elderly people in need',
           '📞 Linha do Idoso (760 24 24 24): help and information for elderly people',
-          '🏥 Apoio Domiciliário: home care services through the municipality / Misericórdias'
+          '🏥 Apoio Domiciliário: home care services through the municipality / Misericórdias',
+          '🆕 One-off pension supplement in December 2026 (decree-law approved by the Council of Ministers on 17.09.2026, awaiting publication): €200 for pensions up to €537.13, €150 — up to €1,074.26, €100 — up to €1,611.39; paid automatically together with the December pension'
         ]}
       ]
     },
@@ -180,6 +181,6 @@ export default {
     { title: 'ASF — PPR comparison', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulation (EC) 883/2004 — coordination of EU social security', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32004R0883', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 365
 }

@@ -97,7 +97,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Submeter na AIMA', content: [
-            { kind: 'paragraph', text: '🆕 Desde 01.07.2026 o Portal de Renovações da AIMA trata também dos documentos permanentes dos cidadãos da UE e das suas famílias: o certificado de residência permanente (art. 16) e o cartão de residência permanente para membros da família (art. 17) — antes isto passava pelo Formulário de Contacto. O portal abrange documentos caducados/a caducar entre 01.07.2025 e 31.10.2026. Para os restantes casos, verifique a página da AIMA para «autorização de residência permanente» / «estatuto de residente de longa duração» antes de submeter.' }
+            { kind: 'paragraph', text: '🆕 Desde 01.07.2026 o Portal de Renovações da AIMA trata também dos documentos permanentes dos cidadãos da UE e das suas famílias: o certificado de residência permanente (art. 16) e o cartão de residência permanente para membros da família (art. 17) — antes isto passava pelo Formulário de Contacto. O portal abrange documentos caducados/a caducar entre 01.07.2025 e 31.10.2026. Para os restantes casos, verifique a página da AIMA para «autorização de residência permanente» / «estatuto de residente de longa duração» antes de submeter. 🆕 Desde 15.09.2026 o portal deixou de exigir NIF e NISS nos pedidos de nacionais da UE e familiares; se surgir «dados em validação», aguarde cerca de 30 minutos, volte a entrar e continue; se o erro persistir — formulário de contacto: Tipo «Portal de Renovações» > Subtipo «Portal de Renovações – comunicar problema».' }
           ]},
           { id: 'p2', title: '2. Pagar a taxa', content: [
             { kind: 'paragraph', text: 'AIMA — concessão art. 76 = 351,10 € (tabela 01.03.2026). Adicionalmente, receção + análise ~133 €.' }
@@ -175,9 +175,10 @@ export default {
     { title: 'Lei 23/2007 — Autorização de Residência Permanente (arts. 76, 80) e Residente de Longa Duração (arts. 125+)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DL 29/2012 — EU Long-Term Resident', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/29-2012-542995', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'AIMA — Portal de Renovações atualizado para nacionais da União Europeia (UE) e familiares (15.09.2026)', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes-atualizado-para-nacionais-da-uniao-europeia-ue-e-familiares', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-07-10',
+  lastVerified: '2026-09-25',
   changeSummary: 'Atualização de Maio 2026: (1) Comparação mais profunda entre ARP nacional (art. 80) e EULTR (art. 125+): estudantes contam de forma diferente, limiares de ausência diferentes, padrões de recursos diferentes. (2) Passo "Quando começam a contar os 5 anos" com 9 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT, estudantes). (3) Mitos frequentes sobre diferenças ARP vs EULTR. (4) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a nacionalidade agora exige 7/10 anos, a ARP torna-se mais importante como estatuto intermédio.',
   verifyIntervalDays: 180
 }

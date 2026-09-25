@@ -6,7 +6,8 @@ export default {
   tldr: 'Articles 88 and 89 of Lei 23/2007 are residence permit routes for employment (88) and independent professionals/entrepreneurs (89).\n\n88.1 and 89.1 are the standard visa route: first a consular residence visa (D1 for 88.1, D2 for 89.1) → application to AIMA.\n\n88.2 and 89.2 used to be an exceptional route from inside Portugal WITHOUT a visa (through Manifestação de Interesse) — abolished: new applications stopped on 03.06.2024 (Decreto-Lei 37-A/2024), and Lei 61/2025 (in force on 23.10.2025) definitively removed the regime.\n\nIMPORTANT: art. 89 is NOT an investor route; investment residence permits are a separate article of Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalisation', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
-  changeSummary: 'Clarified the reagrupamento familiar item per Lei 61/2025 (in force): no residence-period requirement when the household includes minor/incapable children; exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months) and proof of housing and means. Confirm exact periods with AIMA.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Lei n.º 62/2026 (in force since 11.09.2026): a change of employer or of activity under art. 88/89 only requires a notice to AIMA, no new card is needed; the employer may file the application; decision — 90 (+30) days. Fixed the outdated naturalisation line: Lei Orgânica 1/2026 has been in force since 19.05.2026.',
   steps: [
     {
       id: 'context',
@@ -108,19 +109,21 @@ export default {
           'Residence card issued by post within 2–8 weeks',
           'First residence permit — usually 2 years, renewal — 3 years',
           'After 5 years of legal residence — right to a permanent residence permit',
-          'Naturalisation: 5 years under the current law; on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE it will be 7 years for CPLP+EU / 10 years for others',
+          'Naturalisation: since 19.05.2026 Lei Orgânica 1/2026 is in force — 7 years of legal residence for CPLP/EU nationals and 10 years for others; applications filed before 19.05.2026 are assessed under the previous rules (5 years)',
+          '🆕 Lei n.º 62/2026 (in force since 11.09.2026): a change of employer (art. 88) or of the type of self-employed activity (art. 89) now only requires a notice to AIMA, no new card is needed (arts. 88.º n.º 8, 89.º n.º 6); the employer can also file the application itself (art. 81.º n.º 1); new applications are decided within 90 days (+30 in exceptional cases); the “tacit approval” of a renewal after 60 days no longer exists',
           'Reagrupamento familiar under Lei 61/2025 (in force): no residence-period requirement if the household includes minor/incapable children; also exempt are Golden Visa holders (art. 90-A), highly-qualified workers/teachers/cultural figures (art. 90) and EU Blue Card holders (art. 121-A). For spouses without minor dependents, a residence-time requirement for the main applicant plus proof of prior cohabitation (around 18 months) applies. Proof of adequate housing and means of subsistence (not counting social benefits) is mandatory. Confirm the exact periods with AIMA — the implementing details are still being finalised.'
         ]}
       ]
     }
   ],
   sources: [
+    { title: 'Lei n.º 62/2026, de 10 de setembro — alteração da Lei 23/2007, Lei 27/2008 e Lei 34/94 (retorno e asilo; DR 1.ª série n.º 176)', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Lei 23/2007 — entry and stay regime', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 61/2025 — changes to the regime for foreigners (in force on 23.10.2025)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 37-A/2024 — termination of MdI on 03.06.2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — types of residence permits', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Provedor de Justiça', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

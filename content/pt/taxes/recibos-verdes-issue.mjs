@@ -6,7 +6,6 @@ export default {
   tldr: 'O recibo verde é um recibo eletrónico de trabalhador independente. É emitido no Portal das Finanças → «Recibos Verdes Eletrónicos». São necessários: atividade aberta, NIF do cliente, montante e descrição do serviço. O IVA depende do regime: regime normal (frequentemente 23% no continente, com taxas dependentes do serviço e da região) ou regime de isenção art. 53 CIVA para volume de negócios até 15 000 €/ano, se cumpridas as condições.\n\nPrazo — até ao 5.º dia útil após o momento da exigibilidade (conclusão do serviço, emissão da fatura ou adiantamento).',
   tags: ['recibo verde', 'trabalhador independente', 'atividade'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-08-26',
   changeSummary: '⚠️ Prática da AIMA (agosto de 2026): declarar rendimentos abaixo do real nas declarações trimestrais da SS ou pagar apenas os 20 € mínimos pode levar ao indeferimento do título de residência/renovação por «falta de rendimentos» — a base de rendimentos visível para o Estado é formada pelas declarações da Segurança Social. Declare o rendimento real.',
   steps: [
     {

@@ -58,7 +58,7 @@ export default {
           'Social benefits: the surviving partner may claim pensão de sobrevivência, subsídio por morte and other Segurança Social benefits if the union is proven.',
           'Immigration: AIMA may treat a parceiro em união de facto as a family member for Reagrupamento Familiar if the union is reliably proven.'
         ] },
-        { kind: 'warning', text: 'Joint IRS filing is not always beneficial. In 2026 the first IRS rate is 11.97%, but the final outcome depends on the couple’s income, deductions, dependentes and residence status. Before filing, compare simulação individual vs conjunta in Portal das Finanças.' }
+        { kind: 'warning', text: 'Joint IRS filing is not always beneficial. In 2026 the first IRS rate is 12.5%, but the final outcome depends on the couple’s income, deductions, dependentes and residence status. Before filing, compare simulação individual vs conjunta in Portal das Finanças.' }
       ]
     },
     {
@@ -126,6 +126,6 @@ export default {
     { title: 'Justiça.gov.pt — apply for Portuguese nationality through marriage or união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

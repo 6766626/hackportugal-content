@@ -108,7 +108,7 @@ export default {
           'Verifique a humidade: cheiro a mofo, manchas junto às janelas, paredes frias, ausência de aquecimento.',
           'Confirme despesas: condomínio, IMI normalmente é pago pelo proprietário, mas serviços/utility bills — pelo arrendatário.',
           'Registe o estado do apartamento com fotos/vídeo no dia da entrega das chaves e envie ao proprietário por escrito.',
-          'A indexação das rendas em 2026 orienta-se pelo coeficiente 1,0224, ou seja, 2,24%, se o contrato permitir a actualização anual nos termos da lei e o proprietário tiver notificado o arrendatário dentro do procedimento estabelecido.',
+          'A indexação das rendas em 2026 orienta-se pelo coeficiente 1,0224 (2,24%), em 2027 — pelo 1,0256 (2,56%), se o contrato permitir a actualização anual nos termos da lei e o proprietário tiver notificado o arrendatário dentro do procedimento estabelecido.',
           'Se precisar de atestado de residência, SNS, escola ou documentos NHR/IFICI, o arrendamento ilegal sem contrato criará problemas.'
         ] },
         { kind: 'paragraph', text: 'Não tenha receio de negociar, mas em imóveis muito procurados a negociação perde muitas vezes para a rapidez. Uma posição negocial mais realista é propor um prazo estável, documentos transparentes, uma data de entrada rápida e uma caução normal, em vez de tentar baixar o preço em 10–15%.' }
@@ -126,6 +126,6 @@ export default {
     { title: 'Portal das Finanças — recibos de renda electrónicos', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — regime do arrendamento urbano e actualização de rendas', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

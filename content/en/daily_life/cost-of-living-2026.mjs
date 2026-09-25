@@ -197,7 +197,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Gross and net — in Portugal the gap is significant. For a gross salary of €2,000/month:' },
         { kind: 'checklist', items: [
-          'IRS (income tax): ~11% on average (scale of 11.97-48% across 9 bands — 2026 state budget)',
+          'IRS (income tax): ~11% on average (scale of 12.5-48% across 9 bands — 2026 state budget)',
           'Segurança Social (social security): 11%',
           'Net: ~€1,560 (that is, the employer pays gross €2,000, and also pays 23.75% TSU on top — true cost ~€2,475)',
           'IFICI status (if eligible): flat 20% rate on qualifying income',
@@ -213,6 +213,6 @@ export default {
     { title: 'Portal das Finanças (tax portal) — IRS 2026 rates', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — 2026 rates', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

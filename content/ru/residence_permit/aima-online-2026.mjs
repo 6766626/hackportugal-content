@@ -6,8 +6,8 @@ export default {
   tldr: 'В 2026 продление ВНЖ нужно начинать онлайн, но маршрут зависит от даты истечения и типа карты. Обычные карты, истекшие начиная с 01.07.2025, продлеваются через portal-renovacoes.aima.gov.pt. Старые карты, истекшие с 22.02.2020 по 30.06.2025, идут через services.aima.gov.pt/RAR/reqrenew или письмо AIMA/EMAIMA; CPLP, ARI и карты родственников граждан ЕС имеют отдельные правила. По gov.pt запрос можно подать с 90 дней до окончания карты. Для карт, истёкших после 30.06.2025, право проживания сохраняется 6 месяцев после даты истечения; если за это время вы начали продление и имеете comprovativo/recibo, AIMA считает пребывание законным до завершения процесса — даже после этих 6 месяцев. После регистрации запроса и оплаты AIMA выдаёт comprovativo на 180 дней: носите его вместе с истёкшей картой.',
   tags: ['aima', 'внж', 'продление', 'онлайн'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-08-26',
-  changeSummary: '🆕 03.08.2026 портал открыт для карт, истекающих в ноябре–декабре 2026 (окно — по 31.12.2026). Для бумажных CR (граждане ЕС и семьи): вводите номер БЕЗ ведущего нуля (разъяснение AIMA 13.08). Ранее: официальный пакет подтверждения жилья (atestado junta не принимается) и трекинг этапов процесса.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Lei n.º 62/2026 (в силе с 11.09.2026) отменила «молчаливое одобрение» продления: если AIMA не решила за 60 дней, deferimento автоматически не наступает; recibo продления по-прежнему подтверждает законность пребывания. Ранее: портал открыт для карт, истекающих в ноябре–декабре 2026; бумажные CR — номер без ведущего нуля.',
   steps: [
     {
       id: 'which-portal',
@@ -38,7 +38,7 @@ export default {
           '⚠️ Если карта истекла до 30.06.2025 и вы не начали продление до 15.04.2026, не тяните: подайте запрос через services.aima.gov.pt/RAR/reqrenew и параллельно обсудите ситуацию с advogado или CLAIM',
           '🧾 После регистрации запроса и оплаты AIMA выдаёт comprovativo на 180 дней. Это подтверждение процесса, но не полноценная карта для поездок по Шенгену'
         ]},
-        { kind: 'warning', text: 'Не рассчитывайте на старые автоматические продления. AIMA прямо объявила конец автоматических пророг и связала легальный статус с начатым процессом продления.' }
+        { kind: 'warning', text: 'Не рассчитывайте на старые автоматические продления. AIMA прямо объявила конец автоматических пророг и связала легальный статус с начатым процессом продления. 🆕 И ещё: Lei n.º 62/2026 (в силе с 11.09.2026) отменила норму о «молчаливом одобрении» (ст. 82.º n.º 7) — если AIMA не решила продление за 60 дней, deferimento больше НЕ наступает автоматически. Recibo/comprovativo продления по-прежнему подтверждает законность пребывания (ст. 78.º n.º 7), а при затянувшемся молчании путь — эскалация и, при необходимости, административный суд (см. гайд об эскалации).' }
       ]
     },
     {
@@ -220,6 +220,7 @@ export default {
   timelineDaysMin: 30,
   timelineDaysMax: 180,
   sources: [
+    { title: 'Lei n.º 62/2026, de 10 de setembro — alteração da Lei 23/2007, Lei 27/2008 e Lei 34/94 (retorno e asilo; DR 1.ª série n.º 176)', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'gov.pt — Renovar a autorização de residência', url: 'https://www.gov.pt/servicos/renovar-a-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Portal das Renovações já está disponível', url: 'https://aima.gov.pt/pt/noticias/o-portal-das-renovacoes-ja-esta-disponivel', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Portal de Renovações: Autorizações de Residência', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
@@ -234,6 +235,6 @@ export default {
     { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
     { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 45
 }

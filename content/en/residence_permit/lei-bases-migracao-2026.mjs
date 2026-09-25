@@ -6,8 +6,8 @@ export default {
   tldr: 'Lei n.º 61/2025 of 22 October 2025 is the main reform of the migration regime, abolishing manifestação de interesse as a mass route to legalisation after entry (transitional deadline for cases already started — 31.12.2025), creating a qualified job-seeker visa, and tightening pre-entry checks. For an expat, the main takeaway is: enter through the correct D1-D8/work/family visa route, book with AIMA in advance, and gather proof of income and accommodation. AIMA fees from 01.03.2026 are €133 for the appointment and €307.20 for the residence permit under art. 75.',
   tags: ['aima', 'residence permit', 'lei23', 'migration', 'irs'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-31',
-  changeSummary: '🔴 The "Lei do Retorno e Asilo" is at the doorstep: on 28.08.2026 the Constitutional Court UNANIMOUSLY cleared all 11 contested norms (Acórdão 736/2026), and on 31.08 the President promulgated the law. Once published in the DR it will abolish the voluntary-departure notification (NAV), extend detention up to 180 days and make several appeals non-suspensive. The TC set limits: detention stays an exceptional measure, reviewed every 30 days, with the child\'s best interests weighed. Entry-into-force date will be known upon publication — we are watching.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🔴 The Lei do Retorno has entered into force: Lei n.º 62/2026 (DR 10.09.2026), applicable from 11.09.2026. Key points for residents: the “tacit approval” of a renewal after 60 days is abolished; new applications are decided within 90 (+30) days, and the employer may file them; a change of employer only needs a notice to AIMA; instead of the NAV, there is a duty to leave within 20–30 days after a refusal; detention in CIT up to 180+180 days; temporary visas require a return ticket.',
   steps: [
     {
       id: 'what-changed',
@@ -23,7 +23,7 @@ export default {
           'reagrupamento familiar requires more careful preparation: family relationship, accommodation, income, and the status of the main applicant.',
           'tax regimes such as IFICI and IRS-Migrante do not grant a residence permit automatically — they are a separate layer after or alongside immigration.'
         ] },
-        { kind: 'warning', text: '🔴 The next wave of tightening — the "Lei do Retorno e Asilo" (Decreto 105/XVII): on 28.08.2026 the Constitutional Court unanimously found NO unconstitutionality in all 11 norms referred by the President (Acórdão n.º 736/2026), and on 31.08.2026 President Seguro promulgated the law. What changes once it is published in the DR: abolition of the voluntary-departure notification (NAV), detention in CIT up to 180 days (extendable), a border return procedure (up to 12 weeks), 7/3-day screening, and several judicial challenges losing suspensive effect. Important: the TC bound the norms with interpretative limits — detention remains an EXCEPTIONAL measure of strict necessity, reviewed every 30 days, with the child\'s best interests weighed; interim relief in the administrative courts remains available. The law number and entry-into-force date will appear upon publication in the Diário da República — until then the current rules apply. We are watching.' }
+        { kind: 'warning', text: '🔴 The “Lei do Retorno e Asilo” is IN FORCE: Lei n.º 62/2026 of 10.09.2026 (after clearance by the Constitutional Court — Acórdão 736/2026, 28.08), applicable from 11.09.2026. What has changed for ordinary residents: (1) the “tacit approval” of a residence-permit renewal that AIMA has not decided within 60 days is abolished (art. 82.º n.º 7 revoked) — the decision deadline is still 60 days, and the renewal receipt (recibo) still proves that your stay is lawful (art. 78.º n.º 7); (2) for new applications — a decision within 90 days (+30 in exceptional cases), and the employer may also file the application (art. 81.º n.º 1); (3) a change of employer or of the type of self-employed activity — a notice to AIMA is enough, no new card is needed (arts. 88.º n.º 8, 89.º n.º 6); (4) instead of the voluntary-departure notification (NAV) — a duty to leave the country within 20–30 days after a refusal or cancellation of the visa/residence permit (art. 138.º); irregular stay leads straight to coercive removal by the PSP; (5) detention in CIT — up to 180 days, with a single extension of a further 180; (6) temporary-stay visas, the job-seeker visa and short-stay visas require a return ticket on entry (art. 52.º n.º 2). For asylum: appeal deadlines of 8/5/10 days with no automatic suspensive effect, a border procedure of up to 12 weeks, 7/3-day screening. The transitional rule covers only asylum cases already filed. The TC kept its limits in place: detention is an exceptional measure, with judicial review every 30 days and the child\'s best interests taken into account.' }
       ]
     },
     {
@@ -83,7 +83,7 @@ export default {
       title: 'IRS-Migrante and taxes: do not confuse them with a residence permit',
       content: [
         { kind: 'paragraph', text: 'Lei 61/2025, in its tax-related part, is linked to the IRS-Migrante and IFICI regimes as part of a policy to attract and retain migrants. This is not an immigration status and not an automatic benefit. Eligibility for the tax regime is checked separately through Finanças/Autoridade Tributária and depends on tax residence, type of income, deadlines and implementing rules.' },
-        { kind: 'paragraph', text: 'For 2026, the basic reference figures are: SMN — €920 per month, IAS — €537.13, first IRS rate — 11.97%. These figures matter for calculating minimum income, family budgets, social thresholds and tax planning, but a specific visa may require different documents and amounts.' },
+        { kind: 'paragraph', text: 'For 2026, the basic reference figures are: SMN — €920 per month, IAS — €537.13, first IRS rate — 12.5%. These figures matter for calculating minimum income, family budgets, social thresholds and tax planning, but a specific visa may require different documents and amounts.' },
         { kind: 'checklist', items: [
           'First determine the immigration route: D1-D8, família, estudo, EU/CRUE or another route.',
           'Then check tax residence: 183+ days or habitual residence in Portugal.',
@@ -129,12 +129,13 @@ export default {
     { label: 'Apostille/translations of family documents', amountEURMin: 30, amountEURMax: 150, note: 'Per document; depends on the issuing country, notary and translator.' }
   ],
   sources: [
+    { title: 'Lei n.º 62/2026, de 10 de setembro — alteração da Lei 23/2007, Lei 27/2008 e Lei 34/94 (retorno e asilo; DR 1.ª série n.º 176)', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Tribunal Constitucional — Acórdão n.º 736/2026: fiscalização preventiva da Lei de Estrangeiros e Asilo (28.08.2026)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20260736.html', kind: 'official', language: 'pt', lastRetrieved: '2026-08-31' },
     { title: 'Diário da República — Lei 23/2007, regime for entry, stay and residence permits for foreigners', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei 37/2006, right of residence for EU citizens and family members', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34571875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (migration reform)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — information on residência, reagrupamento familiar and taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-08-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

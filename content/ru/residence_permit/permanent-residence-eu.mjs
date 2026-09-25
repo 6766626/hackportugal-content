@@ -97,7 +97,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Подать в AIMA', content: [
-            { kind: 'paragraph', text: '🆕 С 01.07.2026 Portal de Renovações AIMA обрабатывает и постоянные документы граждан ЕС и их семей: certificado de residência permanente (ст. 16) и cartão de residência permanente для членов семьи (ст. 17) — раньше это шло через Formulário de Contacto. Портал охватывает документы, истёкшие/истекающие с 01.07.2025 по 31.10.2026. Для остальных случаев проверяйте страницу AIMA для «autorização de residência permanente» / «estatuto de residente de longa duração» перед подачей.' }
+            { kind: 'paragraph', text: '🆕 С 01.07.2026 Portal de Renovações AIMA обрабатывает и постоянные документы граждан ЕС и их семей: certificado de residência permanente (ст. 16) и cartão de residência permanente для членов семьи (ст. 17) — раньше это шло через Formulário de Contacto. Портал охватывает документы, истёкшие/истекающие с 01.07.2025 по 31.10.2026. Для остальных случаев проверяйте страницу AIMA для «autorização de residência permanente» / «estatuto de residente de longa duração» перед подачей. 🆕 С 15.09.2026 для заявлений граждан ЕС и их семей портал больше не требует NIF и NISS; если появляется «dados em validação» — подождите около 30 минут, войдите снова и продолжайте; при повторной ошибке — contact form: Tipo «Portal de Renovações» > Subtipo «Portal de Renovações – comunicar problema».' }
           ]},
           { id: 'p2', title: '2. Оплатить пошлину', content: [
             { kind: 'paragraph', text: 'AIMA — concessão art. 76 = 351,10 € (tabela 01.03.2026). Дополнительно приём + анализ ~133 €.' }
@@ -175,9 +175,10 @@ export default {
     { title: 'Lei 23/2007 — Autorização de Residência Permanente (arts. 76, 80) и Residente de Longa Duração (arts. 125+)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DL 29/2012 — EU Long-Term Resident', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/29-2012-542995', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'AIMA — Portal de Renovações atualizado para nacionais da União Europeia (UE) e familiares (15.09.2026)', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes-atualizado-para-nacionais-da-uniao-europeia-ue-e-familiares', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-07-10',
+  lastVerified: '2026-09-25',
   changeSummary: 'Обновление май 2026: (1) Углублено сравнение национального ПМЖ (art. 80) и EULTR (art. 125+): студенты считаются по-разному, разные пороги отсутствий, разный уровень требований к доходу. (2) Шаг «Когда считать 5 лет» с 9 частными случаями (D-виза, MdI, очередь на продление, перерывы между ВНЖ, переход SEF→AIMA, смена типа визы, reagrupamento, дети в Португалии, студенты). (3) Распространённые мифы про разницу ПМЖ и EULTR. (4) Lei Orgânica 1/2026 (в силе с 19.05.2026): гражданство теперь 7/10 лет, ПМЖ становится важнее как промежуточный статус.',
   verifyIntervalDays: 180
 }

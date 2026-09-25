@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Deposit not being returned — first a written demand, then DECO/mediation or Julgados de Paz, if the amount is up to €15,000.',
           'Landlord is not carrying out urgent repairs — written notice with a prazo, then Julgados de Paz or Tribunal Judicial; if there is a health risk, also Câmara Municipal.',
-          'Unlawful rent increase — for the ordinary annual atualização in 2026, use the official 2026 coefficient (1.0224, i.e. 2.24%) published by INE in the Diário da República; do not confuse it with 2.16% for 2025. The coefficient changes every year, so check the INE Aviso for the relevant year.',
+          'Unlawful rent increase — for the ordinary annual atualização in 2026, use the official 2026 coefficient (1.0224, i.e. 2.24%) published by INE in the Diário da República; do not confuse it with 2.16% for 2025. For increases in 2027 the coefficient is 1.0256 (+2.56%, INE 10.09.2026; Aviso in the DR — by 30.10.2026). The coefficient changes every year, so check the INE Aviso for the relevant year.',
           'Landlord enters without permission — written prohibition; in case of threats or forced entry, call PSP/GNR.',
           'Notice of termination of the contract — check the form, deadline and grounds; do not move out solely because of a verbal request.',
           'You have received a letter from BNA or an agente de execução — this is already an eviction procedure; deadlines are short, and oposição through a lawyer is needed.',
@@ -37,7 +37,7 @@ export default {
           'Set a reasonable deadline: 5–10 working days for a reply, less only in an emergency.',
           'For repairs, state separately whether the defect prevents normal living or creates a health risk.',
           'For the deposit, ask for an itemised breakdown of deductions and copies of repair invoices.',
-          'For a rent increase, refer to the official 2026 coefficient (1.0224, i.e. 2.24%) rather than the 2.16% for 2025; remember that the percentage changes every year and must be checked against the INE/Diário da República Aviso for that year.',
+          'For a rent increase, refer to the official coefficient for the relevant year: 2026 — 1.0224 (2.24%), 2027 — 1.0256 (2.56%), rather than the 2.16% for 2025; remember that the percentage changes every year and must be checked against the INE/Diário da República Aviso for that year.',
           'Save proof of delivery, screenshots and outgoing files as PDFs.'
         ] },
         { kind: 'paragraph', text: 'The wording should be calm: the aim is to show that you gave the landlord a chance to correct the breach. This will be useful at DECO, Julgados de Paz or in court.' }
@@ -127,6 +127,6 @@ export default {
     { title: 'Lei 78/2001 — organisation, jurisdiction and functioning of Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34480075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 6/2006 — Novo Regime do Arrendamento Urbano and lease termination procedures', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34515375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

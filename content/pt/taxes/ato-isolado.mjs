@@ -47,7 +47,7 @@ export default {
       title: 'Impostos: IVA, IRS e retenção',
       content: [
         { kind: 'paragraph', text: 'Em sede de IVA, o Ato Isolado é normalmente considerado uma operação tributável. Em Portugal continental, a taxa normal é 23%, na Madeira 22% e nos Açores 18%. A isenção do art. 53.º CIVA para pequeno volume de negócios normalmente não se aplica ao Ato Isolado; podem existir exceções pela natureza da operação, por exemplo serviços médicos, educativos ou de seguros ao abrigo do art. 9.º CIVA.' },
-        { kind: 'paragraph', text: 'Em sede de IRS, o rendimento é declarado na declaração anual de IRS relativa ao ano em que o rendimento foi recebido. Para um residente, é somado aos restantes rendimentos e tributado às taxas progressivas de IRS; em 2026, a primeira taxa de IRS é 11,97% para o primeiro escalão. O resultado final depende de todos os rendimentos, deduções e do estatuto de residência.' },
+        { kind: 'paragraph', text: 'Em sede de IRS, o rendimento é declarado na declaração anual de IRS relativa ao ano em que o rendimento foi recebido. Para um residente, é somado aos restantes rendimentos e tributado às taxas progressivas de IRS; em 2026, a primeira taxa de IRS é 12,5% para o primeiro escalão. O resultado final depende de todos os rendimentos, deduções e do estatuto de residência.' },
         { kind: 'checklist', items: [
           'IVA: normalmente acrescentar 23% ao preço no continente, se o serviço não estiver isento ao abrigo do CIVA',
           'Prazo de pagamento do IVA: até ao fim do mês seguinte à conclusão da operação',
@@ -167,6 +167,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

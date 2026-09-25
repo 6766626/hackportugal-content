@@ -151,13 +151,13 @@ export default {
       id: 'water-quality',
       title: 'Qualidade da água e análises obrigatórias',
       content: [
-        { kind: 'paragraph', text: 'Escreva: "Para casa própria, é altamente recomendável fazer análises regularmente and may be required by the title/authority; se a água for fornecida a terceiros, hóspedes de AL, restaurante or workers, drinking-water legal monitoring is mandatory."' },
+        { kind: 'paragraph', text: 'Para casa própria, é altamente recomendável fazer análises regularmente — e o título ou a entidade competente podem até exigi-las. Se a água for fornecida a terceiros — hóspedes de AL, restaurante ou trabalhadores — a monitorização legal da água para consumo humano é obrigatória.' },
         { kind: 'checklist', items: [
           'Análise microbiológica: E.coli, coliformes, enterococos. Pelo menos uma vez por ano',
           'Análise química: pH, nitratos, sulfatos, cloretos, metais pesados',
           'Custo: 50–150 € por análise completa em laboratório privado',
-          'Substituir por: "Use um laboratório com accreditation by IPAC for the relevant parameters. Search IPAC’s accredited laboratories database; ask the lab for the exact accredited scope for microbiology/chemical drinking-water tests."',
-          'Escreva: "Se a água for fornecida a hóspedes/clientes/trabalhadores como drinking water, aplica-se o regime de água destinada ao consumo humano. É necessário acordar/registar private supply system and monitoring programme with the competent health/ERSAR/municipal authority; frequency depends on scale and risk."',
+          'Use um laboratório acreditado pelo IPAC para os parâmetros relevantes. Pesquise a base de dados de laboratórios acreditados do IPAC e peça ao laboratório o âmbito exato da acreditação para análises microbiológicas e químicas de água para consumo humano',
+          'Se a água for fornecida a hóspedes/clientes/trabalhadores como água para beber, aplica-se o regime da água destinada ao consumo humano. O sistema de abastecimento particular e o programa de monitorização têm de ser acordados ou registados junto da entidade competente (autoridade de saúde/ERSAR/município); a frequência depende da escala e do risco',
           'Se estiver no Algarve/Alentejo: acrescente teste de nitratos — são frequentemente excedidos devido à agricultura intensiva',
           'Tratamento: UV para micróbios, osmose inversa para sais/química, filtros de cartucho para partículas em suspensão'
         ] }

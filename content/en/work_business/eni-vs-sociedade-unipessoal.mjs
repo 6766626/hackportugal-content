@@ -70,7 +70,7 @@ export default {
           'ENI above €15,000/year: you usually need to move to the normal IVA regime, file declarações periódicas and charge IVA.',
           'If you sell to B2B clients in the EU, reverse charge, recapitulative statements and VIES may arise — this does not remove the obligation to open atividade correctly.',
           'Unipessoal: budget for the IVA regime and regular reporting from the start, unless the activity is exempt under a special rule.',
-          'IRS for ENI is progressive: in 2026 the first IRS rate is 11.97%, but the real rate depends on total household income, deductions and place of tax residence.',
+          'IRS for ENI is progressive: in 2026 the first IRS rate is 12.5%, but the real rate depends on total household income, deductions and place of tax residence.',
           'IRC for a company is calculated on profit after expenses, not on turnover.',
           'Large documented expenses, equipment, subcontractors and salaries more often make a company the more logical option.'
         ] },
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

@@ -6,8 +6,8 @@ export default {
   tldr: 'Em 2026, a renovação da autorização de residência deve ser iniciada online, mas o percurso depende da data de caducidade e do tipo de cartão. Os cartões comuns caducados a partir de 01.07.2025 são renovados através de portal-renovacoes.aima.gov.pt. Cartões antigos caducados entre 22.02.2020 e 30.06.2025 seguem por services.aima.gov.pt/RAR/reqrenew ou pelo percurso indicado por email pela AIMA/EMAIMA; CPLP, ARI e cartões de familiares de cidadãos da UE têm regras próprias. Segundo o gov.pt, o pedido pode ser feito desde 90 dias antes do fim da validade. Para cartões caducados depois de 30.06.2025, o direito de residência mantém-se por 6 meses após a data de caducidade; se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses. Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias: leve-o consigo juntamente com o cartão caducado.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-08-26',
-  changeSummary: '🆕 Em 03.08.2026 o portal abriu para cartões que caducam em novembro–dezembro de 2026 (janela — até 31.12.2026). Para CR em papel (cidadãos da UE e famílias): introduza o número SEM o zero inicial (esclarecimento da AIMA de 13.08). Anteriormente: pacote oficial de comprovativo de alojamento (atestado da junta não é aceite) e acompanhamento das etapas do processo.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 A Lei n.º 62/2026 (em vigor desde 11.09.2026) revogou o «deferimento tácito» das renovações: se a AIMA não decidir em 60 dias, o deferimento deixa de ocorrer automaticamente; o recibo da renovação continua a comprovar a permanência legal. Anteriormente: o portal abriu para cartões que caducam em novembro–dezembro de 2026; CR em papel — introduza o número sem o zero inicial.',
   steps: [
     {
       id: 'which-portal',
@@ -38,7 +38,7 @@ export default {
           '⚠️ Se o cartão caducou antes de 30.06.2025 e não iniciou a renovação até 15.04.2026, não espere: submeta o pedido em services.aima.gov.pt/RAR/reqrenew e discuta o caso com um advogado ou CLAIM',
           '🧾 Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias. É prova do processo, mas não é um cartão de residência completo para viagens Schengen'
         ]},
-        { kind: 'warning', text: 'Não conte com as antigas prorrogações automáticas. A AIMA anunciou expressamente o fim das prorrogações automáticas e liga o estatuto legal ao início do processo de renovação.' }
+        { kind: 'warning', text: 'Não conte com as antigas prorrogações automáticas. A AIMA anunciou expressamente o fim das prorrogações automáticas e liga o estatuto legal ao início do processo de renovação. 🆕 E ainda: a Lei n.º 62/2026 (em vigor desde 11.09.2026) revogou a norma do «deferimento tácito» (art. 82.º n.º 7) — se a AIMA não decidir a renovação em 60 dias, o deferimento deixa de ocorrer automaticamente. O recibo/comprovativo da renovação continua a comprovar a permanência legal (art. 78.º n.º 7) e, perante um silêncio prolongado da AIMA, o caminho é a escalada e, se necessário, o tribunal administrativo (ver o guia sobre escalada).' }
       ]
     },
     {
@@ -220,6 +220,7 @@ export default {
   timelineDaysMin: 30,
   timelineDaysMax: 180,
   sources: [
+    { title: 'Lei n.º 62/2026, de 10 de setembro — alteração da Lei 23/2007, Lei 27/2008 e Lei 34/94 (retorno e asilo; DR 1.ª série n.º 176)', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'gov.pt — Renovar a autorização de residência', url: 'https://www.gov.pt/servicos/renovar-a-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Portal das Renovações já está disponível', url: 'https://aima.gov.pt/pt/noticias/o-portal-das-renovacoes-ja-esta-disponivel', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Portal de Renovações: Autorizações de Residência', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
@@ -234,6 +235,6 @@ export default {
     { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
     { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 45
 }

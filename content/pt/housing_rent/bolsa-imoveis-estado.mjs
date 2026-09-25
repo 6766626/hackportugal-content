@@ -84,9 +84,9 @@ export default {
         { kind: 'paragraph', text: 'Após a seleção, é publicada uma lista provisória/final ou enviada notificação ao vencedor. Depois é assinado o contrato de arrendamento. Para habitação aplicam-se as regras do NRAU/Código Civil e, para arrendamento acessível, também as condições especiais do programa, incluindo limites de renda e requisitos de prazo.' },
         { kind: 'checklist', items: [
           'prazo do contrato: consulte a minuta; no arrendamento acessível é frequente ser usado um prazo longo, enquanto para estudantes pode ser um prazo sazonal/letivo',
-          'Escrever: "caução: no arrendamento habitacional, o limite legal é até ao valor equivalente a 2 rendas; o montante concreto deve constar do aviso/contrato".',
-          'Acrescentar: "Para habitação, a lei limita as rendas antecipadas a um máximo de 2 meses; se o aviso/contrato exigir mais, é necessário verificar a base legal antes de assinar".',
-          'Substituir por: "atualização da renda: para contratos comuns, o coeficiente de atualização de rendas para 2026 é 1,0224, ou seja, 2,24%, se o contrato não contiver outro regime legal e não houver exceção".',
+          'caução: no arrendamento habitacional, o limite legal é até ao valor equivalente a 2 rendas; o montante concreto deve constar do aviso/contrato',
+          'rendas antecipadas: na habitação, a lei limita a antecipação de rendas a um máximo de 2 meses; se o aviso/contrato exigir mais, verifique a base legal antes de assinar',
+          'atualização da renda: para contratos comuns, o coeficiente de atualização de rendas para 2026 é 1,0224, ou seja, 2,24%; para 2027, o INE calculou 1,0256 (+2,56%) — se o contrato não contiver outro regime legal e não houver exceção',
           'obras: a pequena manutenção corrente normalmente cabe ao arrendatário, a reparação estrutural cabe ao proprietário, mas edifícios antigos exigem leitura atenta',
           'subarrendamento/Alojamento Local são quase sempre proibidos sem autorização escrita',
           'registo do contrato nas Finanças — é obrigação do senhorio; peça recibos de renda',
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

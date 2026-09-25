@@ -3,10 +3,9 @@ export default {
   id: 'mortgage-foreigners',
   categoryId: 'housing_buy',
   title: 'Mortgages for foreigners in Portugal',
-  tldr: 'Foreign residents can obtain a mortgage: the macroprudential LTV for owner-occupied/permanent housing is up to 90% of the lower of the purchase price and valuation; for a secondary residence, up to 80%; non-resident borrowers are usually lower. 6-month Euribor in early May 2026 ≈ 2.45–2.56% (down from a peak of ~4% in 2023). Typical Portuguese spreads are 0.6–1.5%. The real rate is ~3.0–4.0%.\n\n🆕 Since 01.08.2026, the Recomendação Macroprudencial n.º 1/2026 of Banco de Portugal is in force (it replaced the 2018 recommendation): the DSTI debt-service limit was cut from 50% to 45% of net income (exceptions — up to 10% of the bank\'s credit amount granted per semester); the maturity limit was simplified to two age groups — up to and including 35 years old: maximum 40 years, over 35: maximum 35 years (the 31–35 group actually gained: previously it was 37). The 100% LTV option for buying property owned by the bank itself has been abolished. The rules apply to loans whose creditworthiness assessment is carried out by the bank from 1 August. The process takes 30–90 days.',
+  tldr: 'Foreign residents can obtain a mortgage: the macroprudential LTV for owner-occupied/permanent housing is up to 90% of the lower of the purchase price and valuation; for a secondary residence, up to 80%; non-resident borrowers are usually lower. 6-month Euribor was ≈ 2.45–2.56% in May 2026, but the ECB is raising rates again (10.09.2026 — deposit rate 2.50%), and by 24.09.2026 the 6-month Euribor had risen to ≈ 3.0% (12-month — ≈ 3.3%). Typical Portuguese spreads are 0.6–1.5%. The real rate is ~3.6–4.5%; the September payment resets brought the biggest increase in 3 years.\n\n🆕 Since 01.08.2026, the Recomendação Macroprudencial n.º 1/2026 of Banco de Portugal is in force (it replaced the 2018 recommendation): the DSTI debt-service limit was cut from 50% to 45% of net income (exceptions — up to 10% of the bank\'s credit amount granted per semester); the maturity limit was simplified to two age groups — up to and including 35 years old: maximum 40 years, over 35: maximum 35 years (the 31–35 group actually gained: previously it was 37). The 100% LTV option for buying property owned by the bank itself has been abolished. The rules apply to loans whose creditworthiness assessment is carried out by the bank from 1 August. The process takes 30–90 days.',
   tags: ['mortgage', 'bank', 'housing', 'property'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-08-01',
   changeSummary: '🆕 From 01.08.2026 — Recomendação Macroprudencial 1/2026 BdP: DSTI cut from 50% to 45% of net income, maturities simplified to two groups (up to 35 incl. — 40 years, older — 35), 100% LTV for purchases from the bank abolished. The 90/80% LTV limits and stress add-ons are unchanged; the state guarantee for young borrowers is not affected.',
   steps: [
     {
@@ -31,7 +30,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Variable rate (Euribor + spread)', content: [
-            { kind: 'paragraph', text: '6-month Euribor in early May 2026 ≈ 2.45–2.56% (after a peak of ~4% in 2023). Spread — 0.6–1.5%. Total — 3.0–4.0%. Recalculated every 6 months.' }
+            { kind: 'paragraph', text: '6-month Euribor: ≈ 2.5% in May 2026 → ≈ 3.0% on 24.09.2026 after the ECB rate hike on 10.09 (the peak was ~4% in 2023). Spread — 0.6–1.5%. Total — ~3.6–4.5%. Recalculated every 6 months.' }
           ]},
           { id: 'r2', title: 'Fixed rate', content: [
             { kind: 'paragraph', text: 'For 5–20 years. ~3.0–4.0% in 2026. Protects against fluctuations, but is less flexible.' }
@@ -106,6 +105,6 @@ export default {
     { title: 'ASF — Autoridade de Supervisão de Seguros (life insurance)', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (tax portal) — IMT, IS calculators', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-08-01',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

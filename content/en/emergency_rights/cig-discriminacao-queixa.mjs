@@ -102,7 +102,7 @@ export default {
           'If the discrimination continues, submit additional evidence in a separate email with the same case number.'
         ] },
         { kind: 'paragraph', text: 'Legal basis as of 2026: Código do Trabalho art. 24–25 prohibits discrimination in employment, including sexo, orientação sexual and identidade de género; Lei 38/2018 protects the right to self-determination of gender identity and expressão de género; Lei 14/2008 regulates the prohibition of discrimination based on sex in access to goods and services.' },
-        { kind: 'paragraph', text: '🆕 From 23.09.2026, Lei n.º 58/2026 is in force: clothing that conceals the face is prohibited in public spaces (fines of €150–3,000), and it is separately prohibited to COERCE anyone into covering their face on the grounds of sex, religion, age or origin — coercion may also constitute a crime. Exceptions: health, professional and artistic reasons, aircraft, diplomatic premises and places of worship. If you are being coerced into covering your face, this is grounds for a complaint and for contacting the police.' }
+        { kind: 'paragraph', text: '🆕 From 23.09.2026, Lei n.º 58/2026 is in force: clothing that conceals the face is prohibited in public spaces (fine of €150–750 for negligence, €400–3,000 for intent; the police/GNR report is sent within 5 working days to the câmara municipal (town hall), which runs the case and imposes the fine), and it is separately prohibited to COERCE anyone into covering their face on the grounds of sex, religion, age or origin — this is a crime: up to 2 years in prison or a fine of up to 240 daily rates. The Provedoria de Justiça is analysing a complaint asking it to request a constitutional review, but in the meantime the law applies in full. Exceptions: health, professional and artistic reasons, aircraft, diplomatic premises and places of worship. If you are being coerced into covering your face, this is grounds for a complaint and for contacting the police.' }
       ]
     }
   ],
@@ -118,6 +118,6 @@ export default {
     { title: 'Código do Trabalho — Lei 7/2009, equality and non-discrimination at work', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Euronews — Portugal enacts law banning face coverings in public spaces (Lei 58/2026, 24.08.2026)', url: 'https://www.euronews.com/my-europe/2026/08/20/portugal-enacts-burqa-law-banning-face-coverings-in-public-space', kind: 'news', language: 'en', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

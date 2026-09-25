@@ -6,8 +6,10 @@ export default {
   tldr: 'Долгосрочная аренда (arrendamento habitacional) регулируется NRAU (Lei 6/2006 с поправками). Для contratos com prazo certo минимум 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на 5 лет (Código Civil arts. 1094-1095).\n\nИсключения для contratos para fins especiais transitórios могут быть короче. По art. 1076 Código Civil лимит: caução до 2 месячных арендных плат + renda antecipada до 2 месяцев. Требования предоплаты в 3-12 месяцев юридически уязвимы — обсудите с юристом легальную структуру (seguro de fiança, garantia bancária, fiador).\n\nДоговор регистрируется в Finanças владельцем, он же выдаёт recibos de renda.',
   tags: ['аренда', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Коэффициент индексации аренды на 2027 — 1,0256 (до +2,56%, INE 10.09.2026; Aviso в DR — до 30.10). Потолка нет; повышать можно не раньше года с начала договора или прошлой индексации и с письменным уведомлением за 30 дней. Реформа аренды (PL 103/XVII) — первое чтение в парламенте 30.09.2026, пока НЕ закон.',
   pendingLaw: {
-    summary: '09.07.2026 Совет министров одобрил реформу аренды (НЕ действующий закон): расторжение при 2 месяцах неуплаты (сейчас 3) или систематических опозданиях, упрощённое выселение, свободные повышения аренды в новых договорах, предоплата до 3 месяцев и отмена лимита caução, переходный режим для договоров до 1990 года, Fundo de Emergência Habitacional. Статус: 12.08.2026 правительство внесло в парламент Proposta de Lei n.º 103/XVII/1.ª (autorização legislativa — ревизия NRAU, Código Civil, CPC и DL 157/2006); дата обсуждения не назначена, ожидается осенью. Пока действуют прежние правила NRAU, описанные в этом гайде.',
+    summary: '09.07.2026 Совет министров одобрил реформу аренды (НЕ действующий закон): расторжение при 2 месяцах неуплаты (сейчас 3) или систематических опозданиях, упрощённое выселение, свободные повышения аренды в новых договорах, предоплата до 3 месяцев и отмена лимита caução, переходный режим для договоров до 1990 года, Fundo de Emergência Habitacional. Статус: 12.08.2026 правительство внесло в парламент Proposta de Lei n.º 103/XVII/1.ª (autorização legislativa — ревизия NRAU, Código Civil, CPC и DL 157/2006); первое чтение (generalidade) и голосование в пленуме назначены на 30.09.2026 — вместе с 8 другими проектами по аренде. Даже при одобрении дальше идут комиссия, финальное голосование и декрет-закон правительства — в 2026 году на практике ничего из этого не вступит в силу. Пока действуют прежние правила NRAU, описанные в этом гайде.',
     sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
   },
   steps: [
@@ -16,7 +18,7 @@ export default {
       title: 'Правовая база',
       content: [
         { kind: 'paragraph', text: 'Основные документы: Código Civil (статьи об аренде), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), Decreto-Lei 160/2006 (формальные элементы договора), многочисленные законы и декреты-законы с поправками. Важно для 2024–2026: Lei 56/2023 «Mais Habitação» ЧАСТИЧНО ОТМЕНЕНА в рамках программы «Construir Portugal»: Decreto-Lei 43/2024 (июль 2024) отменил/изменил меры об arrendamento coercivo de imóveis devolutos (принудительная аренда пустующих объектов), Decreto-Lei 76/2024 (23 октября 2024) снял мораторий на новые AL-лицензии в apartamentos и убрал автоматическое 5-летнее истечение AL.' },
-        { kind: 'paragraph', text: 'Ключевые принципы: защита арендатора (выселение только через суд), капитальный ремонт — обязанность владельца, индексация ренты — не чаще 1 раза в год и не выше официального коэффициента INE (в 2026: 2,24%, коэффициент 1,0224, опубликовано Aviso n.º 23174/2025/2 от 19.09.2025).' },
+        { kind: 'paragraph', text: 'Ключевые принципы: защита арендатора (выселение только через суд), капитальный ремонт — обязанность владельца, индексация ренты — не чаще 1 раза в год и не выше официального коэффициента INE (в 2026: 2,24%, коэффициент 1,0224, опубликовано Aviso n.º 23174/2025/2 от 19.09.2025). 🆕 На 2027 INE рассчитал коэффициент 1,0256 — повышение до +2,56% (данные 10.09.2026; официальный Aviso в DR — до 30.10.2026), потолка на 2027 нет. Применить его владелец может не раньше чем через год после начала договора или прошлой индексации и только с письменным уведомлением минимум за 30 дней (carta registada com AR или вручение под подпись) с указанием коэффициента и новой суммы: например, 700 € → 717,92 €. Повышение — право, а не обязанность; если в договоре своя законная формула — действует она.' },
         { kind: 'paragraph', text: 'Caução и предоплата (art. 1076 Código Civil после Lei 56/2023 «Mais Habitação»): максимум 2 месячные арендные платы как caução + максимум 2 месячные арендные платы как предоплата. Требования больше — должны быть оформлены отдельной правовой структурой (seguro de fiança, иная гарантия), иначе условие может быть оспорено как незаконное.' }
       ]
     },
@@ -177,6 +179,7 @@ export default {
     { label: 'Комиссия агента', amountEURMin: 0, amountEURMax: 2000, note: 'часто платит владелец' }
   ],
   sources: [
+    { title: 'INE — Índice de Preços no Consumidor: coeficiente de atualização das rendas para 2027 (10.09.2026)', url: 'https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770565181&DESTAQUESmodo=2', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Lei 6/2006 — NRAU (Novo Regime do Arrendamento Urbano)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34498475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código Civil — art. 1076 (caução e antecipação de rendas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 56/2023 — Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/lei/56-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -185,6 +188,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

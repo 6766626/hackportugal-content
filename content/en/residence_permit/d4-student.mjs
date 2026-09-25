@@ -41,7 +41,7 @@ export default {
             { kind: 'paragraph', text: 'Needed for the D4 visa.' }
           ]},
           { id: 'a5', title: '5. Apply for the D4 visa', content: [
-            { kind: 'paragraph', text: 'At the consulate, with proof of enrolment, proof of funds and insurance.' }
+            { kind: 'paragraph', text: 'At the consulate, with proof of enrolment, proof of funds and insurance. ⚠️ Since 11.09.2026 (Lei n.º 62/2026) you can no longer obtain a student residence permit from inside Portugal without a visa: the routes under art. 91.º n.º 4 (higher education), 92.º n.º 4 (QNQ level 4/5 vocational courses) and 93.º n.º 3 (trainees) were revoked. The only no-visa route left is for secondary-school pupils who entered and stay legally (art. 92.º n.º 3). As of 25.09 AIMA\'s own pages still show the old wording — go by the law.' }
           ]}
         ]}
       ]
@@ -81,8 +81,9 @@ export default {
   sources: [
     { title: 'DGES — Direção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Vistos MNE — Study Visa', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Foreign students', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'AIMA — Foreign students', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei n.º 62/2026, de 10 de setembro (DR 1.ª série n.º 176) — revogação dos arts. 91.º n.º 4, 92.º n.º 4 e 93.º n.º 3 da Lei 23/2007', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

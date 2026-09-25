@@ -6,6 +6,12 @@ export default {
   tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. É entregue anualmente de 1 de abril a 30 de junho no Portal das Finanças.\n\nOs residentes fiscais declaram normalmente o rendimento mundial; há dispensas de entrega ao abrigo do art. 58 CIRS (rendimentos baixos/tributados a taxas liberatórias).\n\nExiste uma versão automática pré-preenchida (IRS Automático) para os casos simples previstos pela AT.',
   tags: ['irs', 'impostos', 'declaração'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Proposta de descida do IRS (PPL 108/XVII): as taxas dos escalões 1 a 6 descem 0,3–0,5 p.p. com efeitos a 01.01.2026 (ex.: 1.º escalão 12,5→12,2%); debate no Parlamento a 07.10.2026; se aprovada — menos retenção a partir de novembro e no subsídio de Natal. A escala em vigor em 2026 é de 12,5% a 48% — corrigido em vários guias o valor errado «11,97%».',
+  pendingLaw: {
+    summary: 'PPL n.º 108/XVII (entregue no Parlamento a 21.09.2026, debate em plenário a 07.10.2026; o Governo pede as três votações em conjunto): descida das taxas de IRS dos escalões 1 a 6 — 12,5→12,2%, 15,7→15,2%, 21,2→20,7%, 24,1→23,6%, 31,1→30,6%, 34,9→34,6% (limites dos escalões mantêm-se; escalões 7 a 9 sem alteração). Aplica-se a todos os rendimentos de 2026, com efeitos a 01.01.2026: o Governo pretende baixar a retenção a partir de novembro e no subsídio de Natal, sendo o restante devolvido na declaração de IRS entregue em 2027. É uma lei de autorização: depois do Parlamento, são ainda necessários um decreto-lei do Governo e novas tabelas de retenção. Até lá aplica-se a escala de 12,5% a 48% (Lei 73-A/2025).',
+    sourceUrl: 'https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377272'
+  },
   steps: [
     {
       id: 'who',
@@ -105,6 +111,6 @@ export default {
     { title: 'Código do IRS (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Dispensa de entrega da declaração de IRS', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Folheto_IRS_Dispensa_Entrega.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

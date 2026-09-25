@@ -3,9 +3,11 @@ export default {
   id: 'vaccinations-pt',
   categoryId: 'healthcare',
   title: 'Прививки в Португалии — PNV, дети, взрослые, путешествия',
-  tldr: 'PNV (Plano Nacional de Vacinação) — государственная программа вакцинации, бесплатная в SNS для резидентов с номером utente. Прививки PNV в Португалии рекомендованы и бесплатны, но юридически они обычно не являются обязательными; школы/врачи могут запросить boletim de vacinas и направить на догоняющую вакцинацию. Взрослым: Td/Tdap — ревакцинация против столбняка/дифтерии по возрастному графику PNV; Tdap особенно при беременности. Грипп ежегодно осенью/зимой для групп, определённых DGS в текущей campanha sazonal (обычно 60+, беременные, хронические заболевания и др.), COVID-бустер по сезонной кампании DGS. Прививки и профилактика для путешествий: Hep A, тиф, жёлтая лихорадка, бешенство, японский энцефалит — в Consulta do Viajante / Centro de Vacinação Internacional. Малярия — профилактические таблетки, не вакцина.',
+  tldr: 'PNV (Plano Nacional de Vacinação) — государственная программа вакцинации, бесплатная в SNS для резидентов с номером utente. Прививки PNV в Португалии рекомендованы и бесплатны, но юридически они обычно не являются обязательными; школы/врачи могут запросить boletim de vacinas и направить на догоняющую вакцинацию. Взрослым: Td/Tdap — ревакцинация против столбняка/дифтерии по возрастному графику PNV; Tdap особенно при беременности. Грипп ежегодно осенью/зимой для групп, определённых DGS в текущей campanha sazonal (обычно 60+, беременные, хронические заболевания и др.), COVID-бустер по сезонной кампании DGS. 🆕 Кампания 2026/27 идёт с 30.09.2026 по 31.03.2027: COVID-бустер теперь с 70 лет (было 60), а грипп бесплатно прививают и детям 2–4 лет. Прививки и профилактика для путешествий: Hep A, тиф, жёлтая лихорадка, бешенство, японский энцефалит — в Consulta do Viajante / Centro de Vacinação Internacional. Малярия — профилактические таблетки, не вакцина.',
   tags: ['вакцины', 'pnv', 'sns', 'дети', 'путешествия'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Осенняя кампания 2026/27 (30.09.2026–31.03.2027): COVID-бустер теперь с 70 лет (было 60); грипп бесплатно и детям 2–4 лет; в аптеках бесплатно — грипп 60–84 и 18–59 с факторами риска, COVID 70–84 и 18–69 с факторами риска; 85+ — в центрах здоровья SNS (вакцина высокой дозы).',
   steps: [
     {
       id: 'pnv-overview',
@@ -59,8 +61,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💉 Td/Tdap: ревакцинация против столбняка/дифтерии по возрастному графику взрослого PNV (обычно Td в 25/45/65 и затем чаще после 65 лет). Tdap особенно при беременности и по отдельным показаниям. Проверяйте e-Boletim или уточняйте в центре здоровья',
-          '💉 Грипп: ежегодно в сезонной кампании DGS — обычно бесплатно/рекомендовано для 60+, беременных, хронических/групп риска и медработников. Точные условия (SNS / аптеки) меняются по сезонам, цена платной вакцины зависит от аптеки/клиники',
-          '💉 COVID-бустер: по текущей сезонной кампании DGS, обычно для пожилых, иммунокомпрометированных, групп риска, беременных и работников здравоохранения/социальной сферы. Возрастной порог меняется по сезонам',
+          '💉 Грипп — кампания 30.09.2026–31.03.2027 (Norma DGS 006/2026): бесплатно для 60+, беременных, хронических больных и групп риска, медработников и работников сферы ухода; 🆕 с этого сезона — и детям 2–4 лет (дети 6–23 мес., прививающиеся впервые, получают две дозы). Бесплатно в аптеке: 60–84 года без дополнительных условий и 18–59 лет с факторами риска; 85+ и жители домов престарелых — в центрах здоровья SNS (вакцина высокой дозы). Вне этих групп — платно в аптеке',
+          '💉 COVID-бустер — кампания 2026/27 (Norma DGS 007/2026): 🆕 возрастной порог поднят с 60 до 70 лет; также 18–69 лет с факторами риска, иммунокомпрометированные, беременные, медработники и работники социальной сферы. В аптеке бесплатно: 70–84 года и 18–69 с факторами риска; 85+ — в центрах здоровья SNS',
           '💉 Hep B: если не получили в детстве (до 1995 — не было в PNV). Серия 0/1/6 мес',
           '💉 MMR: если нет 2 доз (проверьте свой boletim de vacinas)',
           '💉 Опоясывающий лишай: рекомендовано для 60+, не входит в PNV (платно, € 150–200/доза)',
@@ -133,10 +135,12 @@ export default {
     { label: 'Consulta do Viajante', amountEURMin: 0, amountEURMax: 60, note: 'тариф зависит от государственного/частного провайдера' }
   ],
   sources: [
+    { title: 'ECO — Vacinação da gripe arranca a 30 de setembro e é alargada a crianças dos dois aos quatro anos (17.09.2026)', url: 'https://eco.sapo.pt/2026/09/17/vacinacao-da-gripe-arranca-a-30-de-setembro-e-e-alargada-a-criancas-dos-dois-aos-quatro-anos/', kind: 'news', language: 'pt', lastRetrieved: '2026-09-25' },
+    { title: 'Ordem dos Farmacêuticos — Início da campanha de vacinação contra a gripe e a COVID-19 a 30 de setembro de 2026', url: 'https://www.ordemfarmaceuticos.pt/pt/noticias/inicio-da-campanha-de-vacinacao-contra-a-gripe-contra-a-covid-19-agendado-para-30-de-setembro/', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'DGS — Programa Nacional de Vacinação (Norma 018/2020 e atualizações)', url: 'https://www.dgs.pt/normas-orientacoes-e-informacoes/normas-e-circulares-normativas.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Vacinação', url: 'https://www.sns24.gov.pt/tema/vacinacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Consulta do Viajante e Centros de Vacinação Internacional', url: 'https://www.sns24.gov.pt/tema/vacinacao/consulta-do-viajante/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

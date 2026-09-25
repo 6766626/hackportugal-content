@@ -3,9 +3,11 @@ export default {
   id: 'vaccinations-pt',
   categoryId: 'healthcare',
   title: 'Vaccinations in Portugal — PNV, children, adults, travel',
-  tldr: 'PNV (Plano Nacional de Vacinação) is the national vaccination programme, free in the SNS for residents with a número de utente. PNV vaccinations in Portugal are recommended and free, but legally they are usually not mandatory; schools/doctors may request the boletim de vacinas and refer you for catch-up vaccination. Adults: Td/Tdap — booster vaccination against tetanus/diphtheria according to the PNV age schedule; Tdap especially during pregnancy. Flu annually in autumn/winter for groups defined by DGS in the current campanha sazonal (usually 60+, pregnant women, chronic illnesses, etc.), COVID booster according to the DGS seasonal campaign. Travel vaccines and prophylaxis: Hep A, typhoid, yellow fever, rabies, Japanese encephalitis — at Consulta do Viajante / Centro de Vacinação Internacional. Malaria — preventive tablets, not a vaccine.',
+  tldr: 'PNV (Plano Nacional de Vacinação) is the national vaccination programme, free in the SNS for residents with a número de utente. PNV vaccinations in Portugal are recommended and free, but legally they are usually not mandatory; schools/doctors may request the boletim de vacinas and refer you for catch-up vaccination. Adults: Td/Tdap — booster vaccination against tetanus/diphtheria according to the PNV age schedule; Tdap especially during pregnancy. Flu annually in autumn/winter for groups defined by DGS in the current campanha sazonal (usually 60+, pregnant women, chronic illnesses, etc.), COVID booster according to the DGS seasonal campaign. 🆕 The 2026/27 campaign runs from 30.09.2026 to 31.03.2027: the COVID booster is now from age 70 (previously 60), and free flu vaccination is also given to children aged 2–4. Travel vaccines and prophylaxis: Hep A, typhoid, yellow fever, rabies, Japanese encephalitis — at Consulta do Viajante / Centro de Vacinação Internacional. Malaria — preventive tablets, not a vaccine.',
   tags: ['vaccines', 'pnv', 'sns', 'children', 'travel'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Autumn 2026/27 campaign (30.09.2026–31.03.2027): the COVID booster is now from age 70 (previously 60); free flu vaccination also for children aged 2–4; free at pharmacies — flu for ages 60–84 and 18–59 with risk factors, COVID for ages 70–84 and 18–69 with risk factors; 85+ — at SNS health centres (high-dose vaccine).',
   steps: [
     {
       id: 'pnv-overview',
@@ -59,8 +61,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💉 Td/Tdap: booster vaccination against tetanus/diphtheria according to the adult PNV age schedule (usually Td at 25/45/65 and then more often after 65). Tdap especially during pregnancy and for specific indications. Check e-Boletim or ask at the health centre',
-          '💉 Flu: annually in the DGS seasonal campaign — usually free/recommended for 60+, pregnant women, people with chronic conditions/risk groups and healthcare workers. The exact conditions (SNS / pharmacies) change by season, and the price of a paid vaccine depends on the pharmacy/clinic',
-          '💉 COVID booster: according to the current DGS seasonal campaign, usually for older people, immunocompromised people, risk groups, pregnant women and health/social care workers. The age threshold changes by season',
+          '💉 Flu — campaign 30.09.2026–31.03.2027 (Norma DGS 006/2026): free for 60+, pregnant women, people with chronic conditions and risk groups, healthcare workers and care workers; 🆕 from this season also for children aged 2–4 (children aged 6–23 months being vaccinated for the first time get two doses). Free at the pharmacy: ages 60–84 with no further conditions and ages 18–59 with risk factors; 85+ and care-home residents — at SNS health centres (high-dose vaccine). Outside these groups — paid at the pharmacy',
+          '💉 COVID booster — 2026/27 campaign (Norma DGS 007/2026): 🆕 the age threshold has been raised from 60 to 70; also ages 18–69 with risk factors, immunocompromised people, pregnant women, healthcare workers and social care workers. Free at the pharmacy: ages 70–84 and 18–69 with risk factors; 85+ — at SNS health centres',
           '💉 Hep B: if you did not receive it in childhood (before 1995 — it was not in the PNV). 0/1/6-month series',
           '💉 MMR: if you do not have 2 doses (check your boletim de vacinas)',
           '💉 Shingles: recommended for 60+, not included in the PNV (paid, €150–200/dose)',
@@ -133,10 +135,12 @@ export default {
     { label: 'Consulta do Viajante', amountEURMin: 0, amountEURMax: 60, note: 'the fee depends on the public/private provider' }
   ],
   sources: [
+    { title: 'ECO — Vacinação da gripe arranca a 30 de setembro e é alargada a crianças dos dois aos quatro anos (17.09.2026)', url: 'https://eco.sapo.pt/2026/09/17/vacinacao-da-gripe-arranca-a-30-de-setembro-e-e-alargada-a-criancas-dos-dois-aos-quatro-anos/', kind: 'news', language: 'pt', lastRetrieved: '2026-09-25' },
+    { title: 'Ordem dos Farmacêuticos — Início da campanha de vacinação contra a gripe e a COVID-19 a 30 de setembro de 2026', url: 'https://www.ordemfarmaceuticos.pt/pt/noticias/inicio-da-campanha-de-vacinacao-contra-a-gripe-contra-a-covid-19-agendado-para-30-de-setembro/', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'DGS — Programa Nacional de Vacinação (Norma 018/2020 and updates)', url: 'https://www.dgs.pt/normas-orientacoes-e-informacoes/normas-e-circulares-normativas.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Vaccination', url: 'https://www.sns24.gov.pt/tema/vacinacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Consulta do Viajante and Centros de Vacinação Internacional', url: 'https://www.sns24.gov.pt/tema/vacinacao/consulta-do-viajante/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

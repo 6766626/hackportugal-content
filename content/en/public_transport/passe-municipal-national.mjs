@@ -66,7 +66,7 @@ export default {
           'If the operator refuses, ask for a link to the 2026 fare table',
           'When moving to another concelho, apply for a new passe — the old one may stop being optimal'
         ] },
-        { kind: 'paragraph', text: '🆕 Passe Ferroviário Verde (€20/month, CP trains only): during European Mobility Week (16–22 September 2026) its coverage is being extended to the Lisbon and Porto urban trains (urbanos) and to Fertagus — previously these sections were excluded and required a €40 Navegante/Andante. Alfa Pendular, the metro and buses are still not included. For the exact activation day, watch for the CP announcement.' }
+        { kind: 'paragraph', text: '🆕 Passe Ferroviário Verde (€20/month, CP trains only): the promised extension to the Lisbon and Porto urban trains (urbanos) during European Mobility Week (16–22.09.2026) did NOT happen. The decree-law (amending DL 73/2024) was approved by the Council of Ministers on 17.09 and promulgated on 25.09; the launch on the urbanos is expected in October 2026 (no exact date yet), and on Fertagus later, by the end of the year. This is a permanent change, not a one-off promotion. Alfa Pendular, the metro and buses are not included. Until the launch, you still need a Navegante/Andante (€40) for the urbanos.' }
       ]
     },
     {
@@ -118,6 +118,6 @@ export default {
     { title: 'Navegante — fares and cards for Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Andante — fares and zones for Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

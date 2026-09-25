@@ -102,7 +102,7 @@ export default {
           'Se a discriminação continuar, envie provas adicionais por mensagem separada com o mesmo número de processo.'
         ] },
         { kind: 'paragraph', text: 'Base jurídica em 2026: Código do Trabalho art. 24–25 proíbe a discriminação no trabalho, incluindo sexo, orientação sexual e identidade de género; Lei 38/2018 protege o direito à autodeterminação da identidade de género e expressão de género; Lei 14/2008 regula a proibição de discriminação em razão do sexo no acesso a bens e serviços.' },
-        { kind: 'paragraph', text: '🆕 A partir de 23.09.2026 vigora a Lei n.º 58/2026: nos espaços públicos é proibido o uso de vestuário que oculte o rosto (coimas de 150–3 000 €), e é separadamente proibido COAGIR alguém a cobrir o rosto em razão do sexo, religião, idade ou origem — a coacção pode também constituir crime. Excepções: razões de saúde, profissionais, artísticas, aviões, representações diplomáticas e locais de culto. Se estiver a ser coagido/a a cobrir o rosto — isso é fundamento para queixa e para contactar a polícia.' }
+        { kind: 'paragraph', text: '🆕 A partir de 23.09.2026 vigora a Lei n.º 58/2026: nos espaços públicos é proibido o uso de vestuário que oculte o rosto (coima de 150–750 € em caso de negligência e de 400–3 000 € em caso de dolo; o auto da polícia/GNR é remetido, no prazo de 5 dias úteis, à câmara municipal, que instrui o processo e aplica a coima), e é separadamente proibido COAGIR alguém a cobrir o rosto em razão do sexo, religião, idade ou origem — trata-se de crime: pena de prisão até 2 anos ou pena de multa até 240 dias. A Provedoria de Justiça está a analisar uma queixa que lhe pede que suscite a fiscalização da constitucionalidade, mas, entretanto, a lei aplica-se na íntegra. Excepções: razões de saúde, profissionais, artísticas, aviões, representações diplomáticas e locais de culto. Se estiver a ser coagido/a a cobrir o rosto — isso é fundamento para queixa e para contactar a polícia.' }
       ]
     }
   ],
@@ -118,6 +118,6 @@ export default {
     { title: 'Código do Trabalho — Lei 7/2009, igualdade e não discriminação no trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Euronews — Portugal enacts law banning face coverings in public spaces (Lei 58/2026, 24.08.2026)', url: 'https://www.euronews.com/my-europe/2026/08/20/portugal-enacts-burqa-law-banning-face-coverings-in-public-space', kind: 'news', language: 'en', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

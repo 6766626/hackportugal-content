@@ -6,8 +6,8 @@ export default {
   tldr: 'TVDE é trabalho legal como motorista através da Uber, Bolt e outras plataformas eletrónicas. O motorista precisa de um certificado de motorista TVDE do IMT: carta B há mais de 3 anos, curso de formação inicial 50h, aptidão médica e psicológica, registo criminal e pedido ao IMT. O carro deve estar registado para TVDE no DUA/Certificado de Matrícula, ter seguro específico, inspeção e dístico TVDE. Só é possível trabalhar através de um operador TVDE licenciado e com registo na plataforma.\n\n🆕 A partir de 01.09.2026 vigora a Lei n.º 59/2026 (“Regime TVDE”, reforma da Lei 45/2018): após o curso de 50 horas passa a ser obrigatório um EXAME FINAL (30 perguntas, mínimo de 27 corretas), o curso passa a incluir uma verificação do domínio funcional do português, os táxis poderão ligar-se às plataformas e o IMT lança uma plataforma única de partilha de dados (impostos, contribuições sociais). Se planeia entrar no TVDE — leve a sério a aprendizagem do português.',
   tags: ['tvde', 'uber', 'bolt', 'imt', 'trabalho'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-26',
-  changeSummary: '🆕 A Lei n.º 59/2026 (publicada a 25.08, em vigor a partir de 01.09.2026) reforma o TVDE: após o curso de 50h — exame obrigatório (30 perguntas, aprovação com 27), verificação do português funcional dentro do curso, táxis admitidos nas plataformas, plataforma única de dados do IMT (impostos, contribuições sociais).',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '⚠️ Esclarecimento sobre a Lei 59/2026: a 25.09.2026 a regulamentação ainda não foi publicada — o novo exame (30 perguntas, aprovação com 27), a verificação do português, o dístico e a plataforma de dados ainda não estão em funcionamento; o IMT continua a aplicar o anterior procedimento de certificação. As datas de transição são controversas — confirme em imt-ip.pt antes de se inscrever no curso.',
   steps: [
     {
       id: 'what-tvde-is',
@@ -46,7 +46,7 @@ export default {
             ] }
           ] },
           { id: 'course', title: '2. Fazer o curso TVDE 50h', content: [
-            { kind: 'paragraph', text: 'O curso decorre num centro de formação reconhecido pelo IMT. O programa é regulado pela Portaria 293/2018 e inclui segurança, atendimento a passageiros, regras TVDE, comportamento rodoviário, acessibilidade para passageiros com limitações e utilização de plataformas. 🆕 A partir de 01.09.2026 (Lei 59/2026), o curso termina com um exame obrigatório: 30 perguntas, com aprovação a partir de 27 respostas corretas; o programa passa a incluir uma verificação do domínio funcional da língua portuguesa. Confirme na sua escola as regras transitórias para quem começou o curso antes de 1 de setembro.' },
+            { kind: 'paragraph', text: 'O curso decorre num centro de formação reconhecido pelo IMT. O programa é regulado pela Portaria 293/2018 e inclui segurança, atendimento a passageiros, regras TVDE, comportamento rodoviário, acessibilidade para passageiros com limitações e utilização de plataformas. 🆕 A partir de 01.09.2026 (Lei 59/2026), o curso termina com um exame obrigatório: 30 perguntas, com aprovação a partir de 27 respostas corretas; o programa passa a incluir uma verificação do domínio funcional da língua portuguesa. Confirme na sua escola as regras transitórias para quem começou o curso antes de 1 de setembro. ⚠️ A 25.09.2026 ainda não foram publicadas as portarias que regulamentam a Lei 59/2026: o novo regime do curso, do exame e da verificação do português, o modelo de dístico e a plataforma de dados ainda não funcionam, e o IMT continua a aplicar o anterior procedimento de certificação (Portaria 293/2018, na redação da Portaria 344/2024/1). As datas do período transitório são controversas (art. 7 da lei — 01.09, art. 33 do anexo — 01.11). Antes de se inscrever no curso ou de renovar o certificado, confirme as regras em vigor em imt-ip.pt.' },
             { kind: 'warning', text: 'Não compre um “certificado pronto”. As plataformas confirmam o documento com o IMT, e um certificado falso pode fechar o acesso à Uber/Bolt e criar riscos criminais.' }
           ] },
           { id: 'imt-application', title: '3. Submeter o pedido ao IMT', content: [
@@ -153,6 +153,6 @@ export default {
     { title: 'Uber Portugal: requisitos para motoristas TVDE', url: 'https://www.uber.com/pt/pt-pt/drive/requirements/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Observador — Nova lei do regime TVDE publicada em Diário da República (Lei 59/2026, 25.08.2026)', url: 'https://observador.pt/2026/08/25/nova-lei-do-regime-tvde-publicada-em-diario-da-republica-entra-em-vigor-a-1-setembro/', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

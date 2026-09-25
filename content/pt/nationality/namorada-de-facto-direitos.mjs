@@ -58,7 +58,7 @@ export default {
           'Prestações sociais: o parceiro sobrevivo pode candidatar-se a pensão de sobrevivência, subsídio por morte e outras prestações da Segurança Social, mediante prova da união.',
           'Imigração: a AIMA pode considerar o parceiro em união de facto como membro da família para Reagrupamento Familiar, se a união estiver bem provada.'
         ] },
-        { kind: 'warning', text: 'A entrega conjunta de IRS nem sempre é vantajosa. Em 2026, a primeira taxa de IRS é 11,97%, mas o resultado final depende dos rendimentos do casal, deduções, dependentes e estatuto de residência. Antes de submeter, compare a simulação individual vs conjunta no Portal das Finanças.' }
+        { kind: 'warning', text: 'A entrega conjunta de IRS nem sempre é vantajosa. Em 2026, a primeira taxa de IRS é 12,5%, mas o resultado final depende dos rendimentos do casal, deduções, dependentes e estatuto de residência. Antes de submeter, compare a simulação individual vs conjunta no Portal das Finanças.' }
       ]
     },
     {
@@ -126,6 +126,6 @@ export default {
     { title: 'Justiça.gov.pt — pedir nacionalidade portuguesa por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

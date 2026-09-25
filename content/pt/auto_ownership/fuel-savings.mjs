@@ -3,7 +3,7 @@ export default {
   id: 'fuel-savings',
   categoryId: 'auto_ownership',
   title: 'Gasolina e gasóleo — como poupar em combustível',
-  tldr: 'Preço nos postos de abastecimento em Portugal continental em 2026: gasolina 95 (gasolina) 1,85–2,05 €/l, gasóleo (gasóleo) 1,80–2,00 €/l.\n\nOs preços são livres no continente; a ERSE publica semanalmente o «preço eficiente» — uma referência indicativa e não obrigatória, não um tecto máximo.\n\nNa Madeira e nos Açores, os preços podem ser regulados administrativamente. A diferença entre redes caras (Galp / BP / Repsol) e baratas (Prio, Intermarché, Continente, Cepsa/Moeve) pode chegar a 0,15 €/l. As apps ComboMais / IdealGás / Tankpreise ajudam a encontrar o posto mais barato. Os cartões de fidelização dão descontos de 0,05–0,12 €/l.',
+  tldr: 'Preço nos postos de abastecimento em Portugal continental em 2026: até ao verão, gasolina 95 (gasolina) 1,85–2,05 €/l, gasóleo (gasóleo) 1,80–2,00 €/l; em setembro — subida acentuada: na semana de 21–27.09, gasóleo ≈ 2,21 €/l (máximo histórico), gasolina 95 ≈ 2,11 €/l. O desconto temporário no ISP foi prorrogado até 31.12.2026.\n\nOs preços são livres no continente; a ERSE publica semanalmente o «preço eficiente» — uma referência indicativa e não obrigatória, não um tecto máximo.\n\nNa Madeira e nos Açores, os preços podem ser regulados administrativamente. A diferença entre redes caras (Galp / BP / Repsol) e baratas (Prio, Intermarché, Continente, Cepsa/Moeve) pode chegar a 0,15 €/l. As apps ComboMais / IdealGás / Tankpreise ajudam a encontrar o posto mais barato. Os cartões de fidelização dão descontos de 0,05–0,12 €/l.',
   tags: ['gasolina', 'posto de abastecimento', 'poupança', 'combustível'],
   estimatedReadMinutes: 5,
   steps: [
@@ -133,6 +133,6 @@ export default {
     { title: 'ERSE — preços dos combustíveis', url: 'https://www.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Direção-Geral de Energia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

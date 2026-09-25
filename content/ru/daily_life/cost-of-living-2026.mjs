@@ -196,7 +196,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Брутто и нетто — в Португалии разрыв значительный. Для брутто 2000 €/мес:' },
         { kind: 'checklist', items: [
-          'IRS (подоходный налог): ~11% в среднем (шкала 11,97-48% в 9 диапазонах — госбюджет 2026)',
+          'IRS (подоходный налог): ~11% в среднем (шкала 12,5-48% в 9 диапазонах — госбюджет 2026)',
           'Segurança Social (социальное страхование): 11%',
           'Нетто: ~1560 € (то есть работодатель платит брутто 2000 €, ещё платит 23,75% TSU сверху — истинная стоимость ~2475 €)',
           'Статус IFICI (если подошли): плоская ставка 20% на квалифицированный доход',
@@ -212,6 +212,6 @@ export default {
     { title: 'Portal das Finanças (налоговый портал) — ставки IRS 2026', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — ставки 2026', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

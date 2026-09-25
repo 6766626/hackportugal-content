@@ -6,7 +6,6 @@ export default {
   tldr: 'A recibo verde is an electronic receipt for a self-employed person / sole trader. It is issued in Portal das Finanças → “Recibos Verdes Eletrónicos”. You need: an open activity, the client’s NIF, the amount, and a description of the service. IVA depends on the regime: regime normal (often 23% on the mainland, rates depend on the service and region) or regime de isenção art. 53 CIVA for turnover up to €15,000/year if the conditions are met.\n\nDeadline — by the 5th working day after the moment of exigibilidade (completion of the service, issue of the invoice, or advance payment).',
   tags: ['recibo verde', 'sole trader', 'self-employed', 'activity'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-08-26',
   changeSummary: '⚠️ AIMA practice (August 2026): under-declaring income in the quarterly SS declarations or paying only the minimum €20 can lead to refusal of a residence permit/renewal for “falta de rendimentos” — the income base visible to the state is formed from the Segurança Social declarations. Declare your real income.',
   steps: [
     {

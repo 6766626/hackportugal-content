@@ -47,7 +47,7 @@ export default {
       title: 'Taxes: IVA, IRS and retenção',
       content: [
         { kind: 'paragraph', text: 'For IVA, Ato Isolado is usually treated as a taxable transaction. In mainland Portugal the standard rate is 23%, Madeira 22%, Açores 18%. The exemption under art. 53.º CIVA for small turnover usually does not apply to Ato Isolado; exceptions may exist due to the nature of the transaction, for example medical, educational or insurance services under art. 9.º CIVA.' },
-        { kind: 'paragraph', text: 'For IRS, the income is declared in the annual IRS declaration for the year in which the income is received. For a resident, it is added to other income and taxed at progressive IRS rates; in 2026 the first IRS rate is 11.97% for the first bracket. The final result depends on all income, deductions and residence status.' },
+        { kind: 'paragraph', text: 'For IRS, the income is declared in the annual IRS declaration for the year in which the income is received. For a resident, it is added to other income and taxed at progressive IRS rates; in 2026 the first IRS rate is 12.5% for the first bracket. The final result depends on all income, deductions and residence status.' },
         { kind: 'checklist', items: [
           'IVA: usually add 23% to the price on the mainland, if the service is not exempt under CIVA',
           'IVA payment deadline: by the end of the month following completion of the transaction',
@@ -167,6 +167,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

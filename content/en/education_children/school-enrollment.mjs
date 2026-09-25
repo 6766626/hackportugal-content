@@ -6,7 +6,6 @@ export default {
   tldr: 'Education in Portugal is compulsory from age 6 to 18 (or until completion of secundário).\n\nState schools are free, and enrolment is by area of residence via Portal das Matrículas. Private schools (€3,000–15,000/year) and international schools (€10,000–25,000/year) are also possible.\n\nThe main matrícula windows depend on the level of education and the annual despacho; for pré-escolar/1.º ano 2026/2027 — 22 April – 1 June 2026 (Despacho 4472-A/2026). For relocation/transfer, a school may accept an application during the year if there is a place available.',
   tags: ['school', 'education', 'enrolment', 'children'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-26',
   changeSummary: '🆕 School year 2026/27: científico-humanístico secundário courses start on 21 September (Despacho 10430/2026), the other levels — 11–15 September. Extraordinary phase of the national exams: 3–8 September, results on 9 September (compensation for the e-grading failures); the best grade counts.',
   steps: [
     {
@@ -55,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'You can log in via autenticação.gov.pt: Chave Móvel Digital, Cartão de Cidadão or credenciais do Portal das Finanças (NIF+AT password). If parents do not have access to digital means — the matrícula can be completed with support from the school/agrupamento.' }
           ]},
           { id: 'e3', title: '3. Submit an enrolment application', content: [
-            { kind: 'paragraph', text: 'Main session window for the 2026–2027 school year: 22 April – 1 June 2026 (Portal das Matrículas, pre-school education + Year 1 of 1º Ciclo), according to Despacho n.º 4472-A/2026. For 2º Ciclo, 3º Ciclo and Secundário — there are separate deadlines, check the despacho for each year. For a transfer or relocation — at any time, but preferably before the end of July. 🆕 Start of the 2026/27 school year: pré-escolar, básico, vocational and artistic education — 11–15 September; BUT the científico-humanístico secundário courses (Years 10–12) start LATER — on Monday 21 September 2026 (Despacho n.º 10430/2026, due to the e-grading failures in the exams). In addition: the extraordinary phase of the national exams — 3–8 September 2026, results on 9 September; the best of the grades counts.' }
+            { kind: 'paragraph', text: 'Main session window for the 2026–2027 school year: 22 April – 1 June 2026 (Portal das Matrículas, pre-school education + Year 1 of 1º Ciclo), according to Despacho n.º 4472-A/2026. For 2º Ciclo, 3º Ciclo and Secundário — there are separate deadlines, check the despacho for each year. For a transfer or relocation — at any time, but preferably before the end of July. 🆕 Start of the 2026/27 school year: pré-escolar, básico, vocational and artistic education — 11–15 September; BUT the científico-humanístico secundário courses (Years 10–12) start LATER — on Monday 21 September 2026 (Despacho n.º 10430/2026, due to the e-grading failures in the exams). In addition: the extraordinary phase of the national exams — 3–8 September 2026, results on 9 September; the best of the grades counts. 🆕 From 04.09.2026 (DL 176/2026), the ban on smartphones and internet-connected devices on school premises covers all Years 1–9 (previously only Years 1–6); it does not apply to secundário (Years 10–12), and schools have until 01.01.2027 to adapt their internal rules.' }
           ]},
           { id: 'e4', title: '4. Documents', content: [
             { kind: 'paragraph', text: 'Usually requested: ID of the child and parent, NIF, proof of address, school report/sworn translation, vaccination record, photo. If the child does not have a NIF, número de utente, atestado da junta or a complete foreign document package — the school must NOT block access to compulsory education: temporary enrolment and a parallel equivalência/posicionamento procedure are possible.' },
@@ -69,7 +68,7 @@ export default {
             ]}
           ]},
           { id: 'e5', title: '5. Wait for the result', content: [
-            { kind: 'timeline', text: 'Publication dates for colocação and turmas lists are specified annually in the despacho/on Portal das Matrículas; for transfers, deadlines depend on the school and place availability.' }
+            { kind: 'timeline', text: 'Publication dates for colocação and turmas lists are specified annually in the despacho/on Portal das Matrículas; for transfers, deadlines depend on the school and place availability. ⚠️ The start of 2026/27 in Greater Lisbon and on the Setúbal peninsula was the hardest on record: more than 1,300 pupils were waiting for a placement (about two-thirds of them late applications), and around 2,000 teachers were missing. Submit the matrícula on time and list all 5 schools; if you move in the middle of the year, allow time for placement.' }
           ]}
         ]}
       ]
@@ -100,6 +99,6 @@ export default {
     { title: 'ePortugal — Register a child at school', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'SPGL — Despacho n.º 10430/2026: adiamento do início dos cursos científico-humanísticos (21.08.2026)', url: 'https://www.spgl.pt/despacho-n-o-10430-2026-de-21-08', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

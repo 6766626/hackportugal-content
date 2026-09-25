@@ -66,7 +66,7 @@ export default {
         { kind: 'paragraph', text: 'В упрощённом режиме:' },
         { kind: 'checklist', items: [
           'Для многих профессиональных услуг база IRS = 75% оборота; для других типов дохода действуют другие коэффициенты по CIRS art. 31',
-          'Применяется прогрессивная шкала IRS на 2026: 11,97%–48% в 9 диапазонах',
+          'Применяется прогрессивная шкала IRS на 2026: 12,5%–48% в 9 диапазонах',
           'Социальные взносы 21,4% на rendimento relevante: 70% услуг или 20% продаж/производства, по квартальной декларации',
           'Pagamentos por conta de IRS могут быть назначены AT на основании предыдущей декларации/ликвидации IRS; это не автоматический налог для всех TI. Если назначены, обычно платятся 3 раза в год — в июле, сентябре и декабре'
         ]},
@@ -92,6 +92,6 @@ export default {
     { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Abrir Atividade', url: 'https://www.gov.pt/cidadaos/-/informacoes/abrir-atividade-de-trabalhador-independente', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

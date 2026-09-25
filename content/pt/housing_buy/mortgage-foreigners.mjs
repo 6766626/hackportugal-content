@@ -3,10 +3,9 @@ export default {
   id: 'mortgage-foreigners',
   categoryId: 'housing_buy',
   title: 'Crédito à habitação para estrangeiros em Portugal',
-  tldr: 'Estrangeiros residentes podem obter crédito à habitação: o LTV macroprudencial para habitação owner-occupied/permanent é até 90% do menor valor entre o preço de compra e a avaliação; para secondary residence — até 80%; non-resident borrowers — normalmente inferior. Euribor a 6 meses no início de maio de 2026 ≈ 2,45–2,56% (desceu do pico de ~4% em 2023). Spreads portugueses típicos de 0,6–1,5%. Taxa real ~3,0–4,0%.\n\n🆕 Desde 01.08.2026 vigora a Recomendação Macroprudencial n.º 1/2026 do Banco de Portugal (substituiu a recomendação de 2018): o limite de esforço DSTI desceu de 50% para 45% do rendimento líquido (exceções — até 10% do montante de crédito concedido pelo banco por semestre); o limite de prazo foi simplificado para dois grupos etários — até 35 anos inclusive: máximo 40 anos, mais de 35: máximo 35 anos (o grupo 31–35 até ganhou: antes eram 37). Foi eliminada a possibilidade de 100% LTV na compra de imóveis ao próprio banco. As regras aplicam-se aos créditos cuja avaliação de solvabilidade o banco realiza a partir de 1 de agosto. Processo de 30–90 dias.',
+  tldr: 'Estrangeiros residentes podem obter crédito à habitação: o LTV macroprudencial para habitação owner-occupied/permanent é até 90% do menor valor entre o preço de compra e a avaliação; para secondary residence — até 80%; non-resident borrowers — normalmente inferior. A Euribor a 6 meses estava em ≈ 2,45–2,56% em maio de 2026, mas o BCE está de novo a subir os juros (10.09.2026 — taxa de depósito de 2,50%) e, a 24.09.2026, a Euribor a 6 meses já tinha subido para ≈ 3,0% (a 12 meses — ≈ 3,3%). Spreads portugueses típicos de 0,6–1,5%. Taxa real ~3,6–4,5%; a revisão das prestações em setembro trouxe a maior subida em 3 anos.\n\n🆕 Desde 01.08.2026 vigora a Recomendação Macroprudencial n.º 1/2026 do Banco de Portugal (substituiu a recomendação de 2018): o limite de esforço DSTI desceu de 50% para 45% do rendimento líquido (exceções — até 10% do montante de crédito concedido pelo banco por semestre); o limite de prazo foi simplificado para dois grupos etários — até 35 anos inclusive: máximo 40 anos, mais de 35: máximo 35 anos (o grupo 31–35 até ganhou: antes eram 37). Foi eliminada a possibilidade de 100% LTV na compra de imóveis ao próprio banco. As regras aplicam-se aos créditos cuja avaliação de solvabilidade o banco realiza a partir de 1 de agosto. Processo de 30–90 dias.',
   tags: ['crédito à habitação', 'banco', 'habitação', 'imobiliário'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-08-01',
   changeSummary: '🆕 Desde 01.08.2026 — Recomendação Macroprudencial 1/2026 do BdP: DSTI reduzido de 50% para 45% do rendimento líquido, prazos simplificados para dois grupos (até 35 anos incl. — 40 anos, mais velhos — 35), eliminado o 100% LTV na compra ao banco. Os limites LTV 90/80% e os stress add-ons não mudaram; a garantia do Estado para jovens não foi afetada.',
   steps: [
     {
@@ -31,7 +30,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Taxa variável (Euribor + spread)', content: [
-            { kind: 'paragraph', text: 'Euribor a 6 meses no início de maio de 2026 ≈ 2,45–2,56% (após o pico de ~4% em 2023). Spread — 0,6–1,5%. Total — 3,0–4,0%. Recalculada a cada 6 meses.' }
+            { kind: 'paragraph', text: 'Euribor a 6 meses: ≈ 2,5% em maio de 2026 → ≈ 3,0% a 24.09.2026, após a subida da taxa do BCE a 10.09 (o pico foi de ~4% em 2023). Spread — 0,6–1,5%. Total — ~3,6–4,5%. Recalculada a cada 6 meses.' }
           ]},
           { id: 'r2', title: 'Taxa fixa', content: [
             { kind: 'paragraph', text: 'Por 5–20 anos. ~3,0–4,0% em 2026. Protege contra oscilações, mas é menos flexível.' }
@@ -106,6 +105,6 @@ export default {
     { title: 'ASF — Autoridade de Supervisão de Seguros (seguro de vida)', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (portal fiscal) — calculadoras de IMT, IS', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-08-01',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

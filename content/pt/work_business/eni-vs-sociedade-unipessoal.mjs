@@ -70,7 +70,7 @@ export default {
           'ENI acima de 15 000 €/ano: normalmente é necessário passar para o regime normal de IVA, entregar declarações periódicas e cobrar IVA.',
           'Se vender a clientes B2B na UE, podem surgir reverse charge, declarações recapitulativas e VIES — isto não elimina a obrigação de abrir corretamente a atividade.',
           'Unipessoal: preveja o regime de IVA e as obrigações declarativas regulares desde o início, se a atividade não estiver isenta por norma especial.',
-          'O IRS no ENI é progressivo: em 2026, a primeira taxa de IRS é 11,97%, mas a taxa real depende do rendimento total do agregado familiar, deductions e local de residência fiscal.',
+          'O IRS no ENI é progressivo: em 2026, a primeira taxa de IRS é 12,5%, mas a taxa real depende do rendimento total do agregado familiar, deductions e local de residência fiscal.',
           'O IRC da empresa é calculado sobre o lucro depois das despesas, não sobre o volume de negócios.',
           'Despesas comprovadas elevadas, equipamento, subcontratados e salários tornam mais frequentemente a empresa uma opção mais lógica.'
         ] },
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

@@ -6,7 +6,6 @@ export default {
   tldr: 'A escolaridade em Portugal é obrigatória dos 6 aos 18 anos (ou até à conclusão do secundário).\n\nAs escolas públicas são gratuitas, e a matrícula é feita por área de residência através do Portal das Matrículas. Também há escolas privadas (3 000–15 000 €/ano) e internacionais (10 000–25 000 €/ano).\n\nAs principais janelas de matrícula dependem do nível de ensino e do despacho anual; para o pré-escolar/1.º ano 2026/2027 — 22 de abril – 1 de junho de 2026 (Despacho 4472-A/2026). Em caso de mudança de residência/transferência, a escola pode aceitar o pedido ao longo do ano, se houver vaga.',
   tags: ['escola', 'educação', 'matrícula', 'crianças'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-26',
   changeSummary: '🆕 Ano letivo 2026/27: os cursos científico-humanísticos do secundário arrancam a 21 de setembro (Despacho 10430/2026), os restantes níveis — 11–15 de setembro. Fase extraordinária dos exames nacionais: 3–8 de setembro, resultados a 9 de setembro (compensação das falhas na correção eletrónica); conta a melhor classificação.',
   steps: [
     {
@@ -55,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'Pode entrar através de autenticação.gov.pt: Chave Móvel Digital, Cartão de Cidadão ou credenciais do Portal das Finanças (NIF+palavra-passe da AT). Se os pais não tiverem acesso a meios digitais — a matrícula pode ser feita com apoio da escola/agrupamento.' }
           ]},
           { id: 'e3', title: '3. Apresentar o pedido de matrícula', content: [
-            { kind: 'paragraph', text: 'Janela da fase principal para o ano lectivo de 2026–2027: 22 de abril – 1 de junho de 2026 (Portal das Matrículas, educação pré-escolar + 1.º ano do 1.º Ciclo), nos termos do Despacho n.º 4472-A/2026. Para o 2.º Ciclo, 3.º Ciclo e Secundário — há prazos próprios; confirme o despacho de cada ano. Para transferência ou mudança de residência — em qualquer momento, mas idealmente até ao fim de julho. 🆕 Início do ano letivo 2026/27: pré-escolar, básico, ensino profissional e artístico — 11–15 de setembro; MAS os cursos científico-humanísticos do secundário (10.º–12.º ano) começam MAIS TARDE — na segunda-feira, 21 de setembro de 2026 (Despacho n.º 10430/2026, devido às falhas na correção eletrónica dos exames). Além disso: fase extraordinária dos exames nacionais — 3–8 de setembro de 2026, resultados a 9 de setembro; conta a melhor das classificações.' }
+            { kind: 'paragraph', text: 'Janela da fase principal para o ano lectivo de 2026–2027: 22 de abril – 1 de junho de 2026 (Portal das Matrículas, educação pré-escolar + 1.º ano do 1.º Ciclo), nos termos do Despacho n.º 4472-A/2026. Para o 2.º Ciclo, 3.º Ciclo e Secundário — há prazos próprios; confirme o despacho de cada ano. Para transferência ou mudança de residência — em qualquer momento, mas idealmente até ao fim de julho. 🆕 Início do ano letivo 2026/27: pré-escolar, básico, ensino profissional e artístico — 11–15 de setembro; MAS os cursos científico-humanísticos do secundário (10.º–12.º ano) começam MAIS TARDE — na segunda-feira, 21 de setembro de 2026 (Despacho n.º 10430/2026, devido às falhas na correção eletrónica dos exames). Além disso: fase extraordinária dos exames nacionais — 3–8 de setembro de 2026, resultados a 9 de setembro; conta a melhor das classificações. 🆕 A partir de 04.09.2026 (DL 176/2026), a proibição de smartphones e de dispositivos com ligação à internet no recinto escolar abrange todos os anos do 1.º ao 9.º (antes, apenas do 1.º ao 6.º); não se aplica ao secundário (10.º–12.º ano), e as escolas têm até 01.01.2027 para adaptar os regulamentos internos.' }
           ]},
           { id: 'e4', title: '4. Documentos', content: [
             { kind: 'paragraph', text: 'Normalmente pedem: identificação da criança e do progenitor, NIF, comprovativo de morada, boletim/certificado escolar + tradução certificada, boletim de vacinas, fotografia. Se a criança não tiver NIF, número de utente, atestado da junta ou o pacote completo de documentos estrangeiros — a escola NÃO deve bloquear o acesso à escolaridade obrigatória: é possível uma matrícula provisória e, em paralelo, o procedimento de equivalência/posicionamento.' },
@@ -69,7 +68,7 @@ export default {
             ]}
           ]},
           { id: 'e5', title: '5. Aguardar o resultado', content: [
-            { kind: 'timeline', text: 'As datas de publicação das listas de colocação e turmas são indicadas anualmente no despacho/no Portal das Matrículas; para transferências, os prazos dependem da escola e da existência de vaga.' }
+            { kind: 'timeline', text: 'As datas de publicação das listas de colocação e turmas são indicadas anualmente no despacho/no Portal das Matrículas; para transferências, os prazos dependem da escola e da existência de vaga. ⚠️ O arranque de 2026/27 na Grande Lisboa e na Península de Setúbal foi o mais difícil de sempre: mais de 1 300 alunos aguardavam colocação (cerca de dois terços com pedidos apresentados fora de prazo) e faltavam cerca de 2 000 professores. Faça a matrícula dentro do prazo e indique as 5 escolas; se mudar de residência a meio do ano, conte com tempo de espera pela colocação.' }
           ]}
         ]}
       ]
@@ -100,6 +99,6 @@ export default {
     { title: 'ePortugal — Inscrever criança na escola', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'SPGL — Despacho n.º 10430/2026: adiamento do início dos cursos científico-humanísticos (21.08.2026)', url: 'https://www.spgl.pt/despacho-n-o-10430-2026-de-21-08', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

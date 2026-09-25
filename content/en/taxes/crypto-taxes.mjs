@@ -34,7 +34,7 @@ export default {
           { id: 'r3', title: '💼 Professional trading', content: [
             { kind: 'checklist', items: [
               'If AT considers your activity professional (regularity, significant volume) — it is taxed as Categoria B (business income)',
-              'Progressive scale 11.97–48% + social security contributions 21.4%',
+              'Progressive scale 12.5–48% + social security contributions 21.4%',
               'Professional criteria: regularity, volume, infrastructure (API, automation), main activity',
               'If this is proprietary trading — discuss the correct Categoria B/CAE enquadramento with a contabilista. If you provide services to third parties (custody, exchange, brokerage, asset management) — check Banco de Portugal/CMVM/MiCA/CASP and AML requirements; simple abertura de atividade is not sufficient'
             ]}
@@ -145,6 +145,6 @@ export default {
     { title: 'OE 2023 — introduction of the regime', url: 'https://diariodarepublica.pt/dr/detalhe/lei/24-d-2022-203934281', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Koinly — tax reports for PT', url: 'https://koinly.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

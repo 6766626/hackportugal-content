@@ -6,7 +6,8 @@ export default {
   tldr: 'Se a AIMA perdeu o processo, não disponibiliza vaga, demora meses a emitir o cartão de residência ou não responde a emails, siga uma escada: reunir provas → reclamação no Livro de Reclamações → dar à AIMA até 60 dias para reagir → reclamação ao Provedor de Justiça → em caso de prejuízo urgente, avançar para o Tribunal Administrativo com advogado. O Provedor é gratuito, mas não substitui o tribunal e não suspende prazos relativos à autorização de residência.',
   tags: ['aima', 'reclamação', 'provedor', 'autorização de residência'],
   estimatedReadMinutes: 6,
-  changeSummary: '🆕 Realidade judicial das ações contra a AIMA (CSTAF, julho de 2026): >100 mil processos pendentes, tempo médio em primeira instância — 861 dias. Em 23.07.2026 o Governo aprovou uma proposta de lei: apresentação das ações no tribunal administrativo da residência do autor (não só Lisboa) + tribunais especializados de migrações — ainda NÃO é lei.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Ações contra a AIMA: a equipa especial de juízes foi prolongada até 30.01.2027 (≈89 mil processos pendentes a 18.09); a reforma — ações no tribunal da residência do autor e secções de migrações — foi aprovada na generalidade a 18.09.2026, ainda NÃO é lei. Desde 11.09.2026 (Lei 62/2026) deixou de haver «deferimento tácito» das renovações — o tribunal passa a ser a principal alavanca. Acrescentado o Livro Amarelo Eletrónico para reclamações contra a AIMA.',
   steps: [
     {
       id: 'when-to-escalate',
@@ -47,7 +48,7 @@ export default {
       id: 'livro-reclamacoes',
       title: 'Passo 1: Livro de Reclamações',
       content: [
-        { kind: 'paragraph', text: 'Comece pelo Livro de Reclamações Electrónico: é o canal oficial de reclamações contra organizações, disponível online. Para a AIMA, escolha a entidade/serviço, descreva os factos por datas e anexe ficheiros. A reclamação fica registada, tem um número e esse número será depois útil para indicar ao Provedor.' },
+        { kind: 'paragraph', text: 'Comece pelo Livro de Reclamações Electrónico: é o canal oficial de reclamações contra organizações, disponível online. Para a AIMA, escolha a entidade/serviço, descreva os factos por datas e anexe ficheiros. A reclamação fica registada, tem um número e esse número será depois útil para indicar ao Provedor. 🆕 Os serviços públicos têm também o seu canal oficial online — o Livro Amarelo Eletrónico (livroamarelo.gov.pt → lae.digital.gov.pt); a AIMA aderiu no 1.º semestre de 2026 — se não encontrar a AIMA no Livro de Reclamações, apresente a reclamação aí.' },
         { kind: 'substeps', items: [
           { id: 'open-portal', title: '1. Abra o portal', content: [
             { kind: 'paragraph', text: 'Aceda a livroreclamacoes.pt, escolha apresentar uma reclamação, indique os seus contactos e procure a AIMA como entidade reclamada. Se o sistema não encontrar o balcão específico, escolha a entidade central e indique no texto o local/canal do contacto.' }
@@ -117,7 +118,7 @@ export default {
           'verifique se tem direito a apoio judiciário através da Segurança Social, se o rendimento for baixo',
           'não deixe passar prazos de impugnação se tiver uma decisão formal da AIMA, e não apenas silêncio'
         ] },
-        { kind: 'paragraph', text: 'O tribunal não é a última «reclamação», mas sim um litígio jurídico com regras processuais. É mais caro, mas por vezes é a única forma eficaz de obrigar a administração a tomar uma decisão quando meses de espera já causam prejuízo real. 🆕 Expectativas realistas (relatório do CSTAF, julho de 2026): os tribunais administrativos estão sobrecarregados precisamente com processos da AIMA — mais de 100 mil processos pendentes, e o tempo médio de decisão em primeira instância subiu para 861 dias em 2024; uma equipa especial de juízes resolveu cerca de um quinto do acumulado em 3 meses. Em 23.07.2026 o Conselho de Ministros aprovou uma proposta de lei: as ações contra a AIMA poderão ser apresentadas no tribunal administrativo do local de RESIDÊNCIA do autor (atualmente — só Lisboa), e são ainda propostos tribunais especializados de migrações — isto ainda NÃO é lei, precisa do Parlamento.' },
+        { kind: 'paragraph', text: 'O tribunal não é a última «reclamação», mas sim um litígio jurídico com regras processuais. É mais caro, mas por vezes é a única forma eficaz de obrigar a administração a tomar uma decisão quando meses de espera já causam prejuízo real. 🆕 Expectativas realistas (CSTAF, setembro de 2026): os tribunais administrativos estão sobrecarregados precisamente com processos da AIMA — cerca de 125 mil pendentes em abril e cerca de 89 mil a 18.09.2026; o tempo médio de decisão em primeira instância subiu para 861 dias em 2024. A equipa especial de 21 juízes foi prolongada até 30.01.2027, mas não recebe novas ações — só o TAC de Lisboa recebe cerca de 200 novos processos da AIMA por dia. Reforma: aprovada em Conselho de Ministros a 23.07.2026 e na generalidade pelo Parlamento a 18.09.2026 (PPL 98–102/XVII) — ações apresentadas no tribunal da residência do autor e secções especializadas de migrações nos tribunais; a proposta está agora em comissão, ainda NÃO é lei, e as ações continuam a ser apresentadas no TAC de Lisboa. Atenção: desde 11.09.2026 (Lei n.º 62/2026) deixou de existir o «deferimento tácito» das renovações ao fim de 60 dias — perante um silêncio prolongado da AIMA, a via judicial passa a ser a principal alavanca.' },
         { kind: 'warning', text: 'Não confie apenas em publicações no Facebook e modelos do Telegram. O mesmo modelo pode prejudicar se tiver uma recusa, estatuto caducado, processo familiar ou situação médica urgente.' }
       ]
     }
@@ -133,8 +134,10 @@ export default {
     { title: 'Livro de Reclamações Electrónico', url: 'https://livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'DN — Governo vai distribuir processos contra a AIMA para tribunais de todo o país (23.07.2026)', url: 'https://www.dn.pt/sociedade/governo-vai-distribuir-processos-contra-a-aima-para-tribunais-de-todo-o-pas', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
+    { title: 'DN — Governo vai distribuir processos contra a AIMA para tribunais de todo o país (23.07.2026)', url: 'https://www.dn.pt/sociedade/governo-vai-distribuir-processos-contra-a-aima-para-tribunais-de-todo-o-pas', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
+    { title: 'DN Brasil — Task force do tribunal administrativo para processos AIMA será estendida (22.09.2026)', url: 'https://dnbrasil.dn.pt/sociedade/task-force-do-tribunal-administrativo-para-processos-aima-ser-estendida', kind: 'news', language: 'pt', lastRetrieved: '2026-09-25' },
+    { title: 'ECO — Parlamento aprova na generalidade reforma da justiça administrativa (18.09.2026)', url: 'https://eco.sapo.pt/2026/09/18/parlamento-aprova-na-generalidade-reforma-da-justica-administrativa/', kind: 'news', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-07-27',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

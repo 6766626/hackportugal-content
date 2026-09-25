@@ -6,8 +6,8 @@ export default {
   tldr: 'TVDE is driver work through Uber, Bolt and other plataformas eletrónicas. A driver needs a certificado de motorista TVDE from IMT: a category B driving licence held for more than 3 years, a 50h formação inicial course, medical and psychological fitness, registo criminal and an application to IMT. The car must be registered for TVDE in the DUA/Certificado de Matrícula, have special insurance, inspeção and a dístico TVDE. You can work only through a licensed operador TVDE and registration on the platform.\n\n🆕 From 01.09.2026, Lei n.º 59/2026 (the “Regime TVDE”, a reform of Lei 45/2018) is in force: after the 50-hour course there is now a mandatory FINAL EXAM (30 questions, minimum 27 correct), a check of functional command of Portuguese is built into the course, taxis will be able to join the platforms, and IMT is launching a single data-sharing platform (taxes, social contributions). If you plan to go into TVDE — take learning Portuguese seriously.',
   tags: ['tvde', 'uber', 'bolt', 'imt', 'work'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-26',
-  changeSummary: '🆕 Lei n.º 59/2026 (published 25.08, in force from 01.09.2026) reforms TVDE: after the 50h course — a mandatory exam (30 questions, pass mark 27), a functional-Portuguese check inside the course, taxis allowed onto the platforms, a single IMT data platform (taxes, social contributions).',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '⚠️ Update on Lei 59/2026: as of 25.09.2026 the implementing regulations have not been published — the new exam (30 questions, pass mark 27), the Portuguese check, the dístico and the data platform are not yet in operation; IMT still applies the previous certification procedure. The transition dates are disputed — check imt-ip.pt before enrolling in a course.',
   steps: [
     {
       id: 'what-tvde-is',
@@ -46,7 +46,7 @@ export default {
             ] }
           ] },
           { id: 'course', title: '2. Complete the 50h curso TVDE', content: [
-            { kind: 'paragraph', text: 'The course takes place at a training centre recognised by IMT. The programme is regulated by Portaria 293/2018 and includes safety, passenger service, TVDE rules, road behaviour, accessibility for passengers with limitations and use of platforms. 🆕 From 01.09.2026 (Lei 59/2026), the course ends with a mandatory exam: 30 questions, with a pass threshold of 27 correct answers; a check of functional command of Portuguese is built into the programme. Ask your school about the transitional rules for those who started the course before 1 September.' },
+            { kind: 'paragraph', text: 'The course takes place at a training centre recognised by IMT. The programme is regulated by Portaria 293/2018 and includes safety, passenger service, TVDE rules, road behaviour, accessibility for passengers with limitations and use of platforms. 🆕 From 01.09.2026 (Lei 59/2026), the course ends with a mandatory exam: 30 questions, with a pass threshold of 27 correct answers; a check of functional command of Portuguese is built into the programme. Ask your school about the transitional rules for those who started the course before 1 September. ⚠️ As of 25.09.2026, the implementing regulations (portarias) for Lei 59/2026 have not been published: the new rules for the course, the exam and the Portuguese check, the dístico model and the data platform are not yet in operation, and IMT still applies the previous certification procedure (Portaria 293/2018 as amended by Portaria 344/2024/1). The transition-period dates are disputed (art. 7 of the law — 01.09, art. 33 of the annex — 01.11). Before enrolling in a course or renewing your certificate, check the current rules on imt-ip.pt.' },
             { kind: 'warning', text: 'Do not buy a “ready-made certificado”. Platforms check the document against IMT, and a fake certificate can close access to Uber/Bolt and create criminal risks.' }
           ] },
           { id: 'imt-application', title: '3. Submit the application to IMT', content: [
@@ -153,6 +153,6 @@ export default {
     { title: 'Uber Portugal: requirements for TVDE drivers', url: 'https://www.uber.com/pt/pt-pt/drive/requirements/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Observador — Nova lei do regime TVDE publicada em Diário da República (Lei 59/2026, 25.08.2026)', url: 'https://observador.pt/2026/08/25/nova-lei-do-regime-tvde-publicada-em-diario-da-republica-entra-em-vigor-a-1-setembro/', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

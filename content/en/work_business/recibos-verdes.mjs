@@ -66,7 +66,7 @@ export default {
         { kind: 'paragraph', text: 'Under the simplified regime:' },
         { kind: 'checklist', items: [
           'For many professional services, the IRS base = 75% of turnover; for other types of income, other coefficients under CIRS art. 31 apply',
-          'The progressive IRS scale for 2026 applies: 11.97%–48% across 9 bands',
+          'The progressive IRS scale for 2026 applies: 12.5%–48% across 9 bands',
           'Social contributions of 21.4% on rendimento relevante: 70% of services or 20% of sales/production, based on the quarterly declaration',
           'Pagamentos por conta de IRS may be assigned by AT based on the previous IRS return/assessment; this is not an automatic tax for all TI. If assigned, they are usually paid 3 times a year — in July, September and December'
         ]},
@@ -92,6 +92,6 @@ export default {
     { title: 'Segurança Social — Self-Employed Workers', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Opening Atividade', url: 'https://www.gov.pt/cidadaos/-/informacoes/abrir-atividade-de-trabalhador-independente', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

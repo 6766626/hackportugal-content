@@ -35,7 +35,9 @@ export default {
           'A ligação não é para um domínio oficial: não é gov.pt, não é autenticação.gov.pt, não é o site do seu banco, não é mbway.pt.',
           'A mensagem tem erros de língua, pontuação estranha, ligações encurtadas, domínios como .click, .top, .info.',
           'Pedem-lhe para instalar AnyDesk, TeamViewer, RustDesk ou uma “aplicação de segurança do banco”. O banco não pede acesso remoto ao telefone.',
-          'O comprador está disposto a comprar sem ver, acima do preço e com “entrega através do OLX/CTT”. É um bait típico.'
+          'O comprador está disposto a comprar sem ver, acima do preço e com “entrega através do OLX/CTT”. É um bait típico.',
+          '📞 No ecrã aparece o número VERDADEIRO do banco, do SNS ou de uma transportadora — isso não é prova: os burlões falsificam o número (caller-ID spoofing; alerta da associação de bancos APB de 03.09.2026). O banco nunca pede códigos “para bloquear uma fraude” — desligue e ligue você mesmo para o número que consta do cartão.',
+          '✉️ Carta em papel sobre um “novo cartão bancário” com código QR (quishing; alerta da DECO de 03.09.2026): não leia o código QR nem introduza dados — abra a aplicação do banco manualmente.'
         ] },
         { kind: 'warning', text: 'Regra principal: códigos MB WAY, códigos SMS do banco, PIN e confirmações na aplicação são como dinheiro vivo. Se você indicou o código ou confirmou a operação, o banco pode considerar que houve “strong customer authentication” e será mais difícil contestar o reembolso.' }
       ]
@@ -140,6 +142,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

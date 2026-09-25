@@ -41,7 +41,7 @@ export default {
             { kind: 'paragraph', text: 'É necessária para o visto D4.' }
           ]},
           { id: 'a5', title: '5. Pedir o visto D4', content: [
-            { kind: 'paragraph', text: 'No consulado, com a admissão, comprovativos financeiros e seguro.' }
+            { kind: 'paragraph', text: 'No consulado, com a admissão, comprovativos financeiros e seguro. ⚠️ Desde 11.09.2026 (Lei n.º 62/2026) deixou de ser possível obter autorização de residência para estudo a partir de Portugal sem visto: foram revogadas as vias do art. 91.º n.º 4 (ensino superior), 92.º n.º 4 (cursos de nível QNQ 4/5 e formação profissional) e 93.º n.º 3 (estagiários). Sem visto mantém-se apenas a via para alunos do ensino secundário que entraram e permanecem legalmente (art. 92.º n.º 3). A 25.09 as páginas da AIMA ainda mostram a redação antiga — oriente-se pela lei.' }
           ]}
         ]}
       ]
@@ -81,8 +81,9 @@ export default {
   sources: [
     { title: 'DGES — Direção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Vistos MNE — Visto de Estudo', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Estudantes estrangeiros', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'AIMA — Estudantes estrangeiros', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei n.º 62/2026, de 10 de setembro (DR 1.ª série n.º 176) — revogação dos arts. 91.º n.º 4, 92.º n.º 4 e 93.º n.º 3 da Lei 23/2007', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

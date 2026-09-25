@@ -6,8 +6,10 @@ export default {
   tldr: 'O arrendamento de longa duração (arrendamento habitacional) é regulado pelo NRAU (Lei 6/2006, com alterações). Para contratos com prazo certo, o mínimo é 1 ano e o máximo 30 anos; se o prazo não for indicado, considera-se que o contrato foi celebrado por 5 anos (Código Civil arts. 1094-1095)\.\n\nAs excepções para contratos para fins especiais transitórios podem ter duração inferior. Nos termos do art. 1076 Código Civil, o limite é: caução até 2 rendas mensais + renda antecipada até 2 meses. Exigências de pagamento antecipado de 3-12 meses são juridicamente vulneráveis — discuta com um advogado uma estrutura legal (seguro de fiança, garantia bancária, fiador)\.\n\nO contrato é registado nas Finanças pelo proprietário, que também emite os recibos de renda.',
   tags: ['arrendamento', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Coeficiente de atualização das rendas para 2027 — 1,0256 (até +2,56%, INE 10.09.2026; Aviso no DR até 30.10). Sem limite adicional; o aumento só pode ser aplicado pelo menos um ano após o início do contrato ou a última atualização e com aviso prévio por escrito de 30 dias. Reforma do arrendamento (PL 103/XVII) — debate na generalidade no Parlamento a 30.09.2026, ainda NÃO é lei.',
   pendingLaw: {
-    summary: 'A 09.07.2026 o Conselho de Ministros aprovou uma reforma do arrendamento (NÃO é lei em vigor): resolução do contrato com 2 meses de rendas em atraso (actualmente 3) ou atrasos sistemáticos, despejo simplificado, aumentos de renda livres nos novos contratos, renda antecipada até 3 meses e fim do limite da caução, regime transitório para contratos anteriores a 1990, Fundo de Emergência Habitacional. Ponto de situação: a 12.08.2026 o Governo entregou no Parlamento a Proposta de Lei n.º 103/XVII/1.ª (autorização legislativa — revisão do NRAU, do Código Civil, do CPC e do DL 157/2006); a data do debate ainda não foi marcada, sendo esperada no Outono. Por enquanto aplicam-se as regras anteriores do NRAU descritas neste guia.',
+    summary: 'A 09.07.2026 o Conselho de Ministros aprovou uma reforma do arrendamento (NÃO é lei em vigor): resolução do contrato com 2 meses de rendas em atraso (actualmente 3) ou atrasos sistemáticos, despejo simplificado, aumentos de renda livres nos novos contratos, renda antecipada até 3 meses e fim do limite da caução, regime transitório para contratos anteriores a 1990, Fundo de Emergência Habitacional. Ponto de situação: a 12.08.2026 o Governo entregou no Parlamento a Proposta de Lei n.º 103/XVII/1.ª (autorização legislativa — revisão do NRAU, do Código Civil, do CPC e do DL 157/2006); o debate na generalidade e a votação em plenário estão marcados para 30.09.2026 — juntamente com outras 8 iniciativas legislativas sobre arrendamento. Mesmo que a proposta seja aprovada, seguem-se a apreciação em comissão, a votação final global e o decreto-lei do Governo — na prática, nada disto entrará em vigor em 2026. Por enquanto aplicam-se as regras anteriores do NRAU descritas neste guia.',
     sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
   },
   steps: [
@@ -16,7 +18,7 @@ export default {
       title: 'Enquadramento legal',
       content: [
         { kind: 'paragraph', text: 'Principais diplomas: Código Civil (artigos sobre arrendamento), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), Decreto-Lei 160/2006 (elementos formais do contrato), numerosos diplomas e decretos-leis com alterações. Importante para 2024–2026: a Lei 56/2023 «Mais Habitação» foi PARCIALMENTE REVOGADA no âmbito do programa «Construir Portugal»: o Decreto-Lei 43/2024 (Julho de 2024) revogou/alterou medidas sobre arrendamento coercivo de imóveis devolutos, e o Decreto-Lei 76/2024 (23 de Outubro de 2024) levantou a moratória sobre novas licenças de AL em apartamentos e eliminou a caducidade automática de 5 anos do AL.' },
-        { kind: 'paragraph', text: 'Princípios-chave: protecção do arrendatário (despejo apenas por via legal), obras estruturais — obrigação do proprietário, actualização da renda — no máximo 1 vez por ano e não acima do coeficiente oficial do INE (em 2026: 2,24%, coeficiente 1,0224, publicado no Aviso n.º 23174/2025/2 de 19.09.2025).' },
+        { kind: 'paragraph', text: 'Princípios-chave: protecção do arrendatário (despejo apenas por via legal), obras estruturais — obrigação do proprietário, actualização da renda — no máximo 1 vez por ano e não acima do coeficiente oficial do INE (em 2026: 2,24%, coeficiente 1,0224, publicado no Aviso n.º 23174/2025/2 de 19.09.2025). 🆕 Para 2027, o INE calculou o coeficiente 1,0256 — aumento até +2,56% (dados de 10.09.2026; o Aviso oficial no DR deve ser publicado até 30.10.2026), sem limite adicional para 2027. O senhorio só o pode aplicar decorrido pelo menos um ano desde o início do contrato ou desde o aumento anterior, e apenas mediante aviso prévio por escrito com, no mínimo, 30 dias de antecedência (carta registada com AR ou entrega em mão com assinatura do destinatário numa cópia), indicando o coeficiente e o novo valor: por exemplo, 700 € → 717,92 €. O aumento é um direito, não uma obrigação; se o contrato prevê uma fórmula própria dentro da lei, aplica-se essa fórmula.' },
         { kind: 'paragraph', text: 'Caução e pagamento antecipado (art. 1076 Código Civil após a Lei 56/2023 «Mais Habitação»): máximo de 2 rendas mensais como caução + máximo de 2 rendas mensais como pagamento antecipado. Exigências superiores devem ser formalizadas através de uma estrutura jurídica separada (seguro de fiança, outra garantia), caso contrário a cláusula pode ser contestada por ilegalidade.' }
       ]
     },
@@ -177,6 +179,7 @@ export default {
     { label: 'Comissão do agente', amountEURMin: 0, amountEURMax: 2000, note: 'frequentemente paga pelo proprietário' }
   ],
   sources: [
+    { title: 'INE — Índice de Preços no Consumidor: coeficiente de atualização das rendas para 2027 (10.09.2026)', url: 'https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770565181&DESTAQUESmodo=2', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Lei 6/2006 — NRAU (Novo Regime do Arrendamento Urbano)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34498475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código — art. 1076 (caução e antecipação de rendas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 56/2023 — Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/lei/56-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -185,6 +188,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

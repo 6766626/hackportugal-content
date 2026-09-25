@@ -3,7 +3,7 @@ export default {
   id: 'fuel-savings',
   categoryId: 'auto_ownership',
   title: 'Petrol and diesel — how to save on fuel',
-  tldr: 'Forecourt prices in mainland Portugal in 2026: 95 petrol (gasolina) €1.85–€2.05/l, diesel (gasóleo) €1.80–€2.00/l.\n\nPrices are free on the mainland; ERSE publishes a weekly “preço eficiente” — a reference, non-binding benchmark, not a maximum cap.\n\nIn Madeira and the Azores, prices may be administratively regulated. The difference between expensive chains (Galp / BP / Repsol) and cheaper ones (Prio, Intermarché, Continente, Cepsa/Moeve) is up to €0.15/l. ComboMais / IdealGás / Tankpreise apps help find the cheapest filling station. Loyalty cards give a discount of €0.05–€0.12/l.',
+  tldr: 'Forecourt prices in mainland Portugal in 2026: until the summer, 95 petrol (gasolina) €1.85–€2.05/l, diesel (gasóleo) €1.80–€2.00/l; in September — a sharp spike: in the week of 21–27.09, diesel ≈ €2.21/l (an all-time high), 95 petrol ≈ €2.11/l. The temporary ISP tax discount has been extended to 31.12.2026.\n\nPrices are free on the mainland; ERSE publishes a weekly “preço eficiente” — a reference, non-binding benchmark, not a maximum cap.\n\nIn Madeira and the Azores, prices may be administratively regulated. The difference between expensive chains (Galp / BP / Repsol) and cheaper ones (Prio, Intermarché, Continente, Cepsa/Moeve) is up to €0.15/l. ComboMais / IdealGás / Tankpreise apps help find the cheapest filling station. Loyalty cards give a discount of €0.05–€0.12/l.',
   tags: ['petrol', 'filling station', 'savings', 'fuel'],
   estimatedReadMinutes: 5,
   steps: [
@@ -133,6 +133,6 @@ export default {
     { title: 'ERSE — fuel prices', url: 'https://www.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Directorate-General for Energy', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

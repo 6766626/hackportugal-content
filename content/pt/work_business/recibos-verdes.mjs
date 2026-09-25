@@ -66,7 +66,7 @@ export default {
         { kind: 'paragraph', text: 'No regime simplificado:' },
         { kind: 'checklist', items: [
           'Para muitos serviços profissionais, a base de IRS = 75% do volume de negócios; para outros tipos de rendimento aplicam-se outros coeficientes segundo o CIRS art. 31',
-          'Aplica-se a escala progressiva de IRS para 2026: 11,97%–48% em 9 escalões',
+          'Aplica-se a escala progressiva de IRS para 2026: 12,5%–48% em 9 escalões',
           'Contribuições sociais de 21,4% sobre o rendimento relevante: 70% dos serviços ou 20% das vendas/produção, com declaração trimestral',
           'Pagamentos por conta de IRS podem ser determinados pela AT com base na declaração/liquidação de IRS anterior; não é um imposto automático para todos os TI. Se forem determinados, normalmente são pagos 3 vezes por ano — em julho, setembro e dezembro'
         ]},
@@ -92,6 +92,6 @@ export default {
     { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Abrir Atividade', url: 'https://www.gov.pt/cidadaos/-/informacoes/abrir-atividade-de-trabalhador-independente', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

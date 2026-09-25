@@ -97,7 +97,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Apply to AIMA', content: [
-            { kind: 'paragraph', text: '🆕 Since 01.07.2026 AIMA’s Portal de Renovações also handles the permanent documents of EU nationals and their families: the certificado de residência permanente (art. 16) and the cartão de residência permanente for family members (art. 17) — previously this went through the Formulário de Contacto. The portal covers documents that expired/are expiring from 01.07.2025 to 31.10.2026. For other cases, check the AIMA page for “autorização de residência permanente” / “estatuto de residente de longa duração” before applying.' }
+            { kind: 'paragraph', text: '🆕 Since 01.07.2026 AIMA’s Portal de Renovações also handles the permanent documents of EU nationals and their families: the certificado de residência permanente (art. 16) and the cartão de residência permanente for family members (art. 17) — previously this went through the Formulário de Contacto. The portal covers documents that expired/are expiring from 01.07.2025 to 31.10.2026. For other cases, check the AIMA page for “autorização de residência permanente” / “estatuto de residente de longa duração” before applying. 🆕 Since 15.09.2026 the portal no longer asks EU nationals and their family members for a NIF or NISS; if you see «dados em validação», wait about 30 minutes, log in again and continue; if it keeps failing, use the contact form: Tipo «Portal de Renovações» > Subtipo «Portal de Renovações – comunicar problema».' }
           ]},
           { id: 'p2', title: '2. Pay the fee', content: [
             { kind: 'paragraph', text: 'AIMA — concessão art. 76 = €351.10 (tabela 01.03.2026). Additional reception + analysis ~€133.' }
@@ -175,9 +175,10 @@ export default {
     { title: 'Lei 23/2007 — Autorização de Residência Permanente (arts. 76, 80) and Residente de Longa Duração (arts. 125+)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DL 29/2012 — EU Long-Term Resident', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/29-2012-542995', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Permanent Authorisation', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'AIMA — Permanent Authorisation', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'AIMA — Portal de Renovações atualizado para nacionais da União Europeia (UE) e familiares (15.09.2026)', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes-atualizado-para-nacionais-da-uniao-europeia-ue-e-familiares', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-07-10',
+  lastVerified: '2026-09-25',
   changeSummary: 'May 2026 update: (1) Deeper comparison of national ARP (art. 80) and EULTR (art. 125+): students count differently, different absence thresholds, different resource standards. (2) Step "When the 5 years start" with 9 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT, students). (3) Common myths about ARP vs EULTR differences. (4) Lei Orgânica 1/2026 (in force from 19.05.2026): citizenship now takes 7/10 years, ARP becomes more important as an intermediate status.',
   verifyIntervalDays: 180
 }

@@ -6,7 +6,6 @@ export default {
   tldr: 'A process that allows you to bring a spouse, children or parents after obtaining your own residence permit. Applications are submitted through AIMA (portal-rf.aima.gov.pt).\n\nImportant: Lei 61/2025 (published 22.10.2025, in force from 23.10.2025) introduced a requirement of 2 years of legal residence BEFORE applying. However, the Constitutional Court (Acórdão 785/2025) ruled the absolute 2-year condition unconstitutional as it applies to spouses and minor children. The exact requirements depend on the family member category — individual checking is needed.\n\nAIMA decision time — up to 9 months (previously 3 months, extendable to 6).\n\nExceptions: Golden Visa holders, EU Blue Card holders, highly qualified professionals, researchers and several other qualified statuses; spouses and families with minor children have separate protection.',
   tags: ['family', 'reunification', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-08-26',
   changeSummary: '🆕 August 2026: the family-reunification scheduling wave continues — ~55 thousand appointments scheduled, ~15 thousand cards issued; AIMA’s goal is to schedule everyone by the end of 2026. The reagrupamento option in the contact form was restored on 08.08; on services.aima.gov.pt you can upload missing documents and track the case. Do not duplicate requests.',
   steps: [
     {

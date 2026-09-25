@@ -6,8 +6,10 @@ export default {
   tldr: 'Long-term renting (arrendamento habitacional) is governed by the NRAU (Lei 6/2006 as amended). For contratos com prazo certo the minimum is 1 year and the maximum is 30 years; if no term is specified, the contract is deemed to have been concluded for 5 years (Código Civil arts. 1094-1095).\n\nExceptions for contratos para fins especiais transitórios may be shorter. Under art. 1076 Código Civil the limit is: caução of up to 2 months’ rent + renda antecipada of up to 2 months. Requests for 3-12 months’ prepayment are legally vulnerable — discuss a lawful structure with a lawyer (seguro de fiança, garantia bancária, fiador).\n\nThe contract is registered with Finanças by the owner, who also issues recibos de renda.',
   tags: ['rent', 'nrau', 'contract', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Rent indexation coefficient for 2027 — 1.0256 (up to +2.56%, INE 10.09.2026; Aviso in the DR — by 30.10). No additional cap; rent may be increased no earlier than one year after the start of the contract or the previous indexation, and with 30 days’ written notice. Rental reform (PL 103/XVII) — first reading in Parliament on 30.09.2026, NOT law yet.',
   pendingLaw: {
-    summary: 'On 09.07.2026 the Council of Ministers approved a rental reform (NOT law in force): termination after 2 months of unpaid rent (currently 3) or systematic late payments, simplified eviction, free rent increases in new contracts, advance rent of up to 3 months and removal of the caução cap, a transitional regime for pre-1990 contracts, Fundo de Emergência Habitacional. Status: on 12.08.2026 the government submitted Proposta de Lei n.º 103/XVII/1.ª to Parliament (an autorização legislativa — revision of the NRAU, Código Civil, CPC and DL 157/2006); no debate date has been set, expected in the autumn. For now the previous NRAU rules described in this guide apply.',
+    summary: 'On 09.07.2026 the Council of Ministers approved a rental reform (NOT law in force): termination after 2 months of unpaid rent (currently 3) or systematic late payments, simplified eviction, free rent increases in new contracts, advance rent of up to 3 months and removal of the caução cap, a transitional regime for pre-1990 contracts, Fundo de Emergência Habitacional. Status: on 12.08.2026 the government submitted Proposta de Lei n.º 103/XVII/1.ª to Parliament (an autorização legislativa — revision of the NRAU, Código Civil, CPC and DL 157/2006); the first reading (generalidade) and the plenary vote are scheduled for 30.09.2026 — together with 8 other rental bills. Even if it is approved, it then goes to committee, a final vote and a government decree-law — in practice none of this will come into force in 2026. For now the previous NRAU rules described in this guide apply.',
     sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
   },
   steps: [
@@ -16,7 +18,7 @@ export default {
       title: 'Legal framework',
       content: [
         { kind: 'paragraph', text: 'Main documents: Código Civil (articles on renting), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), Decreto-Lei 160/2006 (formal elements of the contract), and numerous amending laws and decree-laws. Important for 2024–2026: Lei 56/2023 “Mais Habitação” has been PARTIALLY REPEALED under the “Construir Portugal” programme: Decreto-Lei 43/2024 (July 2024) repealed/amended measures on arrendamento coercivo de imóveis devolutos (forced renting of vacant properties), and Decreto-Lei 76/2024 (23 October 2024) lifted the moratorium on new AL licences in apartamentos and removed the automatic 5-year expiry of AL.' },
-        { kind: 'paragraph', text: 'Key principles: tenant protection (eviction only through the courts), major repairs are the owner’s responsibility, rent indexation no more than once a year and no higher than the official INE coefficient (in 2026: 2.24%, coefficient 1.0224, published in Aviso n.º 23174/2025/2 of 19.09.2025).' },
+        { kind: 'paragraph', text: 'Key principles: tenant protection (eviction only through the courts), major repairs are the owner’s responsibility, rent indexation no more than once a year and no higher than the official INE coefficient (in 2026: 2.24%, coefficient 1.0224, published in Aviso n.º 23174/2025/2 of 19.09.2025). 🆕 For 2027 INE has calculated a coefficient of 1.0256 — an increase of up to +2.56% (data of 10.09.2026; the official Aviso in the DR is due by 30.10.2026); there is no additional cap for 2027. The landlord may apply it no earlier than one year after the start of the contract or the previous indexation, and only with at least 30 days’ written notice (carta registada com AR or hand delivery against signature) stating the coefficient and the new amount: e.g. €700 → €717.92. An increase is a right, not an obligation; if the contract has its own lawful formula, that formula applies.' },
         { kind: 'paragraph', text: 'Caução and prepayment (art. 1076 Código Civil after Lei 56/2023 “Mais Habitação”): maximum 2 months’ rent as caução + maximum 2 months’ rent as prepayment. Requests for more must be set up as a separate legal structure (seguro de fiança, another guarantee); otherwise the clause may be challenged as unlawful.' }
       ]
     },
@@ -177,6 +179,7 @@ export default {
     { label: 'Agent’s commission', amountEURMin: 0, amountEURMax: 2000, note: 'often paid by the owner' }
   ],
   sources: [
+    { title: 'INE — Índice de Preços no Consumidor: coeficiente de atualização das rendas para 2027 (10.09.2026)', url: 'https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770565181&DESTAQUESmodo=2', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Lei 6/2006 — NRAU (Novo Regime do Arrendamento Urbano)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34498475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código Civil — art. 1076 (caução e antecipação de rendas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 56/2023 — Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/lei/56-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -185,6 +188,6 @@ export default {
     { title: 'Portal das Finanças — Registration of a Rental Contract', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Renting a home', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-08-26',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

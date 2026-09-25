@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'A caução não é devolvida — primeiro pedido escrito, depois DECO/mediação ou Julgados de Paz, se o valor for até 15 000 €.',
           'O senhorio não faz uma reparação urgente — notificação escrita com prazo, depois Julgados de Paz ou Tribunal Judicial; se houver risco para a saúde, também Câmara Municipal.',
-          'Aumento ilegal da renda — para a atualização anual normal em 2026 use o coeficiente oficial de 2026 (1,0224, ou seja, 2,24%), publicado pelo INE no Diário da República; não o confunda com os 2,16% de 2025. O coeficiente muda todos os anos — verifique o Aviso do INE para o ano em causa.',
+          'Aumento ilegal da renda — para a atualização anual normal em 2026 use o coeficiente oficial de 2026 (1,0224, ou seja, 2,24%), publicado pelo INE no Diário da República; não o confunda com os 2,16% de 2025. Para aumentos em 2027, o coeficiente é 1,0256 (+2,56%, INE 10.09.2026; Aviso no DR até 30.10.2026). O coeficiente muda todos os anos — verifique o Aviso do INE para o ano em causa.',
           'O senhorio entra sem autorização — proibição por escrito; em caso de ameaças ou arrombamento, chame a PSP/GNR.',
           'Notificação de cessação do contrato — verifique a forma, o prazo e o fundamento; não saia apenas por causa de um pedido verbal.',
           'Recebeu uma carta do BNA ou de um agente de execução — já é um procedimento de despejo; os prazos são curtos, é necessária oposição através de jurista.',
@@ -37,7 +37,7 @@ export default {
           'Defina um prazo razoável: 5–10 dias úteis para resposta, menos apenas em caso de avaria urgente.',
           'Quanto a reparações, escreva separadamente se o defeito impede a habitação normal ou cria risco para a saúde.',
           'Quanto à caução, peça a discriminação das retenções e cópias das faturas de reparação.',
-          'Quanto ao aumento da renda, invoque o coeficiente oficial de 2026 (1,0224, ou seja, 2,24%) e não os 2,16% de 2025; tenha presente que a percentagem muda todos os anos e deve ser verificada no Aviso do INE/Diário da República desse ano.',
+          'Quanto ao aumento da renda, invoque o coeficiente oficial do ano em causa: 2026 — 1,0224 (2,24%), 2027 — 1,0256 (2,56%), e não os 2,16% de 2025; tenha presente que a percentagem muda todos os anos e deve ser verificada no Aviso do INE/Diário da República desse ano.',
           'Guarde o proof of delivery, capturas de ecrã e ficheiros enviados em PDF.'
         ] },
         { kind: 'paragraph', text: 'A formulação deve ser calma: o objetivo é mostrar que deu ao senhorio a oportunidade de corrigir a violação. Isto será útil na DECO, nos Julgados de Paz ou em tribunal.' }
@@ -127,6 +127,6 @@ export default {
     { title: 'Lei 78/2001 — organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34480075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 6/2006 — Novo Regime do Arrendamento Urbano e procedimentos de cessação do arrendamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34515375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

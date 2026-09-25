@@ -6,7 +6,8 @@ export default {
   tldr: 'Os artigos 88 e 89 da Lei 23/2007 são regimes para obter autorização de residência para trabalho por conta de outrem (88) e para profissionais independentes/empresários (89).\n\n88.1 e 89.1 — via normal com visto: primeiro visto de residência consular (D1 para 88.1, D2 para 89.1) → pedido na AIMA.\n\n88.2 e 89.2 eram uma via excecional a partir de Portugal SEM visto (através da Manifestação de Interesse) — foram revogados: novos pedidos cessaram em 03.06.2024 (Decreto-Lei 37-A/2024), e a Lei 61/2025 (em vigor desde 23.10.2025) eliminou definitivamente o regime.\n\nIMPORTANTE: o art. 89 NÃO é uma via para investidores; as autorizações de residência por investimento são um artigo separado da Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalização', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
-  changeSummary: 'Clarificado o item sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): sem requisito de período de residência quando o agregado inclui filhos menores/incapazes; isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses) e provas de alojamento e meios. Confirme os prazos exatos com a AIMA.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🆕 Lei n.º 62/2026 (em vigor desde 11.09.2026): a mudança de entidade empregadora ou de atividade ao abrigo dos arts. 88/89 passa a exigir apenas comunicação à AIMA, sem necessidade de novo cartão; o pedido pode ser apresentado pela entidade empregadora; decisão — 90 (+30) dias. Corrigida a linha desatualizada sobre a naturalização: a Lei Orgânica 1/2026 está em vigor desde 19.05.2026.',
   steps: [
     {
       id: 'context',
@@ -108,19 +109,21 @@ export default {
           'Emissão do cartão de residência por correio em 2–8 semanas',
           'Primeira autorização de residência — normalmente 2 anos, renovação — 3 anos',
           'Após 5 anos de residência legal — direito a autorização de residência permanente',
-          'Naturalização: 5 anos ao abrigo da lei em vigor; 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação em DRE serão 7 anos para CPLP+EU / 10 anos para os restantes',
+          'Naturalização: desde 19.05.2026 está em vigor a Lei Orgânica 1/2026 — 7 anos de residência legal para nacionais CPLP/UE e 10 anos para os restantes; os pedidos apresentados antes de 19.05.2026 são apreciados segundo as regras anteriores (5 anos)',
+          '🆕 Lei n.º 62/2026 (em vigor desde 11.09.2026): a mudança de entidade empregadora (art. 88) ou do tipo de atividade independente (art. 89) passa a exigir apenas uma comunicação à AIMA, sem necessidade de novo cartão (art. 88.º n.º 8, 89.º n.º 6); o pedido pode também ser apresentado pela própria entidade empregadora (art. 81.º n.º 1); decisão sobre novos pedidos — 90 dias (+30 em casos excecionais); deixou de existir o “deferimento tácito” da renovação ao fim de 60 dias',
           'Reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): não há requisito de período de residência se o agregado incluir filhos menores/incapazes; estão também isentos os titulares de Golden Visa (art. 90-A), os altamente qualificados/docentes/agentes culturais (art. 90) e os titulares de Cartão Azul UE (art. 121-A). Para cônjuges sem dependentes menores aplica-se um requisito de tempo de residência do requerente principal mais prova de coabitação prévia (cerca de 18 meses). São obrigatórias provas de alojamento adequado e de meios de subsistência (sem contar prestações sociais). Confirme os prazos exatos com a AIMA — os detalhes regulamentares ainda estão a ser finalizados.'
         ]}
       ]
     }
   ],
   sources: [
+    { title: 'Lei n.º 62/2026, de 10 de setembro — alteração da Lei 23/2007, Lei 27/2008 e Lei 34/94 (retorno e asilo; DR 1.ª série n.º 176)', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Lei 23/2007 — regime de entrada e permanência', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 61/2025 — alterações ao regime de estrangeiros (em vigor desde 23.10.2025)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 37-A/2024 — cessação da MdI em 03.06.2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — tipos de autorizações de residência', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Provedor de Justiça', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

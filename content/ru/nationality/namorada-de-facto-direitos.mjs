@@ -58,7 +58,7 @@ export default {
           'Социальные выплаты: surviving partner может претендовать на pensão de sobrevivência, subsídio por morte и другие выплаты Segurança Social при доказанном союзе.',
           'Иммиграция: AIMA может рассматривать parceiro em união de facto как члена семьи для reunificação familiar, если союз надёжно доказан.'
         ] },
-        { kind: 'warning', text: 'Совместная подача IRS не всегда выгодна. В 2026 первая ставка IRS — 11,97%, но итог зависит от доходов пары, deductions, dependentes и статуса резидентства. Перед подачей сравните simulação individual vs conjunta в Portal das Finanças.' }
+        { kind: 'warning', text: 'Совместная подача IRS не всегда выгодна. В 2026 первая ставка IRS — 12,5%, но итог зависит от доходов пары, deductions, dependentes и статуса резидентства. Перед подачей сравните simulação individual vs conjunta в Portal das Finanças.' }
       ]
     },
     {
@@ -126,6 +126,6 @@ export default {
     { title: 'Justiça.gov.pt — pedir nacionalidade portuguesa por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

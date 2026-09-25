@@ -84,9 +84,9 @@ export default {
         { kind: 'paragraph', text: 'After selection, a lista provisória/final or a notification to the winner is published. Then the contrato de arrendamento is signed. For housing, NRAU/Código Civil rules apply, and for arrendamento acessível there are also special programme conditions, including renda limits and term requirements.' },
         { kind: 'checklist', items: [
           'contract term: check the minuta; accessible rentals often use a long term, while for students it may be a seasonal/academic-year term',
-          'Write: "caução: in residential rentals, the legal limit is up to an amount equivalent to 2 rendas; the specific amount must be in the aviso/contrato".',
-          'Add: "For habitação, the law limits rendas antecipadas to a maximum of 2 months; if the aviso/contrato requires more, the legal basis must be checked before signing".',
-          'Replace with: "renda update: for ordinary contracts, the atualização de rendas coefficient for 2026 is 1.0224, i.e. 2.24%, if the contract does not contain another lawful mechanism and there is no exception".',
+          'caução: in residential rentals, the legal limit is up to an amount equivalent to 2 rendas; the specific amount must be in the aviso/contrato',
+          'rendas antecipadas: for habitação, the law limits advance rent to a maximum of 2 months; if the aviso/contrato requires more, check the legal basis before signing',
+          'renda update: for ordinary contracts, the atualização de rendas coefficient for 2026 is 1.0224, i.e. 2.24%; for 2027 INE has calculated 1.0256 (+2.56%) — if the contract does not contain another lawful mechanism and there is no exception',
           'obras: minor ongoing maintenance is usually the tenant’s responsibility, structural repairs are the owner’s responsibility, but old buildings require careful reading',
           'subarrendamento/Alojamento Local are almost always prohibited without written permission',
           'registration of the contract with Finanças is the landlord’s obligation; ask for recibos de renda',
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

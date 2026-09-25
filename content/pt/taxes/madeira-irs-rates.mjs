@@ -3,7 +3,7 @@ export default {
   id: 'madeira-irs-rates',
   categoryId: 'taxes',
   title: 'IRS na Madeira: taxa fiscal separada para residentes da região autónoma',
-  tldr: 'Aos residentes fiscais da Madeira aplica-se uma tabela de IRS própria, e não a tabela do mainland Portugal. Em 2026, a Madeira tem taxas reduzidas: para o escalão inferior, a MCS indica 8,75% contra a primeira taxa de IRS do continente para 2026 de 11,97%, pelo que deve confirmar o cálculo final no simulador da AT. Para rendimentos de capitais, a taxa especial padrão na Madeira é 19,6% em vez de 28%. A condição-chave é ter fiscal domicile na Madeira.',
+  tldr: 'Aos residentes fiscais da Madeira aplica-se uma tabela de IRS própria, e não a tabela do mainland Portugal. Em 2026, a Madeira tem taxas reduzidas: para o escalão inferior, a MCS indica 8,75% contra a primeira taxa de IRS do continente para 2026 de 12,5%, pelo que deve confirmar o cálculo final no simulador da AT. Para rendimentos de capitais, a taxa especial padrão na Madeira é 19,6% em vez de 28%. A condição-chave é ter fiscal domicile na Madeira.',
   tags: ['irs', 'madeira', 'impostos', 'finanças'],
   estimatedReadMinutes: 5,
   steps: [
@@ -37,7 +37,7 @@ export default {
       id: 'income-types',
       title: 'Que rendimentos beneficiam da taxa regional',
       content: [
-        { kind: 'paragraph', text: 'A redução nota-se sobretudo no rendimento tributável normal: salário, pensão, self-employment/recibos verdes, parte do rental income quando se opta pelo englobamento. Em 2026, a primeira taxa nacional de IRS para o continente após as actualizações é 11,97%, mas a Madeira aplica a sua própria tabela regional reduzida; as análises comerciais da MCS indicam especificamente a taxa inferior da Madeira de 8,75%.' },
+        { kind: 'paragraph', text: 'A redução nota-se sobretudo no rendimento tributável normal: salário, pensão, self-employment/recibos verdes, parte do rental income quando se opta pelo englobamento. Em 2026, a primeira taxa nacional de IRS para o continente após as actualizações é 12,5%, mas a Madeira aplica a sua própria tabela regional reduzida; as análises comerciais da MCS indicam especificamente a taxa inferior da Madeira de 8,75%.' },
         { kind: 'checklist', items: [
           'Categoria A — salário ao abrigo de contrato de trabalho.',
           'Categoria B — recibos verdes, freelancing, empresário em nome individual.',
@@ -126,6 +126,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

@@ -6,8 +6,8 @@ export default {
   tldr: 'Lei n.º 61/2025 de 22 de outubro de 2025 — a principal reforma do regime migratório, que elimina a Manifestação de Interesse como via massificada de legalização após a entrada (prazo transitório para processos já iniciados — 31.12.2025), cria um visto qualificado para procura de trabalho e torna mais rigoroso o controlo prévio à entrada. Para o expat, a principal conclusão é: entrar com o visto correto D1-D8/trabalho/família, marcar AIMA com antecedência e reunir provas de rendimento e alojamento. Taxas AIMA desde 01.03.2026 — 133 € pela receção e 307,20 € pela autorização de residência ao abrigo do art. 75.',
   tags: ['aima', 'autorização de residência', 'lei23', 'migração', 'irs'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-31',
-  changeSummary: '🔴 A «Lei do Retorno e Asilo» está à porta: em 28.08.2026 o Tribunal Constitucional validou POR UNANIMIDADE as 11 normas contestadas (Acórdão 736/2026) e em 31.08 o Presidente promulgou a lei. Após a publicação no DR: fim da notificação de abandono voluntário (NAV), detenção até 180 dias, recursos sem efeito suspensivo em vários casos. O TC fixou limites: detenção como medida excecional, revisão a cada 30 dias, superior interesse da criança. A data de entrada em vigor será conhecida com a publicação — estamos a acompanhar.',
+  recentlyChangedAt: '2026-09-25',
+  changeSummary: '🔴 A Lei do Retorno entrou em vigor: Lei n.º 62/2026 (DR de 10.09.2026), aplicável desde 11.09.2026. O essencial para residentes: acabou o «deferimento tácito» da renovação ao fim de 60 dias; decisão sobre novos pedidos — 90 (+30) dias, e o pedido pode ser apresentado pela entidade empregadora; mudança de entidade empregadora — basta comunicar à AIMA; em vez da NAV — dever de abandonar o país em 20–30 dias após o indeferimento; detenção em CIT até 180+180 dias; para vistos temporários passa a ser exigido bilhete de regresso.',
   steps: [
     {
       id: 'what-changed',
@@ -23,7 +23,7 @@ export default {
           'Reagrupamento Familiar exige uma preparação mais cuidadosa: parentesco, alojamento, rendimento e estatuto do requerente principal.',
           'Os regimes fiscais IFICI e IRS-Migrante não concedem autorização de residência automaticamente — são uma camada separada, posterior ou paralela à imigração.'
         ] },
-        { kind: 'warning', text: '🔴 A próxima vaga de endurecimento — a «Lei do Retorno e Asilo» (Decreto 105/XVII): em 28.08.2026 o Tribunal Constitucional não se pronunciou pela inconstitucionalidade de nenhuma das 11 normas enviadas pelo Presidente (Acórdão n.º 736/2026, unanimidade) e em 31.08.2026 o Presidente Seguro promulgou a lei. O que muda após a publicação no DR: fim da notificação de abandono voluntário (NAV), detenção em CIT até 180 dias (prorrogável), procedimento de retorno na fronteira (até 12 semanas), triagem de 7/3 dias e recursos judiciais sem efeito suspensivo em vários artigos. Importante: o TC vinculou as normas a limites interpretativos — a detenção mantém-se medida EXCECIONAL de estrita necessidade, com revisão a cada 30 dias e ponderação do superior interesse da criança; as providências cautelares nos tribunais administrativos mantêm-se disponíveis. O número da lei e a data de entrada em vigor serão conhecidos com a publicação no Diário da República — até lá aplicam-se as regras atuais. Estamos a acompanhar.' }
+        { kind: 'warning', text: '🔴 A «Lei do Retorno e Asilo» ESTÁ EM VIGOR: Lei n.º 62/2026, de 10.09.2026 (após o aval do Tribunal Constitucional — Acórdão 736/2026, de 28.08), em vigor desde 11.09.2026. O que mudou para os residentes comuns: (1) acabou o «deferimento tácito» da renovação da autorização de residência que a AIMA não decida em 60 dias (revogado o art. 82.º n.º 7) — o prazo de decisão continua a ser de 60 dias e o recibo de renovação continua a comprovar a legalidade da permanência (art. 78.º n.º 7); (2) nos novos pedidos — decisão em 90 dias (+30 em casos excecionais), e o pedido pode também ser apresentado pela entidade empregadora (art. 81.º n.º 1); (3) mudança de entidade empregadora ou do tipo de atividade independente — basta comunicar à AIMA, sem necessidade de novo cartão (art. 88.º n.º 8, 89.º n.º 6); (4) em vez da notificação para abandono voluntário (NAV) — dever de abandonar o país em 20–30 dias após o indeferimento ou o cancelamento do visto/autorização de residência (art. 138.º); a permanência ilegal leva diretamente ao afastamento coercivo pela PSP; (5) detenção em CIT — até 180 dias, prorrogável uma única vez por mais 180; (6) para vistos de estada temporária, visto para procura de trabalho e vistos de curta duração passa a ser exigido bilhete de regresso à entrada (art. 52.º n.º 2). No asilo: prazos de recurso de 8/5/10 dias sem efeito suspensivo automático, procedimento de fronteira até 12 semanas, triagem de 7/3 dias. A norma transitória abrange apenas os processos de asilo já apresentados. O TC manteve limites: a detenção é uma medida excecional, com reapreciação judicial a cada 30 dias e ponderação do superior interesse da criança.' }
       ]
     },
     {
@@ -83,7 +83,7 @@ export default {
       title: 'IRS-Migrante e impostos: não confunda com autorização de residência',
       content: [
         { kind: 'paragraph', text: 'A Lei 61/2025, na parte fiscal, articula-se com o regime IRS-Migrante e o IFICI como parte da política de atração e retenção de migrantes. Isto não é um estatuto migratório nem um benefício automático. O direito ao regime fiscal é verificado separadamente através das Finanças/Autoridade Tributária e depende da residência fiscal, do tipo de rendimento, dos prazos e das normas regulamentares.' },
-        { kind: 'paragraph', text: 'Para 2026, as referências de base são: SMN — 920 € por mês, IAS — 537,13 €, primeira taxa de IRS — 11,97%. Estes valores são importantes para calcular rendimentos mínimos, orçamentos familiares, limiares sociais e planeamento fiscal, mas um visto específico pode exigir outros documentos e montantes.' },
+        { kind: 'paragraph', text: 'Para 2026, as referências de base são: SMN — 920 € por mês, IAS — 537,13 €, primeira taxa de IRS — 12,5%. Estes valores são importantes para calcular rendimentos mínimos, orçamentos familiares, limiares sociais e planeamento fiscal, mas um visto específico pode exigir outros documentos e montantes.' },
         { kind: 'checklist', items: [
           'Primeiro, determine o percurso migratório: D1-D8, família, estudo, UE/CRUE ou outro.',
           'Depois, verifique a residência fiscal: 183+ dias ou habitual residence em Portugal.',
@@ -129,12 +129,13 @@ export default {
     { label: 'Apostila/traduções de documentos familiares', amountEURMin: 30, amountEURMax: 150, note: 'Por documento; depende do país de emissão, do notário e do tradutor.' }
   ],
   sources: [
+    { title: 'Lei n.º 62/2026, de 10 de setembro — alteração da Lei 23/2007, Lei 27/2008 e Lei 34/94 (retorno e asilo; DR 1.ª série n.º 176)', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' },
     { title: 'Tribunal Constitucional — Acórdão n.º 736/2026: fiscalização preventiva da Lei de Estrangeiros e Asilo (28.08.2026)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20260736.html', kind: 'official', language: 'pt', lastRetrieved: '2026-08-31' },
     { title: 'Diário da República — Lei 23/2007, regime de entrada, permanência e autorização de residência de estrangeiros', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei 37/2006, direito de residência de cidadãos da UE e membros da família', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34571875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (reforma migratória)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — informação sobre residência, Reagrupamento Familiar e taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-08-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

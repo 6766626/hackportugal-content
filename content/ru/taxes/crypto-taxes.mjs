@@ -34,7 +34,7 @@ export default {
           { id: 'r3', title: '💼 Профессиональная торговля', content: [
             { kind: 'checklist', items: [
               'Если AT считает вашу деятельность профессиональной (регулярность, заметный объём) — облагается как Categoria B (предпринимательский доход)',
-              'Прогрессивная шкала 11,97–48% + соц.взносы 21,4%',
+              'Прогрессивная шкала 12,5–48% + соц.взносы 21,4%',
               'Профессиональные критерии: регулярность, объём, инфраструктура (API, автоматизация), основная деятельность',
               'Если это собственная торговля — обсудить с contabilista правильный enquadramento Categoria B/CAE. Если вы оказываете услуги третьим лицам (custody, exchange, brokerage, управление активами) — проверить требования Banco de Portugal/CMVM/MiCA/CASP и AML; простая abertura de atividade недостаточна'
             ]}
@@ -145,6 +145,6 @@ export default {
     { title: 'OE 2023 — введение режима', url: 'https://diariodarepublica.pt/dr/detalhe/lei/24-d-2022-203934281', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Koinly — налоговые отчёты для PT', url: 'https://koinly.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

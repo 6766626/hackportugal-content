@@ -6,7 +6,6 @@ export default {
   tldr: 'Processo que permite trazer o cônjuge, filhos ou pais depois de obter a sua própria autorização de residência. É submetido através da AIMA (portal-rf.aima.gov.pt)\.\n\nImportante: a Lei 61/2025 (publicada em 22.10.2025, em vigor desde 23.10.2025) introduziu a exigência de 2 anos de residência legal ANTES da submissão. Contudo, o Tribunal Constitucional (Acórdão 785/2025) declarou inconstitucional o prazo absoluto de 2 anos na parte relativa aos cônjuges e aos filhos menores. Os requisitos concretos dependem da categoria do familiar — é necessária verificação individual.\n\nPrazo de decisão da AIMA — até 9 meses (anteriormente eram 3 meses, prorrogáveis até 6)\.\n\nExceções: titulares de Golden Visa, titulares do cartão azul UE, profissionais altamente qualificados, investigadores e vários outros estatutos qualificados; os cônjuges e as famílias com filhos menores têm proteção autónoma.',
   tags: ['família', 'reagrupamento familiar', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-08-26',
   changeSummary: '🆕 Agosto-2026: a vaga de agendamentos do reagrupamento continua — marcados ~55 mil atendimentos, ~15 mil cartões entregues; o objetivo da AIMA é agendar todos até ao final de 2026. A opção reagrupamento no formulário de contacto foi reposta em 08.08; em services.aima.gov.pt pode carregar documentos e acompanhar o processo. Não duplique os pedidos.',
   steps: [
     {

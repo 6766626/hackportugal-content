@@ -110,7 +110,7 @@ export default {
           'Numa mudança de casa, isto não é uma “mudança de fornecedor”, mas sim um novo contrato ou uma mudança de titular na morada'
         ] },
         { kind: 'paragraph', text: 'Se acabou de entrar na casa, procure primeiro o CPE/CUI. Podem estar numa fatura antiga do senhorio, no contrato de ligação ou podem ser pedidos ao operador da rede com base na morada e nos dados do contador.' },
-        { kind: 'paragraph', text: '🆕 A partir de 28.08.2026 (Decreto-Lei 130/2026), os consumidores passam a ter novos direitos: os fornecedores com mais de 200 mil clientes são obrigados a oferecer pelo menos uma tarifa de preço fixo e prazo fixo (mínimo de 1 ano); a tarifa social “muda-se” automaticamente consigo na mudança de fornecedor; e é reforçada a proteção contra o corte em caso de valores contestados e para consumidores vulneráveis.' }
+        { kind: 'paragraph', text: '🆕 A partir de 28.08.2026 (Decreto-Lei 130/2026), os consumidores passam a ter novos direitos: os fornecedores com mais de 200 mil clientes são obrigados a oferecer pelo menos uma tarifa de preço fixo e prazo fixo (mínimo de 1 ano); a tarifa social “muda-se” automaticamente consigo na mudança de fornecedor; e é reforçada a proteção contra o corte em caso de valores contestados e para consumidores vulneráveis. 🆕 A partir de 01.10.2026, as tarifas reguladas (mercado regulado) sobem: eletricidade — em média +2,7% na fatura (decisão da ERSE de 15.09.2026), gás — +6,4%. Se está no tarifário regulado, é um bom momento para comparar as ofertas do mercado livre no simulador da ERSE.' }
       ]
     }
   ],
@@ -142,6 +142,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-08-01',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

@@ -35,7 +35,9 @@ export default {
           'The link is not on an official domain: not gov.pt, not autenticação.gov.pt, not your bank’s website, not mbway.pt.',
           'The message contains language mistakes, strange punctuation, shortened links, domains such as .click, .top, .info.',
           'You are asked to install AnyDesk, TeamViewer, RustDesk or a “bank security app”. A bank does not ask for remote access to your phone.',
-          'The buyer is ready to buy without viewing, above the asking price and with “delivery via OLX/CTT”. This is a typical bait.'
+          'The buyer is ready to buy without viewing, above the asking price and with “delivery via OLX/CTT”. This is a typical bait.',
+          '📞 Your screen shows the REAL number of a bank, the SNS or a courier service — that is not proof: scammers fake the number (caller-ID spoofing; warning from the banking association APB, 03.09.2026). A bank never asks for codes “to block fraud” — hang up and call back yourself on the number printed on your card.',
+          '✉️ A paper letter about a “new bank card” with a QR code (quishing; DECO warning of 03.09.2026): do not scan the QR code or enter any details — open your bank’s app manually.'
         ] },
         { kind: 'warning', text: 'Main rule: MB WAY codes, bank SMS codes, PINs and in-app approvals are like cash. If you revealed a code or approved a transaction, the bank may treat this as “strong customer authentication” and a refund dispute will be harder.' }
       ]
@@ -140,6 +142,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

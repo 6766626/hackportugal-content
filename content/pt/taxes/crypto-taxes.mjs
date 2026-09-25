@@ -34,7 +34,7 @@ export default {
           { id: 'r3', title: '💼 Negociação profissional', content: [
             { kind: 'checklist', items: [
               'Se a AT considerar a sua atividade profissional (regularidade, volume relevante) — é tributada como Categoria B (rendimento empresarial)',
-              'Escalões progressivos 11,97–48% + contribuições para a Segurança Social 21,4%',
+              'Escalões progressivos 12,5–48% + contribuições para a Segurança Social 21,4%',
               'Critérios profissionais: regularidade, volume, infraestrutura (API, automatização), atividade principal',
               'Se for negociação por conta própria — discutir com um contabilista o enquadramento correto Categoria B/CAE. Se presta serviços a terceiros (custody, exchange, brokerage, gestão de ativos) — verificar requisitos do Banco de Portugal/CMVM/MiCA/CASP e AML; uma simples abertura de atividade não é suficiente'
             ]}
@@ -145,6 +145,6 @@ export default {
     { title: 'OE 2023 — introdução do regime', url: 'https://diariodarepublica.pt/dr/detalhe/lei/24-d-2022-203934281', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Koinly — relatórios fiscais para PT', url: 'https://koinly.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }

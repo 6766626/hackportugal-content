@@ -3,7 +3,7 @@ export default {
   id: 'madeira-irs-rates',
   categoryId: 'taxes',
   title: 'IRS in Madeira: a separate tax rate for residents of the autonomous region',
-  tldr: 'Tax residents of Madeira use a separate IRS table, not the mainland Portugal table. In 2026 Madeira has reduced rates: for the lower bracket MCS indicates 8.75% versus the mainland first IRS rate for 2026 of 11.97%, so check the final calculation in the AT simulator. For capital income, the standard special rate in Madeira is 19.6% instead of 28%. The key condition is fiscal domicile in Madeira.',
+  tldr: 'Tax residents of Madeira use a separate IRS table, not the mainland Portugal table. In 2026 Madeira has reduced rates: for the lower bracket MCS indicates 8.75% versus the mainland first IRS rate for 2026 of 12.5%, so check the final calculation in the AT simulator. For capital income, the standard special rate in Madeira is 19.6% instead of 28%. The key condition is fiscal domicile in Madeira.',
   tags: ['irs', 'madeira', 'taxes', 'finanças'],
   estimatedReadMinutes: 5,
   steps: [
@@ -37,7 +37,7 @@ export default {
       id: 'income-types',
       title: 'Which income benefits from the regional rate',
       content: [
-        { kind: 'paragraph', text: 'The reduction is most noticeable on ordinary taxable income: salary, pension, self-employment/recibos verdes, and part of rental income when choosing englobamento. In 2026 the first nationwide IRS rate for the mainland after updates is 11.97%, but Madeira applies its own reduced regional table; MCS commercial reviews separately indicate a lower Madeira rate of 8.75%.' },
+        { kind: 'paragraph', text: 'The reduction is most noticeable on ordinary taxable income: salary, pension, self-employment/recibos verdes, and part of rental income when choosing englobamento. In 2026 the first nationwide IRS rate for the mainland after updates is 12.5%, but Madeira applies its own reduced regional table; MCS commercial reviews separately indicate a lower Madeira rate of 8.75%.' },
         { kind: 'checklist', items: [
           'Categoria A — salary under a contrato de trabalho.',
           'Categoria B — recibos verdes, freelancing, sole trader.',
@@ -126,6 +126,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 90
 }

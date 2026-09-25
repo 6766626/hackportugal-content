@@ -41,7 +41,7 @@ export default {
             { kind: 'paragraph', text: 'Нужно для визы D4.' }
           ]},
           { id: 'a5', title: '5. Подать на визу D4', content: [
-            { kind: 'paragraph', text: 'В консульстве, с зачислением, подтверждением финансов и страховкой.' }
+            { kind: 'paragraph', text: 'В консульстве, с зачислением, подтверждением финансов и страховкой. ⚠️ С 11.09.2026 (Lei n.º 62/2026) оформить студенческий ВНЖ изнутри Португалии без визы больше нельзя: отменены маршруты ст. 91.º n.º 4 (вуз), 92.º n.º 4 (профессиональные курсы уровня QNQ 4/5) и 93.º n.º 3 (стажёры). Без визы остался только маршрут для учеников средней школы, въехавших и находящихся в стране легально (ст. 92.º n.º 3). Страницы AIMA на 25.09 ещё показывают старые формулировки — ориентируйтесь на закон.' }
           ]}
         ]}
       ]
@@ -81,8 +81,9 @@ export default {
   sources: [
     { title: 'DGES — Direção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Vistos MNE — Visto de Estudo', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Estudantes estrangeiros', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'AIMA — Estudantes estrangeiros', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei n.º 62/2026, de 10 de setembro (DR 1.ª série n.º 176) — revogação dos arts. 91.º n.º 4, 92.º n.º 4 e 93.º n.º 3 da Lei 23/2007', url: 'https://files.diariodarepublica.pt/1s/2026/09/17600/0006000111.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-09-25' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-09-25',
   verifyIntervalDays: 180
 }
