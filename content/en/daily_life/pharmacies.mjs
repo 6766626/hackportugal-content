@@ -84,10 +84,34 @@ export default {
     }
   ],
   sources: [
-    { title: 'INFARMED — pharmacy regulator', url: 'https://www.infarmed.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Linha 1400 / 1400safe.pt — locate medicines and duty pharmacies (INFARMED)', url: 'https://www.1400safe.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
-    { title: 'Farmácias de Serviço — duty pharmacies', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
-    { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    {
+      "title": "INFARMED — pharmacy regulator",
+      "url": "https://www.infarmed.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Linha 1400 / 1400safe.pt — locate medicines and duty pharmacies (INFARMED)",
+      "url": "https://www.1400safe.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-05-30"
+    },
+    {
+      "title": "Farmácias de Serviço — duty pharmacies",
+      "url": "https://www.farmaciasdeservico.net/",
+      "kind": "secondary",
+      "language": "pt",
+      "lastRetrieved": "2026-05-30"
+    },
+    {
+      "title": "Ordem dos Farmacêuticos",
+      "url": "https://www.ordemfarmaceuticos.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    }
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365

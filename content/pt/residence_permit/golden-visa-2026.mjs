@@ -7,68 +7,137 @@ export default {
   audience: { citizenships: ['thirdCountry'] },
   tags: ['golden visa', 'ari', 'investimentos'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2023-10-07',
-  changeSummary: 'A lei Mais Habitação (outubro de 2023) cancelou a rota do Golden Visa através de imobiliário. Mantêm-se apenas investimentos “produtivos”.',
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "Adicionado o percurso oficial no Portal de Renovações para ARI com validade até 31.12.2026.",
   steps: [
     {
-      id: 'routes',
-      title: 'Rotas de investimento atuais (2026)',
-      content: [
-        { kind: 'checklist', items: [
-          '500 000 € — unidades de participação num collective investment undertaking / venture capital fund português com maturity de pelo menos 5 anos; mínimo de 60% dos ativos em sociedades comerciais com sede em Portugal; o fundo NÃO pode estar direta ou indiretamente ligado ao imobiliário',
-          '500 000 € — atividade de investigação científica através de instituições públicas ou privadas de investigação científica integradas no sistema científico e tecnológico nacional de Portugal (não quaisquer “empresas tecnológicas”)',
-          '500 000 € — aumento de capital de uma sociedade comercial portuguesa existente + criação de 5 postos de trabalho permanentes OU manutenção de 10 postos de trabalho, dos quais ≥5 permanentes, por um mínimo de 3 anos',
-          '250 000 € — apoio à cultura/artes/património (200 000 € em projetos eligible low-density — redução de 20%)',
-          '500 000 € — criação de uma sociedade comercial com sede em Portugal + criação de 5 postos de trabalho permanentes',
-          '10 postos de trabalho permanentes — criar sem investimento mínimo'
-        ]},
-        { kind: 'paragraph', text: 'Para a rota de I&D, é possível uma redução low-density até 400 000 € quando se verifiquem as condições aplicáveis (Lei 23/2007 art. 3.º n.º 7; Portaria 208/2017).' },
-        { kind: 'warning', text: 'NÃO DISPONÍVEL desde outubro de 2023: compra de habitação, compra de imobiliário turístico. Esta é a principal alteração de 2023.' }
+      "id": "routes",
+      "title": "Rotas de investimento atuais (2026)",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "500 000 € — unidades de participação num collective investment undertaking / venture capital fund português com maturity de pelo menos 5 anos; mínimo de 60% dos ativos em sociedades comerciais com sede em Portugal; o fundo NÃO pode estar direta ou indiretamente ligado ao imobiliário",
+            "500 000 € — atividade de investigação científica através de instituições públicas ou privadas de investigação científica integradas no sistema científico e tecnológico nacional de Portugal (não quaisquer “empresas tecnológicas”)",
+            "500 000 € — aumento de capital de uma sociedade comercial portuguesa existente + criação de 5 postos de trabalho permanentes OU manutenção de 10 postos de trabalho, dos quais ≥5 permanentes, por um mínimo de 3 anos",
+            "250 000 € — apoio à cultura/artes/património (200 000 € em projetos eligible low-density — redução de 20%)",
+            "500 000 € — criação de uma sociedade comercial com sede em Portugal + criação de 5 postos de trabalho permanentes",
+            "10 postos de trabalho permanentes — criar sem investimento mínimo"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Para a rota de I&D, é possível uma redução low-density até 400 000 € quando se verifiquem as condições aplicáveis (Lei 23/2007 art. 3.º n.º 7; Portaria 208/2017)."
+        },
+        {
+          "kind": "warning",
+          "text": "NÃO DISPONÍVEL desde outubro de 2023: compra de habitação, compra de imobiliário turístico. Esta é a principal alteração de 2023."
+        }
       ]
     },
     {
-      id: 'benefits',
-      title: 'Vantagens',
-      content: [
-        { kind: 'checklist', items: [
-          'Estadia mínima: 7 dias no primeiro ano + 14 dias em cada período bienal subsequente. Este requisito diz respeito à manutenção da ARI; NÃO torna a pessoa residente fiscal e, por si só, NÃO garante a cidadania',
-          'Possível caminho para a cidadania, cumpridos os requisitos da Lei da Nacionalidade (língua A2, ausência de disqualifying criminal/security grounds). Desde 19.05.2026 está em vigor a Lei Orgânica n.º 1/2026: o prazo de residência legal exigido para a naturalização é de 10 anos para nacionais de países terceiros (7 anos para nacionais da CPLP e da UE); o anterior prazo de 5 anos foi revogado',
-          'O cartão de residência português dá direito a viagens de curta duração no Espaço Schengen até 90 dias em qualquer período de 180 dias (NÃO é um “visto Schengen automático”)',
-          'Possibilidade de incluir a família (cônjuge, filhos, pais dependentes)',
-          'Possível acesso ao IFICI APENAS se o investidor se tornar residente fiscal em Portugal e cumprir separadamente os requisitos do IFICI (eligible activity, employer/entity, registo, ausência de PT tax residence nos últimos 5 anos). A ARI por si só NÃO dá acesso a este regime'
-        ]}
+      "id": "benefits",
+      "title": "Vantagens",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "Estadia mínima: 7 dias no primeiro ano + 14 dias em cada período bienal subsequente. Este requisito diz respeito à manutenção da ARI; NÃO torna a pessoa residente fiscal e, por si só, NÃO garante a cidadania",
+            "Possível caminho para a cidadania, cumpridos os requisitos da Lei da Nacionalidade (língua A2, ausência de disqualifying criminal/security grounds). Desde 19.05.2026 está em vigor a Lei Orgânica n.º 1/2026: o prazo de residência legal exigido para a naturalização é de 10 anos para nacionais de países terceiros (7 anos para nacionais da CPLP e da UE); o anterior prazo de 5 anos foi revogado",
+            "O cartão de residência português dá direito a viagens de curta duração no Espaço Schengen até 90 dias em qualquer período de 180 dias (NÃO é um “visto Schengen automático”)",
+            "Possibilidade de incluir a família (cônjuge, filhos, pais dependentes)",
+            "Possível acesso ao IFICI APENAS se o investidor se tornar residente fiscal em Portugal e cumprir separadamente os requisitos do IFICI (eligible activity, employer/entity, registo, ausência de PT tax residence nos últimos 5 anos). A ARI por si só NÃO dá acesso a este regime"
+          ]
+        }
       ]
     },
     {
-      id: 'process',
-      title: 'Processo',
-      content: [
-        { kind: 'substeps', items: [
-          { id: 'g1', title: '1. NIF + conta num banco português', content: [
-            { kind: 'paragraph', text: 'Através de representante online — não é necessária a entrada em Portugal nesta fase.' }
-          ]},
-          { id: 'g2', title: '2. Escolher a rota e realizar o investimento', content: [
-            { kind: 'paragraph', text: 'Fundos de investimento — a opção mais popular devido à flexibilidade. Na CMVM pode verificar-se o registo do fundo e da sociedade gestora, mas a CMVM NÃO publica uma lista de “approved Golden Visa funds”. A conformidade com a ARI é verificada separadamente através da documentação do fundo (investment policy, maturity, real-estate exposure) e de parecer jurídico.' }
-          ]},
-          { id: 'g3', title: '3. Preparar o dossiê', content: [
-            { kind: 'paragraph', text: 'Provas do investimento, da origem lícita dos fundos, certificado de registo criminal, passaporte.' }
-          ]},
-          { id: 'g4', title: '4. Submeter na AIMA', content: [
-            { kind: 'paragraph', text: 'Através do portal ARI especializado. O processamento demora frequentemente 12–24+ meses devido ao backlog da AIMA; os prazos dependem muito do biometrics slot e da prática atual da AIMA.' }
-          ]},
-          { id: 'g5', title: '5. Biometria + autorização de residência', content: [
-            { kind: 'paragraph', text: 'Visitar Portugal para a biometria. Autorização de residência inicial por 2 anos, seguida de renovações.' }
-          ]}
-        ]}
+      "id": "process",
+      "title": "Processo",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "g1",
+              "title": "1. NIF + conta num banco português",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Através de representante online — não é necessária a entrada em Portugal nesta fase."
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "title": "2. Escolher a rota e realizar o investimento",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Fundos de investimento — a opção mais popular devido à flexibilidade. Na CMVM pode verificar-se o registo do fundo e da sociedade gestora, mas a CMVM NÃO publica uma lista de “approved Golden Visa funds”. A conformidade com a ARI é verificada separadamente através da documentação do fundo (investment policy, maturity, real-estate exposure) e de parecer jurídico."
+                }
+              ]
+            },
+            {
+              "id": "g3",
+              "title": "3. Preparar o dossiê",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Provas do investimento, da origem lícita dos fundos, certificado de registo criminal, passaporte."
+                }
+              ]
+            },
+            {
+              "id": "g4",
+              "title": "4. Submeter na AIMA",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Através do portal ARI especializado. O processamento demora frequentemente 12–24+ meses devido ao backlog da AIMA; os prazos dependem muito do biometrics slot e da prática atual da AIMA."
+                }
+              ]
+            },
+            {
+              "id": "g5",
+              "title": "5. Biometria + autorização de residência",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Visitar Portugal para a biometria. Autorização de residência inicial por 2 anos, seguida de renovações."
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      id: 'caveats',
-      title: 'Armadilhas',
-      content: [
-        { kind: 'warning', text: 'Para cidadãos da Federação Russa/Bielorrússia, podem existir não só dificuldades nas transferências, mas também verificações reforçadas de sanções/AML, recusa de bancos/fundos no onboarding e atrasos/recusas ao nível da AIMA. ANTES do investimento, obtenha a posição escrita do banco, do fundo, da sociedade gestora e do advogado sobre compliance sancionatório.' },
-        { kind: 'warning', text: 'A fila na AIMA é enorme — o tempo real para obter a autorização de residência é de 12–24+ meses a partir da submissão.' },
-        { kind: 'warning', text: 'A origem dos fundos é verificada rigorosamente — prepare a cadeia completa de operações bancárias.' }
+      "id": "caveats",
+      "title": "Armadilhas",
+      "content": [
+        {
+          "kind": "warning",
+          "text": "Para cidadãos da Federação Russa/Bielorrússia, podem existir não só dificuldades nas transferências, mas também verificações reforçadas de sanções/AML, recusa de bancos/fundos no onboarding e atrasos/recusas ao nível da AIMA. ANTES do investimento, obtenha a posição escrita do banco, do fundo, da sociedade gestora e do advogado sobre compliance sancionatório."
+        },
+        {
+          "kind": "warning",
+          "text": "A fila na AIMA é enorme — o tempo real para obter a autorização de residência é de 12–24+ meses a partir da submissão."
+        },
+        {
+          "kind": "warning",
+          "text": "A origem dos fundos é verificada rigorosamente — prepare a cadeia completa de operações bancárias."
+        }
+      ]
+    },
+    {
+      "id": "renewals-portal-2026",
+      "title": "Renovação ARI online",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "O FAQ atual da AIMA encaminha as renovações ARI com validade expirada entre 22.02.2020 e 31.12.2026 para o Portal de Renovações, incluindo taxas e documentos. O Portal ARI destina-se às candidaturas iniciais e respetivo reagrupamento familiar. Mantenha o agendamento existente se a notificação exigir biometria. A manutenção do investimento, os períodos mínimos de permanência e os restantes requisitos ARI continuam a ser relevantes; a submissão online não os dispensa."
+        }
       ]
     }
   ],
@@ -82,12 +151,55 @@ export default {
   timelineDaysMin: 365,
   timelineDaysMax: 730,
   sources: [
-    { title: 'AIMA — Autorização de Residência para Investimento (ARI)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 23/2007, art. 3.º (consolidado) — principais rotas ARI', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Lei do Mais Habitação (56/2023) — eliminação do imobiliário na ARI', url: 'https://diariodarepublica.pt/dr/detalhe/lei/56-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CMVM — registos de fundos e sociedades gestoras (NÃO é uma lista de fundos ARI)', url: 'https://www.cmvm.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Portaria 307/2023, de 13 de outubro — tabela de taxas AIMA (atualização pelo IPC a partir de 01.03.2026)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2023-222418094', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'Lei Orgânica n.º 1/2026, de 18 de maio — alteração à Lei da Nacionalidade (prazo de naturalização de 10 anos para países terceiros)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
+    {
+      "title": "AIMA — Autorização de Residência para Investimento (ARI)",
+      "url": "https://aima.gov.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Lei 23/2007, art. 3.º (consolidado) — principais rotas ARI",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-05-17"
+    },
+    {
+      "title": "Lei do Mais Habitação (56/2023) — eliminação do imobiliário na ARI",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei/56-2023",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "CMVM — registos de fundos e sociedades gestoras (NÃO é uma lista de fundos ARI)",
+      "url": "https://www.cmvm.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Portaria 307/2023, de 13 de outubro — tabela de taxas AIMA (atualização pelo IPC a partir de 01.03.2026)",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2023-222418094",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-05-31"
+    },
+    {
+      "title": "Lei Orgânica n.º 1/2026, de 18 de maio — alteração à Lei da Nacionalidade (prazo de naturalização de 10 anos para países terceiros)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-05-31"
+    },
+    {
+      "title": "AIMA — perguntas frequentes sobre ARI: renovações, pagamentos e biometria",
+      "url": "https://aima.gov.pt/pt/a-aima/perguntas-frequentes-faqs/autorizacao-de-residencia-para-investimento-ari",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
+    }
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90

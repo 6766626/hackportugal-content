@@ -121,11 +121,45 @@ export default {
     { label: 'Utilização do Idealista/Imovirtual/Casa Sapo pelo arrendatário', amountEUR: 0, note: 'A pesquisa e as respostas a anúncios são normalmente gratuitas; promoções pagas dizem respeito sobretudo à publicação/agências.' }
   ],
   sources: [
-    { title: 'Idealista Portugal — pesquisa de arrendamento e notificações', url: 'https://www.idealista.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Imovirtual — catálogo imobiliário em Portugal', url: 'https://www.imovirtual.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Portal das Finanças — recibos de renda electrónicos', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Diário da República — regime do arrendamento urbano e actualização de rendas', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    {
+      "title": "Idealista Portugal — pesquisa de arrendamento e notificações",
+      "url": "https://www.idealista.pt",
+      "kind": "company",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Imovirtual — catálogo imobiliário em Portugal",
+      "url": "https://www.imovirtual.com",
+      "kind": "company",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Portal das Finanças — recibos de renda electrónicos",
+      "url": "https://www.portaldasfinancas.gov.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Diário da República — regime do arrendamento urbano e actualização de rendas",
+      "url": "https://diariodarepublica.pt",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Aviso n.º 24199/2026/2 — coeficiente de atualização de rendas para 2027",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/24199-2026-1175645456",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
+    }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 180
+,
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "O coeficiente de renda de 2027, de 1,0256, está confirmado pelo Aviso 24199/2026/2, de 1 de outubro; em 2026 aplica-se 1,0224."
 }

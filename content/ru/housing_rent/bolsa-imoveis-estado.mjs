@@ -120,34 +120,44 @@ export default {
   ],
   sources: [
     {
-      title: 'Официальный портал Imóveis do Estado',
-      url: 'https://imoveis.gov.pt',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Официальный портал Imóveis do Estado",
+      "url": "https://imoveis.gov.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Portal da Habitação — программы IHRU и аренда жилья',
-      url: 'https://www.portaldahabitacao.pt',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Portal da Habitação — программы IHRU и аренда жилья",
+      "url": "https://www.portaldahabitacao.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Decreto-Lei 68/2019 — Programa de Arrendamento Acessível',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/68-2019-122317335',
-      kind: 'law',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Decreto-Lei 68/2019 — Programa de Arrendamento Acessível",
+      "url": "https://dre.pt/dre/detalhe/decreto-lei/68-2019-122317335",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Código Civil — regime do contrato de arrendamento',
-      url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075',
-      kind: 'law',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Código Civil — regime do contrato de arrendamento",
+      "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Aviso n.º 24199/2026/2 — coeficiente de atualização de rendas para 2027",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/24199-2026-1175645456",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
     }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 90
+,
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "Коэффициент аренды на 2027 год 1,0256 подтверждён опубликованным Aviso 24199/2026/2 от 1 октября; в 2026 применяется 1,0224."
 }

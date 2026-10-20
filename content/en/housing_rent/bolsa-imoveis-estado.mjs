@@ -120,34 +120,44 @@ export default {
   ],
   sources: [
     {
-      title: 'Official Imóveis do Estado portal',
-      url: 'https://imoveis.gov.pt',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Official Imóveis do Estado portal",
+      "url": "https://imoveis.gov.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Portal da Habitação — IHRU programmes and housing rentals',
-      url: 'https://www.portaldahabitacao.pt',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Portal da Habitação — IHRU programmes and housing rentals",
+      "url": "https://www.portaldahabitacao.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Decreto-Lei 68/2019 — Programa de Arrendamento Acessível',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/68-2019-122317335',
-      kind: 'law',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Decreto-Lei 68/2019 — Programa de Arrendamento Acessível",
+      "url": "https://dre.pt/dre/detalhe/decreto-lei/68-2019-122317335",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Código Civil — contrato de arrendamento regime',
-      url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075',
-      kind: 'law',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Código Civil — contrato de arrendamento regime",
+      "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Aviso n.º 24199/2026/2 — coeficiente de atualização de rendas para 2027",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/24199-2026-1175645456",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
     }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 90
+,
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "The 2027 rent coefficient of 1.0256 is confirmed by published Aviso 24199/2026/2 of 1 October; 2026 uses 1.0224."
 }

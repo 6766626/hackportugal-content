@@ -121,11 +121,45 @@ export default {
     { label: 'Пользование Idealista/Imovirtual/Casa Sapo для арендатора', amountEUR: 0, note: 'Поиск и ответы на объявления обычно бесплатны; платные продвижения касаются в основном размещения/агентств.' }
   ],
   sources: [
-    { title: 'Idealista Portugal — поиск аренды и уведомления', url: 'https://www.idealista.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Imovirtual — каталог недвижимости в Португалии', url: 'https://www.imovirtual.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Portal das Finanças — recibos de renda eletrónicos', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Diário da República — режим do arrendamento urbano и atualização de rendas', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    {
+      "title": "Idealista Portugal — поиск аренды и уведомления",
+      "url": "https://www.idealista.pt",
+      "kind": "company",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Imovirtual — каталог недвижимости в Португалии",
+      "url": "https://www.imovirtual.com",
+      "kind": "company",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Portal das Finanças — recibos de renda eletrónicos",
+      "url": "https://www.portaldasfinancas.gov.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Diário da República — режим do arrendamento urbano и atualização de rendas",
+      "url": "https://diariodarepublica.pt",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Aviso n.º 24199/2026/2 — coeficiente de atualização de rendas para 2027",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/24199-2026-1175645456",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
+    }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 180
+,
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "Коэффициент аренды на 2027 год 1,0256 подтверждён опубликованным Aviso 24199/2026/2 от 1 октября; в 2026 применяется 1,0224."
 }

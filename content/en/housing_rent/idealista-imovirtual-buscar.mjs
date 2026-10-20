@@ -121,11 +121,45 @@ export default {
     { label: 'Use of Idealista/Imovirtual/Casa Sapo for the tenant', amountEUR: 0, note: 'Searching and replying to listings are usually free; paid promotions mainly concern listing placement/agencies.' }
   ],
   sources: [
-    { title: 'Idealista Portugal — rental search and notifications', url: 'https://www.idealista.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Imovirtual — property catalogue in Portugal', url: 'https://www.imovirtual.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Portal das Finanças — electronic recibos de renda', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Diário da República — regime do arrendamento urbano and atualização de rendas', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    {
+      "title": "Idealista Portugal — rental search and notifications",
+      "url": "https://www.idealista.pt",
+      "kind": "company",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Imovirtual — property catalogue in Portugal",
+      "url": "https://www.imovirtual.com",
+      "kind": "company",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Portal das Finanças — electronic recibos de renda",
+      "url": "https://www.portaldasfinancas.gov.pt",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Diário da República — regime do arrendamento urbano and atualização de rendas",
+      "url": "https://diariodarepublica.pt",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
+    },
+    {
+      "title": "Aviso n.º 24199/2026/2 — coeficiente de atualização de rendas para 2027",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso/24199-2026-1175645456",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
+    }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 180
+,
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "The 2027 rent coefficient of 1.0256 is confirmed by published Aviso 24199/2026/2 of 1 October; 2026 uses 1.0224."
 }

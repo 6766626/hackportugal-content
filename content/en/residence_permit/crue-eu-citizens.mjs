@@ -9,56 +9,89 @@ export default {
   estimatedReadMinutes: 4,
   steps: [
     {
-      id: 'what',
-      title: 'What CRUE is',
-      content: [
-        { kind: 'paragraph', text: 'CRUE = Certificado de Registo de Cidadão da União Europeia. It confirms your right to live in Portugal as an EU citizen. It is valid for 5 years; after that, permanent residence applies.' },
-        { kind: 'warning', text: 'This is NOT the equivalent of a residence permit for third-country nationals — CRUE does not give you more rights than you already have as an EU citizen. It is simply registration of residence.' }
+      "id": "what",
+      "title": "What CRUE is",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "CRUE = Certificado de Registo de Cidadão da União Europeia. It confirms your right to live in Portugal as an EU citizen. It is valid for 5 years; after that, permanent residence applies."
+        },
+        {
+          "kind": "warning",
+          "text": "This is NOT the equivalent of a residence permit for third-country nationals — CRUE does not give you more rights than you already have as an EU citizen. It is simply registration of residence."
+        }
       ]
     },
     {
-      id: 'when',
-      title: 'When to register',
-      content: [
-        { kind: 'paragraph', text: 'CRUE is needed only if you intend to remain in Portugal for MORE THAN 3 months; for stays of up to 3 months, a valid ID/passport is usually sufficient for an EU citizen. Under Lei n.º 37/2006 art. 14: registration is done within 30 days after the first 3 months of stay have elapsed. The fine for non-compliance is €400–1500.' },
-        { kind: 'paragraph', text: 'In practice, many municipalities accept registration immediately after entry.' }
+      "id": "when",
+      "title": "When to register",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "CRUE is needed only if you intend to remain in Portugal for MORE THAN 3 months; for stays of up to 3 months, a valid ID/passport is usually sufficient for an EU citizen. Under Lei n.º 37/2006 art. 14: registration is done within 30 days after the first 3 months of stay have elapsed. The fine for non-compliance is €400–1500."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In practice, many municipalities accept registration immediately after entry."
+        }
       ]
     },
     {
-      id: 'where',
-      title: 'Where to obtain it',
-      content: [
-        { kind: 'paragraph', text: 'Usually — at the Câmara Municipal for your place of residence. In some municipalities, part of the service may be delegated to the Junta de Freguesia, but this needs to be checked locally.' },
-        { kind: 'paragraph', text: 'Appointments depend on the municipality: check your Câmara Municipal website or contact the balcão/serviços municipais directly. Portal do Eleitor is NOT used for CRUE (it is a website for electoral matters). In large cities (Lisbon, Porto), an appointment is mandatory.' }
+      "id": "where",
+      "title": "Where to obtain it",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Usually — at the Câmara Municipal for your place of residence. In some municipalities, part of the service may be delegated to the Junta de Freguesia, but this needs to be checked locally."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Appointments depend on the municipality: check your Câmara Municipal website or contact the balcão/serviços municipais directly. Portal do Eleitor is NOT used for CRUE (it is a website for electoral matters). In large cities (Lisbon, Porto), an appointment is mandatory."
+        }
       ]
     },
     {
-      id: 'documents',
-      title: 'Documents',
-      content: [
-        { kind: 'paragraph', text: 'Under Lei n.º 37/2006 art. 7, the specific documents depend on the category:' },
-        { kind: 'checklist', items: [
-          'National identity card or passport',
-          'Proof of address in Portugal (rental contract / proof of accommodation)',
-          'Employee / self-employed person: sworn declaração regarding employment or independent activity, contract or declaração de início de atividade, if requested',
-          'Student: proof of enrolment + declaração of sufficient resources and (where applicable) healthcare cover',
-          'Economically inactive person / pensioner: declaração of sufficient resources and (where applicable) healthcare cover'
-        ]},
-        { kind: 'paragraph', text: 'A declaração sob compromisso de honra is often sufficient, but the specific Câmara may request bank statements, pension evidence, a contract, enrolment letter or other proof — check your municipality’s list in advance.' }
+      "id": "documents",
+      "title": "Documents",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Under Lei n.º 37/2006 art. 7, the specific documents depend on the category:"
+        },
+        {
+          "kind": "checklist",
+          "items": [
+            "National identity card or passport",
+            "Proof of address in Portugal (rental contract / proof of accommodation)",
+            "Employee / self-employed person: sworn declaração regarding employment or independent activity, contract or declaração de início de atividade, if requested",
+            "Student: proof of enrolment + declaração of sufficient resources and (where applicable) healthcare cover",
+            "Economically inactive person / pensioner: declaração of sufficient resources and (where applicable) healthcare cover"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A declaração sob compromisso de honra is often sufficient, but the specific Câmara may request bank statements, pension evidence, a contract, enrolment letter or other proof — check your municipality’s list in advance."
+        }
       ]
     },
     {
-      id: 'after',
-      title: 'After obtaining it',
-      content: [
-        { kind: 'checklist', items: [
-          'NIF can and usually should be obtained BEFORE CRUE or in parallel — it is often needed for renting, work and utilities',
-          'NISS (if you work)',
-          'Registration with SNS / centro de saúde — usually with NIF, CRUE and proof of address; depending on the situation, they may request NISS, S1 or another proof of entitlement to healthcare',
-          'Exchanging a driving licence — not needed, EU licences are accepted directly',
-          'After 5 years — a separate procedure to request a certificado de residência permanente; this is not an automatic replacement of CRUE'
-        ]},
-        { kind: 'paragraph', text: 'Under current law, naturalisation is possible after 5 years of legal residence if the other conditions are met, including knowledge of Portuguese at A2 level.\n\n03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period for EU/EEA/Swiss citizens will increase to 7 years (aligned with CPLP).' }
+      "id": "after",
+      "title": "After obtaining it",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "NIF can and usually should be obtained BEFORE CRUE or in parallel — it is often needed for renting, work and utilities",
+            "NISS (if you work)",
+            "Registration with SNS / centro de saúde — usually with NIF, CRUE and proof of address; depending on the situation, they may request NISS, S1 or another proof of entitlement to healthcare",
+            "Exchanging a driving licence — not needed, EU licences are accepted directly",
+            "After 5 years — a separate procedure to request a certificado de residência permanente; this is not an automatic replacement of CRUE"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Under article 6(1)(b) of Lei 37/81 as amended by Lei Orgânica 1/2026, since 19 May 2026 the general legal-residence requirement is 7 years for nationals of Portuguese-official-language countries and EU Member States, and 10 years for nationals of other countries. Norwegian, Icelandic, Liechtenstein or Swiss nationality alone does not confer the seven-year period: EU/EEA residence rights and nationality rules are distinct. Article 6(3) provides a separate four-year period for stateless applicants. Article 15(3) aggregates qualifying periods within windows of 9, 12 or 6 years respectively.\n\nApplications submitted before the law took effect on 19 May 2026 remain subject to the previous wording. Ordinary naturalisation used a five-year legal-residence requirement alongside the other conditions. IRN confirmed that online applications use their platform submission date. Keep the submission receipt. The previous criminal criterion was a sentence of imprisonment of 3 years or more; comparison with the new provision requires more than comparing one number."
+        }
       ]
     }
   ],
@@ -68,10 +101,45 @@ export default {
   timelineDaysMin: 1,
   timelineDaysMax: 1,
   sources: [
-    { title: 'ePortugal — registration as a União Europeia citizen', url: 'https://www.gov.pt/servicos/registar-cidadao-uniao-europeia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei nº 37/2006 — entry and residence of EU citizens', url: 'https://diariodarepublica.pt/dr/detalhe/lei/37-2006', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Your Europe — residence formalities in Portugal', url: 'https://europa.eu/youreurope/citizens/residence/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
+    {
+      "title": "ePortugal — registration as a União Europeia citizen",
+      "url": "https://www.gov.pt/servicos/registar-cidadao-uniao-europeia",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Lei nº 37/2006 — entry and residence of EU citizens",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei/37-2006",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Your Europe — residence formalities in Portugal",
+      "url": "https://europa.eu/youreurope/citizens/residence/index_en.htm",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Lei Orgânica n.º 1/2026 — artigos 6.º e 15.º da Lei da Nacionalidade",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Justiça / IRN — Lei da Nacionalidade: novas regras desde 19.05.2026",
+      "url": "https://justica.gov.pt/Noticias/Lei-da-Nacionalidade-novas-regras-entram-em-vigor-a-19-de-maio",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-20"
+    }
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365
+,
+  recentlyChangedAt: "2026-10-20",
+  changeSummary: "Clarified current naturalisation periods and language/knowledge evidence under Lei Orgânica 1/2026."
 }
