@@ -105,7 +105,18 @@ export default {
         { kind: 'warning', text: 'Do not pay a “taxa de aprovação” to unknown intermediaries before the loan is disbursed. Legal banks and registered intermediários de crédito can be checked on the Banco de Portugal website; offers via WhatsApp with advance payment are a common fraud scheme.' }
       ]
     }
-  ],
+  ,
+{
+  "id": "taeg-q4-2026",
+  "title": "Maximum TAEG in Q4 2026",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "For new agreements from 1 October to 31 December 2026, Banco de Portugal sets maximum TAEG of 8.2% for education, health, energy transition and equipment financial leasing; 15.0% for other personal loans; and 18.5% for credit cards, credit lines and overdraft facilities. These are category-specific ceilings, not bank offers. Check the category and agreement date; use the corresponding table for any other quarter."
+    }
+  ]
+}
+],
   sources: [
     {
       title: 'Banco de Portugal — Portal do Cliente Bancário: crédito aos consumidores and comparador',
@@ -128,7 +139,25 @@ export default {
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
-  ],
+  ,
+{
+  "title": "Banco de Portugal — Taxas de juro no crédito aos consumidores",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/taxas-de-juro-no-credito-aos-consumidores",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Banco de Portugal — Taxas máximas no 4.º trimestre de 2026",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/noticias/taxas-maximas-aplicaveis-aos-contratos-de-credito-aos-consumidores-no-4o-trimestre-de-2026",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-08-01',
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Added official Q4 2026 TAEG ceilings with dates and credit categories."
 }

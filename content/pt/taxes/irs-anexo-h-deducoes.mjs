@@ -3,7 +3,7 @@ export default {
   id: 'irs-anexo-h-deducoes',
   categoryId: 'taxes',
   title: 'IRS Anexo H: todas as deduções de saúde, educação, lares e imóvel',
-  tldr: 'O Anexo H no Modelo 3 IRS é o local onde, na declaração de 2026 relativa aos rendimentos de 2025, se verificam e, se necessário, se corrigem as deduções: saúde 15% até 1 000 € por família, educação 30% até 800 €, lares 25% até 403,75 €, renda de habitação 15% até 700–800 € (OE 2024/25), juros de crédito à habitação antigo até 296 €. A maioria dos valores é importada automaticamente do e-Fatura, mas, se fizer correções manuais, guarde as faturas durante 4 anos. O abono de família não é declarado como rendimento; “casamento jovem 750 €” não é uma linha padrão do Anexo H.',
+  tldr: "O Anexo H no Modelo 3 IRS é o local onde, na declaração de 2026 relativa aos rendimentos de 2025, se verificam e, se necessário, se corrigem as deduções: saúde 15% até 1 000 € por família, educação 30% até 800 €, lares 25% até 403,75 €, renda de habitação 15%, com limite geral de 700 € em 2025 (possível majoração para baixos rendimentos), juros de crédito à habitação antigo até 296 €. A maioria dos valores é importada automaticamente do e-Fatura, mas, se fizer correções manuais, guarde as faturas durante 4 anos. O abono de família não é declarado como rendimento; “casamento jovem 750 €” não é uma linha padrão do Anexo H.",
   tags: ['irs', 'anexo-h', 'deduções', 'finanças'],
   estimatedReadMinutes: 6,
   steps: [
@@ -197,7 +197,18 @@ export default {
         }
       ]
     }
-  ],
+  ,
+{
+  "id": "rent-expense-years-2026",
+  "title": "Confirme o ano das despesas",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Renda da habitação permanente: dedução de 15% das despesas, com limite geral de 900 € em 2026 (declaração em 2027) e de 1 000 € a partir de 2027. Mantém-se o limite superior que resulte das regras para baixos rendimentos. Para despesas de 2025, o limite geral era 700 €. São necessários comprovativos e a comunicação da renda à AT nos termos aplicáveis."
+    }
+  ]
+}
+],
   costs: [
     { label: 'Entrega do Modelo 3 IRS através do Portal das Finanças', amountEUR: 0, note: 'A entrega online feita pelo próprio é gratuita.' },
     { label: 'Apoio típico de contabilista com o IRS', amountEURMin: 40, amountEURMax: 120, note: 'O preço depende do número de anexos, de rendimentos estrangeiros e de correções manuais no Anexo H.' }
@@ -245,10 +256,18 @@ export default {
       "language": "pt",
       "lastRetrieved": "2026-10-20"
     }
-  ],
+  ,
+{
+  "title": "AT — CIRS artigo 78.º-E e normas transitórias",
+  "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78e.aspx",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 ,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Harmonizadas as deduções de rendas: limite geral de 900 € em 2026 e 1 000 € desde 2027, mantendo limites superiores para rendimentos baixos."
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Distinguidos os anos das despesas e da entrega do IRS; limite das rendas de 900 € em 2026 e 1 000 € a partir de 2027."
 }

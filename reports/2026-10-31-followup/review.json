@@ -1,0 +1,21 @@
+{
+  "reviewDate": "2026-10-31",
+  "scope": "Whole-catalog inventory; targeted factual updates, not full reverification of all existing claims.",
+  "project": "PT",
+  "changes": {
+    "crypto-exchange-pt-coinbase-binance": "Убрана устаревшая ссылка на переходный режим MiCA; добавлены реестр ESMA и проверка юридического лица.",
+    "irs-year-end": "Разделены годы расходов и подачи IRS; добавлен лимит аренды 900 € за 2026 год и 1 000 € с 2027 года.",
+    "irs-anexo-h-deducoes": "Разделены годы расходов и подачи IRS; добавлен лимит аренды 900 € за 2026 год и 1 000 € с 2027 года.",
+    "credito-pessoal-tan-taeg": "Добавлены официальные пределы TAEG на IV квартал 2026 с датами и категориями кредитов.",
+    "credit-card-pt": "Добавлены официальные пределы TAEG на IV квартал 2026 с датами и категориями кредитов.",
+    "residencia-permanente-5-anos": "Уточнены пределы отсутствия по art. 85, личная подача по art. 80 и охват портала; убраны неподтверждённые обещания сроков и результатов жалоб.",
+    "mica-casp-register-check": "Новый гайд: практическая проверка поставщика криптоуслуг после окончания переходных периодов MiCA."
+  },
+  "totals": {
+    "count": 623,
+    "new": 1,
+    "updated": 6,
+    "full_review_overdue": 120
+  },
+  "publication": "Draft review branch only; no Pages deployment authorized."
+}

@@ -143,7 +143,18 @@ export default {
         ]}
       ]
     }
-  ],
+  ,
+{
+  "id": "taeg-q4-2026",
+  "title": "Maximum TAEG in Q4 2026",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "For new agreements from 1 October to 31 December 2026, Banco de Portugal sets maximum TAEG of 8.2% for education, health, energy transition and equipment financial leasing; 15.0% for other personal loans; and 18.5% for credit cards, credit lines and overdraft facilities. These are category-specific ceilings, not bank offers. Check the category and agreement date; use the corresponding table for any other quarter."
+    }
+  ]
+}
+],
   costs: [
     { label: 'Annual fee for a basic credit card', amountEURMin: 0, amountEURMax: 30 },
     { label: 'Annual fee for a premium credit card', amountEURMin: 100, amountEURMax: 300 },
@@ -153,7 +164,25 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Mapa de Responsabilidades', url: 'https://www.bportugal.pt/page/mapa-de-responsabilidades-de-credito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — Credit Cards (Portal do Cliente Bancário)', url: 'https://clientebancario.bportugal.pt/pt-pt/cartoes-de-credito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
-  ],
+  ,
+{
+  "title": "Banco de Portugal — Taxas de juro no crédito aos consumidores",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/taxas-de-juro-no-credito-aos-consumidores",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Banco de Portugal — Taxas máximas no 4.º trimestre de 2026",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/noticias/taxas-maximas-aplicaveis-aos-contratos-de-credito-aos-consumidores-no-4o-trimestre-de-2026",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Added official Q4 2026 TAEG ceilings with dates and credit categories."
 }

@@ -11,7 +11,7 @@ export default {
       id: 'choose-exchange',
       title: '1. Choose an exchange for your purpose',
       content: [
-        { kind: 'paragraph', text: 'For a resident of Portugal, what matters is not only fees, but also which legal entity services the account, where reporting records are kept, and which documents can later be exported for IRS. In 2026, after MiCA, crypto services in the EU must operate through an authorised CASP or under a transitional regime; check the status on the CMVM and on the exchange’s own legal/terms page.' },
+        { kind: 'paragraph', text: "Before choosing an exchange, identify the legal entity serving your account. MiCA transitional periods ended throughout the EU by 1 July 2026 at the latest. As of 31 October 2026, an old national registration alone is insufficient: check the CASP in the ESMA register or the applicable Article 60 entitlement for a regulated financial institution. Match the entity, authorised services, website and entitlement to serve customers in Portugal. A brand name and the exchange’s own claims are insufficient." },
         { kind: 'checklist', items: [
           'Coinbase — convenient for beginners, good KYC, reports; check the current status in the CMVM/CASP lists and which entity is stated in the Terms.',
           'Binance — many pairs, P2P and cards; for Portugal, it is important to check which EU/EEA entity services the account and whether SEPA is available.',
@@ -105,7 +105,32 @@ export default {
     { title: 'Portal das Finanças — IRS, Modelo 3 declaration and Anexos G/J', url: 'https://info.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei n.º 24-D/2022 — State Budget 2023, tax regime for criptoativos', url: 'https://dre.pt/dre/detalhe/lei/24-d-2022-205557192', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regulamento (UE) 2023/1114 — MiCA, regime for crypto-asset service providers in the EU', url: 'https://eur-lex.europa.eu/eli/reg/2023/1114/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
-  ],
+  ,
+{
+  "title": "ESMA — End of MiCA transitional periods, 17 April 2026",
+  "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
+  "kind": "official",
+  "language": "en",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "ESMA — MiCA register",
+  "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+  "kind": "official",
+  "language": "en",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "MiCA — Article 59, authorisation and Article 60 entitlement",
+  "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-59-authorisation",
+  "kind": "official",
+  "language": "en",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Removed the outdated MiCA transition wording; added the ESMA register and legal-entity checks."
 }

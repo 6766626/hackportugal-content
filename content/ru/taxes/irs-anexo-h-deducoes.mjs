@@ -3,7 +3,7 @@ export default {
   id: 'irs-anexo-h-deducoes',
   categoryId: 'taxes',
   title: 'IRS Anexo H: все вычеты saúde, educação, lares и imóvel',
-  tldr: 'Anexo H в Modelo 3 IRS — место, где в декларации 2026 за доходы 2025 проверяют и при необходимости исправляют вычеты: saúde 15% до 1 000 € на семью, educação 30% до 800 €, lares 25% до 403,75 €, аренда жилья 15% до 700–800 € (OE 2024/25), проценты по старой ипотеке до 296 €. Большинство сумм подтягивается из e-Fatura автоматически, но если правите вручную — храните счета 4 года. Abono de família не декларируется как доход; “casamento jovem 750 €” не является стандартной строкой Anexo H.',
+  tldr: "Anexo H в Modelo 3 IRS — место, где в декларации 2026 за доходы 2025 проверяют и при необходимости исправляют вычеты: saúde 15% до 1 000 € на семью, educação 30% до 800 €, lares 25% до 403,75 €, аренда жилья 15% с общим лимитом 700 € за 2025 год (повышенный лимит возможен при низком доходе), проценты по старой ипотеке до 296 €. Большинство сумм подтягивается из e-Fatura автоматически, но если правите вручную — храните счета 4 года. Abono de família не декларируется как доход; “casamento jovem 750 €” не является стандартной строкой Anexo H.",
   tags: ['irs', 'anexo-h', 'вычеты', 'finanças'],
   estimatedReadMinutes: 6,
   steps: [
@@ -197,7 +197,18 @@ export default {
         }
       ]
     }
-  ],
+  ,
+{
+  "id": "rent-expense-years-2026",
+  "title": "Какой год расходов вы проверяете",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Аренда постоянного жилья: 15% расходов; общий лимит за 2026 год — 900 € (декларация в 2027), с 2027 года — 1 000 €. Если расчёт для низкого дохода даёт больший лимит, применяется он. Для расходов 2025 года общий лимит составлял 700 €. Нужны надлежащие подтверждения и сведения об аренде в AT."
+    }
+  ]
+}
+],
   costs: [
     { label: 'Подача Modelo 3 IRS через Portal das Finanças', amountEUR: 0, note: 'Самостоятельная подача онлайн бесплатна.' },
     { label: 'Типичная помощь contabilista с IRS', amountEURMin: 40, amountEURMax: 120, note: 'Цена зависит от количества anexos, иностранного дохода и ручных правок Anexo H.' }
@@ -245,10 +256,18 @@ export default {
       "language": "pt",
       "lastRetrieved": "2026-10-20"
     }
-  ],
+  ,
+{
+  "title": "AT — CIRS artigo 78.º-E e normas transitórias",
+  "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78e.aspx",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 ,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Согласованы вычеты аренды: общий предел 900 € за 2026 и 1 000 € с 2027, с сохранением повышенных пределов для низких доходов."
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Разделены годы расходов и подачи IRS; добавлен лимит аренды 900 € за 2026 год и 1 000 € с 2027 года."
 }

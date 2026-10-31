@@ -1,0 +1,1227 @@
+country,guide_id,title,last_full_review,interval_days,age_days,review_overdue,this_review,source_count
+PT,a1-outbound-eu,"A1 для работников из Португалии, командированных в ЕС",2026-05-31,90,153,True,inventory_only,5
+PT,a1-posted-worker-pt,Сертификат A1: командировка работника из Португалии в ЕС,2026-05-31,90,153,True,inventory_only,5
+PT,abono-de-familia,Abono de Família — пособие на ребёнка,2026-05-31,180,153,False,inventory_only,3
+PT,academias-criativas-cultura,Academias culturais: творческие кружки для детей,2026-05-31,180,153,False,inventory_only,3
+PT,accident-euro-protocol,ДТП в Португалии — Declaração Amigável (европротокол) и когда вызывать GNR,2026-05-31,365,153,False,inventory_only,4
+PT,accounting-contadores,Как найти бухгалтера (contabilista) в Португалии,2026-05-31,365,153,False,inventory_only,2
+PT,aceitar-pagamentos-cartao,"Приём платежей картой: POS, MB WAY merchant, SumUp и Stripe для самозанятых",2026-05-31,180,153,False,inventory_only,4
+PT,acores-irs-rates,IRS на Азорах: отдельные таблицы удержания 2026 для резидентов АР,2026-05-31,90,153,True,inventory_only,5
+PT,act-labour-complaint,"Жалоба в ACT на работодателя: невыплата, увольнение, условия труда",2026-05-31,90,153,True,inventory_only,4
+PT,activobank-banco-best-online,ActivoBank vs Banco Best: онлайн-банки без комиссий,2026-05-31,180,153,False,inventory_only,4
+PT,activobank-opening,Открытие счёта в банке Португалии (нерезиденту и резиденту),2026-05-31,180,153,False,inventory_only,4
+PT,advogado-consulta-gratuita,Бесплатная юридическая консультация: Junta de Freguesia + Ordem dos Advogados,2026-05-31,90,153,True,inventory_only,4
+PT,aeroporto-transporte-cidade,"Транспорт из аэропорта в город — Lisbon, Porto, Faro",2026-05-31,180,153,False,inventory_only,4
+PT,afiador-sapateiro-costureira,"Точильщик ножей, сапожник, портниха — где найти afiador и других ремесленников",2026-05-31,180,153,False,inventory_only,3
+PT,agua-municipal-ligar-contador,"Подключение воды и счётчика: EPAL Lisboa, Águas do Porto и муниципальные операторы",2026-05-31,180,153,False,inventory_only,4
+PT,agua-quente-solar-obrigatorio,Горячая вода и ВИЭ в новостройках: когда нужен solar térmico и чем его можно заменить,2026-05-31,180,153,False,inventory_only,4
+PT,aima-contact,Как связаться с AIMA — все каналы,2026-05-31,90,153,True,inventory_only,7
+PT,aima-escalation-ombudsman,AIMA не отвечает: эскалация через Provedor de Justiça,2026-09-25,90,36,False,inventory_only,7
+PT,aima-judicial-appeal,AIMA отказала: иерархическое обжалование и иск в TAC,2026-05-31,90,153,True,inventory_only,4
+PT,aima-online-2026,Продление ВНЖ через онлайн-портал AIMA,2026-09-25,45,36,False,inventory_only,16
+PT,algarve-living,Алгарве для экспатов — жизнь у моря,2026-05-31,365,153,False,inventory_only,3
+PT,alimentos-pensao-ex-conjugue,Pensão de alimentos: алименты на детей и бывшего супруга,2026-05-31,90,153,True,inventory_only,4
+PT,almendres-cromlech,Cromeleque dos Almendres — «португальский Стоунхендж»,2026-05-31,365,153,False,inventory_only,2
+PT,alojamento-local-license,Alojamento Local (AL): лицензия на краткосрочную аренду,2026-05-18,90,166,True,inventory_only,5
+PT,alojamento-saude-vacina-bebe,Контроль здоровья ребёнка в SNS: saúde infantil и прививки,2026-05-31,180,153,False,inventory_only,3
+PT,alugar-ferramentas-drill,"Аренда инструментов: где взять дрель, шлифмашину или лестницу на день",2026-05-31,180,153,False,inventory_only,3
+PT,ancv-cheque-acolhimento,Cheque Acolhimento: туристические ваучеры от работодателя,2026-05-31,180,153,False,inventory_only,3
+PT,andante-porto,"Andante — единая карта Порту: метро, автобус, пригородные поезда",2026-05-31,180,153,False,inventory_only,2
+PT,anexo-j-contas-estrangeiras,"Anexo J Quadro 11: как декларировать Wise, Revolut, N26, Degiro и IBKR",2026-05-31,90,153,True,inventory_only,3
+PT,apanha-bivalves-mar,Сбор моллюсков (apanha de bivalves) — лицензия и санитарные зоны,2026-05-31,180,153,False,inventory_only,6
+PT,apicultura-registo-iniciante,Пчеловодство для новичка — регистрация в DGAV (Direção-Geral de Alimentação e Veterinária),2026-05-31,365,153,False,inventory_only,5
+PT,apoio-aleitamento-materno,Apoio à amamentação: поддержка грудного вскармливания в SNS,2026-05-31,180,153,False,inventory_only,4
+PT,apoio-domiciliario-sad,Serviço de Apoio Domiciliário (SAD): помощь дома,2026-05-31,180,153,False,inventory_only,4
+PT,apostille-translation,Апостиль и присяжный перевод документов,2026-05-31,365,153,False,inventory_only,2
+PT,apple-pay-google-pay-pt,Apple Pay и Google Pay в Португалии — как настроить,2026-05-31,180,153,False,inventory_only,4
+PT,aquaparks-portugal,Аквапарки Португалии — куда поехать летом (2026),2026-05-31,180,153,False,inventory_only,5
+PT,aquecimento-inverno-recuperador,"Отопление дома зимой: recuperador de calor, salamandra, esquentador",2026-05-31,180,153,False,inventory_only,3
+PT,ar-condicionado-historia-classe,Класс энергоэффективности приборов: A++ vs A — что покупать,2026-05-31,180,153,False,inventory_only,4
+PT,ar-condicionado-instalacao,"Кондиционеры в Португалии: установка, IVA и реальная стоимость",2026-05-31,180,153,False,inventory_only,4
+PT,arrendamento-acessivel-rsaa-2026,RSAA — доступная аренда: лимиты и оформление в 2026,2026-10-20,90,11,False,inventory_only,2
+PT,articles-88-89-legalization,Легализация через статьи 88/89 Lei 23/2007 — когда и как,2026-09-25,90,36,False,inventory_only,6
+PT,atestado-domicilio-internacional,Atestado de Transposição de Domicílio Fiscal Internacional: справка о переносе налогового резидентства в Португалию,2026-05-31,90,153,True,inventory_only,3
+PT,atestado-multiusos-amim,Atestado Médico de Incapacidade Multiuso (AMIM): как получить справку об инвалидности,2026-05-31,180,153,False,inventory_only,4
+PT,atestado-residencia-junta-freguesia,Atestado de residência: справка о проживании из Junta de Freguesia,2026-08-01,365,91,False,inventory_only,4
+PT,atl-actividades-tempos-livres,ATL и CAF: продлёнка для школьников 6–10 лет в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,atm-cash-rules,"Банкоматы, наличные и лимиты в Португалии",2026-05-31,365,153,False,inventory_only,4
+PT,ato-isolado,Ato Isolado — разовый счёт без открытия atividade,2026-09-25,90,36,False,inventory_only,4
+PT,audiologia-aparelhos-auditivos,"Audiologia и слуховые аппараты: Widex, Oticon, Acustimedi",2026-05-31,180,153,False,inventory_only,4
+PT,autocaravana-pernoita-rules,Кемпер и autocaravana: где можно ночевать в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,aveiro-coast,Авейру и Costa Nova — «португальская Венеция»,2026-05-31,365,153,False,inventory_only,3
+PT,aviso-prociv-sms,AvisoPROCIV: SMS-оповещения ANEPC при пожарах и жаре,2026-05-31,180,153,False,inventory_only,4
+PT,azeite-caseiro-lagar,Своё оливковое масло — сбор оливок и отжим в lagar,2026-05-31,365,153,False,inventory_only,4
+PT,azores-islands,Азорские острова — 9 островов в Атлантике,2026-05-31,365,153,False,inventory_only,4
+PT,azores-madeira-subsidy,Азоры и Мадейра — Subsídio Social de Mobilidade и как купить билеты,2026-05-31,180,153,False,inventory_only,5
+PT,baba-canguro-domestico,Empregada doméstica vs babá: как легально нанять помощницу или няню,2026-05-31,90,153,True,inventory_only,4
+PT,babysitter-mae-galinha,"Babysitter и nanny в Португалии: Mãe Galinha, Care.com, Babysits",2026-05-31,180,153,False,inventory_only,4
+PT,bacalhau-escolher,"Bacalhau: как выбрать, вымочить и приготовить",2026-05-31,180,153,False,inventory_only,4
+PT,bairros-sustentaveis-fa,Bairros + Sustentáveis: какие кварталы включены и какие льготы дают,2026-05-31,180,153,False,inventory_only,3
+PT,banks-compared,Португальские банки и необанки — сравнение 2026,2026-05-31,365,153,False,inventory_only,4
+PT,barbeiro-cabeleireiro-etiqueta,Barbeiro и cabeleireiro: где стричься и сколько платить,2026-05-31,180,153,False,inventory_only,4
+PT,barcos-cacilhas-trafaria,"Паромы Лиссабона: Cacilhas, Trafaria, Seixal, Montijo, Barreiro",2026-05-31,180,153,False,inventory_only,3
+PT,beauty-salons-etiquette,"Маникюр, педикюр, брови — этикет и цены в Португалии",2026-05-31,365,153,False,inventory_only,4
+PT,belarus-specific,Переезд из Беларуси — специфика,2026-05-31,90,153,True,inventory_only,3
+PT,berlengas-islands,Берленги — природный заповедник и остров-крепость,2026-05-31,365,153,False,inventory_only,3
+PT,biblioteca-municipal-cartao,Cartão de Leitor: бесплатные муниципальные библиотеки,2026-05-31,180,153,False,inventory_only,3
+PT,bicicleta-registo-codigo,"Велосипед в Португалии — регистрация, права и правила",2026-05-31,365,153,False,inventory_only,4
+PT,bike-mobility-gira-bus,"Велошеринг GIRA, BUGA, U-Bike и провоз велосипедов",2026-05-31,180,153,False,inventory_only,4
+PT,bilhete-zoo-aquario,"Зоопарк Лиссабона, Oceanário и аквариумы: билеты, абонементы, скидки",2026-05-31,180,153,False,inventory_only,3
+PT,birth-registration,Регистрация рождения ребёнка в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,blablacar-rideshare-pt,BlaBlaCar в Португалии — попутки между городами,2026-05-31,180,153,False,inventory_only,4
+PT,boating-license-pt,"Лицензия на яхту/катер в Португалии: Marinheiro, Patrão Local, Patrão de Costa",2026-05-31,180,153,False,inventory_only,3
+PT,boletim-saude-eletronico,Boletim de Saúde Infantil eletrónico: цифровая медкарта ребёнка,2026-05-31,180,153,False,inventory_only,3
+PT,bolsa-imoveis-estado,Bolsa de Imóveis do Estado: государственная база жилья для аренды,2026-09-25,90,36,False,inventory_only,5
+PT,bolsa-investigacao-fct,Bolsa de Investigação FCT — стипендии для исследователей,2026-05-31,180,153,False,inventory_only,4
+PT,bombeiros-voluntarios-pt,Bombeiros Voluntários: когда звонить и сколько стоит,2026-05-31,180,153,False,inventory_only,3
+PT,border-crossing-with-vnj,Пересечение границы с ВНЖ Португалии — Шенген и третьи страны,2026-05-31,180,153,False,inventory_only,5
+PT,braga-guimaraes,Брага и Гимарайнш — «колыбель Португалии»,2026-05-31,365,153,False,inventory_only,3
+PT,brazil-specific,Бразильцы в Португалии — CPLP и Estatuto de Igualdade,2026-05-31,90,153,True,inventory_only,4
+PT,brisa-tunel-marao-tolls,Платные дороги Brisa и Túnel do Marão: тарифы и Via Verde,2026-05-31,180,153,False,inventory_only,3
+PT,brokerage-account-pt,"Брокерский счёт в Португалии: DEGIRO, IBKR, Trading 212, XTB с NIF",2026-05-31,90,153,True,inventory_only,4
+PT,business-account,Открыть бизнес-счёт — для ИП и компаний,2026-05-31,365,153,False,inventory_only,3
+PT,buy-used-car-checks,Как проверить б/у авто перед покупкой в Португалии,2026-05-31,365,153,False,inventory_only,3
+PT,buying-property,Покупка недвижимости в Португалии — пошагово,2026-05-31,180,153,False,inventory_only,4
+PT,caca-licenca-icnf,Охота в Португалии — лицензия ICNF + удостоверение охотника (carta de caçador),2026-05-31,365,153,False,inventory_only,5
+PT,caderneta-predial-imovel,Caderneta Predial — паспорт недвижимости от Finanças,2026-05-31,180,153,False,inventory_only,3
+PT,cae-choice-self-employed,CAE: как выбрать код деятельности для recibos verdes,2026-05-31,90,153,True,inventory_only,6
+PT,cafe-meia-leite-galao,"Кофейная культура: meia de leite, galão, bica, garoto, abatanado",2026-05-31,180,153,False,inventory_only,3
+PT,cam-motorista-imt,CAM — обязательный сертификат профессионального водителя грузовика или автобуса,2026-05-31,180,153,False,inventory_only,3
+PT,campings-parques-pt,"Кемпинги Португалии: Federação Campismo, ACSI, Orbitur",2026-05-31,180,153,False,inventory_only,4
+PT,campo-ferias-juventude,Campos de Férias: летние лагеря для детей в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,cancel-gym-fidelizacao,Расторжение договора с фитнес-клубом во время fidelização,2026-05-31,180,153,False,inventory_only,4
+PT,cancel-telecom-fidelizacao,Расторжение телеком-договора через cessacaodecontratos.pt,2026-05-31,180,153,False,inventory_only,3
+PT,cantina-escolar-precos,Школьное питание Cantina: цены и социальный escalão,2026-05-31,180,153,False,inventory_only,3
+PT,car-import,Ввоз автомобиля в Португалию,2026-05-31,180,153,False,inventory_only,3
+PT,car-import-from-eu,Ввоз автомобиля из ЕС — подробная процедура,2026-05-31,365,153,False,inventory_only,3
+PT,car-insurance,"Автостраховка в Португалии — RC обязательна, Casco — по желанию",2026-05-31,365,153,False,inventory_only,4
+PT,carnaval-pt-vs-br,"Carnaval в Португалии: Torres Vedras, Loulé, Sesimbra — это не Бразилия",2026-05-31,180,153,False,inventory_only,4
+PT,carris-eletricos-lisboa,"Лиссабонские электротрамваи 12, 15, 18, 28: туристы vs местные",2026-05-31,180,153,False,inventory_only,5
+PT,carris-metropolitana,Carris Metropolitana — автобусный оператор Большого Лиссабона,2026-05-31,180,153,False,inventory_only,3
+PT,carro-eletrico-vs-gasolina-2026,Покупка электрокара vs бензин в 2026: total cost of ownership,2026-05-31,180,153,False,inventory_only,4
+PT,carta-condicionada-imt,Carta de Condução Condicionada: права с медицинскими ограничениями,2026-05-31,180,153,False,inventory_only,4
+PT,carta-navegador-recreio,Удостоверение капитана прогулочного судна — категории и обучение (Carta de Navegador de Recreio),2026-05-31,365,153,False,inventory_only,4
+PT,carta-social-rede-social,Carta Social — национальная база социальных учреждений,2026-05-31,180,153,False,inventory_only,3
+PT,cartao-cliente-comparados,"Cartão Cliente: сравнение Continente, Pingo Doce, Lidl Plus и Auchan",2026-05-31,180,153,False,inventory_only,4
+PT,cartao-cliente-galp-fidelidade,Cartão Galp / BP / Repsol: программы лояльности на АЗС,2026-05-31,180,153,False,inventory_only,4
+PT,cartao-credito-debito-mb,Cartão de Crédito vs Débito vs Multibanco — какие карты бывают и как работают,2026-05-31,180,153,False,inventory_only,4
+PT,cartao-de-cidadao,Cartão de Cidadão — удостоверение гражданина Португалии (иностранцам — Título de Residência),2026-05-31,365,153,False,inventory_only,4
+PT,cartao-estacionamento-pmr,Cartão de Estacionamento PMR — парковка для людей с инвалидностью,2026-05-31,180,153,False,inventory_only,3
+PT,cartao-familia-numerosa,Cartão de Família Numerosa: скидки для семей с 3+ детьми,2026-05-31,180,153,False,inventory_only,3
+PT,cartao-jovem-europeu,Cartão Jovem Europeu — карта молодёжных скидок до 30 лет,2026-05-31,180,153,False,inventory_only,3
+PT,cartao-misericordia-saude,Cartão da Misericórdia: благотворительные клиники Santa Casa,2026-05-31,180,153,False,inventory_only,3
+PT,casa-eficiente-2020-credito,Casa Eficiente 2020 — субсидированный кредит на улучшение жилья,2026-05-31,180,153,False,inventory_only,4
+PT,casa-restaurar-licenciamento,"Реставрация старой квартиры: licenciamento da Câmara, ARU и льгота IMI",2026-05-31,90,153,True,inventory_only,4
+PT,casamento-cl-noivo-noiva,Casamento Civil: этапы и документы для иностранцев,2026-05-31,90,153,True,inventory_only,3
+PT,casamento-dois-paises-internacional,Casamento с иностранцем другого гражданства: двойное оформление,2026-05-31,90,153,True,inventory_only,4
+PT,cascais-card-vivacascais,Cascais Card / Viva Cascais — карта резидента Кашкайша,2026-05-31,180,153,False,inventory_only,4
+PT,casinos-jogos-online-pt,Казино и онлайн-игры в Португалии: регулирование SRIJ,2026-05-31,180,153,False,inventory_only,4
+PT,cc-lost-stolen-urgent,Утеря или кража Cartão de Cidadão: экстренная замена,2026-05-31,180,153,False,inventory_only,2
+PT,centro-dia-idosos-bairro,Centro de Dia — дневная помощь пожилым,2026-05-31,180,153,False,inventory_only,3
+PT,centros-comerciais-lisboa-porto,"Торговые центры Лиссабона и Порту: Colombo, Vasco da Gama, NorteShopping",2026-05-31,180,153,False,inventory_only,4
+PT,certidao-domicilio-fiscal,Certidão de domicílio fiscal — подтверждение налогового адреса,2026-08-01,365,91,False,inventory_only,3
+PT,certificados-aforro-ot,"Государственные облигации Португалии: Certificados de Aforro, Certificados do Tesouro и OT через AforroNet",2026-05-31,90,153,True,inventory_only,4
+PT,cessar-suspender-atividade,Закрытие или приостановка recibos verdes: cessação/suspensão atividade,2026-05-31,90,153,True,inventory_only,4
+PT,change-tax-address,Смена налогового адреса (domicílio fiscal) в Finanças,2026-05-31,365,153,False,inventory_only,5
+PT,charity-donations-tax,Благотворительность — где помочь и налоговые вычеты,2026-05-31,365,153,False,inventory_only,4
+PT,chave-movel-digital,Chave Móvel Digital (государственная электронная подпись) — активация,2026-05-31,180,153,False,inventory_only,2
+PT,chaveiro-fechadura-emergencia,Сломан замок или потеряли ключи: где найти chaveiro 24h,2026-05-31,180,153,False,inventory_only,4
+PT,check-traffic-fines,"Как проверить, есть ли штрафы за авто и нарушения ПДД в Португалии",2026-06-15,120,138,True,inventory_only,7
+PT,cheque-bebe-municipal,Cheque-Bebé и муниципальные пособия на новорождённых,2026-05-31,180,153,False,inventory_only,4
+PT,cheque-dentista-pnpso,Cheque-Dentista — государственный стоматологический ваучер PNPSO,2026-05-31,180,153,False,inventory_only,3
+PT,child-adoption-process,Усыновление ребёнка в Португалии — 9 этапов,2026-05-31,90,153,True,inventory_only,4
+PT,ciberseguranca-cncs-denuncia,"Кибербезопасность: CNCS, PJ Crimes Informáticos и онлайн-жалобы",2026-05-31,180,153,False,inventory_only,4
+PT,ciencia-aberta-portugal,Бесплатные научные события: Ciência Aberta и Noite dos Investigadores в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,cig-discriminacao-queixa,"CIG — жалоба на дискриминацию по полу, идентичности или ориентации",2026-09-25,90,36,False,inventory_only,5
+PT,cinemas-events,"Кино, концерты, мероприятия — где покупать билеты и какие скидки",2026-05-31,365,153,False,inventory_only,4
+PT,ciple-a2-exam,"Португальский A2 — бесплатные курсы, школьные программы и экзамен CIPLE",2026-05-31,180,153,False,inventory_only,11
+PT,citizenship-by-descent,Гражданство Португалии по родству (Lei Orgânica 1/2026),2026-06-23,90,130,True,inventory_only,8
+PT,citizenship-by-marriage,Гражданство Португалии по браку или união de facto (Lei Orgânica 1/2026),2026-06-23,90,130,True,inventory_only,6
+PT,civil-marriage,Гражданская регистрация брака в Португалии — как зарегистрировать брак,2026-05-31,180,153,False,inventory_only,3
+PT,claim-claii-integracao,CLAIM/CLAII — местные центры поддержки интеграции мигрантов,2026-05-31,180,153,False,inventory_only,3
+PT,close-activity,Закрытие atividade (ИП) и юрлица в Португалии,2026-05-31,365,153,False,inventory_only,3
+PT,cnpd-rgpd-queixa,RGPD: жалоба в CNPD на нарушение конфиденциальности,2026-05-31,90,153,True,inventory_only,3
+PT,coffee-culture,Кофейная культура Португалии,2026-05-31,365,153,False,inventory_only,2
+PT,cogumelos-selvagens-icnf,"Сбор диких грибов в Португалии: licença ICNF, сезоны и безопасность",2026-05-31,180,153,False,inventory_only,4
+PT,coimbra,Коимбра — старейший университет Португалии,2026-05-31,365,153,False,inventory_only,3
+PT,comboios-cp-tipos,"Поезда CP: Alfa Pendular, Intercidades, Inter-regional и Urbano — в чём разница",2026-05-31,180,153,False,inventory_only,4
+PT,common-scams,Типичные схемы мошенничества в Португалии и как их избежать,2026-05-31,365,153,False,inventory_only,5
+PT,compra-bicicleta-usada,"Покупка б/у велосипеда: OLX, Vinted, Custojusto и проверка продавца",2026-05-31,180,153,False,inventory_only,4
+PT,compras-amazon-aliexpress,"Amazon ES/PT, AliExpress и eBay в Португалии: доставка, IVA и пошлины",2026-07-10,180,113,False,inventory_only,7
+PT,comunidade-brasileira-portugal,"Бразильская диаспора в Португалии: Casa do Brasil, ассоциации и районы",2026-05-31,180,153,False,inventory_only,4
+PT,comunidade-russa-eslava-pt,"Русская, украинская и белорусская диаспоры в Португалии",2026-05-31,180,153,False,inventory_only,4
+PT,condominio-explained,"Кондоминиум — как устроены взносы, собрания и права жильца",2026-05-31,365,153,False,inventory_only,4
+PT,conservatorio-musica-criancas,Conservatório de Música: музыкальное образование детей,2026-05-31,180,153,False,inventory_only,4
+PT,consoada-revillon,"Réveillon в Португалии: 12 виноградин, море и фейерверки",2026-05-31,180,153,False,inventory_only,4
+PT,consular-appointment-booking,Запись в консульство Португалии — как поймать слот,2026-05-31,90,153,True,inventory_only,3
+PT,consular-birth-abroad,Регистрация рождения в португальском консульстве: transcrição do assento de nascimento,2026-05-31,90,153,True,inventory_only,4
+PT,consumer-rights,"Права потребителя — возврат, обмен, гарантия",2026-05-31,365,153,False,inventory_only,5
+PT,consumer-rights-warranty,"Гарантия на товары — 3 года на новые, 18 месяцев на б/у",2026-05-31,365,153,False,inventory_only,4
+PT,cope-bportugal-residentes,COPE: отчёт Banco de Portugal об операциях и позициях с заграницей от 250 000 €,2026-05-31,90,153,True,inventory_only,2
+PT,corte-arvores-licenca,"Спил деревьев на своём участке — что можно, а где штраф 5 000 €+",2026-05-31,365,153,False,inventory_only,5
+PT,cost-of-living-2026,Стоимость жизни в Португалии в 2026 году — полный разбор,2026-09-25,180,36,False,inventory_only,4
+PT,couvert-bill-etiquette,"Couvert и счёт в ресторане: этикет, который не пишут в гайдах",2026-05-31,180,153,False,inventory_only,3
+PT,coworking-spaces,Коворкинги в Португалии — где работать удалёнщикам,2026-05-31,180,153,False,inventory_only,4
+PT,cp-comboios-intercity,"CP — поезда: Alfa Pendular, Intercidades и пригородные",2026-05-31,180,153,False,inventory_only,2
+PT,cp-trains,Поезда CP (Comboios de Portugal) — как пользоваться,2026-05-31,180,153,False,inventory_only,2
+PT,cpap-medicina-sono,Апноэ сна и CPAP через SNS: от médico de família до polissonografia,2026-05-31,180,153,False,inventory_only,2
+PT,cpcv-promise-contract,CPCV — предварительный договор купли-продажи жилья и sinal,2026-05-31,90,153,True,inventory_only,3
+PT,cplp-mobility,ВНЖ по Соглашению о мобильности CPLP,2026-05-31,60,153,True,inventory_only,4
+PT,crc-certificado-criminal,CRC — справка о несудимости в Португалии (Certidão de Registo Criminal),2026-05-31,180,153,False,inventory_only,3
+PT,creche-kindergarten,Ясли и детский сад в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,creches-gratis-3a5-anos,Бесплатные creches для детей 0–3 лет: Programa Creche Feliz,2026-05-31,180,153,False,inventory_only,4
+PT,credit-card-pt,Кредитные карты в Португалии — как получить и какие бывают,2026-05-31,365,153,False,targeted_update,4
+PT,credito-pessoal-tan-taeg,"Crédito Pessoal: потребительский кредит, TAN, TAEG и как сравнить",2026-08-01,90,91,True,targeted_update,5
+PT,crue-eu-citizens,CRUE — регистрация граждан ЕС/ЕЭЗ/Швейцарии,2026-05-31,365,153,False,inventory_only,5
+PT,cruz-vermelha-portuguesa,"Cruz Vermelha Portuguesa: социальная помощь, курсы первой помощи и волонтёрство",2026-05-31,180,153,False,inventory_only,4
+PT,crypto-exchange-pt-coinbase-binance,"Криптобиржи в Португалии: Coinbase, Binance, Kraken под NIF",2026-05-31,90,153,True,targeted_update,7
+PT,crypto-taxes,Криптовалюта в Португалии — налоги 2026,2026-09-25,180,36,False,inventory_only,4
+PT,csi-complemento-idosos,CSI — Complemento Solidário para Idosos: надбавка пожилым с низким доходом,2026-05-31,90,153,True,inventory_only,2
+PT,ctt-correios-services,"CTT Correios — почта, посылки, госуслуги",2026-05-31,365,153,False,inventory_only,2
+PT,ctt-mail-parcels-advanced,"CTT — переадресация почты, посылки, растаможка онлайн",2026-05-31,365,153,False,inventory_only,5
+PT,ctt-multibanco-pagamentos,"Multibanco: оплата ЖКХ, штрафов, налогов и пополнение мобильного",2026-05-31,180,153,False,inventory_only,4
+PT,ctt-post,CTT — почта Португалии,2026-05-31,365,153,False,inventory_only,2
+PT,cuidador-informal-estatuto,Cuidador Informal: статус неформального опекуна для ухода за родителями и родственниками,2026-05-31,90,153,True,inventory_only,3
+PT,cuidados-paliativos-sns,Паллиативная помощь в SNS — RNCCI Cuidados Paliativos,2026-05-31,180,153,False,inventory_only,4
+PT,currency-exchange,Обмен валют — где выгоднее RUB / USD / GBP в EUR,2026-05-31,180,153,False,inventory_only,3
+PT,customs-parcels,Растаможка посылок из стран вне ЕС — как платить меньше,2026-07-10,365,113,False,inventory_only,7
+PT,d2-entrepreneur,Виза D2 (предприниматель / ИП),2026-05-31,180,153,False,inventory_only,6
+PT,d3-highly-qualified,Виза D3 (высококвалифицированный специалист),2026-05-31,180,153,False,inventory_only,5
+PT,d4-student,"Виза D4 (студент) — бакалавриат, магистратура, аспирантура",2026-09-25,180,36,False,inventory_only,4
+PT,d7-passive-income,Виза D7 (пассивный доход),2026-05-31,90,153,True,inventory_only,3
+PT,d8-digital-nomad,Виза D8 (цифровой кочевник / удалёнщик),2026-05-31,90,153,True,inventory_only,2
+PT,decathlon-desporto-loja,Decathlon — спортивный магазин для всей Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,decoracao-natal-12-tradicoes,"Рождество в Португалии: Consoada, missa do galo и 12 fritos",2026-05-31,180,153,False,inventory_only,4
+PT,deposito-prazo-banco,"Депозит на срок (Depósito a Prazo) в португальском банке: ставки, налоги и защита 100 000 €",2026-05-31,180,153,False,inventory_only,3
+PT,dgae-teacher-recognition,AGSE (бывш. DGAE): признание квалификации учителя и Habilitação Própria,2026-05-31,90,153,True,inventory_only,6
+PT,dia-dos-namorados-amizade,Dia dos Namorados и Dia da Amizade — 14 февраля и не только,2026-05-31,180,153,False,inventory_only,3
+PT,digital-signature,Квалифицированная электронная подпись — Chave Móvel Digital (государственная электронная подпись) и Cartão de Cidadão,2026-05-31,365,153,False,inventory_only,4
+PT,direito-preferencia-arrendatario,Direito de Preferência: преимущественное право арендатора при продаже жилья,2026-05-31,90,153,True,inventory_only,4
+PT,divorce-separation,Развод в Португалии — процедуры и стоимость,2026-05-31,365,153,False,inventory_only,5
+PT,doacao-roupa-moveis,"Куда сдать старую одежду, мебель и еду: Re-Food, Cáritas, Banco Alimentar",2026-05-31,180,153,False,inventory_only,3
+PT,doces-conventuais-portugal,Doces Conventuais: монастырские сладости Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,doctoralia-marcacao-medico,Doctoralia и Linkare — поиск и запись к частному врачу,2026-05-31,180,153,False,inventory_only,2
+PT,dog-dangerous-breeds,"Собаки в Португалии — регистрация, опасные породы, налог",2026-05-31,365,153,False,inventory_only,5
+PT,domestic-flights-ferries,"Внутренние перелёты и паромы — Мадейра, Азоры, континент",2026-05-31,180,153,False,inventory_only,4
+PT,domestic-violence,Помощь жертвам домашнего насилия,2026-05-31,365,153,False,inventory_only,4
+PT,donativos-deduzir-irs,Donativos IRS: налоговые льготы за пожертвования по Lei do Mecenato,2026-05-31,90,153,True,inventory_only,3
+PT,douro-valley,Долина Дору — винодельческий регион ЮНЕСКО,2026-05-31,365,153,False,inventory_only,4
+PT,driving-license-exchange,Обмен водительских прав на португальские,2026-07-08,180,115,False,inventory_only,2
+PT,drones-portugal,"Дроны в Португалии — регистрация, правила, где можно",2026-05-31,180,153,False,inventory_only,6
+PT,e-fatura-deductions,e-Fatura: валидация чеков и налоговые вычеты IRS,2026-05-31,90,153,True,inventory_only,4
+PT,e-lar-fundo-ambiental,E-LAR / Vale E-Lar: ваучер на замену газа на электрику,2026-05-31,180,153,False,inventory_only,3
+PT,ebalcao-financas-online,e-Balcão Finanças — обращения в AT онлайн без визита,2026-05-31,180,153,False,inventory_only,2
+PT,ees-etias-entry,EES и ETIAS: что нужно на границе,2026-10-31,30,0,False,inventory_only,3
+PT,ehic-european-card,CESD — Европейская карта медстрахования (EHIC),2026-05-31,365,153,False,inventory_only,4
+PT,eidas-cross-border-login,eIDAS: вход на португальские госуслуги через eID другой страны ЕС,2026-05-31,180,153,False,inventory_only,4
+PT,elevadores-lisboa,"Лифты и фуникулёры Лиссабона: Bica, Glória, Lavra, Santa Justa",2026-05-31,180,153,False,inventory_only,3
+PT,ema-emergencia-medica,INEM и 112: скорая медицинская помощь в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,emel-avenca-residente,EMEL Avença Residente: резидентская парковка в Лиссабоне,2026-05-31,180,153,False,inventory_only,3
+PT,emergency-112,Экстренные контакты в Португалии (112 и др.),2026-05-31,365,153,False,inventory_only,5
+PT,empregada-domestica-contrato,Empregada doméstica: официальное оформление домашнего работника,2026-05-31,90,153,True,inventory_only,4
+PT,emprestimo-jovem-banco-d,Empréstimo Jovem: кредиты с госгарантией для молодых до 35 лет,2026-05-31,180,153,False,inventory_only,4
+PT,encanador-electricista-urgencia,Сантехник и электрик — кого вызвать при аварии 24/7,2026-05-31,180,153,False,inventory_only,4
+PT,encontrar-cabeleireiro-mens,Районные салоны и дешёвые barbeiros: где стричься за 5–10 €,2026-05-31,180,153,False,inventory_only,3
+PT,energy-certificate-ce,Certificado Energético: энергетический сертификат жилья,2026-05-31,180,153,False,inventory_only,4
+PT,eni-vs-sociedade-unipessoal,ENI vs Sociedade Unipessoal: выбор формы самозанятости,2026-09-25,90,36,False,inventory_only,4
+PT,erasmus-mais-mobilidade,Erasmus+ — обмен и стажировка для студентов в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,escolas-internacionais-ib,"Международные школы в Португалии: IB, British, American, French",2026-05-31,180,153,False,inventory_only,4
+PT,esim-prepaid-tourists,"Prepaid SIM и eSIM в Португалии: MEO, NOS, Vodafone",2026-05-31,180,153,False,inventory_only,4
+PT,espaco-cidadao,Espaço Cidadão — государственные услуги в одном окне,2026-05-31,365,153,False,inventory_only,2
+PT,espaco-internet-junta,"Espaços Internet: бесплатные компьютеры, Wi‑Fi и помощь с госуслугами при Junta de Freguesia",2026-05-31,180,153,False,inventory_only,4
+PT,estacionamento-gratis-lisboa,Бесплатные парковки Лиссабона — где оставить машину без EMEL,2026-05-31,180,153,False,inventory_only,3
+PT,estagios-iefp-jovens,Estágios IEFP: стажировки для молодых через биржу труда,2026-05-31,90,153,True,inventory_only,4
+PT,estatuto-apatrida-lei47,Статус апатрида в Португалии (Lei 47/2026): как признать безгражданство,2026-08-26,180,66,False,inventory_only,3
+PT,estatuto-doente-cronico,Estatuto de Doente Crónico — статус хронического больного,2026-05-31,180,153,False,inventory_only,4
+PT,ethnic-restaurants-groceries,"Этническая еда — где купить русские, грузинские, бразильские продукты",2026-05-31,180,153,False,inventory_only,2
+PT,eu-flight-compensation,Компенсации за отменённый или задержанный рейс (EU 261/2004),2026-05-31,365,153,False,inventory_only,4
+PT,eu-student-certificado-registo,EU/Erasmus-студент: Certificado de Registo вместо визы D4,2026-05-31,90,153,True,inventory_only,3
+PT,ev-charging-postos,"Зарядки электромобилей — Mobi.E, Galp, EDP, Wallbox",2026-05-31,180,153,False,inventory_only,4
+PT,ev-incentives,Субсидии и льготы на электромобиль в Португалии,2026-05-18,180,166,False,inventory_only,4
+PT,everyday-apps,Необходимые приложения для жизни в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,eviction-tenant-protections,"Защита арендатора при выселении: BNA, denúncia и отказ от продления",2026-05-31,90,153,True,inventory_only,4
+PT,evora-alentejo,Эвора и Алентежу — белые городки и винодельни,2026-05-31,365,153,False,inventory_only,3
+PT,exotic-pets-cats,Кошки и экзотические питомцы — правила,2026-05-31,365,153,False,inventory_only,4
+PT,expat-community-channels,"Где общаются иммигранты: каналы, группы и форумы по странам",2026-05-31,60,153,True,inventory_only,3
+PT,explicacoes-superprof-explica,"Repetições / Explicações: Superprof, Explica.pt и частные репетиторы",2026-05-31,180,153,False,inventory_only,2
+PT,fa-painel-solar-residencial,Fundo Ambiental: ваучер на солнечные панели для жилья,2026-05-31,90,153,True,inventory_only,4
+PT,fa-vehicles-eletricos-2026,Fundo Ambiental: субсидия на электромобиль в 2026,2026-05-31,90,153,True,inventory_only,2
+PT,fado-culture,Fado — душа Португалии и где её услышать,2026-05-31,365,153,False,inventory_only,3
+PT,faturacao-holvi-toconline,"Программы выставления счетов для recibos verdes: Holvi, ToConline, Visee, Faturalia",2026-05-31,90,153,True,inventory_only,4
+PT,fcmp-trail-running,Trail running и горный бег — federation card FCMP / FPA,2026-05-31,365,153,False,inventory_only,5
+PT,federacao-tenis-padel,"Теннис и падел в Португалии: клубы, лицензии FPT/FPP и турниры",2026-05-31,180,153,False,inventory_only,2
+PT,feira-livro-livraria,Feira do Livro Lisboa и книжные магазины Bertrand/Wook,2026-05-31,180,153,False,inventory_only,4
+PT,feiras-mercados-mensais,Feiras e mercados mensais: местные ярмарки и рынки выходного дня,2026-05-31,180,153,False,inventory_only,4
+PT,feiras-startups-tecnologia,Web Summit Lisboa и стартап-комьюнити Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,feiras-velharias-antiquidades,Feira da Ladra и ярмарки антиквариата в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,feriados-2026,Праздники и выходные в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,ferias-portugal-tipicas,"Когда отпуск в Португалии: летние, зимние и праздничные периоды",2026-05-31,180,153,False,inventory_only,4
+PT,ferramentas-leroy-aki-bricomarche,Leroy Merlin vs AKI vs Bricomarché vs Maxmat — где что брать,2026-05-31,180,153,False,inventory_only,4
+PT,ferries-lisboa,Паромы Лиссабона — переправы через Тежу и побережье,2026-05-31,180,153,False,inventory_only,2
+PT,ferry-madeira-acores,"Паромы между островами Мадейры и Азор: Atlânticoline, Porto Santo Line, Naviera Armas",2026-05-31,180,153,False,inventory_only,4
+PT,festa-aniversario-criancas,"Детский день рождения в Португалии: традиции, места, подарки",2026-05-31,180,153,False,inventory_only,4
+PT,festas-religiosas-romarias,Romarias: португальские паломнические праздники по сезонам,2026-05-31,180,153,False,inventory_only,4
+PT,festival-musica-pt,"Музыкальные фестивали Португалии: NOS Alive, Rock in Rio, Super Bock",2026-05-31,180,153,False,inventory_only,4
+PT,financas-appointment,Запись на приём в Finanças — онлайн и без очереди,2026-05-31,365,153,False,inventory_only,3
+PT,financas-password,Пароль от Portal das Finanças (налоговый портал) — активация и восстановление,2026-05-31,365,153,False,inventory_only,3
+PT,finding-doctor,Найти врача в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,fishing-license-pt,Рыболовная лицензия: морская DGRM и пресноводная ICNF,2026-05-31,180,153,False,inventory_only,3
+PT,fisioterapia-comparticipacao,Fisioterapia с comparticipação SNS и частными страховками,2026-05-31,180,153,False,inventory_only,4
+PT,flat-tyre-highway,Пробитое колесо на трассе — правильная последовательность,2026-05-31,365,153,False,inventory_only,4
+PT,florista-flores-tradicoes,"Цветочные магазины и традиции: Dia da Mãe, Pai, Páscoa, funeral",2026-05-31,180,153,False,inventory_only,4
+PT,fne-financas-novo-extrato,"Получение справок Finanças: IRS, IUC, IMI, дивиденды и отсутствие долгов",2026-05-31,90,153,True,inventory_only,3
+PT,fogueiras-bbq-defeso,"Огонь, мангал, фейерверки — когда запрещено (PIR) и штрафы",2026-07-10,180,113,False,inventory_only,6
+PT,fontes-naturais-praias-rio,Praias fluviais — речные пляжи Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,football-culture,"Футбольная культура: Benfica, Porto, Sporting",2026-05-31,365,153,False,inventory_only,5
+PT,fossa-septica-saneamento,"Септик (fossa séptica) — нормы, расстояния, разрешения",2026-05-31,365,153,False,inventory_only,4
+PT,fotos-passaporte-cc,"Фотографии для паспорта, Cartão de Cidadão, ВНЖ и визы: где сделать за 5–10 €",2026-05-31,180,153,False,inventory_only,4
+PT,francesinha-bifana-pratos,"Francesinha, bifana, leitão: типичные португальские блюда и где их пробовать",2026-05-31,180,153,False,inventory_only,3
+PT,frutaria-frutas-da-epoca,Frutaria и сезонные фрукты Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,fuel-savings,Бензин и дизель — как сэкономить на топливе,2026-09-25,180,36,False,inventory_only,2
+PT,fundo-garantia-deposito,Fundo de Garantia de Depósitos: защита банковских вкладов до 100 000 €,2026-05-31,180,153,False,inventory_only,3
+PT,furo-licenca-apa,Скважина (furo) на участке — лицензия APA / ARH,2026-05-31,365,153,False,inventory_only,5
+PT,futebol-juventude-clubes,Детский футбол: escolinhas FCP/SCP/SLB и муниципальные секции,2026-05-31,180,153,False,inventory_only,4
+PT,fx-cambio-online-revolut,"Обмен валюты в Португалии: Revolut, Wise и câmbio в центре Lisboa",2026-05-31,180,153,False,inventory_only,4
+PT,garagem-mecanica-bairro,Гаражи и oficinas в районе: как выбрать местного механика,2026-05-31,180,153,False,inventory_only,4
+PT,gas-botija-substituicao,Газовая botija: где заменить баллон и как оформить доставку,2026-05-31,180,153,False,inventory_only,3
+PT,gender-marker-change-pt,Изменение гендерного маркера и имени в документах Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,gift-tax-imposto-selo,Налог на подарки: Imposto do Selo 10% и исключения для семьи,2026-05-31,90,153,True,inventory_only,4
+PT,ginasio-piscina-municipal,Муниципальные бассейны и спортзалы — дешевле Fitness Hut,2026-05-31,180,153,False,inventory_only,3
+PT,ginastica-danca-criancas,"Гимнастика и танцы для детей: Conservatório de Dança, academias и частные студии",2026-05-31,180,153,False,inventory_only,4
+PT,ginjinha-licor-tradicional,Ginjinha и португальские ликёры — где купить и пить,2026-05-31,365,153,False,inventory_only,4
+PT,glovo-uber-bolt-driver,Glovo / Uber Eats / Bolt Food: как стать курьером в Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,golden-visa-2026,Golden Visa (ARI) в 2026 — актуальные маршруты,2026-05-31,90,153,True,inventory_only,8
+PT,gyms-fitness,"Фитнес и спорт — залы, пляжи, активности",2026-05-31,365,153,False,inventory_only,3
+PT,habilitacao-herdeiros,Habilitação de Herdeiros — установление наследников после смерти,2026-05-31,90,153,True,inventory_only,4
+PT,halloween-pao-por-deus,Halloween vs Pão por Deus — что празднуют 31 октября в Португалии,2026-05-31,365,153,False,inventory_only,3
+PT,health-insurance-compared,"Частная медстраховка в Португалии — Médis, Multicare, CUF и др.",2026-05-31,365,153,False,inventory_only,6
+PT,heating-winter,Как пережить зиму в Португалии — отопление и влажность,2026-05-31,365,153,False,inventory_only,3
+PT,higher-education-foreigners,Высшее образование в Португалии — для иностранных студентов,2026-05-31,365,153,False,inventory_only,7
+PT,hiking-trails,Хайкинг и экотропы Португалии — от уикенда к многодневному походу,2026-05-31,365,153,False,inventory_only,5
+PT,historical-villages,Aldeias Históricas — 12 исторических деревень Португалии,2026-05-31,365,153,False,inventory_only,2
+PT,home-insurance,Страхование жилья — seguro multirriscos,2026-05-31,365,153,False,inventory_only,4
+PT,home-internet-fiber,"Домашний интернет — фибра, установка, переезд",2026-05-31,180,153,False,inventory_only,2
+PT,horta-comunitaria-bairro,Hortas comunitárias: общественные огороды в районах Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,hunting-license-pt,Лицензия охотника (Carta de Caçador) и оружие в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,iapmei-empresarios-jovens,IAPMEI: поддержка молодых предпринимателей до 35 лет,2026-05-31,90,153,True,inventory_only,4
+PT,idealista-imovirtual-buscar,"Idealista, Imovirtual, Casa Sapo: как искать аренду в Португалии",2026-09-25,180,36,False,inventory_only,5
+PT,ifap-agricultura-subsidios,IFAP: субсидии PEPAC для микро-фермеров и agricultor familiar,2026-05-31,90,153,True,inventory_only,4
+PT,ifici-regime,IFICI — налоговый режим (замена NHR),2026-09-25,90,36,False,inventory_only,4
+PT,ifu-reabilitacao-urbana,IFRRU 2030: кредит и субсидия на реновацию жилья,2026-09-25,180,36,False,inventory_only,4
+PT,ikea-conforama-myhome-moveis,"IKEA, Conforama, MyHome, JYSK — где купить мебель в Португалии",2026-05-31,180,153,False,inventory_only,4
+PT,imi-property-tax,IMI — муниципальный налог на недвижимость,2026-05-31,90,153,True,inventory_only,4
+PT,immigrant-calendar,Календарь иммигранта — что делать по месяцам после приезда,2026-05-31,180,153,False,inventory_only,6
+PT,imovel-devoluto-imi-tripla,Imóvel devoluto: тройной IMI за пустующее жильё по Mais Habitação,2026-05-31,90,153,True,inventory_only,4
+PT,imovel-divida-onus-verificar,Проверка задолженностей и обременений недвижимости перед покупкой,2026-05-31,90,153,True,inventory_only,4
+PT,imovel-urbano-vs-rustico,"Imóvel urbano vs rústico: IMI, налоги и разрешения",2026-05-31,90,153,True,inventory_only,4
+PT,imt-stamp-duty-buy,IMT и Imposto do Selo при покупке недвижимости,2026-05-18,90,166,True,inventory_only,4
+PT,imt-theory-practice-exam,Получить права с нуля — теория и практика IMT,2026-07-08,365,115,False,inventory_only,5
+PT,incendio-rural-perto-casa,"Лесной пожар рядом: эвакуация, укрытие, дым, что после",2026-07-10,180,113,False,inventory_only,6
+PT,inheritance-death-pt,Наследство и смерть в Португалии — что делать,2026-05-31,365,153,False,inventory_only,3
+PT,intercity-buses,"Автобусы между городами Португалии — Rede Expressos, FlixBus, Alsa",2026-05-31,180,153,False,inventory_only,3
+PT,intercity-transport,"Междугородний транспорт по Португалии — поезд, автобус, самолёт",2026-05-31,180,153,False,inventory_only,6
+PT,internet-gratis-restaurantes-cafes,Бесплатный Wi‑Fi в кафе и ресторанах Португалии: этикет и безопасность,2026-05-31,180,153,False,inventory_only,3
+PT,internet-outage-anacom,Жалоба в ANACOM на провайдера и расторжение договора,2026-05-31,180,153,False,inventory_only,4
+PT,internships-traineeships,Стажировки (Estágios) — программы и оплата,2026-05-31,365,153,False,inventory_only,5
+PT,ipma-meteo-app,"IPMA: погода, штормы, море, пожары и сейсмика",2026-05-31,180,153,False,inventory_only,4
+PT,ipo-inspection,"Техосмотр IPO — как, когда и сколько",2026-05-31,180,153,False,inventory_only,4
+PT,ipo-tabacaria-quiosque,"Tabacaria и Quiosque: что там покупать — билеты, лотереи, табак, газеты",2026-05-31,180,153,False,inventory_only,4
+PT,irs-anexo-g-mais-valias,"IRS Anexo G — налог на прирост капитала: квартира, акции, фонды, crypto",2026-05-31,90,153,True,inventory_only,5
+PT,irs-anexo-h-deducoes,"IRS Anexo H: все вычеты saúde, educação, lares и imóvel",2026-05-31,90,153,True,targeted_update,7
+PT,irs-auto-prefill,IRS Automático — предзаполненная декларация для простых случаев,2026-05-31,90,153,True,inventory_only,3
+PT,irs-filing,Подача IRS — налоговая декларация физического лица,2026-09-25,180,36,False,inventory_only,13
+PT,irs-jovem,IRS Jovem — льгота по подоходному налогу для молодых до 35 лет,2026-09-25,90,36,False,inventory_only,4
+PT,irs-municipal-devolucao,IRS Municipal: возврат до 5% подоходного налога от município,2026-05-31,90,153,True,inventory_only,3
+PT,irs-senior-65-mais,IRS для пенсионеров 65+: специальные правила и вычеты,2026-05-31,90,153,True,inventory_only,4
+PT,irs-year-end,IRS-чеклист на конец года: что подготовить,2026-05-31,180,153,False,targeted_update,5
+PT,iuc-tax,IUC — ежегодный налог на автомобиль,2026-08-26,180,66,False,inventory_only,4
+PT,iva-autoliquidacao-ue-b2b,Reverse charge / autoliquidação IVA: счета клиентам в ЕС B2B,2026-05-31,90,153,True,inventory_only,4
+PT,iva-construcao-hpp-restituicao,Строительство своего дома: частичный возврат IVA,2026-10-31,30,0,False,inventory_only,2
+PT,iva-reembolso-pedido,Возврат IVA при переплате: pedido de reembolso от 250 €,2026-05-31,90,153,True,inventory_only,5
+PT,iva-tax-free-aeroporto,Tax-Free shopping в аэропорту: возврат IVA нерезидентам,2026-05-31,180,153,False,inventory_only,3
+PT,ivg-interrupcao-gravidez,IVG — легальное прерывание беременности до 10 недель в SNS,2026-05-31,90,153,True,inventory_only,3
+PT,job-search-portugal,Поиск работы в Португалии — сайты и стратегия,2026-05-31,180,153,False,inventory_only,4
+PT,judo-karate-criancas,"Judo, Karate и единоборства для детей",2026-05-31,180,153,False,inventory_only,3
+PT,julgados-de-paz-process,Julgados de Paz: мировой суд для споров до 15 000 €,2026-05-31,90,153,True,inventory_only,4
+PT,junta-freguesia,Junta de Freguesia — что это и какие услуги оказывает,2026-05-31,365,153,False,inventory_only,3
+PT,karting-portugal,Картинг в Португалии — где погонять (2026),2026-05-31,180,153,False,inventory_only,5
+PT,labour-rights,Трудовые права в Португалии — что нужно знать работнику,2026-09-25,365,36,False,inventory_only,5
+PT,lar-protocolado-comparticipa,Protocolo Segurança Social / IPSS: субсидированный lar de idosos,2026-05-31,180,153,False,inventory_only,4
+PT,lar-residencias-idosos,Lar de Idosos / ERPI — дома престарелых в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,lavandaria-self-service,Прачечные в Португалии: Self Service Laundry vs Lavandaria com serviço,2026-05-31,180,153,False,inventory_only,4
+PT,lavar-roupa-vizinhos-horario,Стирка и шум в квартире: португальские нормы и время,2026-05-31,180,153,False,inventory_only,2
+PT,learn-portuguese,"Как выучить португальский — школы, приложения, советы",2026-05-31,365,153,False,inventory_only,4
+PT,legal-aid,Юридическая помощь в Португалии — как найти и где бесплатно,2026-05-31,180,153,False,inventory_only,5
+PT,lei-bases-migracao-2026,Lei 61/2025 (новая миграционная реформа): что меняется в Lei 23/2007,2026-09-25,90,36,False,inventory_only,6
+PT,ler-factura-luz,"Как читать счёт за электричество: consumo, taxas и расчёт",2026-05-31,180,153,False,inventory_only,5
+PT,lgbtq-rights,Права ЛГБТК+ в Португалии,2026-05-31,365,153,False,inventory_only,5
+PT,license-renewal,Продление португальских водительских прав,2026-07-08,365,115,False,inventory_only,2
+PT,lidl-continente-deals,"Lidl Outlet, карта Continente, сравнение цен — экономия в супермаркетах",2026-05-31,180,153,False,inventory_only,4
+PT,limpeza-domicilio-helpling,"Уборка на дому: Helpling, Lavanda Lisboa и частные клинеры",2026-05-31,180,153,False,inventory_only,4
+PT,limpeza-terrenos-gestao-combustivel,"Очистка участка (gestão de combustível): обязанность, сроки и штрафы",2026-07-10,180,113,False,inventory_only,4
+PT,lisboa-bip-zip-cartao,Cartão BIP/ZIP: резидентская карта Лиссабона со скидками,2026-05-31,180,153,False,inventory_only,3
+PT,lisboa-card-residente,Cartão Lisboa — резидентская карта Лиссабона со скидками,2026-05-31,180,153,False,inventory_only,4
+PT,lisboa-card-vs-navegante,"Lisboa Card vs Navegante: что брать туристу, что резиденту",2026-05-31,180,153,False,inventory_only,3
+PT,lisboa-cultura-bilhetes-baratos,Бесплатные музеи и культура Лиссабона: Domingo de manhã и резидентский тариф,2026-05-31,180,153,False,inventory_only,4
+PT,lisboa-wifi-gratis-municipal,Бесплатный Wi‑Fi в Лиссабоне и Порту: Lisboa WiFi Plus,2026-05-31,180,153,False,inventory_only,2
+PT,lisbon-areas-by-budget,Где жить в Лиссабоне: районы по бюджету и типу семьи,2026-05-31,180,153,False,inventory_only,4
+PT,lisbon-neighborhoods,Районы Лиссабона — где жить,2026-05-31,180,153,False,inventory_only,3
+PT,lisbon-top-sights,"Лиссабон — топ-20 мест, которые стоит увидеть",2026-05-18,365,166,False,inventory_only,3
+PT,lisbon-walking-tour-alfama,Пешеходный маршрут по Алфаме — старейшему району Лиссабона,2026-05-31,365,153,False,inventory_only,3
+PT,lisbon-walking-tour-belem,Белен — маршрут эпохи великих открытий,2026-05-31,365,153,False,inventory_only,3
+PT,livro-reclamacoes,Livro de Reclamações — как жаловаться правильно,2026-05-31,365,153,False,inventory_only,4
+PT,lixo-recolha-municipal,Сбор мусора и переработка: графики и правила муниципалитетов,2026-05-31,180,153,False,inventory_only,4
+PT,logopedia-criancas-sns,"Logopedia для детей: terapia da fala в SNS, школе и частно",2026-05-31,180,153,False,inventory_only,4
+PT,loja-do-bebe-tudo-para-recem,"Где купить всё для новорождённого: Prenatal, Bebé Confort, Mothercare",2026-05-31,180,153,False,inventory_only,4
+PT,loja-do-chines,Loja dos Chineses: где купить всё подряд за копейки,2026-05-31,180,153,False,inventory_only,4
+PT,loja-do-cidadao-deep,Loja do Cidadão глубоко: какие сервисы где доступны,2026-05-31,180,153,False,inventory_only,4
+PT,lojas-bio-organicas,"Органические магазины: Celeiro, Brio, Maria Granel и mercados biológicos",2026-05-31,180,153,False,inventory_only,4
+PT,lojas-etnicas-asia-africa,"Этнические магазины: индийские, азиатские, африканские, бразильские и восточно-европейские продукты",2026-05-31,180,153,False,inventory_only,4
+PT,lojas-imprimir-fotocopiar,"Где распечатать, отсканировать и заламинировать документы",2026-05-31,180,153,False,inventory_only,3
+PT,lojas-mago-do-pao,"Свежий хлеб и пекарни: Mago do Pão, Padaria Portuguesa, Confeitaria Nacional",2026-05-31,180,153,False,inventory_only,3
+PT,lojas-online-pt-vintage,"PT-online магазины: Worten Online, FNAC.pt, El Corte Inglés Online",2026-05-31,180,153,False,inventory_only,4
+PT,lojas-segunda-mao-vinted,"Магазины и приложения б/у: Vinted, OLX, Wallapop, Refeitório",2026-05-31,180,153,False,inventory_only,4
+PT,lota-mercado-peixe,Lota и mercado do peixe — где покупать свежую рыбу как местный,2026-05-31,180,153,False,inventory_only,4
+PT,luto-funeral-portugues-tradicoes,"Похороны и траур в Португалии: традиции, ритуалы, расходы",2026-05-31,180,153,False,inventory_only,4
+PT,madeira-irs-rates,IRS на Мадейре: отдельная налоговая ставка для резидентов автономного региона,2026-09-25,90,36,False,inventory_only,4
+PT,madeira-island,Мадейра — для цифровых кочевников,2026-05-31,365,153,False,inventory_only,3
+PT,manifestacao-replacement,Manifestação de Interesse (заявление о намерении легализации) отменена — что делать вместо,2026-06-23,60,130,True,inventory_only,4
+PT,manuais-escolares-gratis,Бесплатные школьные учебники с 1-го по 12-й класс: Programa Manuais,2026-08-26,180,66,False,inventory_only,4
+PT,manutencao-carro-revisao,"Manutenção / revisão автомобиля: concessionário, Norauto или Bosch oficina",2026-05-18,180,166,False,inventory_only,4
+PT,marcacao-aima-online-2026,Запись в AIMA онлайн: реальный workflow 2026,2026-05-31,90,153,True,inventory_only,3
+PT,markets-mercados,Рынки Португалии (Mercados),2026-05-31,365,153,False,inventory_only,3
+PT,mb-way-fraude-burlas,"MB WAY: мошенничество и как защититься на OLX, SMS и в мессенджерах",2026-09-25,180,36,False,inventory_only,4
+PT,medical-malpractice-ers,"Жалоба на медицинскую помощь: ERS, Ordem dos Médicos, суд",2026-05-31,90,153,True,inventory_only,4
+PT,mental-health-resources,Психическое здоровье — горячие линии и помощь,2026-05-31,365,153,False,inventory_only,4
+PT,mica-casp-register-check,MiCA: как проверить криптосервис перед переводом денег,2026-10-31,60,0,False,new_guide_verified,3
+PT,minimundi-portugal-pequeninos,Portugal dos Pequenitos и Minimundi: миниатюрная Португалия для детей,2026-05-31,180,153,False,inventory_only,3
+PT,mobile-carriers-compared,Мобильные операторы и интернет — сравнение тарифов 2026,2026-05-31,120,153,True,inventory_only,7
+PT,modelo-30-nao-residentes,Modelo 30 — ежемесячная декларация о выплатах нерезидентам,2026-05-31,90,153,True,inventory_only,4
+PT,money-transfer,Перевод денег из СНГ в Португалию — легальные каналы 2026,2026-05-31,90,153,True,inventory_only,5
+PT,mortgage-foreigners,Ипотека для иностранцев в Португалии,2026-09-25,90,36,False,inventory_only,5
+PT,motorcycle-license-am-a1,"Категории мотоциклетных прав в Португалии: AM, A1, A2, A",2026-05-31,180,153,False,inventory_only,4
+PT,mudanca-morada-todos-servicos,Смена адреса в Португалии: батч-изменение во всех сервисах,2026-05-31,180,153,False,inventory_only,4
+PT,mudancas-empresas-pt,Переезд в Португалии: как выбрать компанию de mudanças,2026-05-31,180,153,False,inventory_only,4
+PT,mudar-comercializador-luz-gas,Смена поставщика электричества и газа: бесплатно и без отключения,2026-09-25,180,36,False,inventory_only,3
+PT,must-try-dishes,Что обязательно попробовать в Португалии — по регионам,2026-05-31,365,153,False,inventory_only,3
+PT,namorada-de-facto-direitos,União de Facto: права партнёров без брака (Lei Orgânica 1/2026),2026-09-25,90,36,False,inventory_only,5
+PT,natacao-clube-criancas,Плавание для детей: Federação Portuguesa de Natação и местные клубы,2026-05-31,180,153,False,inventory_only,3
+PT,natal-presentes-tradicoes,Подарки на Рождество в Португалии: кому что дарить и сколько тратить,2026-05-31,180,153,False,inventory_only,3
+PT,natural-pools-beaches,Природные бассейны и лучшие пляжи Португалии,2026-05-31,365,153,False,inventory_only,3
+PT,naturalization-2026,Натурализация — гражданство Португалии по новому закону Lei Orgânica 1/2026,2026-09-25,60,36,False,inventory_only,17
+PT,navegante-lisboa,Navegante — проездной Большого Лиссабона,2026-05-31,180,153,False,inventory_only,5
+PT,nazare-obidos-fatima,"Назаре, Обидуш, Фатима — центральное побережье",2026-05-18,365,166,False,inventory_only,4
+PT,nif-eu-cplp,Как получить NIF — граждане ЕС/ЕЭЗ/Швейцарии и CPLP,2026-05-31,180,153,False,inventory_only,4
+PT,nif-for-children,NIF для ребёнка — как оформить,2026-05-31,365,153,False,inventory_only,5
+PT,nif-third-country,Как получить NIF — граждане третьих стран,2026-05-31,180,153,False,inventory_only,3
+PT,niss,Как получить NISS (номер соцстрахования),2026-05-31,90,153,True,inventory_only,3
+PT,noise-neighbors,"Шум и соседи — что законно, куда жаловаться",2026-05-31,365,153,False,inventory_only,4
+PT,noites-fado-tradicional,Casas de fado: где слушать аутентичный fado в Лиссабоне и Коимбре,2026-05-31,180,153,False,inventory_only,4
+PT,oa-advogados-foreign,Ordem dos Advogados: иностранный юрист в Португалии без BR-реципрокности,2026-05-31,90,153,True,inventory_only,5
+PT,oculista-exame-visao,Oculista и optometrista: где проверить зрение и купить очки в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,oe-engenheiros-foreign,Ordem dos Engenheiros: как иностранному инженеру получить право подписывать проекты,2026-05-31,90,153,True,inventory_only,6
+PT,olx-custojusto-vinted,"OLX, CustoJusto, Vinted — покупка и продажа б/у вещей",2026-05-31,180,153,False,inventory_only,6
+PT,om-dentistas-foreign,Ordem dos Médicos Dentistas: как иностранному стоматологу работать в Португалии,2026-05-31,90,153,True,inventory_only,5
+PT,om-enfermeiros-foreign,Ordem dos Enfermeiros: как иностранной медсестре легально работать в Португалии,2026-05-31,90,153,True,inventory_only,5
+PT,om-medicos-foreign-doc,Ordem dos Médicos: регистрация иностранного врача в Португалии,2026-05-31,90,153,True,inventory_only,6
+PT,ondas-calor-saude,"Жара и ondas de calor: предупреждения, здоровье, работа",2026-07-10,180,113,False,inventory_only,6
+PT,online-learning-coursera,"Онлайн-обучение в Португалии: Coursera, Domestika, Skillshare и MOOC",2026-05-31,180,153,False,inventory_only,4
+PT,online-supermercado-entrega,"Доставка продуктов на дом: Continente Online, Auchan, El Corte Inglés, Pingo Doce",2026-05-31,180,153,False,inventory_only,4
+PT,online-vs-store-14-days,14 дней на возврат — как это работает для онлайн-покупок и обычных магазинов,2026-05-31,365,153,False,inventory_only,4
+PT,outlet-fashion-portugal,"Outlet-центры в Португалии: Freeport Lisboa, Algarve Designer Outlet, Porto и Setúbal",2026-05-31,180,153,False,inventory_only,4
+PT,overstay-fines,Штрафы за просрочку пребывания в Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,p-r-parking-lisboa-porto,Park & Ride (P+R): парковки у метро и поездов в Лиссабоне и Порту,2026-05-31,180,153,False,inventory_only,4
+PT,padaria-pasteleria-cafe-pedir,"Padaria, pastelaria, café: что заказывать и как",2026-05-31,180,153,False,inventory_only,3
+PT,pagar-contestar-contraordenacoes,Portal das Contraordenações: оплата и обжалование штрафов онлайн,2026-05-31,180,153,False,inventory_only,3
+PT,pao-por-deus-1nov,Pão por Deus — португальский «Хеллоуин» 1 ноября,2026-05-31,365,153,False,inventory_only,3
+PT,parental-leave-rights,Декретный отпуск и родительские права,2026-05-31,180,153,False,inventory_only,5
+PT,parking-fine-municipal,"Парковочные штрафы: EMEL в Лиссабоне, Porto и другие муниципалитеты",2026-05-31,180,153,False,inventory_only,4
+PT,passaporte-portugues-pedir,"Получение португальского паспорта: IRN, agendamento и цены",2026-05-31,180,153,False,inventory_only,3
+PT,passe-municipal-national,"Месячные проездные в Португалии: Navegante, Andante, passe municipal/metropolitano и национальный passe CP",2026-09-25,180,36,False,inventory_only,4
+PT,passes-aveiro-coimbra-algarve,"Региональные проездные: Aveiro, Coimbra, Algarve, Centro",2026-05-31,180,153,False,inventory_only,4
+PT,passport-change-mid-residency,Смена загранпаспорта при действующем ВНЖ — что обновлять,2026-05-31,90,153,True,inventory_only,4
+PT,pastel-belem-nata,Pastel de Belém vs pastel de nata — историческая разница,2026-05-31,365,153,False,inventory_only,3
+PT,patinetes-eletricas-rules,"Электросамокаты в Португалии: правила, шлем, Bolt/Lime/TIER",2026-05-31,180,153,False,inventory_only,5
+PT,pediatric-care,"Педиатр в Португалии — SNS, частные врачи, чего ожидать",2026-05-31,180,153,False,inventory_only,4
+PT,pension-totalizacao-eu,Тотализация пенсионных периодов ЕС/ЕЭЗ/Швейцарии: Reg. 883/2004,2026-05-31,90,153,True,inventory_only,4
+PT,perfumarias-sephora-douglas,"Парфюмерия и косметика: Sephora, Douglas, El Corte Inglés Beleza",2026-05-31,180,153,False,inventory_only,4
+PT,permanent-residence-eu,"Постоянное резидентство Португалии (arts. 76, 80) и EU Long-Term Resident (arts. 125+)",2026-09-25,180,36,False,inventory_only,5
+PT,pesca-agua-doce-icnf,Пресноводная рыбалка (água doce) — лицензия ICNF (Институт охраны природы и лесов),2026-05-31,180,153,False,inventory_only,4
+PT,pesca-embarcada-mar,Морская рыбалка с лодки — лицензия Pesca Lúdica Embarcada,2026-05-31,180,153,False,inventory_only,4
+PT,pesca-ludica-cana-mar,Морская рыбалка с берега — лицензия Pesca Lúdica à linha (DGRM),2026-05-31,180,153,False,inventory_only,6
+PT,pesca-submarina-apneia,Подводная охота на задержке дыхания (апноэ) — лицензия и правила,2026-05-31,180,153,False,inventory_only,4
+PT,pet-adoption-shelters,Усыновить животное в Португалии — приюты и процесс,2026-05-31,365,153,False,inventory_only,5
+PT,pet-import,Ввоз животного в Португалию,2026-05-31,180,153,False,inventory_only,3
+PT,pet-sitter-dog-walking,"Pet-sitter и dog-walking: Petme, Dogo, Pawshake",2026-05-31,180,153,False,inventory_only,4
+PT,pet-travel-eu-passport,Pet passport и путешествия с животными по ЕС,2026-05-31,180,153,False,inventory_only,4
+PT,pharmacies,Аптеки в Португалии — Farmácia и Parafarmácia,2026-05-31,365,153,False,inventory_only,4
+PT,pintor-carpinteiro-habitissimo,"Как найти маляра, плотника или ремонтную бригаду: Habitissimo, Fixando, Zaask",2026-05-31,180,153,False,inventory_only,4
+PT,pma-ivf-sns,"ЭКО / PMA в SNS: 3 бесплатных цикла, возраст и право на доступ",2026-05-31,180,153,False,inventory_only,4
+PT,porta-65-jovem,Porta 65 Jovem — субсидия на аренду для молодых 18–35 лет,2026-05-31,180,153,False,inventory_only,4
+PT,portability-mnp,Перенос номера (MNP) между операторами,2026-05-31,365,153,False,inventory_only,3
+PT,porto-areas-by-budget,Где жить в Порту: районы по бюджету и типу семьи,2026-09-25,180,36,False,inventory_only,5
+PT,porto-card-residente,Porto Card Resident: резидентская карта Порту,2026-05-31,180,153,False,inventory_only,4
+PT,porto-neighborhoods,Районы Порту — где жить,2026-05-31,180,153,False,inventory_only,3
+PT,porto-top-sights,"Порту — топ-15 мест, которые стоит увидеть",2026-05-18,365,166,False,inventory_only,3
+PT,porto-walking-tour-ribeira,Пеший маршрут по историческому центру Порту,2026-05-31,365,153,False,inventory_only,3
+PT,portuguese-phrases,Португальский — базовые фразы для первых недель,2026-05-31,730,153,False,inventory_only,3
+PT,ppr-poupanca-reforma,PPR — накопительная пенсия и вычет 20% в IRS,2026-05-31,90,153,True,inventory_only,4
+PT,praca-mercado-municipal,"Mercado Municipal: главные рынки Лиссабона, Порту и Коимбры",2026-05-31,180,153,False,inventory_only,4
+PT,praia-seguranca-bandeiras,"Безопасность на пляже: флаги, спасатели и течения agueiros",2026-06-23,180,130,False,inventory_only,4
+PT,praias-bandeira-azul,Пляжи с Bandeira Azul и безопасность на пляже в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,pregnancy-birth,Беременность и роды в Португалии,2026-05-31,180,153,False,inventory_only,5
+PT,presente-funeral-coroa,"Похоронные цветы в Португалии: coroa de flores, ramo и этикет",2026-05-31,180,153,False,inventory_only,3
+PT,private-insurance,Частное медицинское страхование — как устроен рынок,2026-05-31,365,153,False,inventory_only,5
+PT,procuracao-notario,"Procuração у notário: доверенность, специальные полномочия и апостиль",2026-05-31,365,153,False,inventory_only,4
+PT,procuro-trabalho,Виза Procura de Trabalho (поиск работы) — статус и новые правила,2026-05-31,180,153,False,inventory_only,4
+PT,promo-codes-aggregator,"Скидочные карты, промокоды и кэшбэк в Португалии — где экономить",2026-05-31,365,153,False,inventory_only,5
+PT,promo-codes-verified,Промокоды и реферальные ссылки — проверенные на 18.05.2026,2026-05-31,90,153,True,inventory_only,7
+PT,psicologo-sns-acesso,Психолог в SNS — реальный доступ через семейного врача,2026-05-31,180,153,False,inventory_only,2
+PT,psp-gnr-quem-chamar,PSP vs GNR: какую полицию вызывать и где,2026-05-31,180,153,False,inventory_only,3
+PT,queijadas-travesseiros-sintra,"Синтра: queijadas, travesseiros и Casa Piriquita",2026-05-31,365,153,False,inventory_only,2
+PT,queijos-portugueses-tipos,"Португальские сыры: Serra da Estrela, São Jorge, Azeitão и другие DOP",2026-05-31,365,153,False,inventory_only,3
+PT,radar-multa-contestar,Обжалование штрафа со скоростной камеры SINCRO,2026-05-31,90,153,True,inventory_only,4
+PT,rastreio-cancro-mama-colo,"Rastreios oncológicos SNS: скрининг рака груди, шейки матки и кишечника",2026-05-31,180,153,False,inventory_only,4
+PT,rcd-residuos-construcao-demolicao,RCD: отходы строительства и сноса — как легально вывезти,2026-05-18,180,166,False,inventory_only,4
+PT,reagrupamento-familiar,Воссоединение семьи (Reagrupamento Familiar),2026-08-26,90,66,False,inventory_only,6
+PT,recibos-verdes,Recibos Verdes — работа как самозанятый,2026-09-25,180,36,False,inventory_only,3
+PT,recibos-verdes-issue,Как выписать recibo verde (электронный чек самозанятого) — пошагово,2026-08-26,180,66,False,inventory_only,5
+PT,reciclagem-oee-electronica,"Утилизация электроники OEE/REEE: куда сдать телефон, ноутбук, телевизор",2026-05-31,180,153,False,inventory_only,4
+PT,reconhecimento-habilitacoes-estrangeiras,Признание иностранного диплома в Португалии (DGES / NARIC),2026-06-23,180,130,False,inventory_only,3
+PT,recurso-hierarquico-at,Иерархическое обжалование решений Finanças: recurso hierárquico,2026-05-31,90,153,True,inventory_only,4
+PT,recycling-pt,Раздельный сбор и утилизация мусора в Португалии,2026-05-31,365,153,False,inventory_only,4
+PT,rede-expressos-flixbus,Rede Expressos и FlixBus — междугородние автобусы,2026-05-31,180,153,False,inventory_only,4
+PT,rede-saude-mental-publica,"Психическое здоровье в SNS: médico de família, SPMS, Linha SOS и urgência psiquiátrica",2026-05-31,180,153,False,inventory_only,4
+PT,registo-embarcacao-recreio,Регистрация прогулочной лодки — Capitania (портовая капитания),2026-05-31,365,153,False,inventory_only,5
+PT,religiao-mesquita-igreja,"Религиозные общины Португалии: мечети, синагоги, церкви и храмы",2026-05-31,180,153,False,inventory_only,4
+PT,relocation-shipping,"Перевозка вещей в Португалию — контейнер, компании, багаж",2026-05-31,365,153,False,inventory_only,3
+PT,renegociar-credito-habitacao,Renegociação do Crédito Habitação: как пересмотреть ипотеку в Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,rent-a-car,Аренда авто в Португалии — советы резидентам и туристам,2026-05-31,180,153,False,inventory_only,3
+PT,rent-dispute-bna-julgados,"Спор с арендодателем: DECO, Julgados de Paz, BNA",2026-09-25,90,36,False,inventory_only,5
+PT,rental-contract,Долгосрочная аренда в Португалии — правовая база и процесс,2026-09-25,180,36,False,inventory_only,10
+PT,rental-deposit-fiador,Caução и fiador — депозит и поручитель при аренде,2026-05-31,90,153,True,inventory_only,4
+PT,rental-sites-compared,Где искать аренду жилья — сайты и стратегия,2026-05-31,180,153,False,inventory_only,4
+PT,reparacao-electrodomesticos,"Ремонт бытовой техники в Португалии: сервисы, гарантия и цены",2026-05-31,180,153,False,inventory_only,4
+PT,residencia-permanente-5-anos,Постоянный ВНЖ Португалии после 5 лет — путь к Permanente,2026-05-31,90,153,True,targeted_update,7
+PT,residential-parking,"Резидентская парковка — Лиссабон, Кашкаиш, Сетубал",2026-05-31,180,153,False,inventory_only,3
+PT,retirement-pensions,"Пенсионная система — Segurança Social, PPR, для пенсионеров",2026-09-25,365,36,False,inventory_only,3
+PT,rf-remote-services,"Удалённые услуги РФ из Португалии — выписка, ИП, доверенности",2026-05-31,90,153,True,inventory_only,3
+PT,ride-sharing-apps,Uber / Bolt / FreeNow / BlaBlaCar в Португалии,2026-05-31,180,153,False,inventory_only,3
+PT,rnal-2026-mudancas,RNAL — Registo Nacional de Alojamento Local: изменения 2026,2026-05-31,90,153,True,inventory_only,4
+PT,rotas-pedestres-gr,Пешие маршруты Португалии: GR и PR,2026-05-31,180,153,False,inventory_only,4
+PT,rotas-vinho-douro-alentejo,"Винные маршруты: Rotas do Vinho Douro, Alentejo и Tejo",2026-05-31,180,153,False,inventory_only,4
+PT,rotunda-prioridade-condutor,Rotunda и кольцевые: португальские правила приоритета,2026-05-31,90,153,True,inventory_only,3
+PT,rrc-oncologia-sns,Онкологический маршрут SNS: Rede de Referenciação Oncológica и TMRG,2026-05-31,180,153,False,inventory_only,4
+PT,russia-belarus-services,"Консульские услуги для РФ/РБ — апостили, доверенности, справки",2026-05-31,180,153,False,inventory_only,4
+PT,russia-specific,Переезд из России — специфика,2026-05-31,90,153,True,inventory_only,6
+PT,russian-banya-pt,Русская баня в Португалии — что есть и где искать,2026-05-31,365,153,False,inventory_only,3
+PT,rvcc-anqep-centro-qualifica,RVCC: признание уровня образования взрослых через Centro Qualifica,2026-05-31,180,153,False,inventory_only,3
+PT,s1-form-uk-pensioner,Форма S1 для британских пенсионеров: доступ к SNS в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,s2-treatment-abroad-eu,Форма S2: плановое лечение в другой стране ЕС за счёт SNS,2026-05-31,90,153,True,inventory_only,4
+PT,salario-minimo-vs-medio,Salário Mínimo Nacional 2026: 920 € и сравнение с salário médio,2026-05-31,90,153,True,inventory_only,4
+PT,saldos-black-friday-pt,Saldos и Black Friday в Португалии — когда и как покупать со скидками,2026-05-31,180,153,False,inventory_only,4
+PT,santa-casa-lotaria,"Santa Casa: Euromilhões, Totoloto, Joker и где играть",2026-05-31,180,153,False,inventory_only,4
+PT,santos-populares-festas,"Santos Populares: июньские праздники Santo António, São João и São Pedro",2026-05-31,180,153,False,inventory_only,3
+PT,sao-martinho-magusto,"São Martinho: magusto, каштаны и vinho novo 11 ноября",2026-05-31,365,153,False,inventory_only,3
+PT,school-enrollment,Зачисление ребёнка в португальскую школу,2026-09-25,180,36,False,inventory_only,4
+PT,seguranca-social-direta,Segurança Social Direta: все онлайн-сервисы SSD,2026-05-31,180,153,False,inventory_only,4
+PT,seguro-multirisco-habitacao,Seguro Multirriscos Habitação — страховка квартиры,2026-05-31,180,153,False,inventory_only,4
+PT,seguro-saude-medis-multicare,Страховки здоровья в Португалии: Médis vs Multicare vs AdvanceCare,2026-05-31,180,153,False,inventory_only,4
+PT,seguro-social-voluntario,Seguro Social Voluntário: добровольные взносы в Segurança Social,2026-05-31,90,153,True,inventory_only,3
+PT,seguro-vida-pt-tipos,Страхование жизни в Португалии: типы и требования банков,2026-05-31,180,153,False,inventory_only,4
+PT,self-storage-armazem,Self storage: где хранить вещи в Португалии,2026-05-31,180,153,False,inventory_only,5
+PT,sem-medico-familia,Что делать без médico de família: consultas de recurso и consulta aberta,2026-05-31,180,153,False,inventory_only,4
+PT,sepultura-cremacao-cemiterio,"Кладбища и кремация в Португалии — права, цены, выбор",2026-05-31,180,153,False,inventory_only,4
+PT,serious-traffic-crimes,Тяжёлые нарушения ПДД — уголовные дорожные преступления,2026-05-31,365,153,False,inventory_only,4
+PT,sesaram-madeira-saude,"Здравоохранение Мадейры и Азорских островов: SESARAM, SRS и отличия от SNS",2026-05-31,180,153,False,inventory_only,4
+PT,shopping-outlets,Аутлеты Португалии — где покупать бренды со скидкой,2026-05-31,365,153,False,inventory_only,4
+PT,sia-password-issues,Сброс пароля Portal das Finanças и SIA — что делать,2026-05-31,365,153,False,inventory_only,3
+PT,siac-pet-lost-found,SIAC.pt: потерянный или найденный питомец в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,siba-host-registration,SIBA: обязательная регистрация иностранных гостей за 3 рабочих дня,2026-05-31,90,153,True,inventory_only,3
+PT,sicad-dependencias-sup,"SICAD/ICAD: бесплатная помощь при зависимостях — алкоголь, наркотики, азартные игры",2026-05-31,180,153,False,inventory_only,4
+PT,siga-app-ticket-trick,SigaApp + ePortugal: как правильно брать талон в Loja de Cidadão,2026-05-31,180,153,False,inventory_only,2
+PT,sintra-day-trip,Синтра — однодневная экскурсия из Лиссабона,2026-05-31,365,153,False,inventory_only,3
+PT,sintra-quintas-historicas,"Sintra глубоко: Palácio da Pena, Monserrate и Quinta da Regaleira",2026-05-31,180,153,False,inventory_only,4
+PT,smart-meter-edp-direitos,Умные счётчики E-REDES: права потребителя,2026-05-31,180,153,False,inventory_only,3
+PT,sns-foreigner-no-niss,SNS для иностранцев без NISS — что делать,2026-05-31,365,153,False,inventory_only,4
+PT,sns-utente,Регистрация в SNS и получение número de utente,2026-05-31,180,153,False,inventory_only,4
+PT,social-rules-condominio,"Жизнь в многоквартирном доме — соседи, шум, жалобы",2026-05-31,365,153,False,inventory_only,3
+PT,social-supports,"Социальная помощь в Португалии — RSI, субсидии, пособия",2026-08-31,180,61,False,inventory_only,10
+PT,software-faturacao-at,Программы выставления счетов с сертификацией AT: QR + ATCUD,2026-05-31,90,153,True,inventory_only,3
+PT,solar-panels,"Солнечные панели — установка, разрешения, экономия",2026-05-18,365,166,False,inventory_only,5
+PT,sos-voz-amiga-suicidio,SOS Voz Amiga и линии экстренной психологической помощи,2026-05-31,90,153,True,inventory_only,4
+PT,souvenirs-from-pt,Сувениры из Португалии — что привезти и где купить,2026-05-31,365,153,False,inventory_only,5
+PT,ssa-totalization-us-pt,Социальное страхование США (SSA) для резидентов Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,startup-visa,Startup Visa — для основателей сертифицированных стартапов,2026-05-31,180,153,False,inventory_only,3
+PT,subsidio-arrendamento-jovens,Subsídio de renda apoiada для молодых арендаторов: Lisboa и Porto,2026-09-25,90,36,False,inventory_only,5
+PT,subsidio-desemprego-pedido,Subsídio de Desemprego: пособие по безработице через IEFP и Segurança Social,2026-05-31,90,153,True,inventory_only,3
+PT,subsidio-doenca-baixa-medica,Subsídio de Doença / Baixa Médica — больничный для наёмного работника,2026-05-31,90,153,True,inventory_only,3
+PT,subsidio-funeral-ss,Subsídio de Funeral — пособие на погребение от Segurança Social,2026-05-31,90,153,True,inventory_only,2
+PT,subsidio-mudanca-municipal,"Apoio à mudança: муниципалитеты, которые платят за переезд",2026-05-31,180,153,False,inventory_only,4
+PT,subsidio-refeicao-empregado,Subsídio de Refeição: питание от работодателя без IRS и Segurança Social,2026-05-31,90,153,True,inventory_only,4
+PT,subsidios-natal-ferias,Subsídio de Férias и Subsídio de Natal — 13-я и 14-я зарплаты,2026-05-31,90,153,True,inventory_only,4
+PT,supermarkets-compared,Супермаркеты Португалии — сравнение,2026-05-31,365,153,False,inventory_only,3
+PT,supermercados-asia-brasil-russia,"Магазины русских, украинских и восточно-европейских продуктов",2026-05-31,180,153,False,inventory_only,4
+PT,supermercados-comparados-detalhe,Continente vs Pingo Doce vs Lidl vs Auchan vs Aldi vs Mercadona: детальное сравнение,2026-05-31,180,153,False,inventory_only,4
+PT,surf-concessoes-escolas,"Серфинг в Португалии — концессии, школы, лицензии",2026-05-31,180,153,False,inventory_only,4
+PT,surfing-beaches,"Серфинг в Португалии — школы, пляжи, сезоны",2026-05-31,365,153,False,inventory_only,3
+PT,talho-tipos-de-carne,"Talho: португальские отрубы мяса — lombo, vazia, alcatra, pojadouro, picanha",2026-05-31,180,153,False,inventory_only,4
+PT,tap-miles-and-go,TAP Miles & Go — португальская программа лояльности авиакомпании,2026-05-31,180,153,False,inventory_only,4
+PT,tarifa-bihoraria-trihoraria,Тариф Bi-horária и Tri-horária: экономия на электричестве в peak/off-peak,2026-05-31,180,153,False,inventory_only,3
+PT,tarifa-social-energia,"Tarifa Social: социальный тариф на электричество, газ и воду",2026-08-01,180,91,False,inventory_only,4
+PT,tasca-pequeno-almoco-portugues,"Tasca: традиционная закусочная, что заказывать и как",2026-05-31,180,153,False,inventory_only,3
+PT,tax-residency-rules,Налоговое резидентство Португалии — правило 183 дней,2026-05-31,90,153,True,inventory_only,4
+PT,taxis-tarifa-pt,"Такси в Португалии: Tarifário 1/2/3, ночные надбавки и заказ",2026-05-31,180,153,False,inventory_only,4
+PT,teletrabalho-lei,Teletrabalho: закон об удалённой работе в Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,termas-de-monfortinho-vidago,"Termas de Monfortinho, Vidago и S. Pedro do Sul: лечебные курорты Португалии",2026-05-31,180,153,False,inventory_only,4
+PT,termas-spa-medical,Termas: лечебные термы Португалии и comparticipação SNS,2026-05-31,180,153,False,inventory_only,4
+PT,testamento-publico,Завещание через notário и Registo Central de Testamentos,2026-05-31,90,153,True,inventory_only,4
+PT,theme-parks-pt,Тематические парки и парки развлечений Португалии (2026),2026-05-31,180,153,False,inventory_only,5
+PT,tipos-de-peixe-comprar,"Типы португальской рыбы: что покупать, как готовить, сезонность",2026-05-31,180,153,False,inventory_only,3
+PT,tipping-etiquette,Этикет и чаевые в Португалии,2026-05-31,365,153,False,inventory_only,2
+PT,trabalhador-noturno-direitos,Ночная работа в Португалии — права работника и надбавка 25%,2026-05-31,90,153,True,inventory_only,3
+PT,trabalho-tempo-parcial-ria,"Работа на полставки, contrato a termo certo и trabalho intermitente",2026-05-31,90,153,True,inventory_only,5
+PT,traditional-dishes,Что попробовать из португальской кухни,2026-05-31,365,153,False,inventory_only,3
+PT,tradutor-juramentado,Присяжный переводчик / tradutor juramentado для визы и AIMA,2026-05-31,180,153,False,inventory_only,4
+PT,traffic-fines,"Штрафы ПДД в Португалии — виды, баллы, обжалование",2026-05-31,365,153,False,inventory_only,3
+PT,transporte-escolar-gratis,Бесплатный школьный транспорт: ответственность município,2026-05-31,180,153,False,inventory_only,4
+PT,transportes-65-mais-gratis,Бесплатный общественный транспорт для пенсионеров 65+,2026-05-31,180,153,False,inventory_only,4
+PT,troca-carta-conducao-estrangeira,Обмен иностранных прав на португальские (troca de carta no IMT),2026-07-08,180,115,False,inventory_only,4
+PT,tvde-driver-license,TVDE: как стать водителем Uber/Bolt в Португалии,2026-09-25,90,36,False,inventory_only,6
+PT,uber-eats-restaurante-onboarding,Регистрация ресторана на Uber Eats / Glovo / Bolt Food,2026-05-31,90,153,True,inventory_only,7
+PT,uk-specific,Британцы в Португалии после Brexit,2026-05-31,180,153,False,inventory_only,4
+PT,ukraine-specific,Украинцы в Португалии — временная защита и переезд,2026-05-31,90,153,True,inventory_only,4
+PT,uniao-de-facto,União de facto — гражданское партнёрство в Португалии,2026-05-31,365,153,False,inventory_only,3
+PT,universidade-senior,Universidade Sénior — образование для пенсионеров,2026-05-31,180,153,False,inventory_only,3
+PT,university-admission,Поступление в португальский университет — для иностранцев,2026-05-31,180,153,False,inventory_only,6
+PT,urgencia-how-to,Как не сидеть в urgência весь день,2026-05-31,365,153,False,inventory_only,4
+PT,usa-specific,Американцы в Португалии — FATCA и двойное налогообложение,2026-05-31,180,153,False,inventory_only,4
+PT,used-car-check,Проверка б/у авто перед покупкой в Португалии,2026-05-31,365,153,False,inventory_only,4
+PT,utilities-transfer,"Коммунальные услуги — договоры, смена поставщика, экономия",2026-05-31,365,153,False,inventory_only,4
+PT,vaccinations-pt,"Прививки в Португалии — PNV, дети, взрослые, путешествия",2026-09-25,180,36,False,inventory_only,6
+PT,veterinario-24h-emergencia,Ветклиники 24 часа в Лиссабоне и Порту,2026-05-31,180,153,False,inventory_only,4
+PT,vhf-radio-marinha-cep,Морское радио VHF — лицензия CEP и сертификат оператора,2026-05-31,365,153,False,inventory_only,6
+PT,via-card-electronic-toll,Via Verde и альтернативы — все способы платить за дороги,2026-05-31,365,153,False,inventory_only,4
+PT,via-verde-full,Via Verde (система электронной оплаты дорог) — полный гайд по оплате дорожных сборов в Португалии,2026-05-31,90,153,True,inventory_only,4
+PT,viagens-baratas-tap-vueling,"Дешёвые билеты — TAP, Vueling, Ryanair, easyJet из Португалии",2026-05-31,180,153,False,inventory_only,4
+PT,viagens-fim-de-semana-pt,Куда поехать на выходные: топ направлений из Лиссабона и Порту,2026-05-31,180,153,False,inventory_only,4
+PT,vinho-caseiro-particular,Своё домашнее вино — что разрешено без лицензии,2026-05-31,365,153,False,inventory_only,4
+PT,vinho-do-porto-tipos,"Vinho do Porto: типы Tawny, Ruby, Vintage, LBV и как покупать",2026-05-31,180,153,False,inventory_only,4
+PT,vinho-doc-ig-mesa,"Португальские вина: DOC, IG, Vinho de Mesa и регионы",2026-05-31,365,153,False,inventory_only,3
+PT,vinho-madeira-moscatel,Vinho da Madeira и Moscatel: португальские креплёные вина,2026-05-31,180,153,False,inventory_only,3
+PT,visa-d-status-check,Проверка статуса визы D и записи в AIMA,2026-05-31,90,153,True,inventory_only,4
+PT,viver-cascais-card,Карта Viver Cascais — льготы для резидентов муниципалитета,2026-05-31,180,153,False,inventory_only,3
+PT,viver-em-comunidade-condominio,"Условия condomínio: quotas, assembleia, regulamento",2026-05-31,180,153,False,inventory_only,4
+PT,voluntariado-organizado,"Волонтёрство в Португалии: Banco Alimentar, Re-food, IPSS",2026-05-31,180,153,False,inventory_only,4
+PT,voluntarios-protecao-civil,Bombeiros Voluntários: как стать волонтёром-пожарным в Португалии,2026-05-31,180,153,False,inventory_only,4
+PT,voto-imigrante-municipal,Право голоса мигрантов на муниципальных выборах в Portugal,2026-05-31,90,153,True,inventory_only,4
+PT,voucher-cultura-cidades,Vale Cultura и культурные ваучеры: муниципальные программы,2026-05-31,180,153,False,inventory_only,4
+PT,w8ben-eua-clientes,"W-8BEN: как снизить удержание США с 30% до treaty-ставки для Stripe, Amazon и IBKR",2026-05-31,90,153,True,inventory_only,4
+PT,wells-loja-saude-farmacia,"Wells, Loja Saúde, Pingo Doce Saúde: сети drugstore в Португалии",2026-05-31,180,153,False,inventory_only,4
+PT,wine-regions,Вина Португалии — регионы и что покупать,2026-05-31,365,153,False,inventory_only,3
+PT,wineries-quintas-visita,"Винные туры по quintas: Douro, Alentejo, Setúbal и Bairrada",2026-05-31,180,153,False,inventory_only,4
+PT,workplace-customs-pt,Рабочая культура Португалии: что экспаты понимают неправильно,2026-05-31,180,153,False,inventory_only,3
+PT,worten-fnac-electronica,Worten vs FNAC vs MediaMarkt: где покупать электронику в Португалии,2026-05-31,180,153,False,inventory_only,4
+DE,de-apostille-belarus-documents,Документы из Беларуси: легализация vs апостиль,2026-06-03,90,150,True,inventory_only,4
+DE,de-apostille-russia-documents,Апостиль на российские документы для Германии,2026-06-03,90,150,True,inventory_only,5
+DE,de-apply-via-auswaertiges-amt,Подача документов через МИД (Auswärtiges Amt): пошагово,2026-06-03,90,150,True,inventory_only,4
+DE,de-beglaubigte-uebersetzung,Заверенный перевод (Beglaubigte Übersetzung): где и за сколько,2026-06-03,90,150,True,inventory_only,3
+DE,de-birth-cert-international,Международное свидетельство о рождении (CIEC),2026-06-03,90,150,True,inventory_only,3
+DE,de-bring-meds-prescription,Личные лекарства: до 3 месяцев + рецепт,2026-06-03,90,150,True,inventory_only,4
+DE,de-bringing-pets,"Перевоз животных: EU pet passport, чип, бешенство",2026-06-03,90,150,True,inventory_only,6
+DE,de-cash-import-rules,Ввоз наличных: декларирование €10 000+,2026-06-03,90,150,True,inventory_only,4
+DE,de-checklist-3-months-before,Чек-лист за 3 месяца до переезда в Германию,2026-06-03,90,150,True,inventory_only,4
+DE,de-customs-mitbringsel,"Что нельзя ввозить: продукты, лекарства, валюта",2026-06-03,90,150,True,inventory_only,4
+DE,de-divorce-cert-recognition,Признание иностранного развода: §107 FamFG,2026-06-03,90,150,True,inventory_only,4
+DE,de-financing-declaration-verpflichtung,Обязательство о принятии расходов (Verpflichtungserklärung): формальное приглашение,2026-06-03,90,150,True,inventory_only,4
+DE,de-first-week-checklist,Первая неделя в Германии: что сделать сразу,2026-06-03,90,150,True,inventory_only,4
+DE,de-german-consulate-booking-vfs,Запись в немецкое посольство через VFS Global,2026-06-03,90,150,True,inventory_only,4
+DE,de-marriage-cert-recognition,Признание иностранного свидетельства о браке,2026-06-03,90,150,True,inventory_only,4
+DE,de-medical-insurance-incoming,Travel insurance для подачи на национальную визу D,2026-06-03,90,150,True,inventory_only,4
+DE,de-police-clearance-russia,Справка о несудимости из РФ для немецкого визового,2026-06-03,90,150,True,inventory_only,4
+DE,de-abmeldung-leaving-germany,Снятие с регистрации (Abmeldung) при выезде из Германии,2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-airbnb-hostel,Регистрация (Anmeldung) из Airbnb или хостела: реально ли,2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-at-friends,Прописаться у друзей: что нужно от хозяина,2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-berlin-termin,Регистрация по месту жительства (Anmeldung) в Берлине: запись на приём (Termin) через service.berlin.de,2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-cologne,Регистрация по месту жительства (Anmeldung) в Кёльне через районную гражданскую службу (Bürgeramt),2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-deadline-14-days,Срок 14 дней: что считать с даты въезда,2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-documents-checklist,Полный пакет документов для регистрации по месту жительства (Anmeldung),2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-frankfurt,Регистрация по месту жительства (Anmeldung) во Франкфурте: районная гражданская служба (Bürgeramt),2026-06-03,90,150,True,inventory_only,6
+DE,de-anmeldung-hamburg,Регистрация по месту жительства (Anmeldung) в Гамбурге: центр обслуживания граждан (Kundenzentrum),2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-leipzig,Регистрация по месту жительства (Anmeldung) в Лейпциге: запись и документы,2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-munich,Регистрация по месту жительства (Anmeldung) в Мюнхене: приём в KVR,2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-newborn,Прописка новорождённого: свидетельство о рождении (Geburtsurkunde) + регистрация (Anmeldung),2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-second-residence,Второе место жительства (Zweitwohnsitz): вторая прописка и налог на вторую квартиру (Zweitwohnungsteuer),2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-walk-in-cities,"Города, где регистрация по месту жительства (Anmeldung) без записи (walk-in)",2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-what-is-it,Что такое регистрация по месту жительства (Anmeldung) и зачем она нужна,2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-with-family,"Регистрация по месту жительства (Anmeldung) семьёй: дети, супруг(а)",2026-06-03,90,150,True,inventory_only,4
+DE,de-anmeldung-without-contract,Регистрация по месту жительства (Anmeldung) без договора аренды (Untermiete),2026-06-03,90,150,True,inventory_only,4
+DE,de-erweiterte-meldebescheinigung,Расширенная справка о регистрации (erweiterte Meldebescheinigung): когда она нужна,2026-06-03,90,150,True,inventory_only,4
+DE,de-ummeldung-moving,Перерегистрация по новому адресу (Ummeldung) при переезде внутри города,2026-06-03,90,150,True,inventory_only,4
+DE,de-wohnungsgeberbestaetigung,Подтверждение от арендодателя о вселении (Wohnungsgeberbestätigung): что это,2026-06-03,90,150,True,inventory_only,4
+DE,de-abh-termin-strategy,Запись на приём (Termin) в ведомство по делам иностранцев (ABH): как поймать слот,2026-06-03,90,150,True,inventory_only,5
+DE,de-asylum-application,Подача заявления о предоставлении убежища (Asylantrag) через BAMF,2026-06-03,90,150,True,inventory_only,5
+DE,de-asylum-interview,Собеседование по делу об убежище (Asyl-Anhörung): как подготовиться,2026-06-03,90,150,True,inventory_only,5
+DE,de-aufenthaltskarte-eu-family,Карта пребывания (Aufenthaltskarte) для семьи граждан ЕС,2026-06-03,90,150,True,inventory_only,5
+DE,de-aufenthaltstitel-types,Все типы вида на жительство (Aufenthaltstitel): §16-§38 кратко,2026-06-03,90,150,True,inventory_only,4
+DE,de-blue-card-eu-2026,Голубая карта ЕС (Blaue Karte EU): пороги зарплат 2026,2026-06-03,90,150,True,inventory_only,5
+DE,de-blue-card-family-reunion,Голубая карта (Blaue Karte): воссоединение семьи без A1,2026-06-03,90,150,True,inventory_only,5
+DE,de-blue-card-shortage-occupations,Дефицитные профессии (Engpassberufe) для Голубой карты (Blaue Karte): список,2026-06-03,90,150,True,inventory_only,5
+DE,de-blue-card-to-niederlassung,Голубая карта (Blaue Karte) → бессрочный вид на жительство (Niederlassungserlaubnis) за 21/27 мес.,2026-06-03,90,150,True,inventory_only,5
+DE,de-chancenkarte-points,Карта возможностей (Chancenkarte): баллы по новым правилам,2026-06-03,90,150,True,inventory_only,5
+DE,de-change-purpose-zweckwechsel,Смена цели пребывания (Zweckwechsel),2026-06-03,90,150,True,inventory_only,4
+DE,de-dublin-iii-rules,Dublin III: какая страна отвечает за заявление,2026-09-01,90,60,False,inventory_only,4
+DE,de-extension-aufenthaltstitel,Продление (Verlängerung) ВНЖ в ведомстве по делам иностранцев (ABH),2026-06-03,90,150,True,inventory_only,4
+DE,de-fiktionsbescheinigung,Временное подтверждение статуса (Fiktionsbescheinigung): пока решают по заявке,2026-06-03,90,150,True,inventory_only,4
+DE,de-freelancer-visa-berlin,Виза свободной профессии (Freiberufler-Visum) в Берлине: специфика,2026-06-03,90,150,True,inventory_only,4
+DE,de-freizuegigkeit-eu-citizens,Свобода передвижения граждан ЕС: что нужно,2026-06-03,90,150,True,inventory_only,4
+DE,de-job-seeker-visa-18c,§20 Виза для поиска работы (Arbeitsplatzsuche),2026-06-03,90,150,True,inventory_only,4
+DE,de-paragraph-16a-vocational,§16a Профессиональное обучение (Berufsausbildung / Ausbildung),2026-06-03,90,150,True,inventory_only,4
+DE,de-paragraph-16b-study,§16b студенческий вид на жительство,2026-06-03,90,150,True,inventory_only,4
+DE,de-paragraph-16d-recognition,§16d виза для признания диплома,2026-06-03,90,150,True,inventory_only,4
+DE,de-paragraph-16f-school,§16f школьное обучение и языковые курсы,2026-06-03,90,150,True,inventory_only,4
+DE,de-paragraph-17-au-pair,"Au-pair и волонтёрство (§19c, §19e)",2026-06-03,90,150,True,inventory_only,4
+DE,de-paragraph-18a-skilled-worker,§18a Квалифицированный специалист с проф. образованием,2026-06-03,90,150,True,inventory_only,4
+DE,de-daueraufenthalt-eu,Долгосрочное резидентство ЕС (Daueraufenthalt-EU): что отличается от §9,2026-06-03,90,150,True,inventory_only,5
+DE,de-daueraufenthalt-eu-mobility,Долгосрочное резидентство ЕС (Daueraufenthalt-EU): переезд в другую страну ЕС,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-3-years-spouse,ПМЖ через 3 года для супруга немца,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-5-years-standard,§9 ПМЖ через 5 лет: условия,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-after-ausbildung,ПМЖ через 2 года после профобучения (Ausbildung),2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-blue-card-21,ПМЖ через 21 месяц с Голубой картой ЕС (Blaue Karte) + B1,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-blue-card-27,ПМЖ через 27 месяцев с Голубой картой ЕС (Blaue Karte) + A1,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-children,ПМЖ для детей: §35 AufenthG,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-fees,Госпошлина за ПМЖ: €113 + сборы,2026-06-03,90,150,True,inventory_only,4
+DE,de-niederlassung-language-b1,B1 для ПМЖ: какой уровень нужен,2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-by-descent,Гражданство по предкам: §5 StAG,2026-06-03,90,150,True,inventory_only,6
+DE,de-citizenship-marriage-3-years,Брак с гражданином ФРГ: §9 StAG (3 года в стране + 2 года брака),2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-rejection-appeal,Отказ в гражданстве: обжалование,2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-russians-2026,Граждане РФ: получение гражданства в 2026,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-3-years-special,3 года (ОТМЕНЕНО с 30.10.2025): особые достижения интеграции,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-5-years-standard,5 лет — стандартный срок натурализации,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-application-where,Куда подавать: Einbürgerungsbehörde по округу,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-belarus-keep,Беларусское гражданство и натурализация (Einbürgerung),2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-berlin,Подача на гражданство в Берлине,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-c1-for-3-years,C1 за 3 года (ОТМЕНЕНО с 30.10.2025),2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-children-mitein,Дети в заявление: совместная натурализация,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-cost-fees,"Сбор за гражданство: €255 взрослый, €51 ребёнок",2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-dual-citizenship,Двойное гражданство с 2024: правила,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-hamburg,Подача в Гамбурге: Bezirksämter,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-income-sicher,Средства к существованию (Lebensunterhalt): без социальных пособий,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-language-b1,"B1 для гражданства: telc, Goethe, ÖSD",2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-loyalty-declaration,Декларация лояльности (Loyalitätserklärung): о свободном строе,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-munich,Подача в Мюнхене: KVR,2026-06-03,90,150,True,inventory_only,5
+DE,de-a1-pre-marriage-visa,A1 для семейной визы: где сдать в РФ/СНГ,2026-06-03,90,150,True,inventory_only,5
+DE,de-b2-c1-job-search,B2/C1 для рынка труда: реальный ROI,2026-06-03,90,150,True,inventory_only,5
+DE,de-cologne-dialect,"Диалекты: Bairisch, Schwäbisch, Plattdeutsch и др.",2026-06-03,90,150,True,inventory_only,4
+DE,de-dsh-german-language-exam,DSH: альтернатива TestDaF для университета,2026-06-03,90,150,True,inventory_only,5
+DE,de-dtz-test-b1,Итоговый тест интеграционного курса (DTZ),2026-09-25,90,36,False,inventory_only,5
+DE,de-goethe-a1-a2-b1,Goethe-Zertifikat A1-C2: где сдавать и сколько,2026-06-03,90,150,True,inventory_only,5
+DE,de-integrationskurs-bamf-list,Поиск интеграционного курса (Integrationskurs) через BAMF-NAvI,2026-06-03,90,150,True,inventory_only,5
+DE,de-integrationskurs-free-eligibility,Бесплатный интеграционный курс (Integrationskurs): §44 AufenthG,2026-09-25,90,36,False,inventory_only,5
+DE,de-integrationskurs-overview,"Интеграционный курс (Integrationskurs): что это, кому положено",2026-06-03,90,150,True,inventory_only,4
+DE,de-integrationskurs-vs-private,BAMF-курс vs частные школы,2026-06-03,90,150,True,inventory_only,4
+DE,de-medical-german-fachsprachpruefung,Fachsprachprüfung для врачей,2026-06-03,90,150,True,inventory_only,4
+DE,de-oesd-austrian-exam,ÖSD: австрийский сертификат принимаемый в ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-online-german-apps,Топ-10 приложений и сайтов для самоучителей,2026-06-03,90,150,True,inventory_only,4
+DE,de-aok-by-region,AOK: региональная привязка,2026-06-03,90,150,True,inventory_only,4
+DE,de-arztruf-116117,116117 — врач на дом после часов,2026-06-03,90,150,True,inventory_only,4
+DE,de-barmer-application,Barmer: подача и сервисы,2026-06-03,90,150,True,inventory_only,4
+DE,de-bkk-employer-specific,BKK: фирменные больничные кассы,2026-06-03,90,150,True,inventory_only,4
+DE,de-bonusheft-dental,Bonusheft: скидка на коронки,2026-09-25,90,36,False,inventory_only,5
+DE,de-dak-app-features,DAK-Gesundheit: приложение и услуги,2026-06-03,90,150,True,inventory_only,4
+DE,de-dental-care-zuzahlung,"Стоматолог: что покрывает госстраховка (GKV), что нет",2026-09-25,90,36,False,inventory_only,6
+DE,de-e-rezept-app,E-Rezept: электронный рецепт,2026-06-03,90,150,True,inventory_only,5
+DE,de-egk-elektronische-gesundheitskarte,eGK — электронная медкарта,2026-06-03,90,150,True,inventory_only,4
+DE,de-emergency-room-rules,Notaufnahme: когда ехать в больницу,2026-06-03,90,150,True,inventory_only,4
+DE,de-english-speaking-doctors,Англоговорящие врачи по городам,2026-06-03,90,150,True,inventory_only,4
+DE,de-family-insurance-free,Семейное страхование (Familienversicherung): жена и дети бесплатно,2026-09-25,90,36,False,inventory_only,4
+DE,de-find-hausarzt,Семейный врач (Hausarzt): как найти,2026-06-03,90,150,True,inventory_only,5
+DE,de-freelancer-insurance,Страховка для фрилансера: госстраховка (GKV) или частная (PKV),2026-06-03,90,150,True,inventory_only,4
+DE,de-gkv-cost-calculation,Расчёт взносов госстраховки (GKV): 14.6% + допвзнос (Zusatzbeitrag),2026-06-03,90,150,True,inventory_only,4
+DE,de-gkv-income-threshold,Порог дохода для частной страховки (PKV) в 2026,2026-09-25,90,36,False,inventory_only,5
+DE,de-gkv-vs-pkv-decision,Госстраховка (GKV) vs частная (PKV): что выбрать в 2026,2026-06-03,90,150,True,inventory_only,4
+DE,de-gkv-which-krankenkasse,"TK, AOK, Barmer, DAK — какую выбрать",2026-06-03,90,150,True,inventory_only,5
+DE,de-hkk-low-zusatzbeitrag,hkk: одна из самых дешёвых госстраховок (GKV),2026-06-03,90,150,True,inventory_only,3
+DE,de-ikk-craftsmen,IKK для ремесленников,2026-06-03,90,150,True,inventory_only,3
+DE,de-mental-health-therapy,Психотерапия: как получить по госстраховке (GKV),2026-06-03,90,150,True,inventory_only,5
+DE,de-application-package-mappe,Mietbewerbungsmappe: что туда положить,2026-06-03,90,150,True,inventory_only,5
+DE,de-besichtigung-viewing-tips,Besichtigung: как впечатлить хозяина,2026-06-03,90,150,True,inventory_only,5
+DE,de-buying-property-overview,Купить жильё: общий обзор для иностранца,2026-06-03,90,150,True,targeted_update,8
+DE,de-eigenbedarf-eviction,Eigenbedarfskündigung: выселение для родни,2026-06-03,90,150,True,inventory_only,6
+DE,de-grundversorgung-trap,Grundversorger: переплачивать первые недели,2026-06-03,90,150,True,inventory_only,6
+DE,de-housing-market-2026,Рынок аренды 2026: где дефицит,2026-06-03,90,150,True,inventory_only,5
+DE,de-immoscout-vs-wg-gesucht,ImmoScout24 vs WG-Gesucht vs eBay-Kleinanzeigen,2026-06-03,90,150,True,inventory_only,5
+DE,de-internet-installation,"Подключить интернет: 1&1, Telekom, Vodafone",2026-06-03,90,150,True,inventory_only,6
+DE,de-kaution-3-monatsmieten,Залог (Kaution): до 3 холодных аренд,2026-06-03,90,150,True,inventory_only,3
+DE,de-kautionskonto-or-buergschaft,Залоговый счёт (Kautionskonto) или поручительство (Mietkautionsbürgschaft),2026-06-03,90,150,True,inventory_only,3
+DE,de-kuendigung-mietvertrag,Расторжение (Kündigung) договора: 3 месяца,2026-06-03,90,150,True,inventory_only,4
+DE,de-mieterbund-help,Mieterbund: профсоюз квартиросъёмщиков,2026-06-03,90,150,True,inventory_only,4
+DE,de-mieterselbstauskunft,Анкета арендатора (Mieterselbstauskunft): что можно не отвечать,2026-06-03,90,150,True,inventory_only,3
+DE,de-mietpreisbremse,Тормоз цен на аренду (Mietpreisbremse): где действует,2026-09-25,90,36,False,inventory_only,4
+DE,de-mietspiegel-check,Таблица аренды (Mietspiegel): сравнить вашу аренду,2026-06-03,90,150,True,inventory_only,4
+DE,de-schoenheitsreparaturen,Косметический ремонт (Schönheitsreparaturen): кто красит,2026-06-03,90,150,True,inventory_only,5
+DE,de-wbs-social-housing,Свидетельство на соцжильё (WBS): социальное жильё,2026-06-03,90,150,True,inventory_only,5
+DE,de-best-bank-newcomers,Топ-5 банков для новичка в 2026,2026-06-03,90,150,True,inventory_only,5
+DE,de-bic-swift,BIC / SWIFT: ещё нужен или нет,2026-06-03,90,150,True,inventory_only,4
+DE,de-bonify-credit-monitoring,bonify: мониторинг Schufa (крупнейшее кредитное бюро),2026-06-03,90,150,True,inventory_only,4
+DE,de-c24-bank,C24 Bank: новый игрок,2026-06-03,90,150,True,inventory_only,4
+DE,de-comdirect-no-fee,comdirect: бесплатный счёт + кэшбек,2026-06-03,90,150,True,inventory_only,4
+DE,de-credit-card-germany,"Кредитки в ФРГ: Mastercard, Visa, AmEx",2026-06-03,90,150,True,inventory_only,4
+DE,de-debit-card-girocard,Дебетовая карта (Girocard / EC): внутренняя карта,2026-06-03,90,150,True,inventory_only,4
+DE,de-deutsche-bank-account,Deutsche Bank: премиум-сервис,2026-06-03,90,150,True,inventory_only,4
+DE,de-dkb-online-bank,DKB: бесплатный расчётный счёт (Girokonto),2026-06-03,90,150,True,inventory_only,4
+DE,de-freistellungsauftrag,Freistellungsauftrag: освобождение €1000,2026-06-03,90,150,True,inventory_only,5
+DE,de-girokonto-vs-tagesgeld,Расчётный счёт (Girokonto) vs накопительный (Tagesgeld) vs срочный (Festgeld),2026-06-03,90,150,True,inventory_only,6
+DE,de-iban-format,IBAN Германия: DE + 20 цифр,2026-06-03,90,150,True,inventory_only,4
+DE,de-ing-account,ING: классика онлайн-банкинга,2026-06-03,90,150,True,inventory_only,4
+DE,de-schufa-score-improve,Schufa-Score: как улучшить,2026-06-03,90,150,True,inventory_only,4
+DE,de-anlage-n-arbeitnehmer,Anlage N: декларация для работников,2026-09-25,90,36,False,inventory_only,5
+DE,de-aussergewoehnliche-belastung,Außergewöhnliche Belastungen: вычеты на лечение,2026-06-03,90,150,True,inventory_only,5
+DE,de-capital-gains-tax,Прирост капитала: 25% Abgeltungsteuer,2026-06-03,90,150,True,inventory_only,6
+DE,de-change-steuerklasse,Сменить налоговый класс (Steuerklasse): онлайн через ELSTER,2026-06-03,90,150,True,inventory_only,5
+DE,de-double-tax-treaty-russia,DBA с РФ: статус соглашения в 2026 г.,2026-06-03,90,150,True,inventory_only,5
+DE,de-double-tax-treaty-ukraine,DBA с Украиной: правила и применение,2026-06-03,90,150,True,inventory_only,6
+DE,de-double-tax-treaty-usa,DBA с США: FATCA и двойная подача,2026-06-03,90,150,True,inventory_only,6
+DE,de-einkommensteuer-pflicht,Кому подача декларации обязательна,2026-09-25,90,36,False,inventory_only,6
+DE,de-elster-mobile-app,ELSTER Mobile: подать с телефона,2026-06-03,90,150,True,inventory_only,3
+DE,de-elster-registration,Регистрация в ELSTER: сертификат ELSTER-Zertifikat,2026-06-03,90,150,True,inventory_only,3
+DE,de-elster-vs-paid-software,ELSTER vs WISO vs SteuerGo vs Taxfix,2026-06-03,90,150,True,inventory_only,6
+DE,de-finanzamt-by-postcode,Какая налоговая инспекция (Finanzamt) у вас по индексу,2026-06-03,90,150,True,inventory_only,3
+DE,de-fristverlaengerung,Продление срока подачи (Fristverlängerung),2026-06-03,90,150,True,inventory_only,3
+DE,de-handwerker-haushaltsnah,Бытовые услуги (haushaltsnahe Dienstleistungen): вычет на услуги,2026-09-25,90,36,False,inventory_only,3
+DE,de-homeoffice-pauschale,"Работа из дома (Homeoffice): 6€/день, до 1260€/год",2026-06-03,90,150,True,inventory_only,4
+DE,de-kirchensteuer,Церковный налог (Kirchensteuer): 8-9% и как избежать,2026-06-03,90,150,True,inventory_only,3
+DE,de-leave-church-austritt,Выход из церкви (Kirchenaustritt): выйти из церкви,2026-06-03,90,150,True,inventory_only,3
+DE,de-lohnsteuerermaessigung,Lohnsteuerermäßigung: налоговое освобождение,2026-06-03,90,150,True,inventory_only,3
+DE,de-lohnsteuerhilfeverein,Lohnsteuerhilfeverein: дешёвая альтернатива,2026-09-25,90,36,False,inventory_only,3
+DE,de-pendlerpauschale,"Pendlerpauschale: 0,38 €/км (с 2026)",2026-06-03,90,150,True,inventory_only,3
+DE,de-progressionsvorbehalt,Progressionsvorbehalt: иностранный доход,2026-06-03,90,150,True,inventory_only,4
+DE,de-13-monatsgehalt,"13-й оклад, Weihnachtsgeld, Urlaubsgeld",2026-06-03,90,150,True,inventory_only,5
+DE,de-abfindung-severance,Abfindung: выходное пособие,2026-06-03,90,150,True,inventory_only,5
+DE,de-anschreiben-cover-letter,Anschreiben: формулы и шаблоны,2026-06-03,90,150,True,inventory_only,4
+DE,de-arbeitsagentur-registration,Регистрация в Федеральном агентстве по труду (Bundesagentur für Arbeit),2026-06-03,90,150,True,inventory_only,5
+DE,de-arbeitslosengeld-1,Пособие по безработице (Arbeitslosengeld I): 60% / 67% брутто,2026-06-03,90,150,True,inventory_only,5
+DE,de-arbeitsvertrag-key-clauses,Трудовой договор (Arbeitsvertrag): ключевые пункты,2026-06-03,90,150,True,inventory_only,5
+DE,de-betriebsrat-works-council,Betriebsrat: совет работников,2026-06-03,90,150,True,inventory_only,5
+DE,de-bewerbungsbild-photo,Bewerbungsfoto: нужна ли фотография,2026-06-03,90,150,True,inventory_only,4
+DE,de-kuendigungsschutz,Kündigungsschutz: защита от увольнения,2026-06-03,90,150,True,inventory_only,4
+DE,de-probezeit-rules,Испытательный срок (Probezeit),2026-06-03,90,150,True,inventory_only,3
+DE,de-bilanz-vs-eur,Bilanz vs EÜR: когда обязательна,2026-06-03,90,150,True,inventory_only,6
+DE,de-bookkeeping-eur,EÜR: упрощённый учёт,2026-06-03,90,150,True,inventory_only,5
+DE,de-coworking-spaces,"Коворкинги: Mindspace, WeWork, betahaus",2026-06-03,90,150,True,inventory_only,6
+DE,de-finanzkonzept-business-plan,Бизнес-план для §21-визы,2026-06-03,90,150,True,inventory_only,5
+DE,de-fragebogen-steuerliche-erfassung,Fragebogen zur steuerlichen Erfassung,2026-06-03,90,150,True,inventory_only,5
+DE,de-freiberufler-vs-gewerbe,Свободная профессия (Freiberufler) vs промысел (Gewerbe): разница,2026-09-25,90,36,False,inventory_only,6
+DE,de-freie-berufe-list,"Список свободных профессий (freie Berufe, §18 EStG)",2026-06-03,90,150,True,inventory_only,5
+DE,de-gbr-partnership,GbR: простое товарищество,2026-06-03,90,150,True,inventory_only,6
+DE,de-gewerbeanmeldung,Регистрация бизнеса (Gewerbeanmeldung),2026-06-03,90,150,True,inventory_only,4
+DE,de-gmbh-foundation,GmbH: создание ООО,2026-06-03,90,150,True,inventory_only,4
+DE,de-grants-startups-exist,EXIST: грант для академических стартапов,2026-06-03,90,150,True,inventory_only,3
+DE,de-handelsregister-eintrag,Торговый реестр (Handelsregister): запись фирмы,2026-06-03,90,150,True,inventory_only,4
+DE,de-hwk-handwerkskammer,HWK: ремесленная палата,2026-06-03,90,150,True,inventory_only,4
+DE,de-ihk-membership-fees,IHK: членство и взносы,2026-06-03,90,150,True,inventory_only,3
+DE,de-kleinunternehmer-22000,Малый предприниматель (Kleinunternehmer) §19 UStG: 22 000 → 25 000 €,2026-09-25,90,36,False,inventory_only,4
+DE,de-kuenstlersozialkasse,KSK: соцкасса для творческих профессий,2026-06-03,90,150,True,inventory_only,4
+DE,de-meisterpflicht-trades,"Обязанность мастера (Meisterpflicht): профессии, требующие мастера",2026-06-03,90,150,True,inventory_only,4
+DE,de-rechnung-invoice-requirements,Счёт на оплату (Rechnung): обязательные реквизиты,2026-06-03,90,150,True,inventory_only,4
+DE,de-scheinselbststaendigkeit,Фиктивная самозанятость (Scheinselbständigkeit): риски,2026-06-03,90,150,True,inventory_only,4
+DE,de-anabin-database,Anabin: база зарубежных вузов,2026-06-03,90,150,True,inventory_only,5
+DE,de-anerkennung-overview,Признание квалификации (Anerkennung) диплома: с чего начать,2026-06-03,90,150,True,inventory_only,5
+DE,de-anerkennungsfinanzierung,Грант на признание квалификации (Anerkennungszuschuss),2026-06-03,90,150,True,inventory_only,5
+DE,de-architect-anerkennung,Архитектор: Палата архитекторов (Architektenkammer),2026-06-03,90,150,True,inventory_only,5
+DE,de-belarus-diploma,Беларусский диплом: специфика,2026-06-03,90,150,True,inventory_only,5
+DE,de-driver-license-pro,"Профессиональный водительский (грузовик, LKW; автобус, Bus)",2026-06-03,90,150,True,inventory_only,5
+DE,de-engineer-recognition,Инженер: запись в Палату инженеров (Ingenieurkammer),2026-06-03,90,150,True,inventory_only,5
+DE,de-fachsprachenpruefung-medics,Fachsprachprüfung: медицинский немецкий,2026-06-03,90,150,True,inventory_only,5
+DE,de-it-recognition-not-needed,Айтишнику: признание не нужно,2026-06-03,90,150,True,inventory_only,4
+DE,de-kenntnispruefung-doctors,Экзамен на проверку знаний (Kenntnisprüfung) для врачей,2026-09-25,90,36,False,inventory_only,6
+DE,de-lawyer-recognition,Юрист: можно ли работать,2026-06-03,90,150,True,inventory_only,5
+DE,de-medical-approbation,Лицензия врача (Approbation),2026-09-25,90,36,False,inventory_only,6
+DE,de-nurse-recognition,Признание медсестры/Pflegefachfrau,2026-06-03,90,150,True,inventory_only,4
+DE,de-abitur-explained,Аттестат для вуза (Abitur),2026-06-03,90,150,True,inventory_only,5
+DE,de-bafoeg-students,BAföG: финпомощь студентам,2026-09-25,90,36,False,inventory_only,5
+DE,de-bilingual-schools,Двуязычные школы: списки по городам,2026-06-03,90,150,True,inventory_only,5
+DE,de-elterngeld-basis-plus,Пособие по уходу за ребёнком (Elterngeld): Basis vs Plus,2026-06-03,90,150,True,inventory_only,5
+DE,de-elterngeld-calculation,Расчёт пособия по уходу за ребёнком (Elterngeld): 65-67% нетто,2026-06-03,90,150,True,inventory_only,5
+DE,de-elternzeit-job-protection,Отпуск по уходу за ребёнком (Elternzeit): защита рабочего места,2026-06-03,90,150,True,inventory_only,5
+DE,de-grundschule-enrollment,Начальная школа (Grundschule): запись в 1 класс,2026-06-03,90,150,True,inventory_only,5
+DE,de-gymnasium-vs-gesamtschule,Гимназия (Gymnasium) vs общеобразовательная школа (Gesamtschule): что выбрать,2026-06-03,90,150,True,inventory_only,5
+DE,de-hort-after-school,Продлёнка (Hort): после школы,2026-09-01,90,60,False,inventory_only,5
+DE,de-kindergeld-application,Детское пособие (Kindergeld): заявление и ставки 2026,2026-09-25,90,36,False,inventory_only,5
+DE,de-kinderzuschlag,Доплата на ребёнка (Kinderzuschlag): малоимущим,2026-06-03,90,150,True,inventory_only,5
+DE,de-kita-platz-search,Место в детском саду (Kita-Platz): поиск и законное право (Rechtsanspruch),2026-06-03,90,150,True,inventory_only,5
+DE,de-acv-avd-alternatives,"ACV, AvD: альтернативы автоклубу ADAC",2026-06-03,90,150,True,inventory_only,5
+DE,de-adac-membership,ADAC: членство и эвакуация,2026-06-03,90,150,True,inventory_only,5
+DE,de-asu-emissions,AU: проверка выхлопа,2026-06-03,90,150,True,inventory_only,4
+DE,de-autobahn-rules,Автобан: правила и ограничения,2026-06-03,90,150,True,inventory_only,5
+DE,de-buying-used-car,"Покупка б/у авто: mobile.de, autoscout24",2026-06-03,90,150,True,inventory_only,6
+DE,de-car-check-buying,DEKRA-Check при покупке,2026-06-03,90,150,True,inventory_only,5
+DE,de-dekra-alternative,Dekra: альтернатива TÜV,2026-06-03,90,150,True,inventory_only,6
+DE,de-fines-bussgeldkatalog,Bußgeldkatalog: штрафы,2026-09-25,90,36,False,inventory_only,6
+DE,de-flensburg-points,Punkte in Flensburg: 8 = потеря прав,2026-06-03,90,150,True,inventory_only,4
+DE,de-fuehrerschein-belarus-umtausch,Беларусские права: обмен,2026-06-03,90,150,True,inventory_only,4
+DE,de-fuehrerschein-deadline-6-months,6 месяцев на обмен — отсчёт,2026-06-03,90,150,True,inventory_only,4
+DE,de-fuehrerschein-full-driving-school,Полное обучение в Fahrschule: цена,2026-06-03,90,150,True,inventory_only,4
+DE,de-fuehrerschein-russia-umtausch,Российские права: обмен в ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-fuehrerschein-uk-umtausch,Британские права: пост-Brexit,2026-06-03,90,150,True,inventory_only,4
+DE,de-fuehrerschein-ukraine-umtausch,Украинские права: обмен,2026-06-03,90,150,True,inventory_only,4
+DE,de-9-euro-ticket-history,Что было до Deutschlandticket: история 9€-Ticket и 49€-Ticket,2026-06-16,90,137,True,inventory_only,4
+DE,de-airport-berlin-ber,BER Берлин-Бранденбург: как добраться до центра,2026-06-03,90,150,True,inventory_only,4
+DE,de-airport-frankfurt-fra,Аэропорт Франкфурт (FRA): как добраться и сесть в ICE,2026-06-03,90,150,True,inventory_only,4
+DE,de-berlin-bvg-tickets,"BVG Берлин: зоны A/B/C, тарифы и абонементы",2026-06-03,90,150,True,inventory_only,4
+DE,de-call-a-bike-nextbike,Call a Bike и Nextbike: прокат велосипедов в немецких городах,2026-06-03,90,150,True,inventory_only,4
+DE,de-cologne-kvb,"KVB Кёльн: транспорт, тарифы и KölnPass",2026-06-03,90,150,True,inventory_only,4
+DE,de-db-bahn-cards,BahnCard 25/50/100: как выбрать и посчитать выгоду,2026-06-03,90,150,True,inventory_only,5
+DE,de-db-navigator-app,DB Navigator: главное приложение для поездов в Германии,2026-06-03,90,150,True,inventory_only,4
+DE,de-deutschlandticket-49,Deutschlandticket: 63 €/мес — что это и что входит,2026-09-01,90,60,False,inventory_only,5
+DE,de-deutschlandticket-buy-cancel,Купить и отменить Deutschlandticket,2026-09-01,90,60,False,inventory_only,5
+DE,de-e-scooter-rules,"E-Roller: TIER, Voi, Lime",2026-09-25,90,36,False,inventory_only,4
+DE,de-fahrrad-mitnahme,Велосипед в поезде: правила,2026-06-03,90,150,True,inventory_only,5
+DE,de-hamburg-hvv,Гамбург HVV: транспорт,2026-06-03,90,150,True,inventory_only,3
+DE,de-ausweisapp2,AusweisApp: настройка eID для онлайн-госуслуг,2026-06-03,90,150,True,inventory_only,4
+DE,de-bundid-account,BundID: единый аккаунт для всех госуслуг,2026-06-03,90,150,True,inventory_only,6
+DE,de-data-protection-dsgvo,DSGVO: ваши права и как их использовать,2026-06-03,90,150,True,inventory_only,5
+DE,de-de-mail,De-Mail в 2026 г.: что осталось и чем заменить,2026-06-03,90,150,True,inventory_only,4
+DE,de-digital-passport-application,Загранпаспорт и удостоверение личности (Personalausweis) онлайн,2026-06-03,90,150,True,inventory_only,5
+DE,de-digital-signature-qes,QES: квалифицированная электронная подпись,2026-06-03,90,150,True,inventory_only,5
+DE,de-digitales-amt-app,"Городские приложения: Berlin Service, Köln, München",2026-06-03,90,150,True,inventory_only,5
+DE,de-elektronische-akte-gerichte,E-Akte судов: электронная подача документов,2026-06-03,90,150,True,inventory_only,5
+DE,de-elektronische-rechnung,"Электронный счёт (E-Rechnung): ZUGFeRD, XRechnung",2026-06-03,90,150,True,inventory_only,4
+DE,de-esim-de,eSIM: где купить и активировать,2026-06-03,90,150,True,inventory_only,5
+DE,de-german-tv-channels,"Бесплатные TV-каналы: ARD, ZDF",2026-06-03,90,150,True,inventory_only,5
+DE,de-internet-providers-dsl,Интернет: DSL vs кабель vs Glasfaser,2026-06-03,90,150,True,inventory_only,5
+DE,de-mobile-contract-cancellation,Расторжение мобильного контракта,2026-06-03,90,150,True,inventory_only,5
+DE,de-mobile-provider-comparison,"Мобильные операторы: Telekom, Vodafone, O2, 1&1",2026-06-03,90,150,True,inventory_only,5
+DE,de-portierung-rufnummer,Portierung: перенос номера,2026-06-03,90,150,True,inventory_only,4
+DE,de-prepaid-best-deals,"Prepaid: Aldi Talk, congstar",2026-06-03,90,150,True,inventory_only,5
+DE,de-roaming-eu-rules,Роуминг в ЕС: правила,2026-06-03,90,150,True,inventory_only,5
+DE,de-apotheke-pharmacies,Аптеки: что покупать без рецепта,2026-09-25,90,36,False,inventory_only,4
+DE,de-best-bakery-baeckerei,Bäckerei: настоящий немецкий хлеб,2026-06-03,90,150,True,inventory_only,4
+DE,de-bio-stores,"Био-магазины: Alnatura, Denn's",2026-06-03,90,150,True,inventory_only,5
+DE,de-cash-vs-card,Наличные vs карта: где принимают,2026-06-03,90,150,True,inventory_only,4
+DE,de-cleaning-service,"Уборка: Helpling, BookATiger",2026-06-03,90,150,True,inventory_only,5
+DE,de-dog-license-hundefuehrerschein,Hundeführerschein в Берлине,2026-06-03,90,150,True,inventory_only,4
+DE,de-drugstore-dm-rossmann,"Drogerie: dm, Rossmann, Müller",2026-06-03,90,150,True,inventory_only,9
+DE,de-feiertage-2026,Feiertage 2026: по землям,2026-06-03,90,150,True,inventory_only,4
+DE,de-furniture-ikea-alternatives,IKEA vs Höffner vs XXXLutz,2026-06-03,90,150,True,inventory_only,8
+DE,de-grocery-stores-comparison,"Aldi, Lidl, Rewe, Edeka",2026-06-03,90,150,True,inventory_only,6
+DE,de-hausordnung-rules,Правила дома (Hausordnung),2026-06-03,90,150,True,inventory_only,5
+DE,de-laundry-self-service,Прачечные: Waschsalon,2026-06-03,90,150,True,inventory_only,5
+DE,de-muelltrennung-overview,Раздельный сбор мусора (Mülltrennung): 5 контейнеров,2026-06-03,90,150,True,inventory_only,6
+DE,de-asylbewerberleistungsgesetz,AsylbLG: пособия беженцев,2026-09-01,90,60,False,inventory_only,5
+DE,de-bildungspaket-children,Bildungspaket: помощь на школу,2026-06-03,90,150,True,inventory_only,5
+DE,de-buergergeld-foreigners,Bürgergeld для иностранцев: правила,2026-09-25,90,36,False,inventory_only,5
+DE,de-buergergeld-rules,Bürgergeld: ставки 2026,2026-09-25,90,36,False,inventory_only,5
+DE,de-divorce-procedure,Развод: Trennungsjahr и Familiengericht,2026-06-03,90,150,True,inventory_only,5
+DE,de-divorce-with-children,Развод с детьми: опека,2026-06-16,90,137,True,inventory_only,6
+DE,de-domestic-violence-help,Hilfetelefon: 08000 116 016,2026-06-03,90,150,True,inventory_only,6
+DE,de-ehefaehigkeitszeugnis,Справка о праве на брак (Ehefähigkeitszeugnis),2026-06-03,90,150,True,inventory_only,5
+DE,de-eingetragene-lebenspartnerschaft,Eingetragene Lebenspartnerschaft,2026-06-03,90,150,True,inventory_only,4
+DE,de-family-counselling-free,Бесплатные семейные консультации,2026-06-03,90,150,True,inventory_only,5
+DE,de-frauenhaus,Frauenhaus: убежище для женщин,2026-06-03,90,150,True,inventory_only,5
+DE,de-funeral-bestattung,Bestattung: похороны в ФРГ,2026-06-03,90,150,True,inventory_only,5
+DE,de-grundsicherung-alter,Базовое обеспечение в старости (Grundsicherung im Alter): для пенсионеров,2026-06-03,90,150,True,inventory_only,5
+DE,de-inheritance-erbschaft,Erbschaft: наследство,2026-06-03,90,150,True,inventory_only,5
+DE,de-marriage-foreigners-docs,Брак иностранцев: документы,2026-06-03,90,150,True,inventory_only,4
+DE,de-berufsunfaehigkeitsversicherung,BU: страховка от потери трудоспособности,2026-06-03,90,150,True,inventory_only,5
+DE,de-betriebliche-altersvorsorge,bAV: пенсия от работодателя,2026-06-03,90,150,True,inventory_only,5
+DE,de-erwerbsminderungsrente,Пенсия по нетрудоспособности (Erwerbsminderungsrente),2026-06-03,90,150,True,inventory_only,5
+DE,de-hausratversicherung,Hausratversicherung: страховка имущества,2026-06-03,90,150,True,inventory_only,4
+DE,de-pension-info-online,Запрос Rentenauskunft,2026-06-03,90,150,True,inventory_only,4
+DE,de-pension-points-calculation,Entgeltpunkte: как считается пенсия,2026-06-03,90,150,True,inventory_only,5
+DE,de-pension-russia-export,Пенсия РФ при жизни в ФРГ,2026-06-03,90,150,True,inventory_only,6
+DE,de-private-haftpflicht,Privathaftpflicht: гражд. ответственность,2026-06-03,90,150,True,inventory_only,5
+DE,de-rechtsschutzversicherung,Rechtsschutzversicherung: юр. страховка,2026-06-03,90,150,True,inventory_only,6
+DE,de-riester-rente,Частная пенсия Riester (Riester-Rente): стоит ли,2026-09-25,90,36,False,inventory_only,4
+DE,de-zahnzusatzversicherung,Zahnzusatzversicherung: доплата на зубы,2026-06-03,90,150,True,inventory_only,4
+DE,de-ambulance-rettungsdienst,Rettungsdienst: скорая,2026-06-03,90,150,True,inventory_only,5
+DE,de-anwaltssuche-bar,Поиск адвоката: anwaltsregister,2026-06-03,90,150,True,inventory_only,5
+DE,de-arbeitsgericht-employment,Arbeitsgericht: трудовой суд,2026-06-03,90,150,True,inventory_only,5
+DE,de-arrest-rights,Если задержали: ваши права,2026-06-03,90,150,True,inventory_only,6
+DE,de-beratungshilfe-low-income,Бесплатная юр. консультация (Beratungshilfe),2026-06-03,90,150,True,inventory_only,5
+DE,de-blackout-prep,Blackout: подготовка,2026-06-03,90,150,True,inventory_only,5
+DE,de-consumer-protection-vz,Verbraucherzentrale: защита потребителей,2026-06-03,90,150,True,inventory_only,5
+DE,de-debt-counselling,Schuldnerberatung: помощь должникам,2026-06-03,90,150,True,inventory_only,6
+DE,de-deportation-abschiebung,Депортация (Abschiebung): процедура и защита,2026-06-03,90,150,True,inventory_only,5
+DE,de-discrimination-agg,Жалобы на дискриминацию (AGG),2026-06-03,90,150,True,inventory_only,4
+DE,de-duldung-tolerated-stay,Отсрочка от депортации (Duldung): терпимое пребывание,2026-06-03,90,150,True,inventory_only,4
+DE,de-emergency-numbers-110-112,110 и 112: полиция и медики,2026-06-03,90,150,True,inventory_only,3
+DE,de-fire-brigade-feuerwehr,Пожарная служба (Feuerwehr): пожар,2026-06-03,90,150,True,inventory_only,4
+DE,de-insolvency-personal,Потребительское банкротство (Verbraucherinsolvenz),2026-06-03,90,150,True,inventory_only,4
+DE,de-lost-documents,Утеряны документы: куда обращаться,2026-06-03,90,150,True,inventory_only,3
+DE,de-lost-passport,Потерян паспорт: консульство,2026-06-03,90,150,True,inventory_only,3
+DE,de-lost-residence-permit,Потеряна электронная карта вида на жительство (eAT): восстановление,2026-06-03,90,150,True,inventory_only,4
+DE,de-mahnverfahren,Судебный приказ (Mahnverfahren),2026-06-03,90,150,True,inventory_only,4
+DE,de-prozesskostenhilfe,Помощь с судебными расходами (Prozesskostenhilfe),2026-06-03,90,150,True,inventory_only,4
+DE,de-armenia-citizens,Граждане Армении: визы и работа в Германии,2026-06-03,90,150,True,inventory_only,6
+DE,de-belarus-asylum-grounds,Беларусы в Германии: основания для убежища,2026-06-03,90,150,True,inventory_only,8
+DE,de-belarus-consulate-berlin,Консульство Беларуси в Берлине: что можно (и нельзя),2026-06-03,90,150,True,inventory_only,6
+DE,de-belarus-no-return,Беларус в Германии: не могу вернуться — что делать,2026-06-03,90,150,True,inventory_only,8
+DE,de-belarus-passport-renewal,Паспорт Беларуси: продление в Германии (Указ №278),2026-06-03,90,150,True,inventory_only,7
+DE,de-china-citizens,"Граждане Китая: визы, студенты и работа в Германии",2026-09-25,90,36,False,inventory_only,6
+DE,de-georgia-citizens-visa,Граждане Грузии: безвизовый въезд 90/180 дней,2026-06-03,90,150,True,inventory_only,6
+DE,de-india-citizens,Граждане Индии: Blue Card как главный маршрут,2026-09-25,90,36,False,inventory_only,7
+DE,de-iran-citizens,Граждане Ирана: санкционные ограничения,2026-06-03,90,150,True,inventory_only,5
+DE,de-kazakhstan-citizens,Граждане Казахстана: визы и Spätaussiedler,2026-06-03,90,150,True,inventory_only,5
+DE,de-kazakhstan-driving-license,Казахстанские права: обмен,2026-06-03,90,150,True,inventory_only,6
+DE,de-russia-banks-sanctions,Российские счета и санкции,2026-06-03,90,150,True,inventory_only,4
+DE,de-russia-citizens-visa-2026,Граждане РФ: подача визы 2026,2026-09-25,90,36,False,inventory_only,6
+DE,de-russia-consulate-berlin,Консульство РФ в Берлине,2026-06-03,90,150,True,inventory_only,3
+DE,de-russia-driving-changes,Российские права: изменения 2026,2026-06-03,90,150,True,inventory_only,4
+DE,de-russia-passport-renewal,Загранпаспорт РФ в ФРГ,2026-06-03,90,150,True,inventory_only,3
+DE,de-russia-pension-payment,Получение пенсии РФ в ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-russia-power-of-attorney,Доверенности в РФ из ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-russia-school-attestat,Аттестат РФ: признание для вуза,2026-06-03,90,150,True,inventory_only,5
+DE,de-russia-vnj-confirmation,Подтверждение ВНЖ для РФ,2026-06-03,90,150,True,inventory_only,3
+DE,de-turkey-citizens,"Граждане Турции: визы, воссоединение",2026-06-03,90,150,True,inventory_only,4
+DE,de-uk-after-brexit,Британцы после Brexit,2026-06-03,90,150,True,inventory_only,4
+DE,de-uk-driving-license,Британские права в ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-ukraine-temporary-protection,Украинцы: §24 временная защита до 2028,2026-09-25,90,36,False,inventory_only,4
+DE,de-d-visa-application-russia,D-виза в РФ: запись и пакет,2026-06-03,90,150,True,inventory_only,5
+DE,de-d-visa-from-turkey,D-виза через Анкару: для россиян,2026-06-03,90,150,True,inventory_only,5
+DE,de-d-visa-types,"Категории D-визы: §16, §18, §21, §22",2026-09-25,90,36,False,inventory_only,4
+DE,de-fachkraefte-visa-19c,§19c: для квалифицированных работников,2026-06-03,90,150,True,inventory_only,4
+DE,de-family-reunion-children,Воссоединение с детьми: §32,2026-06-16,90,137,True,inventory_only,4
+DE,de-family-reunion-spouse,Воссоединение супругов: §28–§30,2026-06-03,90,150,True,inventory_only,5
+DE,de-fiktionsbescheinigung-extension,Временное подтверждение статуса (Fiktionsbescheinigung): что это даёт,2026-06-03,90,150,True,inventory_only,4
+DE,de-einbuergerung-children-ius-soli,Дети-иностранцы: ius soli по §4 (3) StAG,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-conditions-7,Условия §10 StAG: проверь себя,2026-06-03,90,150,True,inventory_only,6
+DE,de-einbuergerung-fee-discounts,Скидки на пошлину за натурализацию (Einbürgerung),2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-language-c1,C1 для отказа от родного гражданства? Нет,2026-06-03,90,150,True,inventory_only,5
+DE,de-einbuergerung-loyalty,Декларация лояльности (Loyalitätserklärung),2026-06-03,90,150,True,inventory_only,6
+DE,de-einbuergerung-russians-2026,Граждане РФ: натурализация в 2026,2026-06-03,90,150,True,inventory_only,4
+DE,de-einbuergerung-ukrainians,Граждане Украины: натурализация и §24,2026-09-25,90,36,False,inventory_only,4
+DE,de-einbuergerungstest-prep,Тест на натурализацию (Einbürgerungstest): 17 из 33 — как готовиться,2026-06-03,90,150,True,inventory_only,4
+DE,de-eu-ehic-card,EHIC: страховая карта ЕС,2026-06-03,90,150,True,inventory_only,4
+DE,de-family-insurance,Семейное страхование (Familienversicherung): бесплатно для семьи,2026-09-25,90,36,False,inventory_only,5
+DE,de-gkv-vs-pkv,Госстраховка (GKV) vs частная (PKV): что выбрать,2026-06-03,90,150,True,inventory_only,5
+DE,de-hkk-cheap-kasse,hkk: дешёвая больничная касса,2026-06-03,90,150,True,inventory_only,4
+DE,de-impfungen-pflicht,Прививки: что обязательно,2026-06-03,90,150,True,inventory_only,4
+DE,de-krankengeld-70-percent,Пособие по болезни (Krankengeld): 70% от брутто,2026-09-25,90,36,False,inventory_only,5
+DE,de-krankenkasse-zusatzbeitrag,Дополнительный взнос (Zusatzbeitrag) 2026: сравнение касс,2026-06-03,90,150,True,inventory_only,5
+DE,de-elster-account,Регистрация в ELSTER,2026-06-03,90,150,True,inventory_only,4
+DE,de-elster-zertifikatsdatei,ELSTER: zertifikatsdatei vs PIN,2026-06-03,90,150,True,inventory_only,4
+DE,de-grunderwerbsteuer,Налог на покупку недвижимости (Grunderwerbsteuer): 3.5-6.5%,2026-06-03,90,150,True,inventory_only,4
+DE,de-grundsteuer-2025,Налог на недвижимость (Grundsteuer) 2025: новая реформа,2026-06-03,90,150,True,inventory_only,4
+DE,de-handwerkerleistungen,Работы ремесленников (Handwerkerleistungen): 20% возврат,2026-09-25,90,36,False,inventory_only,3
+DE,de-haushaltsdienstleistungen,Бытовые услуги (Haushaltsdienstleistungen): 20% возврат,2026-06-03,90,150,True,inventory_only,3
+DE,de-anmeldung-no-appointment,Регистрация по месту жительства (Anmeldung) без термина: Notfall-варианты,2026-06-03,90,150,True,inventory_only,5
+DE,de-anmeldung-stuttgart,Регистрация по месту жительства (Anmeldung) в Штутгарте,2026-06-03,90,150,True,inventory_only,4
+DE,de-meldebescheinigung-uses,Справка о регистрации (Meldebescheinigung): где нужна,2026-06-03,90,150,True,inventory_only,4
+DE,de-second-residence-zweitwohnsitz,Второе жильё (Zweitwohnsitz): второе жильё и налог,2026-06-03,90,150,True,inventory_only,5
+DE,de-russia-consulate-germany,Консульства РФ в Германии: где и что делают,2026-06-03,90,150,True,inventory_only,3
+DE,de-russia-driver-license-exchange,Обмен прав РФ на немецкие,2026-06-03,90,150,True,inventory_only,4
+DE,de-russia-mobilization-asylum,Уклонение от мобилизации РФ: убежище в ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-russia-passport-renewal-germany,Загранпаспорт РФ в Германии: запись,2026-06-03,90,150,True,inventory_only,3
+DE,de-usa-citizens,"Граждане США: виза, налоги, FATCA",2026-06-03,90,150,True,inventory_only,5
+DE,de-kaltmiete-warmmiete,Холодная (Kaltmiete) vs тёплая аренда (Warmmiete): что входит,2026-06-03,90,150,True,inventory_only,5
+DE,de-kaution-deposit-rules,"Залог за аренду (Kaution): 3 Kaltmieten, возврат",2026-06-03,90,150,True,inventory_only,5
+DE,de-nebenkostenabrechnung,Nebenkostenabrechnung: проверка,2026-06-03,90,150,True,inventory_only,5
+DE,de-staffelmiete-indexmiete,Поэтапная (Staffelmiete) vs индексируемая аренда (Indexmiete),2026-09-25,90,36,False,inventory_only,5
+DE,de-untermiete-sublet,Субаренда (Untermiete): сдать комнату легально,2026-06-03,90,150,True,inventory_only,5
+DE,de-kfz-anmeldung,Регистрация авто (KFZ-Zulassung),2026-06-03,90,150,True,inventory_only,4
+DE,de-kfz-steuer,KFZ-Steuer: транспортный налог,2026-06-03,90,150,True,inventory_only,4
+DE,de-kfz-versicherung-sf,KFZ-Versicherung: классы SF,2026-06-03,90,150,True,inventory_only,4
+DE,de-license-exchange-eu,Обмен прав ЕС: без экзамена,2026-06-03,90,150,True,inventory_only,3
+DE,de-license-exchange-noneu,Обмен прав не-ЕС: Anlage 11 FeV,2026-06-03,90,150,True,inventory_only,4
+DE,de-license-fuehrerschein-new,Получить права с нуля: Fahrschule,2026-06-03,90,150,True,inventory_only,4
+DE,de-umweltplakette-zones,Umweltplakette: зелёная зона,2026-09-25,90,36,False,targeted_update,6
+DE,de-winter-tires-rule,Зимняя резина: situative Winterreifenpflicht,2026-06-03,90,150,True,inventory_only,4
+DE,de-girokonto-opening,Открыть расчётный счёт (Girokonto): пошагово,2026-06-03,90,150,True,inventory_only,5
+DE,de-basiskonto-right,Basiskonto: право на счёт для всех,2026-06-03,90,150,True,inventory_only,4
+DE,de-broker-trade-republic,"Trade Republic, Scalable: брокеры",2026-06-03,90,150,True,inventory_only,4
+DE,de-etf-sparplan,ETF-Sparplan: инвестиции для новичка,2026-06-03,90,150,True,inventory_only,4
+DE,de-money-transfer-wise,"Переводы за границу: Wise, Revolut",2026-06-03,90,150,True,inventory_only,4
+DE,de-schufa-selbstauskunft,Schufa: бесплатная Datenkopie,2026-06-03,90,150,True,inventory_only,4
+DE,de-sparkasse-vs-direktbank,Sparkasse vs Direktbank,2026-06-03,90,150,True,inventory_only,4
+DE,de-gmbh-ug-founding,GmbH vs UG: основание,2026-06-03,90,150,True,inventory_only,4
+DE,de-kleinunternehmer-19ustg,Малый предприниматель (Kleinunternehmer) §19 UStG,2026-06-03,90,150,True,inventory_only,4
+DE,de-ksk-kuenstlersozialkasse,KSK: соцстрах для творческих,2026-06-03,90,150,True,inventory_only,4
+DE,de-rechnung-invoice-rules,Счёт на оплату (Rechnung): обязательные реквизиты,2026-06-03,90,150,True,inventory_only,4
+DE,de-umsatzsteuer-voranmeldung,USt-Voranmeldung: ежемесячно,2026-09-25,90,36,False,inventory_only,4
+DE,de-vat-id-ustidnr,USt-IdNr: для торговли в ЕС,2026-06-03,90,150,True,inventory_only,4
+DE,de-elterngeld-job-return,Возврат на работу после отпуска по уходу за ребёнком (Elternzeit),2026-06-03,90,150,True,inventory_only,4
+DE,de-kuendigung-notice-periods,Kündigungsfristen: сроки увольнения,2026-06-03,90,150,True,inventory_only,4
+DE,de-lebenslauf-cv,Резюме (Lebenslauf): немецкий формат,2026-06-03,90,150,True,inventory_only,3
+DE,de-lohnabrechnung-payslip,Расчётный лист (Lohnabrechnung): как читать,2026-06-03,90,150,True,inventory_only,4
+DE,de-minijob-538-euro,Мини-подработка (Minijob): граница 603€ в 2026,2026-09-25,90,36,False,inventory_only,3
+DE,de-urlaub-vacation-days,Urlaub: отпускные дни и правила,2026-06-03,90,150,True,inventory_only,4
+DE,de-kita-gutschein,Ваучер на садик (Kita-Gutschein),2026-06-03,90,150,True,inventory_only,5
+DE,de-studium-university-apply,Поступление в вуз: Uni-Assist,2026-06-03,90,150,True,inventory_only,5
+DE,de-tagesmutter-childcare,Няня-воспитатель (Tagesmutter),2026-06-03,90,150,True,inventory_only,5
+DE,de-vocational-ausbildung,Дуальное обучение (Ausbildung),2026-06-03,90,150,True,inventory_only,5
+DE,de-marriage-standesamt,Брак в ЗАГСе (Standesamt): документы,2026-06-03,90,150,True,inventory_only,4
+DE,de-wohngeld-housing-benefit,Жилищная субсидия (Wohngeld) 2026,2026-09-25,90,36,False,inventory_only,5
+DE,de-unterhalt-child-support,Алименты (Unterhalt): Дюссельдорфская таблица (Düsseldorfer Tabelle),2026-06-03,90,150,True,inventory_only,5
+DE,de-pflegegrad-care-levels,Степень потребности в уходе (Pflegegrad): уровни 1-5,2026-06-03,90,150,True,inventory_only,5
+DE,de-pflegeversicherung,Страхование на случай ухода (Pflegeversicherung),2026-06-03,90,150,True,inventory_only,5
+DE,de-jugendamt-role,Ведомство по делам молодёжи (Jugendamt): чем помогает и чем опасно,2026-06-03,90,150,True,inventory_only,5
+DE,de-betreuung-legal-guardianship,Правовое попечительство (Rechtliche Betreuung): опека над взрослыми,2026-06-03,90,150,True,inventory_only,4
+DE,de-sozialhilfe-grundsicherung,Базовое обеспечение (Grundsicherung): помощь пожилым,2026-06-03,90,150,True,inventory_only,5
+DE,de-emergency-numbers,"Экстренные номера: 110, 112, 116117",2026-06-03,90,150,True,inventory_only,4
+DE,de-fire-brandschutz,"Пожар: что делать, дымовой извещатель (Rauchmelder)",2026-06-03,90,150,True,inventory_only,5
+DE,de-mietrecht-disputes,Споры с арендодателем: куда идти,2026-06-03,90,150,True,inventory_only,4
+DE,de-police-report-anzeige,Заявление о преступлении (Anzeige): как подать в полицию,2026-06-03,90,150,True,inventory_only,4
+DE,de-victim-support-weisser-ring,Weisser Ring: помощь жертвам,2026-06-03,90,150,True,inventory_only,4
+DE,de-discrimination-agg-claim,Дискриминация: жалоба по AGG,2026-06-03,90,150,True,inventory_only,4
+DE,de-mall-shopping-hours,Ladenöffnungszeiten: часы магазинов,2026-06-03,90,150,True,inventory_only,5
+DE,de-furniture-ikea-secondhand,"Мебель: IKEA, eBay Kleinanzeigen, Sperrmüll",2026-06-03,90,150,True,inventory_only,6
+DE,de-muelltrennung-recycling,Раздельный сбор мусора (Mülltrennung): сортировка,2026-06-03,90,150,True,inventory_only,5
+DE,de-supermarkets-comparison,"Супермаркеты: Aldi, Lidl, Rewe, Edeka",2026-06-03,90,150,True,inventory_only,6
+DE,de-online-shopping-returns,"Онлайн-покупки: Amazon, возвраты",2026-09-25,90,36,False,targeted_update,11
+DE,de-haustier-pet-keeping,"Домашние животные: Hundesteuer, регистрация",2026-06-03,90,150,True,inventory_only,5
+DE,de-gardening-schrebergarten,Schrebergarten: дачный участок,2026-06-03,90,150,True,inventory_only,5
+DE,de-weather-clothing-seasons,Погода и одежда по сезонам,2026-06-03,90,150,True,inventory_only,3
+DE,de-doctor-approbation,Врач: лицензия (Approbation) шаг за шагом,2026-09-25,90,36,False,inventory_only,8
+DE,de-nurse-pflege-recognition,Медсестра/медбрат (Pfleger): признание,2026-06-03,90,150,True,inventory_only,5
+DE,de-teacher-recognition,Учитель: признание и боковой вход (Quereinstieg),2026-06-03,90,150,True,inventory_only,5
+DE,de-it-no-degree-recognition,IT без диплома: §19c (2),2026-06-03,90,150,True,inventory_only,5
+DE,de-zeugnisbewertung-zab,Оценка диплома (Zeugnisbewertung) от ZAB,2026-06-03,90,150,True,inventory_only,5
+DE,de-anpassungslehrgang,Адаптационный курс (Anpassungslehrgang),2026-06-03,90,150,True,inventory_only,5
+DE,de-kenntnispruefung,Экзамен знаний (Kenntnisprüfung) против равноценности (Gleichwertigkeit),2026-09-25,90,36,False,inventory_only,7
+DE,de-deutschlandticket-2026,Deutschlandticket 63€: как оформить,2026-09-01,90,60,False,inventory_only,5
+DE,de-munich-mvv-tickets,Мюнхен MVV: зоны и билеты,2026-06-03,90,150,True,inventory_only,3
+DE,de-flixbus-intercity,FlixBus: дешёвые автобусы,2026-06-03,90,150,True,inventory_only,3
+DE,de-night-trains-tickets,"Ночные поезда: Nightjet, IC",2026-06-03,90,150,True,inventory_only,3
+DE,de-regional-tickets-laender,Länder-Tickets: выходные поездки,2026-06-03,90,150,True,inventory_only,3
+DE,de-schwarzfahren-fines,Schwarzfahren: штраф 60€,2026-06-03,90,150,True,inventory_only,4
+DE,de-taxi-uber-bolt,"Такси, Uber, Bolt, FreeNow",2026-06-03,90,150,True,inventory_only,4
+DE,de-berufssprachkurs-45a,Berufssprachkurs §45a: профессиональный немецкий,2026-09-25,90,36,False,inventory_only,4
+DE,de-free-language-apps,Бесплатные приложения для немецкого,2026-06-03,90,150,True,inventory_only,4
+DE,de-language-cafe-tandem,Sprachcafé и Tandem: разговорная практика,2026-06-03,90,150,True,inventory_only,4
+DE,de-orientierungskurs-100h,Курс страноведения (Orientierungskurs): 100 часов о Германии,2026-06-03,90,150,True,inventory_only,4
+DE,de-vhs-volkshochschule,VHS: народные курсы недорого,2026-06-03,90,150,True,inventory_only,3
+DE,de-integration-leben-deutschland-test,Leben in Deutschland Test (LiD),2026-06-03,90,150,True,inventory_only,3
+DE,de-c1-hochschule-studienkolleg,C1 для вуза: подготовительный колледж (Studienkolleg),2026-06-03,90,150,True,inventory_only,4
+DE,de-language-level-self-assess,Как определить свой уровень A1-C2,2026-06-03,90,150,True,inventory_only,4
+DE,de-elster-steuer-id,Налоговый ID (Steuer-ID) и налоговый номер (Steuernummer): разница,2026-06-03,90,150,True,inventory_only,4
+DE,de-online-termin-booking,Онлайн-запись на термины: лайфхаки,2026-06-03,90,150,True,inventory_only,4
+DE,de-personalausweis-eid-functions,Функции eID удостоверения личности (Personalausweis),2026-06-03,90,150,True,inventory_only,4
+DE,de-elektronische-patientenakte-epa,ePA: электронная медкарта 2025,2026-06-03,90,150,True,inventory_only,4
+DE,de-digital-driver-license,Цифровые права и документы в телефоне,2026-09-25,90,36,False,inventory_only,4
+DE,de-online-ummeldung-auto,i-Kfz: перерегистрация авто онлайн,2026-06-03,90,150,True,inventory_only,4
+DE,de-mein-elster-features,Mein ELSTER: возможности кабинета,2026-06-03,90,150,True,inventory_only,4
+DE,de-buergeramt-apps-cities,Городские приложения и порталы,2026-06-03,90,150,True,inventory_only,4
+DE,de-rundfunkbeitrag-befreiung,Освобождение от платы за вещание (Rundfunkbeitrag),2026-06-03,90,150,True,inventory_only,4
+DE,de-streaming-services,"Стриминг: Netflix, Sky, DAZN, WOW",2026-06-03,90,150,True,inventory_only,6
+DE,de-internet-umzug-mitnahme,Перенос интернета при переезде,2026-06-03,90,150,True,inventory_only,4
+DE,de-handyvertrag-vs-prepaid,Контракт vs Prepaid: что выбрать,2026-06-03,90,150,True,inventory_only,5
+DE,de-festnetz-landline,Стационарная связь (Festnetz): нужна ли она,2026-06-03,90,150,True,inventory_only,5
+DE,de-data-roaming-non-eu,Роуминг вне ЕС: как не разориться,2026-06-03,90,150,True,inventory_only,5
+DE,de-spam-calls-blocking,"Спам-звонки: блокировка, Bundesnetzagentur",2026-06-03,90,150,True,inventory_only,4
+DE,de-wlan-public-hotspots,Публичный Wi-Fi (WLAN): где и безопасность,2026-06-03,90,150,True,inventory_only,4
+DE,de-anabin-check-before,Проверить вуз в Anabin до переезда,2026-06-03,90,150,True,inventory_only,4
+DE,de-document-checklist-master,Главный чек-лист документов для ФРГ,2026-06-03,90,150,True,inventory_only,3
+DE,de-driving-license-prepare,Подготовить права к обмену заранее,2026-06-03,90,150,True,inventory_only,3
+DE,de-health-insurance-incoming,Страховка для въезда: incoming/Reise,2026-06-03,90,150,True,inventory_only,3
+DE,de-job-search-from-abroad,Поиск работы из-за границы,2026-06-03,90,150,True,inventory_only,4
+DE,de-relocation-companies,Релокационные компании: нужны ли,2026-06-03,90,150,True,inventory_only,3
+DE,de-school-recognition-kids,Документы детей: школа и переводы,2026-06-03,90,150,True,inventory_only,4
+DE,de-sperrkonto-blocked-account,Блокированный счёт (Sperrkonto),2026-06-03,90,150,True,inventory_only,6
+DE,de-niederlassung-pension-60-months,60 месяцев Rentenbeitrag для §9,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-income-proof,Доход для ПМЖ: средства к существованию (Lebensunterhalt),2026-06-03,90,150,True,inventory_only,4
+DE,de-niederlassung-self-employed,ПМЖ для самозанятых: §21 (4),2026-06-03,90,150,True,inventory_only,4
+DE,de-niederlassung-document-list,Полный пакет документов для §9,2026-06-03,90,150,True,inventory_only,4
+DE,de-daueraufenthalt-vs-einbuergerung,ПМЖ или гражданство: что выбрать,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-after-studium,ПМЖ после учёбы и работы,2026-06-03,90,150,True,inventory_only,5
+DE,de-niederlassung-loss-conditions,Когда теряется ПМЖ (Niederlassungserlaubnis),2026-06-03,90,150,True,inventory_only,4
+DE,de-ruerup-basis-rente,Rürup (Basis-Rente): для самозанятых,2026-09-25,90,36,False,inventory_only,4
+DE,de-rente-mit-63-67,"Выход на пенсию: 63, 65, 67",2026-09-01,90,60,False,inventory_only,4
+DE,de-witwenrente-survivors,Witwenrente: пенсия по потере кормильца,2026-06-03,90,150,True,inventory_only,4
+DE,de-rechtsschutz-insurance,Rechtsschutzversicherung: юридическая,2026-06-03,90,150,True,inventory_only,4
+DE,de-unfallversicherung-private,Страхование от несчастных случаев (Unfallversicherung),2026-06-03,90,150,True,inventory_only,4
+DE,de-pension-contribution-voluntary,Добровольные взносы в пенсионное страхование (Rentenversicherung),2026-06-03,90,150,True,inventory_only,4
+DE,de-student-visa-16b,Студенческая виза §16b,2026-06-03,90,150,True,inventory_only,5
+DE,de-study-prep-16a,Виза на подготовку к учёбе §16b,2026-06-03,90,150,True,inventory_only,4
+DE,de-ausbildung-visa-16a,Виза на профобучение (Ausbildung) §16a,2026-06-03,90,150,True,inventory_only,4
+DE,de-au-pair-visa,Au-pair: виза и условия,2026-06-03,90,150,True,inventory_only,4
+DE,de-research-visa-18d,Виза для учёных §18d,2026-06-03,90,150,True,inventory_only,4
+DE,de-ict-card-intra-corporate,ICT-Karte: внутрикорпоративный перевод,2026-06-03,90,150,True,inventory_only,4
+DE,de-westbalkan-regelung,Westbalkanregelung §26 BeschV,2026-06-03,90,150,True,inventory_only,4
+DE,de-settlement-self-employed-21,Виза самозанятого §21,2026-06-03,90,150,True,inventory_only,4
+DE,de-facharzt-specialist-referral,Врач-специалист (Facharzt): запись к специалисту,2026-06-03,90,150,True,inventory_only,4
+DE,de-termin-service-116117,Terminservice 116117: быстрая запись,2026-06-03,90,150,True,inventory_only,4
+DE,de-hospital-krankenhaus-stay,Госпитализация: что брать в больницу,2026-06-03,90,150,True,inventory_only,4
+DE,de-pregnancy-care-hebamme,Беременность: акушерка (Hebamme) и врач,2026-06-03,90,150,True,inventory_only,4
+DE,de-vaccination-records,Прививочный сертификат (Impfpass),2026-06-03,90,150,True,inventory_only,4
+DE,de-pharmacy-notdienst,Дежурная аптека: экстренная служба (Notdienst) ночью,2026-06-03,90,150,True,inventory_only,4
+DE,de-pflege-care-application,Заявление на степень потребности в уходе (Pflegegrad),2026-06-03,90,150,True,inventory_only,4
+DE,de-spaetaussiedler-bvfg,Поздние переселенцы §4 BVFG,2026-06-03,90,150,True,inventory_only,5
+DE,de-jewish-contingent-refugees,Еврейская иммиграция: контингентные беженцы,2026-06-03,90,150,True,inventory_only,5
+DE,de-ukraine-driver-license,Украинские права в Германии,2026-09-25,90,36,False,inventory_only,5
+DE,de-ukraine-pension-recognition,Украинский стаж и пенсия в ФРГ,2026-06-03,90,150,True,inventory_only,5
+DE,de-russia-military-service-evasion,Военнообязанные РФ: выезд и статус,2026-06-03,90,150,True,inventory_only,5
+DE,de-india-blue-card-it,Индийские айтишники: маршрут Голубой карты (Blue Card),2026-06-03,90,150,True,inventory_only,5
+DE,de-vietnam-citizens,Граждане Вьетнама: визы и диаспора,2026-06-03,90,150,True,inventory_only,5
+DE,de-uk-citizens-post-brexit,Британцы после Brexit: статус в ФРГ,2026-06-03,90,150,True,inventory_only,5
+DE,de-anlage-kap-kapital,Anlage KAP: доходы с капитала,2026-06-03,90,150,True,inventory_only,4
+DE,de-anlage-vorsorge,Anlage Vorsorgeaufwand: страховые взносы,2026-09-25,90,36,False,inventory_only,3
+DE,de-church-tax-kirchensteuer,Церковный налог (Kirchensteuer): как выйти из церкви,2026-06-03,90,150,True,inventory_only,3
+DE,de-freelancer-tax-quarterly,Налоги фрилансера: квартальные платежи,2026-06-03,90,150,True,inventory_only,3
+DE,de-solidaritaetszuschlag,Soli: кто ещё платит в 2026,2026-06-03,90,150,True,inventory_only,3
+DE,de-tax-deadline-fristen,Сроки подачи декларации 2026,2026-06-16,90,137,True,inventory_only,4
+DE,de-tax-software-comparison,"Налоговый софт: WISO, Taxfix, ELSTER",2026-06-03,90,150,True,inventory_only,4
+DE,de-werbungskosten-deductions,Расходы на работу (Werbungskosten): что вычитать,2026-09-25,90,36,False,inventory_only,4
+DE,de-citizenship-income-requirement,Доход для гражданства: без базового пособия (Bürgergeld),2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-processing-time,Сроки рассмотрения приёма в гражданство (Einbürgerung),2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-documents-full,Полный пакет документов на гражданство,2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-name-change,Смена имени при натурализации,2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-children-included,Дети в заявлении родителей,2026-06-03,90,150,True,inventory_only,5
+DE,de-passport-after-citizenship,Загранпаспорт (Reisepass) после гражданства,2026-06-03,90,150,True,inventory_only,5
+DE,de-citizenship-criminal-record,Судимость и натурализация,2026-06-03,90,150,True,inventory_only,6
+DE,de-citizenship-b1-exemptions,Освобождение от B1 и теста,2026-06-03,90,150,True,inventory_only,5
+DE,de-accident-unfall-procedure,ДТП: что делать на месте,2026-06-03,90,150,True,inventory_only,4
+DE,de-car-leasing-vs-buy,Лизинг vs покупка авто,2026-06-03,90,150,True,inventory_only,4
+DE,de-carsharing-services,"Каршеринг: ShareNow, Miles, Sixt",2026-06-03,90,150,True,inventory_only,4
+DE,de-ev-charging-emobility,Электромобили: зарядка и господдержка (Förderung),2026-09-25,90,36,False,inventory_only,4
+DE,de-fuel-types-prices,"Топливо: E10, E5, Diesel, цены",2026-09-25,90,36,False,inventory_only,5
+DE,de-kennzeichen-license-plate,Номерные знаки: выбор и желаемый номер (Wunschkennzeichen),2026-06-03,90,150,True,inventory_only,3
+DE,de-parking-rules-fines,Парковка: правила и штрафы,2026-06-03,90,150,True,inventory_only,4
+DE,de-selling-car-private,Продажа авто частнику: договор,2026-06-03,90,150,True,inventory_only,4
+DE,de-buying-process-notar,Покупка жилья: роль нотариуса (Notar),2026-06-03,90,150,True,targeted_update,6
+DE,de-baufinanzierung-mortgage,Ипотечное финансирование (Baufinanzierung) в ФРГ,2026-06-03,90,150,True,inventory_only,5
+DE,de-wg-shared-flat-living,Совместная квартира (WG): жизнь в коммуналке,2026-06-03,90,150,True,inventory_only,5
+DE,de-moving-umzug-checklist,Переезд (Umzug): чек-лист,2026-06-03,90,150,True,inventory_only,6
+DE,de-strom-gas-anbieter,Электричество и газ: выбор поставщика,2026-06-03,90,150,True,inventory_only,6
+DE,de-hausverwaltung-issues,Управляющая компания (Hausverwaltung): ремонт и жалобы,2026-06-03,90,150,True,inventory_only,4
+DE,de-mietminderung-defects,Снижение аренды (Mietminderung) за дефекты,2026-06-03,90,150,True,inventory_only,4
+DE,de-tenant-insurance-haftpflicht,Страховки арендатора,2026-06-03,90,150,True,inventory_only,6
+DE,de-sepa-lastschrift,Прямое списание (SEPA-Lastschrift): автоплатежи,2026-06-03,90,150,True,inventory_only,4
+DE,de-dispo-overdraft,Dispokredit: овердрафт и проценты,2026-06-03,90,150,True,inventory_only,4
+DE,de-tagesgeld-festgeld,Tagesgeld и Festgeld: вклады,2026-06-03,90,150,True,inventory_only,4
+DE,de-paypal-klarna-payment,"PayPal, Klarna: онлайн-оплата",2026-06-03,90,150,True,inventory_only,7
+DE,de-crypto-tax-germany,Криптовалюта: налоги в ФРГ,2026-06-03,90,150,True,inventory_only,4
+DE,de-joint-account-couples,Совместный счёт для пары,2026-06-03,90,150,True,inventory_only,4
+DE,de-bank-fees-avoid,Банковские комиссии: как избежать,2026-06-03,90,150,True,inventory_only,4
+DE,de-pfaendungsschutzkonto,Счёт с защитой от взысканий (P-Konto),2026-06-03,90,150,True,inventory_only,4
+DE,de-hausordnung-quiet-hours,Правила проживания в доме (Hausordnung): часы тишины (Ruhezeiten),2026-06-03,90,150,True,inventory_only,5
+DE,de-recycling-pfand-system,Залог за тару (Pfand): возврат бутылок пошагово,2026-09-25,90,36,False,inventory_only,5
+DE,de-post-dhl-packages,"Почта DHL: посылки, Packstation",2026-06-03,90,150,True,inventory_only,6
+DE,de-second-hand-flohmarkt,Барахолки и секонд-хенд,2026-06-03,90,150,True,inventory_only,7
+DE,de-tipping-restaurant-culture,Чаевые и ресторанный этикет,2026-06-03,90,150,True,inventory_only,5
+DE,de-festivals-events-calendar,Праздники и фестивали Германии,2026-06-03,90,150,True,inventory_only,3
+DE,de-winter-heating-tips,Отопление зимой: экономия и проветривание (Lüften),2026-06-03,90,150,True,inventory_only,6
+DE,de-emergency-supplies-prepping,Запасы на случай ЧС: BBK,2026-06-03,90,150,True,inventory_only,4
+DE,de-arbeitszeugnis-reference,Рекомендательная характеристика (Arbeitszeugnis): расшифровка кодов,2026-06-03,90,150,True,inventory_only,4
+DE,de-gehaltsverhandlung-salary,Переговоры о зарплате,2026-06-03,90,150,True,inventory_only,5
+DE,de-teilzeit-part-time,Неполная занятость (Teilzeit): право на неполный день,2026-06-03,90,150,True,inventory_only,4
+DE,de-homeoffice-remote-rights,Удалённая работа (Homeoffice): права и налоги,2026-06-03,90,150,True,inventory_only,4
+DE,de-krankmeldung-sick-leave,Уведомление о болезни (Krankmeldung): больничный лист,2026-06-03,90,150,True,inventory_only,4
+DE,de-tarifvertrag-collective,Коллективный (тарифный) договор (Tarifvertrag),2026-06-03,90,150,True,inventory_only,4
+DE,de-gewerkschaft-union,"Профсоюзы: IG Metall, Verdi",2026-06-03,90,150,True,inventory_only,4
+DE,de-job-portals-germany,"Поиск работы: StepStone, Xing, LinkedIn",2026-06-03,90,150,True,inventory_only,5
+DE,de-anerkennung-foreign-work-exp,Зачёт иностранного опыта работы,2026-06-03,90,150,True,inventory_only,4
+DE,de-mobbing-workplace,Моббинг на работе: что делать,2026-06-03,90,150,True,inventory_only,5
+DE,de-realschule-hauptschule,Реальная школа (Realschule) vs основная (Hauptschule),2026-06-03,90,150,True,inventory_only,4
+DE,de-school-supplies-einschulung,Einschulung: сборы в 1 класс,2026-06-03,90,150,True,inventory_only,4
+DE,de-nachhilfe-tutoring,Nachhilfe: репетиторы для детей,2026-06-03,90,150,True,inventory_only,4
+DE,de-special-needs-foerderschule,Дети с особыми потребностями,2026-06-03,90,150,True,inventory_only,4
+DE,de-university-tuition-fees,Плата за вуз: есть ли в ФРГ,2026-09-25,90,36,False,inventory_only,4
+DE,de-student-jobs-werkstudent,Werkstudent: подработка студентов,2026-06-03,90,150,True,inventory_only,4
+DE,de-numerus-clausus-nc,Проходной балл (Numerus Clausus),2026-06-03,90,150,True,inventory_only,4
+DE,de-erasmus-exchange,Erasmus+: обмен для студентов,2026-06-03,90,150,True,inventory_only,4
+DE,de-vocational-school-berufsschule,Профучилище (Berufsschule) при дуальном обучении,2026-06-03,90,150,True,inventory_only,4
+DE,de-childcare-tax-deduction,Налоговый вычет за детский сад,2026-06-03,90,150,True,inventory_only,4
+DE,de-ees-etias-entry,EES и ETIAS: что нужно на границе,2026-10-31,30,0,False,inventory_only,3
+DE,de-digital-fuehrungszeugnis,Цифровая справка о несудимости через BundID,2026-10-31,30,0,False,inventory_only,2
+DE,de-euro7-buying-2026,Euro 7: что меняется для покупателя автомобиля с ноября 2026,2026-10-31,60,0,False,new_guide_verified,2
