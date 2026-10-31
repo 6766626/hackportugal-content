@@ -18,7 +18,7 @@ export default {
           '📚 Educação — 30% das despesas elegíveis, normalmente até 800 € por agregado familiar (e não por criança); podem existir majorações para estudante deslocado/que vive fora de casa',
           '🍽️ Restaurantes/hotéis/cabeleireiros/reparação de automóveis e motociclos — dedução de 15% do IVA da fatura, limite global de 250 € por agregado familiar (exigência de fatura)',
           '💡 Serviços domésticos com NIF (eletricidade, gás, água) entram normalmente em despesas gerais familiares: 35% até 250 € por sujeito passivo (500 € para casal em declaração conjunta)',
-          '🏠 Renda da habitação permanente: 15% até 700 € (para despesas de 2025/IRS 2026); podem existir limites superiores para baixos rendimentos; são necessários e-recibos/contratos comunicados',
+          "Renda da habitação permanente: dedução de 15% das despesas, com limite geral de 900 € em 2026 (declaração em 2027) e de 1 000 € a partir de 2027. Mantém-se o limite superior que resulte das regras para baixos rendimentos. Para despesas de 2025, o limite geral era 700 €. São necessários comprovativos e a comunicação da renda à AT nos termos aplicáveis.",
           '💰 PPR: 20% das contribuições, máximo 400 € até aos 35 anos, 350 € dos 35 aos 50, 300 € acima dos 50',
           '💳 Donativos a ONG com NIF — dedução de 25% do valor doado, até 15% do imposto',
           '📊 Sujeitos IFICI: confirmar estatuto e documentos sobre atividade qualificada'
@@ -101,7 +101,7 @@ export default {
           ]},
           { id: 'd3', title: 'Habitação', content: [
             { kind: 'checklist', items: [
-              'Renda da habitação permanente — 15% até 700 € para despesas de 2025; podem existir limites superiores para baixos rendimentos',
+              "Renda da habitação permanente: dedução de 15% das despesas, com limite geral de 900 € em 2026 (declaração em 2027) e de 1 000 € a partir de 2027. Mantém-se o limite superior que resulte das regras para baixos rendimentos. Para despesas de 2025, o limite geral era 700 €. São necessários comprovativos e a comunicação da renda à AT nos termos aplicáveis.",
               'Juros de empréstimo para habitação própria permanente — 15% até 296 €, apenas para contratos até 31.12.2011',
               'Eletricidade/gás/água — são despesas gerais familiares (35% até 250 € por sujeito passivo), não uma dedução autónoma de habitação',
               'IMI de habitação própria normalmente NÃO dá dedução em IRS; pode ser considerado em rendimentos prediais ou no cálculo de mais-valias'
@@ -186,7 +186,18 @@ export default {
     { title: 'Código do IRS (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'e-Fatura — portal de faturas eletrónicas', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — entrega do IRS', url: 'https://www.gov.pt/servicos/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
-  ],
+  ,
+{
+  "title": "AT — CIRS artigo 78.º-E e normas transitórias",
+  "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78e.aspx",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Distinguidos os anos das despesas e da entrega do IRS; limite das rendas de 900 € em 2026 e 1 000 € a partir de 2027."
 }

@@ -143,7 +143,18 @@ export default {
         ]}
       ]
     }
-  ],
+  ,
+{
+  "id": "taeg-q4-2026",
+  "title": "TAEG máximas no 4.º trimestre de 2026",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Para novos contratos entre 01.10 e 31.12.2026, o Banco de Portugal fixa as TAEG máximas: educação, saúde, transição energética e locação financeira de equipamentos — 8,2%; outros créditos pessoais — 15,0%; cartões, linhas de crédito e facilidades de descoberto — 18,5%. São limites por categoria, não propostas comerciais. Confirme a categoria e a data do contrato; noutro trimestre aplica-se a tabela correspondente."
+    }
+  ]
+}
+],
   costs: [
     { label: 'Anuidade de um cartão de crédito básico', amountEURMin: 0, amountEURMax: 30 },
     { label: 'Anuidade de um cartão de crédito premium', amountEURMin: 100, amountEURMax: 300 },
@@ -153,7 +164,25 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Mapa de Responsabilidades', url: 'https://www.bportugal.pt/page/mapa-de-responsabilidades-de-credito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — Cartões de Crédito (Portal do Cliente Bancário)', url: 'https://clientebancario.bportugal.pt/pt-pt/cartoes-de-credito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
-  ],
+  ,
+{
+  "title": "Banco de Portugal — Taxas de juro no crédito aos consumidores",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/taxas-de-juro-no-credito-aos-consumidores",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Banco de Portugal — Taxas máximas no 4.º trimestre de 2026",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/noticias/taxas-maximas-aplicaveis-aos-contratos-de-credito-aos-consumidores-no-4o-trimestre-de-2026",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Acrescentadas as TAEG máximas oficiais do 4.º trimestre de 2026, com datas e categorias."
 }

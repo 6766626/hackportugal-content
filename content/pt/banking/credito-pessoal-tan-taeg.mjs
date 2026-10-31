@@ -105,7 +105,18 @@ export default {
         { kind: 'warning', text: 'Não pague “taxa de aprovação” a intermediários desconhecidos antes da disponibilização do crédito. Bancos legais e intermediários de crédito registados podem ser verificados no site do Banco de Portugal; propostas por WhatsApp com pagamento antecipado são um esquema de fraude frequente.' }
       ]
     }
-  ],
+  ,
+{
+  "id": "taeg-q4-2026",
+  "title": "TAEG máximas no 4.º trimestre de 2026",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Para novos contratos entre 01.10 e 31.12.2026, o Banco de Portugal fixa as TAEG máximas: educação, saúde, transição energética e locação financeira de equipamentos — 8,2%; outros créditos pessoais — 15,0%; cartões, linhas de crédito e facilidades de descoberto — 18,5%. São limites por categoria, não propostas comerciais. Confirme a categoria e a data do contrato; noutro trimestre aplica-se a tabela correspondente."
+    }
+  ]
+}
+],
   sources: [
     {
       title: 'Banco de Portugal — Portal do Cliente Bancário: crédito aos consumidores e comparador',
@@ -128,7 +139,25 @@ export default {
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
-  ],
+  ,
+{
+  "title": "Banco de Portugal — Taxas de juro no crédito aos consumidores",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/taxas-de-juro-no-credito-aos-consumidores",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Banco de Portugal — Taxas máximas no 4.º trimestre de 2026",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/noticias/taxas-maximas-aplicaveis-aos-contratos-de-credito-aos-consumidores-no-4o-trimestre-de-2026",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-08-01',
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Acrescentadas as TAEG máximas oficiais do 4.º trimestre de 2026, com datas e categorias."
 }

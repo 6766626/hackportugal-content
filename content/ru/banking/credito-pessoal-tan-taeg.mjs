@@ -105,7 +105,18 @@ export default {
         { kind: 'warning', text: 'Не платите “taxa de aprovação” незнакомым посредникам до выдачи кредита. Легальные банки и зарегистрированные intermediários de crédito проверяются на сайте Banco de Portugal; предложения через WhatsApp с предоплатой — частая схема мошенничества.' }
       ]
     }
-  ],
+  ,
+{
+  "id": "taeg-q4-2026",
+  "title": "Максимальная TAEG в IV квартале 2026",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Для новых договоров с 01.10 по 31.12.2026 Banco de Portugal устанавливает максимальную TAEG: образование, здоровье, энергетический переход и финансовый лизинг оборудования — 8,2%; прочие личные кредиты — 15,0%; кредитные карты, кредитные линии и разрешённый овердрафт — 18,5%. Это предельные значения соответствующих категорий, а не предложение банка. Сверяйте категорию и дату договора; для другого квартала нужна соответствующая таблица."
+    }
+  ]
+}
+],
   sources: [
     {
       title: 'Banco de Portugal — Portal do Cliente Bancário: crédito aos consumidores и comparador',
@@ -128,7 +139,25 @@ export default {
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
-  ],
+  ,
+{
+  "title": "Banco de Portugal — Taxas de juro no crédito aos consumidores",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/taxas-de-juro-no-credito-aos-consumidores",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Banco de Portugal — Taxas máximas no 4.º trimestre de 2026",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/noticias/taxas-maximas-aplicaveis-aos-contratos-de-credito-aos-consumidores-no-4o-trimestre-de-2026",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-08-01',
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Добавлены официальные пределы TAEG на IV квартал 2026 с датами и категориями кредитов."
 }

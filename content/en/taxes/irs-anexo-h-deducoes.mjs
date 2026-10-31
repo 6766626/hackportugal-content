@@ -3,7 +3,7 @@ export default {
   id: 'irs-anexo-h-deducoes',
   categoryId: 'taxes',
   title: 'IRS Anexo H: all deductions for saúde, educação, lares and imóvel',
-  tldr: 'Anexo H in Modelo 3 IRS is where, in the 2026 return for 2025 income, deductions are checked and, if necessary, corrected: saúde 15% up to €1,000 per household, educação 30% up to €800, lares 25% up to €403.75, housing rent 15% up to €700–800 (OE 2024/25), interest on old mortgages up to €296. Most amounts are pulled from e-Fatura automatically, but if you edit them manually, keep invoices for 4 years. Abono de família is not declared as income; “casamento jovem €750” is not a standard Anexo H line.',
+  tldr: "Anexo H in Modelo 3 IRS is where, in the 2026 return for 2025 income, deductions are checked and, if necessary, corrected: saúde 15% up to €1,000 per household, educação 30% up to €800, lares 25% up to €403.75, housing rent 15%, with a general cap of €700 for 2025 (a higher cap may apply to low incomes), interest on old mortgages up to €296. Most amounts are pulled from e-Fatura automatically, but if you edit them manually, keep invoices for 4 years. Abono de família is not declared as income; “casamento jovem €750” is not a standard Anexo H line.",
   tags: ['irs', 'anexo-h', 'deductions', 'finanças'],
   estimatedReadMinutes: 6,
   steps: [
@@ -197,7 +197,18 @@ export default {
         }
       ]
     }
-  ],
+  ,
+{
+  "id": "rent-expense-years-2026",
+  "title": "Check the expense year",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Permanent-home rent: 15% of eligible expenses, with a general cap of €900 for 2026 (filed in 2027) and €1,000 from 2027. A higher cap calculated under the low-income rules remains available. The general cap for 2025 expenses was €700. Keep the required evidence and ensure rent information is reported to AT as applicable."
+    }
+  ]
+}
+],
   costs: [
     { label: 'Filing Modelo 3 IRS through Portal das Finanças', amountEUR: 0, note: 'Self-filing online is free.' },
     { label: 'Typical contabilista help with IRS', amountEURMin: 40, amountEURMax: 120, note: 'The price depends on the number of anexos, foreign income and manual Anexo H edits.' }
@@ -245,10 +256,18 @@ export default {
       "language": "pt",
       "lastRetrieved": "2026-10-20"
     }
-  ],
+  ,
+{
+  "title": "AT — CIRS artigo 78.º-E e normas transitórias",
+  "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78e.aspx",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 ,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Aligned rent deductions: general cap €900 for 2026 and €1,000 from 2027, retaining higher low-income limits."
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Distinguished expense and filing years; added the €900 rent cap for 2026 and €1,000 from 2027."
 }

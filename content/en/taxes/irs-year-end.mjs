@@ -18,7 +18,7 @@ export default {
           '📚 Education — 30% of eligible expenses, usually up to €800 per household (not per child); higher limits may apply for a deslocado/student living away from home',
           '🍽️ Restaurants/hotels/hairdressers/car and motorcycle repairs — deduction of 15% of the IVA on the invoice, overall limit €250 per household (exigência de fatura)',
           '💡 Utilities with NIF (electricity, gas, water) usually go into despesas gerais familiares: 35% up to €250 per taxpayer (€500 for a couple filing jointly)',
-          '🏠 Rent for permanent home: 15% up to €700 (for 2025 expenses/IRS 2026); higher limits may apply for low incomes; e-recibos/reported contracts are required',
+          "Permanent-home rent: 15% of eligible expenses, with a general cap of €900 for 2026 (filed in 2027) and €1,000 from 2027. A higher cap calculated under the low-income rules remains available. The general cap for 2025 expenses was €700. Keep the required evidence and ensure rent information is reported to AT as applicable.",
           '💰 PPR: 20% of contributions, maximum €400 up to age 35, €350 from 35 to 50, €300 over 50',
           '💳 Donations to NGOs with NIF — deduction of 25% of the contribution, up to 15% of the tax',
           '📊 IFICI subjects: confirm status and documents for qualified activity'
@@ -101,7 +101,7 @@ export default {
           ]},
           { id: 'd3', title: 'Housing', content: [
             { kind: 'checklist', items: [
-              'Rent for permanent home — 15% up to €700 for 2025 expenses; higher limits may apply for low incomes',
+              "Permanent-home rent: 15% of eligible expenses, with a general cap of €900 for 2026 (filed in 2027) and €1,000 from 2027. A higher cap calculated under the low-income rules remains available. The general cap for 2025 expenses was €700. Keep the required evidence and ensure rent information is reported to AT as applicable.",
               'Interest on a mortgage for a permanent owner-occupied home — 15% up to €296, only for contracts before 31.12.2011',
               'Electricity/gas/water — this is despesas gerais familiares (35% up to €250 per taxpayer), not a separate housing deduction',
               'IMI on an owner-occupied home usually does NOT give an IRS deduction; it may be taken into account for rental income or capital gains calculations'
@@ -186,7 +186,18 @@ export default {
     { title: 'IRS Code (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'e-Fatura — electronic invoices portal', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — filing IRS', url: 'https://www.gov.pt/servicos/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
-  ],
+  ,
+{
+  "title": "AT — CIRS artigo 78.º-E e normas transitórias",
+  "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78e.aspx",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Distinguished expense and filing years; added the €900 rent cap for 2026 and €1,000 from 2027."
 }

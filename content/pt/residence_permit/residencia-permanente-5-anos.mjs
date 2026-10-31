@@ -3,7 +3,7 @@ export default {
   id: 'residencia-permanente-5-anos',
   categoryId: 'residence_permit',
   title: 'Autorização de residência permanente em Portugal após 5 anos — caminho para a Permanente',
-  tldr: 'A autorização de residência permanente pode ser pedida após 5 anos de autorização de residência temporária legal em Portugal. A base é a Lei 23/2007, art. 80: autorização de residência válida, ausência de condenação grave, alojamento, meios de subsistência e português mínimo A2.\n\nNa prática, a AIMA avalia a continuidade da residência: não transforme a autorização de residência num "cartão de visitas"; mantenha ≥6 meses de residência efectiva por ano.\n\nA própria autorização é por tempo indeterminado (sem limite de tempo, art. 76 Lei 23/2007); apenas o cartão (título de residência) é renovado de 5 em 5 anos. Taxas da AIMA a partir de 01.03.2026 (Portaria 307/2023 (versão consolidada)): admissão/análise 133 € + autorização de residência (art. 76) 351,10 € (em vez dos antigos 252 €).',
+  tldr: "A autorização de residência permanente pode ser pedida após 5 anos de autorização de residência temporária legal em Portugal. A base é a Lei 23/2007, art. 80: autorização de residência válida, ausência de condenação grave, alojamento, meios de subsistência e português mínimo A2.\n\nNo regime comum, o artigo 85.º prevê o possível cancelamento da autorização temporária por ausência sem razões atendíveis de 6 meses consecutivos ou 8 interpolados durante toda a validade da autorização. Na permanente, os limites são 24 meses consecutivos ou 30 interpolados em 3 anos. Não é uma regra de residência mínima de 6 meses por ano. Há regimes especiais e causas justificativas; a ARI tem regras próprias. Antes de uma ausência prolongada, confirme a situação com a AIMA.\n\nA própria autorização é por tempo indeterminado (sem limite de tempo, art. 76 Lei 23/2007); apenas o cartão (título de residência) é renovado de 5 em 5 anos. Taxas da AIMA a partir de 01.03.2026 (Portaria 307/2023 (versão consolidada)): admissão/análise 133 € + autorização de residência (art. 76) 351,10 € (em vez dos antigos 252 €).",
   tags: ['aima', 'autorização de residência', 'permanente', 'a2'],
   estimatedReadMinutes: 6,
   steps: [
@@ -35,7 +35,7 @@ export default {
           'tem alojamento: contrato de arrendamento, escritura, declaração de alojamento ou outra morada comprovável',
           'tem meios de subsistência: salário, recibos verdes, pensão, poupanças, rendimento familiar ou outra fonte legal',
           'tem comprovativo de português básico de nível A2 ou dispensa, se aplicável',
-          'não violou o regime de ausências: a referência para uma prática segura é residir efectivamente em Portugal pelo menos 6 meses por ano',
+          "Respeite o artigo 85.º: na autorização temporária comum, os limites de ausência sem razões atendíveis são 6 meses consecutivos / 8 interpolados durante a validade, não uma regra de residência de 6 meses por ano; verifique os regimes especiais.",
           'não existem problemas graves activos com a AIMA, alertas SIS/Schengen ou documentos de identidade'
         ] },
         { kind: 'warning', text: 'Se durante os 5 anos houve ausências longas, cartões caducados, intervalos entre autorizações de residência ou se viveu em Portugal “por temporadas”, não apresente o pedido às cegas. A AIMA pode pedir provas de residência efectiva e de continuidade do estatuto.' }
@@ -120,32 +120,32 @@ export default {
       id: 'aima-reality-2026',
       title: 'A realidade da AIMA em 2026: contornos para quem está parado',
       content: [
-        { kind: 'paragraph', text: 'As regras do art. 80 não mudaram desde 2007, mas em 2026 o principal obstáculo não é a lei e sim a AIMA. Tendo herdado ~400 000 processos do SEF, a AIMA já tratou a maior parte das renovações de autorizações temporárias, mas raramente abre marcações para a primeira emissão da autorização permanente. Segundo queixas no Portal da Queixa e relatos em chats de expatriados, a espera desde o pedido em contactenos.aima.gov.pt até uma marcação efectiva é de 6 a 12 meses, sem SLA público.' },
-        { kind: 'warning', text: 'O portal portal-renovacoes.aima.gov.pt (lançado em Jan 2026, alargado em Maio para Julho/Agosto) trata APENAS de renovações de autorizações de residência temporárias válidas. A primeira emissão da autorização de residência permanente NÃO pode ser pedida por aí — apenas presencialmente numa Loja AIMA.' },
-        { kind: 'paragraph', text: 'Cronograma realista do momento em que está pronto a pedir até ter o cartão na mão:' },
+        { kind: 'paragraph', text: "O pedido do artigo 80.º é entregue por agendamento em qualquer Loja AIMA. Prepare prova de cinco anos de autorização temporária, meios de subsistência, alojamento, cumprimento das obrigações fiscais e contributivas e português básico, conforme a lista oficial." },
+        { kind: 'warning', text: "A primeira concessão de residência permanente pelo artigo 80.º exige agendamento e entrega presencial numa Loja AIMA. Para cidadãos da UE e familiares existe outro regime: o portal aceita pedidos de concessão de documentos permanentes dos artigos 16.º e 17.º. Não se trata da primeira concessão ao abrigo do artigo 80.º." },
+        { kind: 'paragraph', text: "O agendamento, a análise e a emissão do cartão são fases distintas. Não existe aqui um prazo global confirmado entre o primeiro contacto e a entrega do cartão." },
         { kind: 'checklist', items: [
-          'pedido de marcação → atendimento: 6–12 meses (sem queixa pode ser mais)',
-          'atendimento → decisão: 90 dias por lei, 4–12 meses na prática',
-          'decisão → cartão físico: mais 3–6 meses, às vezes mais',
-          'total: 1–2 anos é um cenário realista',
-          'comprovativo de deferimento com QR code (lançado 20.01.2026, services.aima.gov.pt) serve como documento enquanto o cartão é impresso'
+          "Guarde o comprovativo do pedido de agendamento.",
+          "Confirme os documentos específicos do artigo 80.º.",
+          "Depois de apresentar o pedido, guarde o número do processo e os recibos.",
+          "Responda a pedidos de elementos no prazo indicado.",
+          "Acompanhe a decisão e a emissão através das notificações oficiais."
         ] },
-        { kind: 'paragraph', text: 'O que fazer se a AIMA não responde:' },
+        { kind: 'paragraph', text: "Se não houver resposta, guarde a correspondência e peça informação pelos canais oficiais. Uma reclamação não garante agendamento nem deferimento." },
         { kind: 'substeps', items: [
-          { id: 'livro-amarelo', title: '1. Livro Amarelo — o empurrão legal mais rápido', content: [
-            { kind: 'paragraph', text: 'Se em 15 dias úteis não houver resposta ao pedido de marcação, apresente uma reclamação digital em livroamarelo.gov.pt, pesquise por AIMA. Relatos de utilizadores indicam que o convite para o atendimento chega 2–4 semanas após a queixa. É gratuito e não exige advogado.' }
+          { id: 'livro-amarelo', title: "Reclamação sobre o atendimento", content: [
+            { kind: 'paragraph', text: "Em caso de demora, pode apresentar reclamação pelo canal oficial, anexando as datas dos contactos. Não há garantia de agendamento num prazo fixo após a reclamação." }
           ] },
-          { id: 'intimacao', title: '2. Ação de Intimação para Proteção de Direitos', content: [
-            { kind: 'paragraph', text: 'Se a queixa não resolver, contacte um advogado de imigração para apresentar uma intimação no tribunal administrativo. Os honorários costumam ser de 500–1500 €, a decisão do tribunal sai em 8–10 semanas, e a AIMA fica obrigada a marcar por ordem do tribunal. Advogados com prática pública em art. 80 em 2026: LVP Advogados, RFF Lawyers, PaxLegal, TOF Advogados. Em junho de 2026 os tribunais administrativos condenam cada vez mais a AIMA a decidir em 30 dias; o painel especial de 28 juízes tem cerca de 100 mil processos contra a AIMA — a via judicial está rodada e funciona em escala.' }
+          { id: 'intimacao', title: "Apoio jurídico", content: [
+            { kind: 'paragraph', text: "Se a demora afetar os seus direitos, discuta a via adequada com um advogado. O cabimento de uma ação urgente, o prazo e o resultado dependem do caso e não podem ser garantidos antecipadamente." }
           ] },
-          { id: 'regional-loja', title: '3. Lojas regionais', content: [
-            { kind: 'paragraph', text: 'Évora, Bragança, Viseu e outras Lojas regionais estão menos congestionadas que Lisboa e Porto. Se a sua morada permitir marcar num gabinete provincial, há possibilidade de acelerar. Por lei é possível apresentar o pedido em qualquer Loja AIMA, e não obrigatoriamente na da área de residência.' }
+          { id: 'regional-loja', title: "Entrega numa Loja AIMA", content: [
+            { kind: 'paragraph', text: "A página oficial do artigo 80.º permite entrega agendada em qualquer Loja AIMA. Isto não significa atendimento sem marcação ou menor espera garantida fora de Lisboa." }
           ] },
-          { id: 'claim', title: '4. Centros CLAIM', content: [
-            { kind: 'paragraph', text: 'CLAIM (Centros Locais de Apoio à Integração de Migrantes) — 99 pontos por todo o país, ajudam gratuitamente a juntar o dossiê e a apresentar o pedido. Útil para quem tem português fraco ou nenhuma experiência com a AIMA. acm.gov.pt/centros-locais-de-apoio-a-integracao-de-migrantes.' }
+          { id: 'claim', title: "Apoio na documentação", content: [
+            { kind: 'paragraph', text: "Se necessário, procure um centro oficial de apoio a migrantes para confirmar a documentação e os canais disponíveis." }
           ] }
         ] },
-        { kind: 'warning', text: 'Desde Abril de 2025 a AIMA aplica a regra "Complete Application Only" — se faltar um único documento no atendimento, o processo é indeferido na hora e tem de marcar de novo. Por isso, o pacote completo no dia do atendimento é crítico.' }
+        { kind: 'warning', text: "Confirme o processo com a lista oficial da AIMA, incluindo prova do cumprimento das obrigações fiscais e perante a Segurança Social. Uma lista informal não é necessariamente completa." }
       ]
     },
     {
@@ -162,7 +162,12 @@ export default {
           'para a nacionalidade, os requisitos são separados: a autorização de residência permanente é útil, mas por si só não equivale a passaporte',
           '18.05.2026 foi publicada a Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a naturalização passa a ser de 7 anos para CPLP/UE e 10 anos para os restantes (em vez dos anteriores 5). A residência permanente NÃO é obrigatória para pedir a nacionalidade, mas torna-se mais importante como estatuto intermédio estável durante esses 7–10 anos de espera'
         ] }
-      ]
+      ,
+{
+  "kind": "paragraph",
+  "text": "No regime comum, o artigo 85.º prevê o possível cancelamento da autorização temporária por ausência sem razões atendíveis de 6 meses consecutivos ou 8 interpolados durante toda a validade da autorização. Na permanente, os limites são 24 meses consecutivos ou 30 interpolados em 3 anos. Não é uma regra de residência mínima de 6 meses por ano. Há regimes especiais e causas justificativas; a ARI tem regras próprias. Antes de uma ausência prolongada, confirme a situação com a AIMA."
+}
+]
     },
     {
       id: 'common-myths',
@@ -172,7 +177,7 @@ export default {
         { kind: 'checklist', items: [
           '❌ "A Manifestação de Interesse contava para a residência permanente" — NUNCA contou. Para o art. 80 é sempre necessário um título de residência formal.',
           '❌ "A fila de renovação reseta os 5 anos" — Pelo contrário, conta como residência legal contínua, desde que o pedido tenha sido apresentado a tempo (art. 78).',
-          '❌ "O novo portal AIMA de Jan 2026 = submissão de ARP online" — o portal-renovacoes é apenas para renovações de autorizações temporárias. A primeira emissão da ARP é só presencial numa Loja AIMA.',
+          "A primeira concessão de residência permanente pelo artigo 80.º exige agendamento e entrega presencial numa Loja AIMA. Para cidadãos da UE e familiares existe outro regime: o portal aceita pedidos de concessão de documentos permanentes dos artigos 16.º e 17.º. Não se trata da primeira concessão ao abrigo do artigo 80.º.",
           '❌ "A Lei Orgânica 1/2026 alterou as regras da ARP" — Não, a Lei Orgânica altera APENAS a Lei da Nacionalidade. O art. 80 da Lei 23/2007 não foi tocado.',
           '❌ "É possível pedir ARP durante uma estadia turística" — É necessário ter uma autorização de residência temporária válida no momento do pedido (ou uma renovação pendente).',
           '❌ "Após 5 anos a ARP é concedida automaticamente" — Não, é preciso apresentar o pedido explicitamente. Caso contrário, mantém-se no cartão temporário, que continua a ser renovado.',
@@ -192,8 +197,32 @@ export default {
     { title: 'AIMA — tabela de taxas e pagamentos de títulos de residência', url: 'https://aima.gov.pt/pt/noticias/atualizacao-da-tabela-de-taxas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento de estrangeiros, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
-  ],
+  ,
+{
+  "title": "AIMA — Autorização de Residência Permanente, Art. 80.º",
+  "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Lei 23/2007 — artigo 85.º, ausências",
+  "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445-222587916",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "AIMA — Portal: documentos permanentes UE e familiares",
+  "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
-  changeSummary: 'Grande atualização de Maio 2026: (1) Passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos, nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações. (2) Passo "Quando começam a contar os 5 anos" com 8 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT). (3) Mitos frequentes sobre ARP art. 80. (4) Corrigida referência à Portaria — a correta é Portaria 307/2023 (versão consolidada), não 480/2025/1. (5) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio durante os 7–10 anos de espera pela nacionalidade.',
+  changeSummary: "Clarificados os limites de ausência do artigo 85.º, a entrega presencial do artigo 80.º e o âmbito do portal; retiradas promessas não comprovadas sobre prazos e reclamações.",
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31"
 }

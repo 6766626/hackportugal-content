@@ -3,7 +3,7 @@ export default {
   id: 'residencia-permanente-5-anos',
   categoryId: 'residence_permit',
   title: 'Permanent residence permit in Portugal after 5 years — the path to Permanente',
-  tldr: 'Autorização de residência permanente can be requested after 5 years of lawful temporary residence permit in Portugal. The basis is Lei 23/2007, art. 80: a valid residence permit, no serious criminal conviction, housing, means of subsistence and minimum A2 Portuguese.\n\nIn practice, AIMA looks at continuity of residence: do not turn the residence permit into a "visiting card", keep ≥6 months of actual residence per year.\n\nThe autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007); only the card (título de residência) is renewed every 5 years. AIMA fees from 01.03.2026 (Portaria 307/2023 (consolidated version)): admission/assessment €133 + autorização de residência (art. 76) €351.10 (instead of the outdated €252).',
+  tldr: "Autorização de residência permanente can be requested after 5 years of lawful temporary residence permit in Portugal. The basis is Lei 23/2007, art. 80: a valid residence permit, no serious criminal conviction, housing, means of subsistence and minimum A2 Portuguese.\n\nUnder the ordinary rules, Article 85 allows cancellation of a temporary permit for absence without acceptable reasons of 6 consecutive months or 8 non-consecutive months over the permit’s entire validity. For permanent residence, the limits are 24 consecutive months or 30 months within 3 years. This is not a requirement to spend 6 months in Portugal each year. Special regimes and justifications apply; ARI has separate rules. Discuss a prolonged absence with AIMA beforehand.\n\nThe autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007); only the card (título de residência) is renewed every 5 years. AIMA fees from 01.03.2026 (Portaria 307/2023 (consolidated version)): admission/assessment €133 + autorização de residência (art. 76) €351.10 (instead of the outdated €252).",
   tags: ['aima', 'residence permit', 'permanent', 'a2'],
   estimatedReadMinutes: 6,
   steps: [
@@ -35,7 +35,7 @@ export default {
           'you have housing: a rental contract, escritura, declaração de alojamento or another verifiable address',
           'you have meios de subsistência: salary, recibos verdes, pension, savings, family income or another lawful source',
           'you have proof of basic Portuguese language at A2 level or an exemption, if applicable',
-          'you have not breached the absence rules: as a safe practical benchmark, actually live in Portugal for at least 6 months per year',
+          "Observe Article 85: for an ordinary temporary permit, absence without acceptable reasons is limited to 6 consecutive / 8 non-consecutive months over its validity, not a 6-month annual residence rule; check special regimes separately.",
           'there are no active serious issues with AIMA, SIS/Schengen alerts or identity documents'
         ] },
         { kind: 'warning', text: 'If over the 5 years there were long absences, expired cards, gaps between residence permits or you lived in Portugal “on and off”, do not apply blindly. AIMA may request proof of actual residence and continuity of status.' }
@@ -120,32 +120,32 @@ export default {
       id: 'aima-reality-2026',
       title: 'AIMA reality in 2026: workarounds for the stuck',
       content: [
-        { kind: 'paragraph', text: 'The art. 80 rules themselves have not changed since 2007, but in 2026 the main obstacle is not the law but AIMA. Having inherited ~400,000 files from SEF, AIMA has cleared most temporary residence permit renewals, but it releases first-issuance slots for autorização permanente very rarely. According to complaints on the Portal da Queixa and reports in expat chats, the wait from a contactenos.aima.gov.pt request to an actual appointment is 6–12 months, with no published SLA.' },
-        { kind: 'warning', text: 'The portal-renovacoes.aima.gov.pt portal (launched Jan 2026, extended in May to cover July/August) handles ONLY renewals of valid temporary residence permits. A first-issuance autorização de residência permanente CANNOT be applied for through it — only presencial at a Loja AIMA.' },
-        { kind: 'paragraph', text: 'Realistic end-to-end timeline from the moment you are ready to apply to having the card in hand:' },
+        { kind: 'paragraph', text: "Article 80 applications are submitted by appointment at any AIMA office. Prepare evidence of five years of temporary residence, means of support, accommodation, tax and social-security compliance and basic Portuguese, following the official AIMA list." },
+        { kind: 'warning', text: "An initial permanent-residence application under Article 80 requires an appointment and in-person submission at an AIMA office. EU citizens and their family members follow a different regime: the portal accepts applications for permanent documents under Articles 16 and 17. This is not an initial Article 80 application." },
+        { kind: 'paragraph', text: "Appointment booking, assessment and card production are separate stages. No verified end-to-end waiting time is stated here." },
         { kind: 'checklist', items: [
-          'slot request → appointment: 6–12 months (without a complaint it can be longer)',
-          'appointment → decision: 90 days by law, 4–12 months in practice',
-          'decision → physical card: another 3–6 months, sometimes longer',
-          'total: 1–2 years is a realistic scenario',
-          'comprovativo de deferimento with QR code (launched 20.01.2026, services.aima.gov.pt) serves as a document while the card is being printed'
+          "Keep confirmation of your appointment request.",
+          "Confirm the documents required specifically under Article 80.",
+          "After applying, keep the case number and receipts.",
+          "Respond to requests for further information by the stated deadline.",
+          "Follow the decision and card delivery through official notices."
         ] },
-        { kind: 'paragraph', text: 'What to do if AIMA stays silent:' },
+        { kind: 'paragraph', text: "If there is no reply, retain correspondence and ask for status through official channels. A complaint does not guarantee an appointment or approval." },
         { kind: 'substeps', items: [
-          { id: 'livro-amarelo', title: '1. Livro Amarelo — the fastest legal nudge', content: [
-            { kind: 'paragraph', text: 'If there is no answer to a slot request within 15 working days, file a digital complaint on livroamarelo.gov.pt, search for AIMA. User reports indicate an appointment invitation usually arrives 2–4 weeks after the complaint. Free, and no lawyer needed.' }
+          { id: 'livro-amarelo', title: "Service complaint", content: [
+            { kind: 'paragraph', text: "For a delay, you can submit a complaint through an official channel and attach the dates of your contacts. No fixed appointment time after a complaint is guaranteed." }
           ] },
-          { id: 'intimacao', title: '2. Ação de Intimação para Proteção de Direitos', content: [
-            { kind: 'paragraph', text: 'If the complaint does not help, contact an immigration lawyer to file intimação at the administrative court. The fee is usually €500–1500, the court decision comes in 8–10 weeks, and AIMA is obliged to schedule by court order. Lawyers with public art. 80 practice in 2026: LVP Advogados, RFF Lawyers, PaxLegal, TOF Advogados. By June 2026 administrative courts increasingly order AIMA to decide within 30 days; the special 28-judge panel holds roughly 100,000 cases against AIMA, so the judicial route is well-trodden and works at scale.' }
+          { id: 'intimacao', title: "Legal assistance", content: [
+            { kind: 'paragraph', text: "If a delay affects your rights, discuss the appropriate procedure with a lawyer. Eligibility for urgent court relief, timing and outcomes depend on the circumstances and cannot be guaranteed in advance." }
           ] },
-          { id: 'regional-loja', title: '3. Regional Lojas', content: [
-            { kind: 'paragraph', text: 'Évora, Bragança, Viseu and other regional Lojas are less congested than Lisbon and Porto. If your residential address allows you to book at a provincial office, there is a chance to speed things up. By law you can apply at any Loja AIMA, not necessarily at the one for your place of residence.' }
+          { id: 'regional-loja', title: "Submission at an AIMA office", content: [
+            { kind: 'paragraph', text: "The official Article 80 page permits submission by appointment at any AIMA office. This does not mean walk-in access or guaranteed shorter waits outside Lisbon." }
           ] },
-          { id: 'claim', title: '4. CLAIM Centres', content: [
-            { kind: 'paragraph', text: 'CLAIM (Centros Locais de Apoio à Integração de Migrantes) — 99 locations across the country, free help with assembling the dossier and submitting the request. Useful for those whose Portuguese is weak or who have no AIMA experience. acm.gov.pt/centros-locais-de-apoio-a-integracao-de-migrantes.' }
+          { id: 'claim', title: "Help with documents", content: [
+            { kind: 'paragraph', text: "If needed, contact an official migrant-support centre to check the document list and available contact channels." }
           ] }
         ] },
-        { kind: 'warning', text: 'Since April 2025 AIMA applies the "Complete Application Only" rule — if a single document is missing at the appointment, the case is rejected on the spot and you need to book again. A complete pack on the day of the appointment is therefore critical.' }
+        { kind: 'warning', text: "Check the official AIMA list, including proof of compliance with tax and Segurança Social obligations. Do not assume an informal checklist is exhaustive." }
       ]
     },
     {
@@ -162,7 +162,12 @@ export default {
           'citizenship has separate requirements: a permanent residence permit is useful, but in itself is not the same as a passport',
           'On 18.05.2026 Lei Orgânica 1/2026 was published (in force from 19.05.2026): naturalisation is now 7 years for CPLP/EU and 10 years for everyone else (instead of the previous 5). Permanent residence is NOT mandatory for applying for citizenship, but it becomes more important as a stable intermediate status during those 7–10 years of waiting'
         ] }
-      ]
+      ,
+{
+  "kind": "paragraph",
+  "text": "Under the ordinary rules, Article 85 allows cancellation of a temporary permit for absence without acceptable reasons of 6 consecutive months or 8 non-consecutive months over the permit’s entire validity. For permanent residence, the limits are 24 consecutive months or 30 months within 3 years. This is not a requirement to spend 6 months in Portugal each year. Special regimes and justifications apply; ARI has separate rules. Discuss a prolonged absence with AIMA beforehand."
+}
+]
     },
     {
       id: 'common-myths',
@@ -172,7 +177,7 @@ export default {
         { kind: 'checklist', items: [
           '❌ "Manifestação de Interesse counted for permanent residence" — NEVER counted. For art. 80 you always need a formal título de residência.',
           '❌ "The renewal queue resets the 5 years" — On the contrary, it counts as continuous legal residence, provided the request was filed on time (art. 78).',
-          '❌ "The new AIMA Jan 2026 portal = ARP online filing" — portal-renovacoes is for renewals of temporary residence permits only. First-issuance ARP is presencial only at a Loja AIMA.',
+          "An initial permanent-residence application under Article 80 requires an appointment and in-person submission at an AIMA office. EU citizens and their family members follow a different regime: the portal accepts applications for permanent documents under Articles 16 and 17. This is not an initial Article 80 application.",
           '❌ "Lei Orgânica 1/2026 changed the ARP rules" — No, Lei Orgânica changes the Nationality Law ONLY. Lei 23/2007 art. 80 is untouched.',
           '❌ "You can apply for ARP during a tourist stay" — You need a valid temporary residence permit at the time of application (or a pending renewal).',
           '❌ "After 5 years, ARP is granted automatically" — No, you must file the application explicitly. Otherwise you stay on the temporary card, which simply keeps being renewed.',
@@ -192,8 +197,32 @@ export default {
     { title: 'AIMA — tabela de taxas and payments for títulos de residência', url: 'https://aima.gov.pt/pt/noticias/atualizacao-da-tabela-de-taxas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 23/2007 — legal regime for the entry, stay, departure and removal of foreign nationals, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — consolidated legislation on autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
-  ],
+  ,
+{
+  "title": "AIMA — Autorização de Residência Permanente, Art. 80.º",
+  "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Lei 23/2007 — artigo 85.º, ausências",
+  "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445-222587916",
+  "kind": "law",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "AIMA — Portal: documentos permanentes UE e familiares",
+  "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
-  changeSummary: 'Major May 2026 update: (1) Step "AIMA reality in 2026" with workarounds (Livro Amarelo, intimação, regional Lojas, CLAIM), honest 1–2 year timeline, and explicit note the AIMA Jan 2026 portal is renewals-only. (2) Step "When the 5 years start" with 8 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT). (3) Common myths about art. 80 permanent residence. (4) Fixed Portaria reference — correct is Portaria 307/2023 (consolidated version), not 480/2025/1. (5) Lei Orgânica 1/2026 (in force from 19.05.2026): ARP becomes more important as an intermediate status during the 7–10 year wait for citizenship.',
+  changeSummary: "Clarified Article 85 absence limits, Article 80 in-person applications and portal scope; removed unverified promises about waiting times and complaints.",
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31"
 }

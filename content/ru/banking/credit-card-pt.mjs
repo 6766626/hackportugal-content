@@ -143,7 +143,18 @@ export default {
         ]}
       ]
     }
-  ],
+  ,
+{
+  "id": "taeg-q4-2026",
+  "title": "Максимальная TAEG в IV квартале 2026",
+  "content": [
+    {
+      "kind": "paragraph",
+      "text": "Для новых договоров с 01.10 по 31.12.2026 Banco de Portugal устанавливает максимальную TAEG: образование, здоровье, энергетический переход и финансовый лизинг оборудования — 8,2%; прочие личные кредиты — 15,0%; кредитные карты, кредитные линии и разрешённый овердрафт — 18,5%. Это предельные значения соответствующих категорий, а не предложение банка. Сверяйте категорию и дату договора; для другого квартала нужна соответствующая таблица."
+    }
+  ]
+}
+],
   costs: [
     { label: 'Годовое обслуживание базовой кредитки', amountEURMin: 0, amountEURMax: 30 },
     { label: 'Годовое обслуживание премиальной кредитки', amountEURMin: 100, amountEURMax: 300 },
@@ -153,7 +164,25 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Mapa de Responsabilidades', url: 'https://www.bportugal.pt/page/mapa-de-responsabilidades-de-credito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — Cartões de Crédito (Portal do Cliente Bancário)', url: 'https://clientebancario.bportugal.pt/pt-pt/cartoes-de-credito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
-  ],
+  ,
+{
+  "title": "Banco de Portugal — Taxas de juro no crédito aos consumidores",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/taxas-de-juro-no-credito-aos-consumidores",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "Banco de Portugal — Taxas máximas no 4.º trimestre de 2026",
+  "url": "https://clientebancario.bportugal.pt/pt-pt/noticias/taxas-maximas-aplicaveis-aos-contratos-de-credito-aos-consumidores-no-4o-trimestre-de-2026",
+  "kind": "official",
+  "language": "pt",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Добавлены официальные пределы TAEG на IV квартал 2026 с датами и категориями кредитов."
 }

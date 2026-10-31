@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-31",
+  "projects": {
+    "PT": {
+      "count": 623,
+      "new": 1,
+      "updated": 6,
+      "full_review_overdue": 120
+    },
+    "DE": {
+      "count": 603,
+      "new": 1,
+      "updated": 4,
+      "full_review_overdue": 543
+    }
+  },
+  "checks": [
+    "JSON decoding",
+    "expected content equality",
+    "all existing guide IDs retained",
+    "all existing step IDs and order retained",
+    "all existing HTTP links retained",
+    "untouched guides unchanged",
+    "all existing full-review dates retained",
+    "translation IDs and edited structure parity",
+    "no Cyrillic in changed EN/PT/DE prose",
+    "manifest byte sizes and SHA-256"
+  ],
+  "appModelDecode": "Actual Guide, AudienceFilter, UserProfile and SourceCitation models for each app decoded all six bundles. Only localization lookup was stubbed; no decoder model was replaced.",
+  "portugalPipeline": "npm test passed; existing stale/source-count warnings retained."
+}

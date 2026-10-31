@@ -11,7 +11,7 @@ export default {
       id: 'choose-exchange',
       title: '1. Escolha a bolsa adequada ao seu objectivo',
       content: [
-        { kind: 'paragraph', text: 'Para um residente em Portugal, não contam apenas as comissões, mas também qual a entidade jurídica que presta serviço à conta, onde é guardada a documentação e que documentos poderão depois ser exportados para o IRS. Em 2026, após o MiCA, os serviços de criptoativos na UE devem operar através de um CASP autorizado ou de um regime transitório; verifique o estatuto na CMVM e na página legal/terms da própria bolsa.' },
+        { kind: 'paragraph', text: "Antes de escolher uma plataforma, identifique a entidade jurídica que presta o serviço. Os períodos transitórios do MiCA terminaram em toda a UE, o mais tardar, em 01.07.2026. Em 31.10.2026, um antigo registo nacional não basta: confirme o CASP no registo da ESMA ou a habilitação aplicável ao abrigo do artigo 60 para uma instituição financeira regulada. Verifique a entidade, os serviços autorizados, o domínio e a possibilidade de servir clientes em Portugal. A marca e as declarações da própria plataforma não são prova suficiente." },
         { kind: 'checklist', items: [
           'Coinbase — conveniente para principiantes, bom KYC, relatórios; verifique o estatuto actual nas listas da CMVM/CASP e que entity está indicada nos Terms.',
           'Binance — muitos pares, P2P e cartões; para Portugal, é importante ver que entity da UE/EEE presta serviço à conta e se SEPA está disponível.',
@@ -105,7 +105,32 @@ export default {
     { title: 'Portal das Finanças — IRS, declaração Modelo 3 e Anexos G/J', url: 'https://info.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei n.º 24-D/2022 — Orçamento do Estado 2023, regime fiscal dos criptoativos', url: 'https://dre.pt/dre/detalhe/lei/24-d-2022-205557192', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regulamento (UE) 2023/1114 — MiCA, regime dos crypto-asset service providers na UE', url: 'https://eur-lex.europa.eu/eli/reg/2023/1114/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
-  ],
+  ,
+{
+  "title": "ESMA — End of MiCA transitional periods, 17 April 2026",
+  "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
+  "kind": "official",
+  "language": "en",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "ESMA — MiCA register",
+  "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+  "kind": "official",
+  "language": "en",
+  "lastRetrieved": "2026-10-31"
+},
+{
+  "title": "MiCA — Article 59, authorisation and Article 60 entitlement",
+  "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-59-authorisation",
+  "kind": "official",
+  "language": "en",
+  "lastRetrieved": "2026-10-31"
+}
+],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90
+,
+"recentlyChangedAt": "2026-10-31",
+"changeSummary": "Removida a referência desatualizada ao período transitório MiCA; acrescentados o registo ESMA e a verificação da entidade jurídica."
 }
