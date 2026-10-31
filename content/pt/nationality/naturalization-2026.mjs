@@ -6,7 +6,7 @@ export default {
   tldr: "Desde 19.05.2026, o prazo geral de residência legal para naturalização é de 7 anos para nacionais de países de língua oficial portuguesa e da UE, e de 10 anos para os restantes; para apátridas existe uma via própria de 4 anos. Os sete anos não se estendem automaticamente a todos os países do EEE ou à Suíça. Os pedidos anteriores a 19.05.2026 seguem a redação anterior, incluindo o prazo geral de 5 anos.\n\nA nova redação exige também conhecimentos linguísticos, culturais e cívicos; o A2, por si só, não comprova todos os requisitos. Consulte as instruções atuais do IRN sobre os meios de prova.",
   tags: ['cidadania', 'naturalização', 'cplp'],
   estimatedReadMinutes: 10,
-  changeSummary: "Corrigido o âmbito dos sete anos (países de língua oficial portuguesa e UE), acrescentado o regime dos apátridas e clarificados presunção linguística, transição e critério penal anterior. Removida a dispensa não fundamentada de novos requisitos por falta de regulamentação localizada.",
+  changeSummary: "Regulamento da nacionalidade: decisão de 29 de outubro",
   variants: [
     {
       "id": "cplp",
@@ -135,7 +135,7 @@ export default {
         {
           "kind": "checklist",
           "items": [
-            "📝 Requerimento — formulário modelo 1-A (para naturalização) — descarregar em irn.pt, preencher à mão ou online",
+            "Requerimento adequado ao seu fundamento: obtenha o formulário e as instruções atuais diretamente no IRN.",
             "📄 Passaporte estrangeiro válido — cópia de todas as páginas preenchidas",
             "📄 Título de residência (autorização de residência) — válido. Nesta fase AINDA NÃO tem Cartão de Cidadão — este só é emitido após a aprovação da nacionalidade",
             "📄 Certidão de nascimento — apostila + tradução certificada para português (completa, com os nomes dos pais)",
@@ -190,6 +190,16 @@ export default {
         {
           "kind": "paragraph",
           "text": "Após a aprovação, é feito o registo da aquisição da nacionalidade no registo civil (assento de nacionalidade).\n\nTorna-se cidadão português na data do respectivo assento — a publicação da decisão no Diário da República, por si só, não equivale ao momento da aquisição. Após o registo, pode pedir o Cartão de Cidadão em qualquer Loja do Cidadão (fotografia + biometria, taxa dependente da idade e prazo de validade; regimes urgentes são mais caros — confirme a tabela de emolumentos IRN actual), pedir o Passaporte Eletrónico Português (normal em Portugal — cerca de 65 €; express — 85 €; urgente/aeroporto — mais caro; no estrangeiro as taxas diferem), registar recém-nascidos como cidadãos portugueses."
+        }
+      ]
+    },
+    {
+      "id": "nationality-regulation-october",
+      "title": "Regulamento da nacionalidade: decisão de 29 de outubro",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Em 29.10.2026, o Governo aprovou um decreto-lei sobre provas de língua, cultura e conhecimentos cívicos, subsistência, declaração e biometria. A publicação e a entrada em vigor não foram confirmadas nas fontes consultadas em 31 de outubro. Antes de apresentar o pedido, consulte o Regulamento publicado e as instruções do IRN para o seu fundamento e regime transitório. O CIPLE não comprova automaticamente todos os novos requisitos; não escolha um formulário apenas pelo número indicado num guia antigo."
         }
       ]
     }
@@ -316,10 +326,17 @@ export default {
       "kind": "law",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 60
 ,
-  recentlyChangedAt: "2026-10-20"
+  recentlyChangedAt: "2026-10-31"
 }

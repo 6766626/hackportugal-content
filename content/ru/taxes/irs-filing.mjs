@@ -6,11 +6,11 @@ export default {
   tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. Подаётся ежегодно с 1 апреля по 30 июня в Portal das Finanças (налоговый портал).\n\nНалоговые резиденты обычно декларируют мировой доход; есть освобождения от подачи по art. 58 CIRS (низкие/окончательно обложенные доходы).\n\nЕсть автоматическая предзаполненная версия (IRS Automático) для предусмотренных AT простых случаев.',
   tags: ['irs', 'налоги', 'декларация'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Опубликовано снижение удержаний IRS на ноябрь: условия для материка и Азорских островов, исключения, возврат обычных удержаний в декабре. Обновлён статус PPL 108/XVII/2 и проекта OE2027.",
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Обновлены статус снижения IRS и разъяснения AT от 30 октября.",
   pendingLaw: {
-    "summary": "Парламент уже одобрил PPL 108/XVII/2, что прямо указано в Despacho 12523-A/2026. Ноябрьское снижение удержаний опубликовано и применяется с 01.11.2026. Однако на 20.10.2026 проверенная страница AT со ст. 68 CIRS по-прежнему содержит шкалу 12,5–48%; в проверенных источниках не найден опубликованный декрет-закон, вводящий новые годовые ставки. Ожидаемую шкалу 12,2–48% не используйте как подтверждённую действующую норму без проверки публикации. Представленный 08.10 проект OE2027 также пока не окончательный закон.",
-    "sourceUrl": "https://diariodarepublica.pt/dr/detalhe/despacho/12523-a-2026-1180337885"
+    "summary": "Lei 64-B/2026 от 22 октября дала правительству полномочия снизить первые шесть ставок IRS. 29 октября правительство одобрило соответствующий декрет-закон с эффектом с 01.01.2026. На 31.10.2026 его публикация в проверенных источниках не подтверждена: одобрение кабинетом не заменяет опубликованную норму. Ноябрьское уменьшение удержаний уже опубликовано отдельно; AT разъяснила его циркулярами 5/2026 и 6/2026 от 30 октября. Итоговую годовую шкалу проверяйте по опубликованной редакции CIRS.",
+    "sourceUrl": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026"
   },
   steps: [
     {
@@ -243,6 +243,34 @@ export default {
       "kind": "law",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Lei 64-B/2026 — autorização legislativa IRS",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei/64-b-2026-1184484177",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Circular 5/2026: retenção no continente em novembro",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Circular_5_2026.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Circular 6/2026: retenção nos Açores em novembro",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Circular_6_2026.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',

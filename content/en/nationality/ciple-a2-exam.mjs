@@ -262,6 +262,16 @@ export default {
           ]
         }
       ]
+    },
+    {
+      "id": "nationality-regulation-october",
+      "title": "Nationality regulation: 29 October decision",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "On 29 October 2026 the government approved a decree-law covering evidence of language, culture and civic knowledge, subsistence, the declaration and biometrics. Publication and commencement were not confirmed in the sources checked on 31 October. Before filing, check the published Regulamento and IRN instructions for your route and transitional rules. CIPLE does not automatically prove every new requirement; do not choose a form solely from an old guide’s form number."
+        }
+      ]
     }
   ],
   costs: [
@@ -342,11 +352,18 @@ export default {
       "kind": "official",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 ,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Clarified current naturalisation periods and language/knowledge evidence under Lei Orgânica 1/2026."
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Nationality regulation: 29 October decision"
 }

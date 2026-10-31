@@ -6,8 +6,8 @@ export default {
   tldr: 'Em 2026, a renovação da autorização de residência deve ser iniciada online, mas o percurso depende da data de caducidade e do tipo de cartão. Os cartões comuns caducados a partir de 01.07.2025 são renovados através de portal-renovacoes.aima.gov.pt. Cartões antigos caducados entre 22.02.2020 e 30.06.2025 seguem por services.aima.gov.pt/RAR/reqrenew ou pelo percurso indicado por email pela AIMA/EMAIMA; CPLP, ARI e cartões de familiares de cidadãos da UE têm regras próprias. Segundo o gov.pt, o pedido pode ser feito desde 90 dias antes do fim da validade. Para cartões caducados depois de 30.06.2025, o direito de residência mantém-se por 6 meses após a data de caducidade; se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses. Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias: leve-o consigo juntamente com o cartão caducado.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Corrigida a exclusão incorreta de documentos permanentes UE/de familiares do Portal de Renovações. Adicionado o FAQ atual de renovação ARI.",
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Datas de acesso ao portal: confirme o tipo de título",
   steps: [
     {
       "id": "which-portal",
@@ -375,6 +375,16 @@ export default {
           "text": "Desde 01.07.2026, o Portal de Renovações recebe pedidos relativos a certificados e cartões de residência permanentes de nacionais da UE e familiares. A submissão, pagamento e documentos são digitais; a AIMA agenda biometria separadamente quando necessária. Mantêm-se os agendamentos existentes e os pedidos pelo formulário de contacto até 30.06.2026. Isto não transfere a emissão inicial do CRUE da Câmara Municipal nem significa que qualquer primeiro cartão de familiar seja pedido neste portal."
         }
       ]
+    },
+    {
+      "id": "portal-window-check",
+      "title": "Datas de acesso ao portal: confirme o tipo de título",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "O FAQ ARI abrange renovações de títulos caducados entre 22.02.2020 e 31.12.2026. Outra notícia da AIMA sobre o portal ainda indica 31.10.2026. Existe divergência entre páginas oficiais: para ARI, consulte o FAQ específico e a disponibilidade do processo no Portal de Renovações; registe o erro e contacte a AIMA se houver bloqueio. Não aplique a janela ARI às autorizações comuns nem apresente pedidos duplicados."
+        }
+      ]
     }
   ],
   documents: [
@@ -498,18 +508,18 @@ export default {
       "lastRetrieved": "2026-08-01"
     },
     {
-      "title": "AIMA — Portal de Renovações: certificados e cartões permanentes UE e familiares",
+      "title": "AIMA — Portal de Renovações: documentos permanentes UE",
       "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
     },
     {
-      "title": "AIMA — perguntas frequentes sobre ARI: renovações, pagamentos e biometria",
+      "title": "AIMA — ARI FAQ",
       "url": "https://aima.gov.pt/pt/a-aima/perguntas-frequentes-faqs/autorizacao-de-residencia-para-investimento-ari",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',

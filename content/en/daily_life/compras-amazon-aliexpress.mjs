@@ -1,128 +1,79 @@
 export default {
+  recentlyChangedAt: "2026-10-31",
+
   editorialVoice: 'hackportugal',
   id: 'compras-amazon-aliexpress',
   categoryId: 'daily_life',
   title: 'Amazon ES/PT, AliExpress and eBay in Portugal: delivery, IVA and duties',
-  tldr: 'For Portugal, the most predictable option is Amazon.es: delivery from EU warehouses usually takes 2–5 working days, with no customs or duties. Amazon PT is convenient for its interface/local deals, but the catalogue is smaller. AliExpress is cheap, often with IVA included in the price via IOSS, but delivery from China can take 3–8 weeks.\n\n🆕 Since 01/07/2026 parcels from outside the EU have become more expensive: the €150 duty-free threshold has been abolished — now up to €150 a flat duty of €3 per product category is charged, on top of 23% IVA (charged since 2021) and CTT/courier fees. Above €150 — as before: declaration, IVA and duty according to the goods code.',
+  tldr: "Check where the goods are actually dispatched from, not just the store’s domain. Goods already in free circulation and shipped from an EU warehouse normally do not require import clearance by the buyer. For dispatch from outside the EU, allow for VAT, customs duty and the new EU handling fee from 1 November 2026.",
   tags: ['amazon', 'aliexpress', 'ctt', 'duties'],
   estimatedReadMinutes: 6,
-  changeSummary: '🆕 Since 01/07/2026 orders from outside the EU (Shein/Temu/AliExpress from China, eBay from the US/UK) pay a duty of €3 per product category even when the value is up to €150 — plus the existing 23% IVA and clearance fees. Purchases from EU warehouses are not affected.',
+  changeSummary: "Non-EU parcels: fee from 1 November",
   steps: [
     {
-      id: 'platforms',
-      title: 'Where to buy without surprises',
-      content: [
-        { kind: 'paragraph', text: 'The main rule: if the item is shipped from a warehouse inside the EU and the seller processes the sale as an EU sale, there is no customs clearance in Portugal. You pay the price with IVA at the time of purchase, and the courier simply delivers the parcel.' },
-        { kind: 'checklist', items: [
-          'Amazon.es — usually the best balance of price, range and delivery to Portugal mainland; many items arrive in 2–5 working days.',
-          'Amazon PT / the Portuguese Amazon storefront — more convenient for language and local selections, but the catalogue is smaller, and some items still come via Amazon.es or other EU sellers.',
-          'AliExpress — check the “VAT included” / “IVA incluído” line. For orders up to €150, this often means IOSS: IVA has already been collected by the platform.',
-          'eBay — the riskiest for customs: many sellers are from the UK, US, China and private individuals; check “Item location” and “Import charges” in advance.',
-          'AliExpress/eBay EU warehouses — Spain, France, Germany, Poland, Czechia — usually mean no customs clearance if the item is genuinely shipped from there.',
-          'The UK after Brexit is not in the EU. An order from the United Kingdom to Portugal is treated as an import, just like from the US or China.',
-          'Madeira and Açores have their own tax specificities and logistics; delivery times and rates may differ from mainland Portugal.'
-        ] }
+      "id": "platforms",
+      "title": "Check the seller and dispatch location",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "On Amazon, AliExpress, eBay and other marketplaces, check the actual seller, dispatch country, return terms and total-price breakdown. A country domain or “delivery to Portugal” label does not prove dispatch from an EU warehouse. Goods already in free circulation and dispatched from within the EU normally do not require new import clearance by the buyer."
+        }
       ]
     },
     {
-      id: 'tax-rules',
-      title: 'IVA and customs in 2026: what changed on 1 July',
-      content: [
-        { kind: 'paragraph', text: 'Since 01/07/2021, the EU has abolished the IVA exemption for small imported parcels — commercial goods from outside the EU are subject to IVA regardless of price (mainland — 23%). And since 01/07/2026 the exemption from DUTY for parcels up to €150 has been abolished too: now it is a flat €3 for each product category (an EU transitional regime until the big customs reform).' },
-        { kind: 'checklist', items: [
-          '€0–€150 (since 01/07/2026): 23% IVA + a duty of €3 for each product category in the parcel (2 different product types = €6). If the shop uses IOSS, IVA is paid at purchase — but IOSS does not cover the €3/category duty.',
-          'Above €150: IOSS does not apply; an import customs declaration is required, 23% IVA is charged and customs duty may apply according to the commodity code.',
-          'The €150 duty threshold is calculated on the intrinsic value of the goods: usually the price of the item excluding delivery and insurance.',
-          'The IVA base is broader: item value + delivery + insurance + duties + customs/postal fees, if they are included in the import tax base.',
-          'Gifts from one private individual to another have a separate €45 limit, but marketplace purchases do not qualify for this.',
-          'If the seller writes “gift” on a commercial order, this does not cancel IVA and may trigger an inspection.',
-          'Alcohol, tobacco, perfume, batteries, medicines, food supplements, drones and radio devices may be subject to restrictions or require additional documents.'
-        ] },
-        { kind: 'warning', text: 'Do not rely on old advice saying “under €22 tax-free” (abolished on 01/07/2021) or “under €150 duty-free” (abolished on 01/07/2026). Cheap orders from China now always come with extra charges: IVA + €3/category + a possible clearance fee — Shein/Temu/AliExpress are restructuring their prices, so watch the final amount at checkout.' }
+      "id": "tax-rules",
+      "title": "Non-EU parcels: fee from 1 November",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "For online orders shipped directly to consumers from outside the EU, the transitional €3 duty per goods category in small consignments up to €150 has applied since 1 July 2026. From 1 November 2026 an additional EU handling fee of €2 per customs declaration line (goods category), rather than simply per box, applies; Dutch Customs explains that it also covers e-commerce consignments above €150. VAT and a separate carrier service charge may be added. Check the total-price breakdown: IOSS concerns VAT and does not remove the other charges. Do not automatically apply distance-selling rules to private gifts or travellers’ luggage. Open tracking and payment manually on the carrier’s official website instead of following an unsolicited text-message link."
+        }
       ]
     },
     {
-      id: 'ctt-clearance',
-      title: 'How CTT desalfandegamento works',
-      content: [
-        { kind: 'paragraph', text: 'If a parcel from outside the EU arrives by regular post, it is almost always handled by CTT. The status may change to “A aguardar procedimentos declarativos” or “Desalfandegamento”. You then need to go to the CTT portal, confirm the details and pay the charges.' },
-        { kind: 'checklist', items: [
-          'Open tracking on ctt.pt and check whether “desalfandegar” is required.',
-          'Prepare an invoice/recibo: a screenshot of the order showing the item price, delivery, currency and recipient’s name.',
-          'If IVA has already been paid on AliExpress/eBay/Amazon, attach confirmation of “VAT included” or an invoice with IOSS/VAT.',
-          'Check the NIF and address: the name on the order should match the documents or at least be clearly connected to the recipient.',
-          'Pay the IVA, any duty and the CTT serviço de apresentação/desalfandegamento online.',
-          'After payment, the parcel is usually released and sent for delivery; in peak periods the delay may be 3–10 working days.',
-          'If you do not provide the documents in time, the parcel may be returned to the sender.'
-        ] },
-        { kind: 'warning', text: 'CTT does not “invent the tax”: it collects amounts under the import rules of Autoridade Tributária e Aduaneira. But mistakes do happen — especially when the shop has collected IVA via IOSS, but the IOSS number has not been included in the postal data. In that case, submit the invoice and dispute it through the CTT portal before paying, if the system allows it.' }
+      "id": "ctt-clearance",
+      "title": "How CTT desalfandegamento works",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "If a parcel from outside the EU arrives by regular post, it is almost always handled by CTT. The status may change to “A aguardar procedimentos declarativos” or “Desalfandegamento”. You then need to go to the CTT portal, confirm the details and pay the charges."
+        },
+        {
+          "kind": "checklist",
+          "items": [
+            "Open tracking on ctt.pt and check whether “desalfandegar” is required.",
+            "Prepare an invoice/recibo: a screenshot of the order showing the item price, delivery, currency and recipient’s name.",
+            "If IVA has already been paid on AliExpress/eBay/Amazon, attach confirmation of “VAT included” or an invoice with IOSS/VAT.",
+            "Check the NIF and address: the name on the order should match the documents or at least be clearly connected to the recipient.",
+            "Pay the IVA, any duty and the CTT serviço de apresentação/desalfandegamento online.",
+            "After payment, the parcel is usually released and sent for delivery; in peak periods the delay may be 3–10 working days.",
+            "If you do not provide the documents in time, the parcel may be returned to the sender."
+          ]
+        },
+        {
+          "kind": "warning",
+          "text": "CTT does not “invent the tax”: it collects amounts under the import rules of Autoridade Tributária e Aduaneira. But mistakes do happen — especially when the shop has collected IVA via IOSS, but the IOSS number has not been included in the postal data. In that case, submit the invoice and dispute it through the CTT portal before paying, if the system allows it."
+        }
       ]
     },
     {
-      id: 'marketplace-tactics',
-      title: 'Practical tips for Amazon, AliExpress and eBay',
-      content: [
-        { kind: 'substeps', items: [
-          {
-            id: 'amazon',
-            title: 'Amazon ES/PT',
-            content: [
-              { kind: 'paragraph', text: 'For household appliances, books, cables, home goods and children’s items, Amazon.es is usually the easiest option: the price already includes IVA, delivery is within the EU, and returns are clear. Check “Sold by” and “Dispatches from”: if dispatch is from Amazon/EU, there is no customs clearance.' },
-              { kind: 'checklist', items: [
-                'Compare Amazon.es and Amazon PT: the local storefront may show fewer items.',
-                'For urgent purchases, filter by Prime/fast delivery to Portugal.',
-                'Check whether the item can be delivered to your código postal: large appliances and batteries may have restrictions.',
-                'Returns with Amazon are usually simpler than with AliExpress/eBay, especially if the seller is Amazon or an EU business seller.',
-                'Do not confuse the item price with delivery cost: sometimes a cheap item with expensive delivery loses out to a local shop.'
-              ] }
-            ]
-          },
-          {
-            id: 'aliexpress',
-            title: 'AliExpress',
-            content: [
-              { kind: 'paragraph', text: 'AliExpress is good for small items: cases, cables, spare parts, hobby goods. Economy delivery from China is often free, but the real delivery time is 3–8 weeks. AliExpress Choice and EU warehouse can be faster — sometimes 7–15 days.' },
-              { kind: 'checklist', items: [
-                'For orders up to €150, look for “IVA incluído” / “VAT included”.',
-                'Do not combine many items into one order above €150 if you want to avoid a full import declaration.',
-                'Choose sellers with tracking, not only Cainiao Super Economy without detailed tracking.',
-                'For electronics, check CE marking, EU plug and genuine reviews with photos.',
-                'If you need the item by a specific date, AliExpress is a poor option.'
-              ] }
-            ]
-          },
-          {
-            id: 'ebay',
-            title: 'eBay',
-            content: [
-              { kind: 'paragraph', text: 'On eBay, the main risk is the shipping country and the seller’s status. The same item from Germany will arrive without customs clearance, while from the UK/US it will require IVA, possible duty and brokerage fees.' },
-              { kind: 'checklist', items: [
-                'Filter by “Item location: European Union” if you do not want an import.',
-                'Check whether eBay includes “VAT” or “Import charges” at checkout.',
-                'With private sellers, the invoice may be weak — CTT will still ask for proof of PayPal/card payment.',
-                'For second-hand electronics from outside the EU, IVA is often charged on the price actually paid + delivery.',
-                'Calculate expensive purchases above €150 in advance: sometimes it is better to buy in the EU at a higher price, but without customs hassle.'
-              ] }
-            ]
-          }
-        ] }
+      "id": "marketplace-tactics",
+      "title": "Before paying for an order",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Save the product page and order with itemised taxes and delivery. Check who pays import and return costs. Do not assume exemption merely because the value is below €150. Ask the seller for a complete calculation before paying if anything is unclear."
+        }
       ]
     },
     {
-      id: 'how-to-estimate',
-      title: 'How to estimate the final price quickly',
-      content: [
-        { kind: 'paragraph', text: 'Before buying from outside the EU, calculate not the “price on the website” but the landed cost — how much the item will cost after IVA, duty and clearance.' },
-        { kind: 'checklist', items: [
-          'If the item is from the EU: final cost ≈ item price + delivery. No customs clearance.',
-          'If the item is from China/US/UK up to €150 and IVA is included: final cost ≈ checkout price; the only risk is an IOSS error or delay.',
-          'If the item is up to €150 and IVA is not included: add 23% IVA on the item/delivery and the CTT/courier fee.',
-          'If the item is above €150: add 23% IVA, possible duty by product category and the brokerage fee.',
-          'For DHL/UPS/FedEx couriers, brokerage fees are often higher than with CTT; however, clearance is faster.',
-          'For heavy items, delivery is included in the IVA base, so the tax can be noticeably higher than expected.',
-          'If the difference from an EU shop is less than €15–€25, it is usually better to buy in the EU: faster, easier returns, less risk.'
-        ] },
-        { kind: 'warning', text: 'Do not ask the seller to undervalue the item. If CTT/Alfândega requests a card or PayPal statement, the tax will be recalculated based on the real payment; if there is suspicion, delays, penalties or return of the parcel are possible.' }
+      "id": "how-to-estimate",
+      "title": "Calculate the full price",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Add the goods, delivery, applicable duty, EU handling fee and carrier service; separately check VAT and what checkout already includes. “VAT included” confirms VAT only. Ordinary import rates depend on classification and origin; there is no single rate for every product. Compare the total with an offer dispatched from within the EU."
+        }
       ]
     }
   ],
@@ -135,39 +86,53 @@ export default {
   ],
   sources: [
     {
-      title: 'Portal das Finanças: customs information and import rules',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Compras/Encomendas_postais/Encomendas_Postais_Comercio_Eletronico/Paginas/default.aspx',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Portal das Finanças: customs information and import rules",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Compras/Encomendas_postais/Encomendas_Postais_Comercio_Eletronico/Paginas/default.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Portal das Finanças: IVA and taxas em vigor',
-      url: 'https://pauta.portaldasfinancas.gov.pt/pt/faqs/Pages/importacoes-via-internet-impostos.aspx',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Portal das Finanças: IVA and taxas em vigor",
+      "url": "https://pauta.portaldasfinancas.gov.pt/pt/faqs/Pages/importacoes-via-internet-impostos.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'CTT: clearing parcels through customs',
-      url: 'https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index/desalfandegar-encomendas',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "CTT: clearing parcels through customs",
+      "url": "https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index/desalfandegar-encomendas",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'CTT: receiving international parcels and desalfandegamento costs',
-      url: 'https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "CTT: receiving international parcels and desalfandegamento costs",
+      "url": "https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da UE (01.07.2026)',
-      url: 'https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-07-10'
+      "title": "CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da UE (01.07.2026)",
+      "url": "https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-07-10"
+    },
+    {
+      "title": "Council of the EU — small parcels, reviewed 23.10.2026",
+      "url": "https://www.consilium.europa.eu/en/policies/eu-action-influx-of-small-parcels/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Dutch Customs — EU handling fee, updated 22.10.2026",
+      "url": "https://www.douane.nl/en/themes/import-and-export/import/e-commerce/handling-fee-for-e-commerce/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-07-10',

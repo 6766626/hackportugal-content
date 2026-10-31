@@ -6,8 +6,8 @@ export default {
   tldr: 'В 2026 продление ВНЖ нужно начинать онлайн, но маршрут зависит от даты истечения и типа карты. Обычные карты, истекшие начиная с 01.07.2025, продлеваются через portal-renovacoes.aima.gov.pt. Старые карты, истекшие с 22.02.2020 по 30.06.2025, идут через services.aima.gov.pt/RAR/reqrenew или письмо AIMA/EMAIMA; CPLP, ARI и карты родственников граждан ЕС имеют отдельные правила. По gov.pt запрос можно подать с 90 дней до окончания карты. Для карт, истёкших после 30.06.2025, право проживания сохраняется 6 месяцев после даты истечения; если за это время вы начали продление и имеете comprovativo/recibo, AIMA считает пребывание законным до завершения процесса — даже после этих 6 месяцев. После регистрации запроса и оплаты AIMA выдаёт comprovativo на 180 дней: носите его вместе с истёкшей картой.',
   tags: ['aima', 'внж', 'продление', 'онлайн'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Исправлено ошибочное исключение постоянных документов UE/членов семьи из Portal de Renovações. Добавлен актуальный FAQ по продлению ARI.",
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Даты допуска в портал: сверяйте тип ВНЖ",
   steps: [
     {
       "id": "which-portal",
@@ -375,6 +375,16 @@ export default {
           "text": "С 01.07.2026 Portal de Renovações принимает заявления по постоянным сертификатам и картам граждан ЕС и членов их семей. Доступны подача, оплата и документы; при необходимости AIMA отдельно назначает биометрию. Уже назначенные приёмы сохраняются. Заявления через контактную форму до 30.06.2026 сохраняют силу. Это не перенос первичного CRUE из Câmara Municipal и не утверждение, что любая первая карта родственника оформляется через этот портал."
         }
       ]
+    },
+    {
+      "id": "portal-window-check",
+      "title": "Даты допуска в портал: сверяйте тип ВНЖ",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "В FAQ ARI указаны продления карт, истёкших с 22.02.2020 по 31.12.2026. На другой странице AIMA о портале ещё указан предел 31.10.2026. Это расхождение официальных страниц: для ARI ориентируйтесь на профильный FAQ и доступность вашего процесса в Portal de Renovações; при блокировке сохраните ошибку и обратитесь в AIMA. Не переносите окно ARI на обычный ВНЖ и не создавайте дублирующее заявление."
+        }
+      ]
     }
   ],
   documents: [
@@ -498,18 +508,18 @@ export default {
       "lastRetrieved": "2026-08-01"
     },
     {
-      "title": "AIMA — Portal de Renovações: certificados e cartões permanentes UE e familiares",
+      "title": "AIMA — Portal de Renovações: documentos permanentes UE",
       "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
     },
     {
-      "title": "AIMA — perguntas frequentes sobre ARI: renovações, pagamentos e biometria",
+      "title": "AIMA — ARI FAQ",
       "url": "https://aima.gov.pt/pt/a-aima/perguntas-frequentes-faqs/autorizacao-de-residencia-para-investimento-ari",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',

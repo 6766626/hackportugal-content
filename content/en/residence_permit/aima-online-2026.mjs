@@ -6,8 +6,8 @@ export default {
   tldr: 'In 2026, residence permit renewal should be started online, but the route depends on the expiry date and card type. Ordinary cards expired from 01.07.2025 onward are renewed through portal-renovacoes.aima.gov.pt. Older cards expired from 22.02.2020 to 30.06.2025 go through services.aima.gov.pt/RAR/reqrenew or the AIMA/EMAIMA email route; CPLP, ARI and EU family cards have separate rules. According to gov.pt, you can apply from 90 days before the card expires. For cards that expired after 30.06.2025, residence rights are maintained for 6 months after the expiry date; if during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months. After the renewal request is registered and paid, AIMA issues a comprovativo valid for 180 days: carry it together with the expired card.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Corrected the erroneous exclusion of permanent EU/family documents from the Renewals Portal. Added the current ARI renewal FAQ.",
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Portal eligibility dates: check the permit type",
   steps: [
     {
       "id": "which-portal",
@@ -375,6 +375,16 @@ export default {
           "text": "Since 1 July 2026 the Renewals Portal accepts procedures for permanent residence certificates and cards of EU nationals and their family members. Submission, payment and documents are online; AIMA schedules biometrics separately when needed. Existing appointments remain valid, as do contact-form requests made by 30 June 2026. This does not move initial CRUE registration away from the municipality or imply that every initial family-member card uses this portal."
         }
       ]
+    },
+    {
+      "id": "portal-window-check",
+      "title": "Portal eligibility dates: check the permit type",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "The ARI FAQ covers renewals of cards expiring from 22 February 2020 through 31 December 2026. Another AIMA portal notice still lists 31 October 2026. These official pages differ: for ARI, consult the dedicated FAQ and your case’s availability in Portal de Renovações; document any error and contact AIMA if blocked. Do not apply the ARI window to ordinary permits or submit duplicate applications."
+        }
+      ]
     }
   ],
   documents: [
@@ -498,18 +508,18 @@ export default {
       "lastRetrieved": "2026-08-01"
     },
     {
-      "title": "AIMA — Portal de Renovações: certificados e cartões permanentes UE e familiares",
+      "title": "AIMA — Portal de Renovações: documentos permanentes UE",
       "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
     },
     {
-      "title": "AIMA — perguntas frequentes sobre ARI: renovações, pagamentos e biometria",
+      "title": "AIMA — ARI FAQ",
       "url": "https://aima.gov.pt/pt/a-aima/perguntas-frequentes-faqs/autorizacao-de-residencia-para-investimento-ari",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',

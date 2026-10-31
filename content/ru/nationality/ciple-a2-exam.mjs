@@ -262,6 +262,16 @@ export default {
           ]
         }
       ]
+    },
+    {
+      "id": "nationality-regulation-october",
+      "title": "Регламент гражданства: решение 29 октября",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "29.10.2026 правительство одобрило декрет-закон о новых доказательствах языка, культуры и гражданских знаний, средств к существованию, декларации и биометрии. На 31.10 его публикация и вступление в силу не подтверждены в проверенных источниках. Перед подачей сверяйте опубликованный Regulamento и инструкции IRN для своего основания и переходного режима. Не считайте CIPLE автоматическим подтверждением всех новых требований и не выбирайте форму только по номеру из старой инструкции."
+        }
+      ]
     }
   ],
   costs: [
@@ -342,11 +352,18 @@ export default {
       "kind": "official",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 ,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Уточнены действующие сроки натурализации и требования к доказательству языка и знаний по Lei Orgânica 1/2026."
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Регламент гражданства: решение 29 октября"
 }

@@ -6,11 +6,11 @@ export default {
   tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. It is filed annually from 1 April to 30 June in Portal das Finanças (tax portal).\n\nTax residents usually declare worldwide income; there are exemptions from filing under art. 58 CIRS (low/finally taxed income).\n\nThere is an automatic pre-filled version (IRS Automático) for simple cases covered by AT.',
   tags: ['irs', 'taxes', 'tax return'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Published November IRS withholding rules: mainland and Azores, exceptions and normal withholding from December. Updated PPL 108/XVII/2 and OE2027 proposal status.",
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Updated IRS reduction status and AT clarification dated 30 October.",
   pendingLaw: {
-    "summary": "Parliament has approved PPL 108/XVII/2, as expressly recorded in Despacho 12523-A/2026. The November withholding adjustment is published and applies from 1 November. However, on 20 October 2026 the checked AT page for CIRS article 68 still lists 12.5–48%; the sources reviewed did not establish publication of the implementing decree-law for the new annual rates. Do not treat the expected 12.2–48% scale as confirmed enacted law without checking its publication. The OE2027 proposal presented on 8 October is also not yet a final budget law.",
-    "sourceUrl": "https://diariodarepublica.pt/dr/detalhe/despacho/12523-a-2026-1180337885"
+    "summary": "Law 64-B/2026 of 22 October authorised a reduction in the first six IRS rates. On 29 October the government approved the implementing decree-law with effect from 1 January 2026. As of 31 October, its publication was not confirmed in the sources checked: cabinet approval is not a substitute for a published rule. November withholding relief was published separately and clarified by AT Circulars 5/2026 and 6/2026 on 30 October. Check the published CIRS for the final annual scale.",
+    "sourceUrl": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026"
   },
   steps: [
     {
@@ -243,6 +243,34 @@ export default {
       "kind": "law",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Lei 64-B/2026 — autorização legislativa IRS",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei/64-b-2026-1184484177",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Circular 5/2026: retenção no continente em novembro",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Circular_5_2026.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Circular 6/2026: retenção nos Açores em novembro",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Circular_6_2026.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',

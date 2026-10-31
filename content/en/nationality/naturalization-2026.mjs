@@ -6,7 +6,7 @@ export default {
   tldr: "Since 19 May 2026, the general legal-residence period for naturalisation is 7 years for nationals of Portuguese-official-language countries and the EU, and 10 years for others; stateless applicants have a separate four-year route. The seven-year period does not automatically extend to all EEA countries or Switzerland. Applications before 19 May 2026 use the former wording, including its general five-year period.\n\nThe amended law also requires language, cultural and civic knowledge; A2 alone does not prove the full set of requirements. Check current IRN instructions for the applicable evidence procedure.",
   tags: ['citizenship', 'naturalisation', 'cplp'],
   estimatedReadMinutes: 10,
-  changeSummary: "Corrected the seven-year scope (Portuguese-official-language countries and EU), added stateless rules, clarified the language presumption, transition and former criminal criterion. Removed an unsupported waiver of new requirements pending regulations.",
+  changeSummary: "Nationality regulation: 29 October decision",
   variants: [
     {
       "id": "cplp",
@@ -135,7 +135,7 @@ export default {
         {
           "kind": "checklist",
           "items": [
-            "📝 Application — formulário modelo 1-A (for naturalisation) — download from irn.pt, complete by hand or online",
+            "Application for your legal route: obtain the current form and instructions directly from IRN.",
             "📄 Valid international passport — copy of all completed pages",
             "📄 Título de residência (residence permit) — valid. At this stage you do NOT YET have a Cartão de Cidadão — it is issued only after citizenship approval",
             "📄 Birth certificate — apostille + sworn translation into Portuguese (full, with parents’ names)",
@@ -190,6 +190,16 @@ export default {
         {
           "kind": "paragraph",
           "text": "After approval, the acquisition of citizenship is registered in the registo civil (assento de nacionalidade).\n\nYou become a Portuguese citizen from the date of the relevant assento — publication of the decision in Diário da República by itself is not the moment of acquisition. After registration, you can request a Cartão de Cidadão at any Loja do Cidadão (photo + biometrics, fee depends on age and validity period; urgent options are more expensive — check the current tabela de emolumentos IRN), order a Passaporte Eletrónico Português (normal in Portugal — around €65; express — €85; urgente/airport — more expensive; fees abroad differ), register newborn children as Portuguese citizens."
+        }
+      ]
+    },
+    {
+      "id": "nationality-regulation-october",
+      "title": "Nationality regulation: 29 October decision",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "On 29 October 2026 the government approved a decree-law covering evidence of language, culture and civic knowledge, subsistence, the declaration and biometrics. Publication and commencement were not confirmed in the sources checked on 31 October. Before filing, check the published Regulamento and IRN instructions for your route and transitional rules. CIPLE does not automatically prove every new requirement; do not choose a form solely from an old guide’s form number."
         }
       ]
     }
@@ -316,10 +326,17 @@ export default {
       "kind": "law",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-09-25',
   verifyIntervalDays: 60
 ,
-  recentlyChangedAt: "2026-10-20"
+  recentlyChangedAt: "2026-10-31"
 }

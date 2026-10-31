@@ -262,6 +262,16 @@ export default {
           ]
         }
       ]
+    },
+    {
+      "id": "nationality-regulation-october",
+      "title": "Regulamento da nacionalidade: decisão de 29 de outubro",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Em 29.10.2026, o Governo aprovou um decreto-lei sobre provas de língua, cultura e conhecimentos cívicos, subsistência, declaração e biometria. A publicação e a entrada em vigor não foram confirmadas nas fontes consultadas em 31 de outubro. Antes de apresentar o pedido, consulte o Regulamento publicado e as instruções do IRN para o seu fundamento e regime transitório. O CIPLE não comprova automaticamente todos os novos requisitos; não escolha um formulário apenas pelo número indicado num guia antigo."
+        }
+      ]
     }
   ],
   costs: [
@@ -342,11 +352,18 @@ export default {
       "kind": "official",
       "language": "pt",
       "lastRetrieved": "2026-10-20"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 ,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Clarificados os prazos atuais de naturalização e a prova de língua e conhecimentos segundo a Lei Orgânica 1/2026."
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Regulamento da nacionalidade: decisão de 29 de outubro"
 }

@@ -1,128 +1,79 @@
 export default {
+  recentlyChangedAt: "2026-10-31",
+
   editorialVoice: 'hackportugal',
   id: 'compras-amazon-aliexpress',
   categoryId: 'daily_life',
   title: 'Amazon ES/PT, AliExpress и eBay в Португалии: доставка, IVA и пошлины',
-  tldr: 'Для Португалии самый предсказуемый вариант — Amazon.es: доставка с EU-складов обычно 2–5 рабочих дней, без таможни и пошлин. Amazon PT удобен интерфейсом/локальными акциями, но каталог меньше. AliExpress дешёвый, но доставка из Китая может идти 3–8 недель.\n\n🆕 С 01.07.2026 посылки из-за пределов ЕС подорожали: беспошлинный порог 150 € отменён — теперь до 150 € начисляется фиксированная пошлина 3 € за каждую категорию товара, поверх IVA 23% (который берётся с 2021 года) и сборов CTT/курьера. Свыше 150 € — как раньше: декларация, IVA и пошлина по коду товара.',
+  tldr: "Смотрите, откуда реально отправляют товар, а не только на домен магазина. Товар со склада ЕС, уже выпущенный в свободное обращение, обычно не требует импортного оформления покупателем. Для отправки из-за пределов ЕС учитывайте НДС, пошлину и с 1 ноября 2026 новый сбор ЕС за обработку.",
   tags: ['amazon', 'aliexpress', 'ctt', 'пошлины'],
   estimatedReadMinutes: 6,
-  changeSummary: '🆕 С 01.07.2026 заказы вне ЕС (Shein/Temu/AliExpress из Китая, eBay из US/UK) платят пошлину 3 € за категорию товара даже при стоимости до 150 € — плюс прежний IVA 23% и сборы за оформление. Покупки с EU-складов не затронуты.',
+  changeSummary: "Посылки из-за пределов ЕС: сбор с 1 ноября",
   steps: [
     {
-      id: 'platforms',
-      title: 'Где покупать без сюрпризов',
-      content: [
-        { kind: 'paragraph', text: 'Главное правило: если товар едет со склада внутри ЕС и продавец оформляет продажу как EU sale, таможни в Португалии нет. Вы платите цену с IVA в момент покупки, а курьер просто доставляет посылку.' },
-        { kind: 'checklist', items: [
-          'Amazon.es — обычно лучший баланс цены, ассортимента и доставки в Portugal mainland; многие товары приходят за 2–5 рабочих дней.',
-          'Amazon PT / португальская витрина Amazon — удобнее по языку и локальным подборкам, но каталог меньше, а часть товаров всё равно идёт через Amazon.es или других EU-продавцов.',
-          'AliExpress — проверяйте строку “VAT included” / “IVA incluído”. Для заказов до 150 € это часто означает IOSS: IVA уже собран площадкой.',
-          'eBay — самый рискованный по таможне: много продавцов из UK, US, China и частных лиц; заранее смотрите “Item location” и “Import charges”.',
-          'EU-склады AliExpress/eBay — Spain, France, Germany, Poland, Czechia — обычно без таможни, если товар реально отправляется оттуда.',
-          'UK после Brexit — не ЕС. Заказ из Великобритании для Португалии считается импортом, как из США или Китая.',
-          'Madeira и Açores имеют свои налоговые особенности и логистику; сроки и ставки могут отличаться от mainland Portugal.'
-        ] }
+      "id": "platforms",
+      "title": "Проверьте продавца и место отправки",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "В Amazon, AliExpress, eBay и других маркетплейсах смотрите конкретного продавца, страну отправки, условия возврата и состав итоговой цены. Домен страны и надпись «доставка в Португалию» не доказывают отправку со склада ЕС. Товар в свободном обращении, отправленный из ЕС, обычно не требует нового импортного оформления у покупателя."
+        }
       ]
     },
     {
-      id: 'tax-rules',
-      title: 'IVA и таможня в 2026: что изменилось 1 июля',
-      content: [
-        { kind: 'paragraph', text: 'С 01.07.2021 в ЕС отменили освобождение от IVA для мелких импортных посылок — коммерческий товар из-за пределов ЕС облагается IVA независимо от цены (mainland — 23%). А с 01.07.2026 отменили и освобождение от ПОШЛИНЫ для посылок до 150 €: теперь это фикс 3 € за каждую категорию товара (переходный режим ЕС до большой таможенной реформы).' },
-        { kind: 'checklist', items: [
-          '0–150 € (с 01.07.2026): IVA 23% + пошлина 3 € за каждую категорию товара в посылке (2 разных типа товара = 6 €). Если магазин использует IOSS, IVA платится при покупке — но пошлину 3 €/категория IOSS не покрывает.',
-          'Свыше 150 €: IOSS не применяется; нужна импортная таможенная декларация, начисляется IVA 23% и может быть таможенная пошлина по коду товара.',
-          'Порог 150 € для пошлины считается по intrinsic value товара: обычно цена товара без доставки и страховки.',
-          'База для IVA шире: стоимость товара + доставка + страховка + пошлины + таможенные/почтовые сборы, если они включаются в импортную базу.',
-          'Подарки от частного лица частному лицу имеют отдельный лимит 45 €, но маркетплейс-покупки под это не подходят.',
-          'Если продавец написал “gift” на коммерческом заказе, это не отменяет IVA и может вызвать проверку.',
-          'Для алкоголя, табака, парфюмерии, аккумуляторов, лекарств, БАДов, дронов и радиоустройств возможны ограничения или дополнительные документы.'
-        ] },
-        { kind: 'warning', text: 'Не ориентируйтесь на старые советы «до 22 € без налога» (отменено с 01.07.2021) и «до 150 € без пошлины» (отменено с 01.07.2026). Дешёвые заказы из Китая теперь всегда с доплатой: IVA + 3 €/категория + возможный сбор за оформление — Shein/Temu/AliExpress перестраивают цены, следите за итоговой суммой на чекауте.' }
+      "id": "tax-rules",
+      "title": "Посылки из-за пределов ЕС: сбор с 1 ноября",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Для интернет-заказов, отправленных потребителю из-за пределов ЕС, с 01.07.2026 действует переходная пошлина 3 € за товарную категорию в малых отправлениях до 150 €. С 01.11.2026 добавляется сбор ЕС за обработку 2 € за строку таможенной декларации (товарную категорию), а не просто за коробку; по разъяснению таможни Нидерландов он охватывает и интернет-отправления дороже 150 €. IVA/НДС и отдельная услуга перевозчика могут добавляться. Проверьте разбивку итоговой цены: IOSS относится к НДС и не означает отсутствия остальных платежей. Эти правила дистанционной торговли не следует автоматически переносить на личные подарки или багаж. Открывайте отслеживание и оплату вручную на официальном сайте перевозчика, а не по случайной SMS-ссылке."
+        }
       ]
     },
     {
-      id: 'ctt-clearance',
-      title: 'Как работает CTT desalfandegamento',
-      content: [
-        { kind: 'paragraph', text: 'Если посылка из-за пределов ЕС приходит обычной почтой, почти всегда её обрабатывает CTT. Статус может поменяться на “A aguardar procedimentos declarativos” или “Desalfandegamento”. Тогда нужно зайти в портал CTT, подтвердить данные и оплатить начисления.' },
-        { kind: 'checklist', items: [
-          'Откройте tracking на ctt.pt и проверьте, требуется ли “desalfandegar”.',
-          'Подготовьте invoice/recibo: скрин заказа с ценой товара, доставкой, валютой и именем получателя.',
-          'Если IVA уже оплачен на AliExpress/eBay/Amazon, приложите подтверждение “VAT included” или invoice с IOSS/VAT.',
-          'Проверьте NIF и адрес: имя на заказе должно совпадать с документами или хотя бы быть очевидно связано с получателем.',
-          'Оплатите IVA, возможную пошлину и serviço de apresentação/desalfandegamento CTT онлайн.',
-          'После оплаты посылка обычно выпускается и идёт на доставку; в пиковые периоды задержка может быть 3–10 рабочих дней.',
-          'Если не предоставить документы вовремя, посылку могут вернуть отправителю.'
-        ] },
-        { kind: 'warning', text: 'CTT не “придумывает налог”: он собирает суммы по импортным правилам Autoridade Tributária e Aduaneira. Но ошибки бывают — особенно когда магазин взял IVA по IOSS, а номер IOSS не попал в почтовые данные. В таком случае подавайте invoice и спорьте через портал CTT до оплаты, если система позволяет.' }
+      "id": "ctt-clearance",
+      "title": "Как работает CTT desalfandegamento",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Если посылка из-за пределов ЕС приходит обычной почтой, почти всегда её обрабатывает CTT. Статус может поменяться на “A aguardar procedimentos declarativos” или “Desalfandegamento”. Тогда нужно зайти в портал CTT, подтвердить данные и оплатить начисления."
+        },
+        {
+          "kind": "checklist",
+          "items": [
+            "Откройте tracking на ctt.pt и проверьте, требуется ли “desalfandegar”.",
+            "Подготовьте invoice/recibo: скрин заказа с ценой товара, доставкой, валютой и именем получателя.",
+            "Если IVA уже оплачен на AliExpress/eBay/Amazon, приложите подтверждение “VAT included” или invoice с IOSS/VAT.",
+            "Проверьте NIF и адрес: имя на заказе должно совпадать с документами или хотя бы быть очевидно связано с получателем.",
+            "Оплатите IVA, возможную пошлину и serviço de apresentação/desalfandegamento CTT онлайн.",
+            "После оплаты посылка обычно выпускается и идёт на доставку; в пиковые периоды задержка может быть 3–10 рабочих дней.",
+            "Если не предоставить документы вовремя, посылку могут вернуть отправителю."
+          ]
+        },
+        {
+          "kind": "warning",
+          "text": "CTT не “придумывает налог”: он собирает суммы по импортным правилам Autoridade Tributária e Aduaneira. Но ошибки бывают — особенно когда магазин взял IVA по IOSS, а номер IOSS не попал в почтовые данные. В таком случае подавайте invoice и спорьте через портал CTT до оплаты, если система позволяет."
+        }
       ]
     },
     {
-      id: 'marketplace-tactics',
-      title: 'Практика по Amazon, AliExpress и eBay',
-      content: [
-        { kind: 'substeps', items: [
-          {
-            id: 'amazon',
-            title: 'Amazon ES/PT',
-            content: [
-              { kind: 'paragraph', text: 'Для бытовой техники, книг, кабелей, товаров для дома и детских вещей Amazon.es обычно проще всего: цена уже с IVA, доставка внутри ЕС, возвраты понятны. Смотрите “Sold by” и “Dispatches from”: если отправка из Amazon/EU, таможни нет.' },
-              { kind: 'checklist', items: [
-                'Сравнивайте Amazon.es и Amazon PT: локальная витрина может показывать меньше товаров.',
-                'Для срочных покупок фильтруйте по Prime/быстрой доставке в Portugal.',
-                'Проверьте, доставляется ли товар в ваш código postal: крупная техника и батареи могут иметь ограничения.',
-                'Возвраты по Amazon обычно проще, чем на AliExpress/eBay, особенно если продавец Amazon или EU-business seller.',
-                'Не путайте цену товара и стоимость доставки: иногда дешёвый товар с дорогой доставкой проигрывает локальному магазину.'
-              ] }
-            ]
-          },
-          {
-            id: 'aliexpress',
-            title: 'AliExpress',
-            content: [
-              { kind: 'paragraph', text: 'AliExpress хорош для мелочей: чехлы, кабели, запчасти, хобби-товары. Эконом-доставка из Китая часто бесплатная, но реальный срок 3–8 недель. AliExpress Choice и EU-warehouse могут быть быстрее — иногда 7–15 дней.' },
-              { kind: 'checklist', items: [
-                'Для заказов до 150 € ищите “IVA incluído” / “VAT included”.',
-                'Не объединяйте много товаров в один заказ свыше 150 €, если хотите избежать полной импортной декларации.',
-                'Выбирайте продавцов с tracking, а не только Cainiao Super Economy без детального отслеживания.',
-                'Для электроники проверяйте CE-маркировку, вилку EU и реальные отзывы с фото.',
-                'Если товар нужен к конкретной дате, AliExpress — плохой вариант.'
-              ] }
-            ]
-          },
-          {
-            id: 'ebay',
-            title: 'eBay',
-            content: [
-              { kind: 'paragraph', text: 'На eBay главный риск — страна отправки и статус продавца. Один и тот же товар из Германии приедет без таможни, а из UK/US потребует IVA, возможную пошлину и брокерские сборы.' },
-              { kind: 'checklist', items: [
-                'Фильтруйте “Item location: European Union”, если не хотите импорт.',
-                'Смотрите, включает ли eBay “VAT” или “Import charges” при checkout.',
-                'У частных продавцов invoice может быть слабым — CTT всё равно попросит подтверждение оплаты PayPal/card.',
-                'Для б/у техники из-за пределов ЕС IVA часто начисляют на фактически уплаченную цену + доставку.',
-                'Дорогие покупки свыше 150 € считайте заранее: иногда выгоднее купить в ЕС дороже, но без таможенной возни.'
-              ] }
-            ]
-          }
-        ] }
+      "id": "marketplace-tactics",
+      "title": "Перед оплатой заказа",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Сохраните страницу товара и заказ с детализацией налогов и доставки. Уточните, кто оплачивает импортные расходы и возврат. Не рассчитывайте на освобождение только потому, что стоимость ниже 150 €. При сомнении запросите у продавца полный расчёт до оплаты."
+        }
       ]
     },
     {
-      id: 'how-to-estimate',
-      title: 'Как быстро посчитать итоговую цену',
-      content: [
-        { kind: 'paragraph', text: 'Перед покупкой из-за пределов ЕС считайте не “цена на сайте”, а landed cost — сколько товар обойдётся после IVA, пошлины и оформления.' },
-        { kind: 'checklist', items: [
-          'Если товар из ЕС: итог ≈ цена товара + доставка. Таможни нет.',
-          'Если товар из Китая/US/UK до 150 € и IVA включён: итог ≈ цена checkout; риск — только ошибка IOSS или задержка.',
-          'Если товар до 150 € и IVA не включён: добавьте 23% IVA на товар/доставку и сбор CTT/курьера.',
-          'Если товар свыше 150 €: добавьте 23% IVA, возможную пошлину по категории товара и брокерский сбор.',
-          'Для курьеров DHL/UPS/FedEx брокерские сборы часто выше, чем у CTT; зато оформление быстрее.',
-          'Для тяжёлых товаров доставка входит в базу IVA, поэтому налог может быть заметно выше ожидаемого.',
-          'Если разница с EU-магазином меньше 15–25 €, обычно лучше купить в ЕС: быстрее, проще возврат, меньше риска.'
-        ] },
-        { kind: 'warning', text: 'Не просите продавца занизить стоимость. Если CTT/Alfândega запросит выписку карты или PayPal, налог пересчитают по реальной оплате; при подозрении возможны задержка, санкции или возврат посылки.' }
+      "id": "how-to-estimate",
+      "title": "Посчитайте полную цену",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Сложите товар, доставку, применимые пошлины, сбор ЕС за обработку и услугу перевозчика; отдельно проверьте IVA и какие суммы уже включены в checkout. «VAT included» подтверждает только НДС. Для обычных импортных ставок важны код товара и происхождение; не используйте одну ставку для всех товаров. Сравните итог с предложением, отправляемым из ЕС."
+        }
       ]
     }
   ],
@@ -135,39 +86,53 @@ export default {
   ],
   sources: [
     {
-      title: 'Portal das Finanças: informação aduaneira и импортные правила',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Compras/Encomendas_postais/Encomendas_Postais_Comercio_Eletronico/Paginas/default.aspx',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Portal das Finanças: informação aduaneira и импортные правила",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Compras/Encomendas_postais/Encomendas_Postais_Comercio_Eletronico/Paginas/default.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'Portal das Finanças: IVA и taxas em vigor',
-      url: 'https://pauta.portaldasfinancas.gov.pt/pt/faqs/Pages/importacoes-via-internet-impostos.aspx',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "Portal das Finanças: IVA и taxas em vigor",
+      "url": "https://pauta.portaldasfinancas.gov.pt/pt/faqs/Pages/importacoes-via-internet-impostos.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'CTT: desalfandegar encomendas',
-      url: 'https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index/desalfandegar-encomendas',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "CTT: desalfandegar encomendas",
+      "url": "https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index/desalfandegar-encomendas",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'CTT: receber encomendas internacionais e custos de desalfandegamento',
-      url: 'https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-04-28'
+      "title": "CTT: receber encomendas internacionais e custos de desalfandegamento",
+      "url": "https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-28"
     },
     {
-      title: 'CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da UE (01.07.2026)',
-      url: 'https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia',
-      kind: 'official',
-      language: 'pt',
-      lastRetrieved: '2026-07-10'
+      "title": "CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da UE (01.07.2026)",
+      "url": "https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-07-10"
+    },
+    {
+      "title": "Council of the EU — small parcels, reviewed 23.10.2026",
+      "url": "https://www.consilium.europa.eu/en/policies/eu-action-influx-of-small-parcels/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Dutch Customs — EU handling fee, updated 22.10.2026",
+      "url": "https://www.douane.nl/en/themes/import-and-export/import/e-commerce/handling-fee-for-e-commerce/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-07-10',

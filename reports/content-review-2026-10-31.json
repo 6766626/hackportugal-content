@@ -1,0 +1,940 @@
+{
+  "reviewDate": "2026-10-31",
+  "scope": "Inventory and change-sensitive official-source review of 620 Portugal and 600 Germany guides; not a claim that every statement in all guides was reverified. Existing lastVerified dates retained for partial updates.",
+  "projects": {
+    "PT": {
+      "updatedGuideIds": [
+        "aima-online-2026",
+        "border-crossing-with-vnj",
+        "ciple-a2-exam",
+        "compras-amazon-aliexpress",
+        "ctt-mail-parcels-advanced",
+        "customs-parcels",
+        "golden-visa-2026",
+        "irs-filing",
+        "iva-reembolso-pedido",
+        "naturalization-2026"
+      ],
+      "newGuideIds": [
+        "ees-etias-entry",
+        "iva-construcao-hpp-restituicao"
+      ],
+      "countBefore": 620,
+      "countAfter": 622,
+      "pastFullReviewInterval": [
+        {
+          "id": "check-traffic-fines",
+          "lastVerified": "2026-06-15",
+          "ageDays": 138,
+          "intervalDays": 120
+        },
+        {
+          "id": "fa-vehicles-eletricos-2026",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "radar-multa-contestar",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "rotunda-prioridade-condutor",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "via-verde-full",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "brokerage-account-pt",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "certificados-aforro-ot",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "credito-pessoal-tan-taeg",
+          "lastVerified": "2026-08-01",
+          "ageDays": 91,
+          "intervalDays": 90
+        },
+        {
+          "id": "crypto-exchange-pt-coinbase-binance",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "money-transfer",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "ppr-poupanca-reforma",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "consular-appointment-booking",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "consular-birth-abroad",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "belarus-specific",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "brazil-specific",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "expat-community-channels",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 60
+        },
+        {
+          "id": "rf-remote-services",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "russia-specific",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "ssa-totalization-us-pt",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "ukraine-specific",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "voto-imigrante-municipal",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "baba-canguro-domestico",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "promo-codes-verified",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "atestado-domicilio-internacional",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "fne-financas-novo-extrato",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "gender-marker-change-pt",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "niss",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "testamento-publico",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "child-adoption-process",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "advogado-consulta-gratuita",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cnpd-rgpd-queixa",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "habilitacao-herdeiros",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "julgados-de-paz-process",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "sos-voz-amiga-suicidio",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "subsidio-funeral-ss",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "alimentos-pensao-ex-conjugue",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "csi-complemento-idosos",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cuidador-informal-estatuto",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "ivg-interrupcao-gravidez",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "medical-malpractice-ers",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "s2-treatment-abroad-eu",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "casa-restaurar-licenciamento",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cpcv-promise-contract",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "fa-painel-solar-residencial",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "imi-property-tax",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "imovel-devoluto-imi-tripla",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "imovel-divida-onus-verificar",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "imovel-urbano-vs-rustico",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "imt-stamp-duty-buy",
+          "lastVerified": "2026-05-18",
+          "ageDays": 166,
+          "intervalDays": 90
+        },
+        {
+          "id": "renegociar-credito-habitacao",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "alojamento-local-license",
+          "lastVerified": "2026-05-18",
+          "ageDays": 166,
+          "intervalDays": 90
+        },
+        {
+          "id": "direito-preferencia-arrendatario",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "eviction-tenant-protections",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "rental-deposit-fiador",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "rnal-2026-mudancas",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "siba-host-registration",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "casamento-cl-noivo-noiva",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "casamento-dois-paises-internacional",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "citizenship-by-descent",
+          "lastVerified": "2026-06-23",
+          "ageDays": 130,
+          "intervalDays": 90
+        },
+        {
+          "id": "citizenship-by-marriage",
+          "lastVerified": "2026-06-23",
+          "ageDays": 130,
+          "intervalDays": 90
+        },
+        {
+          "id": "aima-contact",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "aima-judicial-appeal",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cplp-mobility",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 60
+        },
+        {
+          "id": "d7-passive-income",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "d8-digital-nomad",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "eu-student-certificado-registo",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "golden-visa-2026",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "manifestacao-replacement",
+          "lastVerified": "2026-06-23",
+          "ageDays": 130,
+          "intervalDays": 60
+        },
+        {
+          "id": "marcacao-aima-online-2026",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "overstay-fines",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "passport-change-mid-residency",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "residencia-permanente-5-anos",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "visa-d-status-check",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "acores-irs-rates",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "anexo-j-contas-estrangeiras",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cope-bportugal-residentes",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "donativos-deduzir-irs",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "e-fatura-deductions",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "gift-tax-imposto-selo",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "irs-anexo-g-mais-valias",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "irs-anexo-h-deducoes",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "irs-auto-prefill",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "irs-municipal-devolucao",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "irs-senior-65-mais",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "iva-autoliquidacao-ue-b2b",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "iva-reembolso-pedido",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "modelo-30-nao-residentes",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "recurso-hierarquico-at",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "tax-residency-rules",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "w8ben-eua-clientes",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "mobile-carriers-compared",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 120
+        },
+        {
+          "id": "a1-outbound-eu",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "a1-posted-worker-pt",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "act-labour-complaint",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cae-choice-self-employed",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "cessar-suspender-atividade",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "dgae-teacher-recognition",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "empregada-domestica-contrato",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "estagios-iefp-jovens",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "faturacao-holvi-toconline",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "glovo-uber-bolt-driver",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "iapmei-empresarios-jovens",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "ifap-agricultura-subsidios",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "oa-advogados-foreign",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "oe-engenheiros-foreign",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "om-dentistas-foreign",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "om-enfermeiros-foreign",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "om-medicos-foreign-doc",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "pension-totalizacao-eu",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "salario-minimo-vs-medio",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "seguro-social-voluntario",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "software-faturacao-at",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "subsidio-desemprego-pedido",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "subsidio-doenca-baixa-medica",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "subsidio-refeicao-empregado",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "subsidios-natal-ferias",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "teletrabalho-lei",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "trabalhador-noturno-direitos",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "trabalho-tempo-parcial-ria",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        },
+        {
+          "id": "uber-eats-restaurante-onboarding",
+          "lastVerified": "2026-05-31",
+          "ageDays": 153,
+          "intervalDays": 90
+        }
+      ],
+      "fullReviewOverdueCount": 120
+    }
+  },
+  "openSourceConflicts": [
+    {
+      "topic": "AIMA ARI renewal window",
+      "detail": "Dedicated ARI FAQ says 31 December 2026; separate portal news page says 31 October 2026. Both cited, discrepancy shown in affected guides."
+    },
+    {
+      "topic": "Portugal HPP VAT transitional deadline",
+      "detail": "DL 97/2026 art.18(8) specifies first three quarters; AT July guidance paragraph13 specifies first half. Law and guidance both cited; July–September cases advised to seek written AT clarification."
+    }
+  ],
+  "pendingPublication": [
+    "Portugal implementing IRS decree-law approved 29 October 2026",
+    "Portugal nationality regulation approved 29 October 2026",
+    "Germany final 2027 social-insurance thresholds ordinance"
+  ],
+  "sources": [
+    {
+      "title": "AIMA — Portal de Renovações: documentos permanentes UE",
+      "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AIMA — ARI FAQ",
+      "url": "https://aima.gov.pt/pt/a-aima/perguntas-frequentes-faqs/autorizacao-de-residencia-para-investimento-ari",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "European Commission — EES exemptions, 27.07.2026",
+      "url": "https://home-affairs.ec.europa.eu/news/entry-exit-system-fully-operational-10-april-2026-who-exempt-2026-07-27_en",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Governo — Conselho de Ministros, 29.10.2026",
+      "url": "https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-29-de-outubro-de-2026",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Council of the EU — small parcels, reviewed 23.10.2026",
+      "url": "https://www.consilium.europa.eu/en/policies/eu-action-influx-of-small-parcels/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Dutch Customs — EU handling fee, updated 22.10.2026",
+      "url": "https://www.douane.nl/en/themes/import-and-export/import/e-commerce/handling-fee-for-e-commerce/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Council of the EU — how the Entry/Exit System works",
+      "url": "https://www.consilium.europa.eu/en/policies/entryexit-system/",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "European Union — ETIAS FAQ and launch status",
+      "url": "https://travel-europe.europa.eu/etias/faq",
+      "kind": "official",
+      "language": "en",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Lei 64-B/2026 — autorização legislativa IRS",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei/64-b-2026-1184484177",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Circular 5/2026: retenção no continente em novembro",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Circular_5_2026.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Circular 6/2026: retenção nos Açores em novembro",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Circular_6_2026.aspx",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Decreto-Lei 97/2026 — anexo II e artigo 18.º",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/97-2026-1124493227",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AT — Ofício-circulado 25118/2026: restituição IVA em construção HPP",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio-Circulado-25118-2026.pdf",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "BfJ — digital Führungszeugnis FAQ",
+      "url": "https://bundesjustizamt.de/DE/Themen/ZentraleRegister/Fuehrungszeugnis/Fragen/Fragen_node.html?docId=259056",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Bundesportal — Führungszeugnis application",
+      "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99049001001000",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Deutsche Bahn — Deutschlandticket contractual changes for 2027",
+      "url": "https://www.bahn.de/faq/pk/angebot/regionale-angebote/deutschland-ticket/vertragsaenderungen-dt",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "BMG — recognition reform for health professions",
+      "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/berufsanerkennung-heilberufe-bundestag-26-03-26",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Regierungspräsidium Stuttgart — Kenntnisprüfung / Gutachten",
+      "url": "https://rp.baden-wuerttemberg.de/ua/themen/bildung/ausbildung/seiten/faq-akad-heilberufe/kenntnispruefung-/-gutachten/",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Bundesregierung — changes in October 2026",
+      "url": "https://www.bundesregierung.de/breg-de/suche/gesetzliche-neuregelungen-oktober-2026-2454624",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "BMAS — Sozialversicherungsrechengrößen-Verordnung 2027",
+      "url": "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/sozialversicherungs-rechengroessenverordnung-2027.html",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Bundestag DIP — consumer credit law, BGBl. 2026 I No. 139",
+      "url": "https://dip.bundestag.de/vorgang/gesetz-zur-umsetzung-der-richtlinie-eu-2023-2225-%C3%BCber-verbraucherkreditvertr%C3%A4ge-und/325529",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "Bundesregierung — consumer credit protection",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/schutz-kreditvertraege-2382528",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "VR Bank Rhein-Neckar — giropay ended on 31.12.2024",
+      "url": "https://www.vrbank.de/privatkunden/girokonto-und-karten/service-und-mehr/ratgeber/giropay-paydirekt.html",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "DB — cancellation by the 10th for the current month",
+      "url": "https://www.bahn.de/faq/pk/angebot/regionale-angebote/deutschland-ticket/kuendigung",
+      "kind": "official",
+      "language": "de",
+      "lastRetrieved": "2026-10-31"
+    }
+  ],
+  "validation": {
+    "portugalPipeline": "npm test passed: schema, regressions, translations, parity",
+    "appModelDecode": "Actual Swift Guide models decoded all 622 PT and 602 DE guides in all 3 languages; IDs and block types validated",
+    "integrity": "All manifest file sizes and SHA-256 hashes match",
+    "simulator": "Simulator unavailable during device discovery; no simulator UI test result claimed"
+  }
+}

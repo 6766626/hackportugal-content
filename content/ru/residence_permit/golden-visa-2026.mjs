@@ -7,8 +7,8 @@ export default {
   audience: { citizenships: ['thirdCountry'] },
   tags: ['golden visa', 'ari', 'инвестиции'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: "2026-10-20",
-  changeSummary: "Добавлен официальный маршрут продления ARI через Portal de Renovações для карт с истечением до 31.12.2026.",
+  recentlyChangedAt: "2026-10-31",
+  changeSummary: "Даты допуска в портал: сверяйте тип ВНЖ",
   steps: [
     {
       "id": "routes",
@@ -139,6 +139,16 @@ export default {
           "text": "По актуальному FAQ AIMA продление ARI с датой истечения от 22.02.2020 до 31.12.2026 подаётся через Portal de Renovações; там же оплачиваются сборы и загружаются документы. Portal ARI используется для первичных заявлений и соответствующего воссоединения семьи. Назначенный приём сохраняйте, если уведомление требует биометрии. Для продления по-прежнему проверяются сохранение инвестиции, минимальное пребывание и остальные условия ARI; онлайн-подача их не отменяет."
         }
       ]
+    },
+    {
+      "id": "portal-window-check",
+      "title": "Даты допуска в портал: сверяйте тип ВНЖ",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "В FAQ ARI указаны продления карт, истёкших с 22.02.2020 по 31.12.2026. На другой странице AIMA о портале ещё указан предел 31.10.2026. Это расхождение официальных страниц: для ARI ориентируйтесь на профильный FAQ и доступность вашего процесса в Portal de Renovações; при блокировке сохраните ошибку и обратитесь в AIMA. Не переносите окно ARI на обычный ВНЖ и не создавайте дублирующее заявление."
+        }
+      ]
     }
   ],
   costs: [
@@ -194,11 +204,18 @@ export default {
       "lastRetrieved": "2026-05-31"
     },
     {
-      "title": "AIMA — perguntas frequentes sobre ARI: renovações, pagamentos e biometria",
+      "title": "AIMA — ARI FAQ",
       "url": "https://aima.gov.pt/pt/a-aima/perguntas-frequentes-faqs/autorizacao-de-residencia-para-investimento-ari",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-10-20"
+      "lastRetrieved": "2026-10-31"
+    },
+    {
+      "title": "AIMA — Portal de Renovações: documentos permanentes UE",
+      "url": "https://aima.gov.pt/pt/noticias/portal-de-renovacoes-certificados-e-cartoes-de-residencia-permanentes-de-nacionais-ue-e-familiares",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-10-31"
     }
   ],
   lastVerified: '2026-05-31',
