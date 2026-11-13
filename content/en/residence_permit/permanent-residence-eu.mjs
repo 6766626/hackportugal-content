@@ -1,184 +1,164 @@
 export default {
-  editorialVoice: 'hackportugal',
-  id: 'permanent-residence-eu',
-  categoryId: 'residence_permit',
-  title: 'Portugal permanent residence (arts. 76, 80) and EU Long-Term Resident (arts. 125+)',
-  tldr: 'After 5 years of holding a temporary autorização de residência in Portugal, you can apply for Autorização de Residência Permanente (arts. 76 and 80 Lei 23/2007).\n\nThe autorização itself is INDEFINITE (sem limite de tempo); only the título/card is renewed every 5 years (art. 76 nº 4 Lei 23/2007). Alternative: Estatuto de Residente de Longa Duração UE / EU Long-Term Resident (arts. 125+ Lei 23/2007, transposes Directive 2003/109/EC) — also a 5-year card, makes moving to many EU countries easier (NOT automatic freedom of movement like EU citizens have; Denmark/Ireland do not participate). Requirements: 5 years of TEMPORARY residence, Portuguese A2, no judicial conviction for an offence with pena privativa de liberdade > 1 year, stable resources. Application to AIMA.',
-  tags: ['permanent residence', 'permanent', 'residence permit', 'eu-long-term'],
-  estimatedReadMinutes: 6,
-  steps: [
+  "editorialVoice": "hackportugal",
+  "id": "permanent-residence-eu",
+  "categoryId": "residence_permit",
+  "title": "National permanent residence and EU long-term residence: the differences",
+  "tldr": "Autorização de Residência Permanente under Article 80 and Estatuto de Residente de Longa Duração (ERLD) under Articles 125–131 are different statuses. Their conditions, residence calculations and AIMA appointment options differ. Permanent documents for EU citizens and their families follow a third, separate procedure.",
+  "premium": true,
+  "tags": [
+    "aima",
+    "permanente",
+    "art80",
+    "permanent residence"
+  ],
+  "estimatedReadMinutes": 6,
+  "steps": [
     {
-      id: 'national-vs-eu',
-      title: 'Two types of permanent residence — which to choose',
-      content: [
-        { kind: 'substeps', items: [
-          { id: 'n1', title: '🇵🇹 Autorização de Residência Permanente (national)', content: [
-            { kind: 'checklist', items: [
-              'The autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007). The card (título de residência) is renewed every 5 years (art. 76 nº 4)',
-              'The right to work, live and study in Portugal without restrictions',
-              'Risk of cancellation if absent for 24 consecutive months OR 30 months in total over 3 years without a justified reason (art. 85 Lei 23/2007)',
-              'Lei Orgânica 1/2026 (published 18.05.2026, in force from 19.05.2026): naturalisation now takes 7 years for CPLP/EU and 10 years for others (instead of the previous 5). Permanent residence is NOT required to apply for citizenship, but becomes more valuable as an intermediate stable status during those 7–10 years of waiting',
-              'Family members receive a temporary residence permit, then can follow their own path to permanent residence',
-              'Does not grant rights in other EU countries'
-            ]}
-          ]},
-          { id: 'n2', title: '🇪🇺 EU Long-Term Resident (EULTR)', content: [
-            { kind: 'checklist', items: [
-              'The card is valid for 5 years → renewal (long-term resident status is also indefinite; only the card is renewed)',
-              'Makes moving to many EU countries easier: after entering the second state, you usually need to apply for a local residence permit and meet its conditions (this is NOT freedom of movement like EU citizens have)',
-              'Does NOT apply to Denmark and Ireland (they do not participate in Directive 2003/109/EC)',
-              'Requirements: stable and regular means of subsistence, health insurance, basic knowledge of Portuguese',
-              'Risk of loss if absent from the EU for 12 consecutive months and in other cases provided for by Lei 23/2007/Directive 2003/109',
-              'Useful for those planning mobility within the EU'
-            ]}
-          ]},
-          { id: 'n3', title: '🤔 Recommendation', content: [
-            { kind: 'paragraph', text: 'For most residents — national permanent residence: the procedure is simpler, there are fewer documents, and it does not expire. EULTR — if you genuinely plan to move to another EU country within 1-3 years. In theory, you can have national permanent residence and/or EU long-term resident status, but the procedure and endorsement/card depend on AIMA — it is better to clarify the strategy before applying.' }
-          ]}
-        ]}
+      "id": "national",
+      "title": "National permanent residence — Article 80",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "National permanent residence is intended for residence in Portugal. After at least five years holding temporary residence, AIMA checks means, accommodation, basic Portuguese, tax and Social Security obligations and conviction requirements. The status is indefinite; the card is renewed every five years (Article 76(2))."
+        },
+        {
+          "kind": "warning",
+          "text": "Article 80 refers to sentences imposed, not simply the maximum penalty for an offence. Suspended sentences also count for the intentional offences, terrorism and certain serious crimes specified in that article. Anyone with a conviction needs an individual assessment."
+        },
+        {
+          "kind": "link",
+          "text": "AIMA: Article 80 conditions and full document list",
+          "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o"
+        }
       ]
     },
     {
-      id: 'conditions',
-      title: 'Application conditions (arts. 76, 80)',
-      content: [
-        { kind: 'checklist', items: [
-          '📅 5 years of holding a temporary autorização de residência in Portugal. Do NOT confuse this with citizenship rules: waiting periods for applications may matter for the nationality clock, but usually do NOT replace 5 years of temporary residence permit for permanent residence',
-          '🗣️ Portuguese A2 — CIPLE/CAPLE certificate, certificado de curso de português reconhecido, or another document expressly accepted by AIMA under the law/regulations',
-          '💰 Stable and regular means of subsistence — usually employment, pension, income; AIMA is guided by Portuguese subsistence thresholds',
-          '🏠 Suitable accommodation — rental contract / ownership, floor area according to family size',
-          '⚕️ Health insurance or SNS utente — works if you are registered',
-          '⚖️ No criminal conviction for an offence which, under Portuguese law, is punishable by imprisonment of more than 1 year (art. 80 Lei 23/2007)',
-          '📋 No debts to Finanças and Segurança Social',
-          '🛡️ No breaches of immigration law (overstay, illegal work)'
-        ]}
+      "id": "erld",
+      "title": "EU long-term residence — ERLD",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "ERLD is a separate status for eligible third-country nationals. Articles 125–127 require five years of legal, uninterrupted residence immediately before the application, stable and regular resources, health insurance, accommodation, basic Portuguese and public-order and security checks. Not every type of temporary stay qualifies for ERLD."
+        },
+        {
+          "kind": "link",
+          "text": "AIMA: eligibility for ERLD",
+          "url": "https://aima.gov.pt/pt/viver/aquisicao-do-estatuto-de-residente-de-longa-duracao-erld-art-125-o"
+        }
       ]
     },
     {
-      id: 'counting-5-years',
-      title: 'When the 5 years start: important nuances',
-      content: [
-        { kind: 'paragraph', text: 'Main rule: the 5 years count from the issue date of the FIRST autorização de residência card (título de residência). NOT from visa entry, NOT from MdI submission, NOT from D-visa issuance. But the edge cases matter:' },
-        { kind: 'checklist', items: [
-          'D-visa before the first card — does NOT count. A visa is permission to enter, not to reside.',
-          'Manifestação de Interesse (MdI) — NEVER counted for either national ARP or EULTR. Lei 38/2024 briefly allowed it for nationality, Lei Orgânica 1/2026 reversed it. The MdI regime itself was revoked by Lei 61/2025.',
-          'Renewal queue with a timely-filed request — COUNTS as continuous legal residence (art. 78 + DR 84/2007 art. 61). Since October 2025 AIMA has explicitly extended the validity of expired cards.',
-          'A gap with no valid título and no pending renewal — resets the clock. AIMA usually forgives short gaps if the prior renewal was filed on time.',
-          'SEF→AIMA transition period with expired SEF cards plus a confirmed pending renewal — COUNTS. Evidenced by an AIMA certidão.',
-          'Conversions between visa types (D2→D7, D7→D8) — the clock does NOT reset, as long as the autorização de residência was held continuously. Continuity of holding matters, not the type.',
-          'Family reunification (reagrupamento): a family member has THEIR OWN start date — their first reagrupamento card, NOT the date of the principal resident.',
-          'Children born in Portugal to non-EU residents — art. 122 nº 1 al. a (NOT 81!). Their own first card starts their 5 years.',
-          'Students: for national ARP (art. 80), time on an autorização para estudo counts in full. For EULTR (art. 126 nº 3) it counts only 50%; pure students cannot be EULTR beneficiaries at all until they convert the status.'
-        ] },
-        { kind: 'warning', text: 'If your 5-year history is non-linear (visa changes, gaps, long absences, SEF→AIMA transition) — order a certidão de residência from AIMA before applying. It shows all your periods of legal residence in a single document and removes disputes at the appointment.' }
+      "id": "counting",
+      "title": "Why the five-year calculations differ",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Article 80 requires at least five years as the holder of temporary residence. The new announcement does not set a universal starting date for every SEF/AIMA history or resolve every waiting, renewal or gap scenario. Do not import nationality or ERLD rules, or assume that five IRS returns equal five years holding temporary residence."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Article 126 contains specific ERLD rules: qualifying study periods count at half their length after a switch to an eligible status; ordinary absences must be shorter than six consecutive months and total no more than ten months over five years. There are exceptions, including for work postings, and separate Blue Card rules. Do not automatically apply these provisions to Article 80."
+        }
       ]
     },
     {
-      id: 'documents',
-      title: 'Documents',
-      content: [
-        { kind: 'checklist', items: [
-          '📝 Modelo de requerimento (on the AIMA website)',
-          '📄 Passport (original + copies of all completed pages)',
-          '📄 Valid residence permit (título de residência)',
-          '🎓 A2 certificate (CIPLE / PLA / diploma)',
-          '💼 Proof of income: IRS Anexo A for 3 years, 12 monthly payslips or Anexo B (for self-employed workers)',
-          '🏠 Housing proof under the AIMA rules (29.11.2025): compromisso de honra declaration + rental contract in your name / certidão predial / comodato; AIMA does not accept a junta atestado; if you are not named in the contract — personal declaration + certidão de domicílio fiscal (no older than 30 days)',
-          '💳 Certidões sem dívida: Finanças + Segurança Social (free on e-portals)',
-          '⚖️ Registo criminal: Portugal (free on gov.pt) + countries of residence ≥ 1 year in the last 5 years',
-          '📸 2 photos 3x4',
-          '💶 Payment of the fee'
-        ]}
+      "id": "routes",
+      "title": "Where to request an appointment",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "First national permanent residence: the new Article 80 option in the contact form.",
+            "ERLD / EU Long-Term Resident: the separate “Pedido de Agendamento para aquisição do Estatuto de Residente de Longa Duração” option.",
+            "Renewal of national permanent residence: Portal de Renovações.",
+            "Permanent certificate for an EU citizen and permanent card for their family member: Portal de Renovações, under the separate procedure."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "AIMA explicitly distinguishes two stages: pedido de agendamento requests an appointment; pedido de concessão is the application for permanent residence, submitted later in person with the form and supporting documents. Sending the contact form does not replace the second stage."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The step-by-step guide in this section is “Article 80 permanent residence: the new AIMA appointment form”. It covers selecting the option, email verification and evidence of the residence period."
+        },
+        {
+          "kind": "link",
+          "text": "Open the AIMA contact form",
+          "url": "https://contactenos.aima.gov.pt/contact-form"
+        },
+        {
+          "kind": "link",
+          "text": "Open Portal de Renovações",
+          "url": "https://portal-renovacoes.aima.gov.pt"
+        }
       ]
     },
     {
-      id: 'process',
-      title: 'Application process',
-      content: [
-        { kind: 'substeps', items: [
-          { id: 'p1', title: '1. Apply to AIMA', content: [
-            { kind: 'paragraph', text: '🆕 Since 01.07.2026 AIMA’s Portal de Renovações also handles the permanent documents of EU nationals and their families: the certificado de residência permanente (art. 16) and the cartão de residência permanente for family members (art. 17) — previously this went through the Formulário de Contacto. The portal covers documents that expired/are expiring from 01.07.2025 to 31.10.2026. For other cases, check the AIMA page for “autorização de residência permanente” / “estatuto de residente de longa duração” before applying. 🆕 Since 15.09.2026 the portal no longer asks EU nationals and their family members for a NIF or NISS; if you see «dados em validação», wait about 30 minutes, log in again and continue; if it keeps failing, use the contact form: Tipo «Portal de Renovações» > Subtipo «Portal de Renovações – comunicar problema».' }
-          ]},
-          { id: 'p2', title: '2. Pay the fee', content: [
-            { kind: 'paragraph', text: 'AIMA — concessão art. 76 = €351.10 (tabela 01.03.2026). Additional reception + analysis ~€133.' }
-          ]},
-          { id: 'p3', title: '3. Interview at AIMA (if required)', content: [
-            { kind: 'paragraph', text: 'Usually not required for national permanent residence, but applicants are sometimes called. For EU Long-Term — an interview is mandatory.' }
-          ]},
-          { id: 'p4', title: '4. Decision', content: [
-            { kind: 'timeline', text: '6-12 months (under Lei 61/2025 — up to 9 lawful months). In practice in 2026 — up to 18 months due to queues.' }
-          ]},
-          { id: 'p5', title: '5. Receive the card', content: [
-            { kind: 'paragraph', text: 'The permanent residence card arrives by post. The card validity period is 5 years (both for national permanent residence under art. 76 nº 4 and for EULTR). The autorização itself is indefinite — only the plastic card is renewed.' }
-          ]}
-        ]}
-      ]
-    },
-    {
-      id: 'after',
-      title: 'After obtaining permanent residence',
-      content: [
-        { kind: 'checklist', items: [
-          '🎂 There is no mandatory “recalculation” of time — renewal of the CARD every 5 years (the autorização itself is indefinite)',
-          '🌍 National permanent residence: risk of cancellation if absent for 24 consecutive months OR 30 months in total over 3 years without a justified reason. EULTR: risk of loss if absent from the EU for 12 consecutive months and in other cases',
-          '💼 Work without restrictions, without permits',
-          '👨‍👩‍👧 Family Reagrupamento — check the current conditions under Lei 23/2007 (after Lei 61/2025)',
-          '🎓 Access to state education on general terms',
-          '🏛️ Voting in local elections (municipal) — for EU citizens and certain CPLP nationals',
-          '🎫 Citizenship: separate procedure through IRN. Permanent residence is NOT required. Lei Orgânica 1/2026 (in force from 19.05.2026): now 7 years for CPLP/EU and 10 years for others (instead of the previous 5)'
-        ]},
-        { kind: 'warning', text: 'Permanent residence does NOT grant citizenship automatically — you must apply separately through IRN. But it makes the process easier, as all documents are more stable + language has already been confirmed.' }
-      ]
-    },
-    {
-      id: 'eu-long-term',
-      title: 'EU Long-Term Resident — specifics',
-      content: [
-        { kind: 'checklist', items: [
-          'Application is made to AIMA, selecting “Estatuto de residente de longa duração (UE)”',
-          'Stable and regular means of subsistence, sufficient for the applicant and family without recourse to social assistance (exact threshold — check with AIMA)',
-          'Integration condition — in Portugal, usually proof of basic knowledge of the Portuguese language in a form accepted by AIMA',
-          'To OBTAIN EULTR: the 5-year residence must be continuous — the usual absence limits are no more than 6 consecutive months and no more than 10 months in total over 5 years, unless exceptions apply',
-          'Mobility to a second EU state: usually apply for a local residence permit within 3 months after entry and meet that country’s conditions; some countries require preliminary steps / a visa / labour market test',
-          'Exceptions and special rules: diplomatic/temporary statuses are excluded; study periods usually do not give entitlement by themselves and may be counted partially; beneficiaries of international protection — there are special rules under Lei 23/2007 / Directive 2011/51/EU',
-          'Loss: after obtaining it, separate rules under Lei 23/2007 apply (risk in case of long absence from the EU and in other cases)'
-        ]}
-      ]
-    },
-    {
-      id: 'common-myths',
-      title: 'Myths about ARP and EULTR',
-      content: [
-        { kind: 'paragraph', text: 'These misconceptions show up frequently in discussions of national ARP vs EULTR. Reality as of May 2026:' },
-        { kind: 'checklist', items: [
-          '❌ "EULTR = automatic right to live in any EU country like EU citizens do" — No, it is the right to APPLY for residence in another EU country under the national rules of that country. Denmark and Ireland do not participate in Directive 2003/109 at all.',
-          '❌ "You must choose between national ARP and EULTR" — You can hold both statuses simultaneously. Lawyers (PaxLegal, Lexidy, Fiolegal) often recommend the national ARP first (simpler, cheaper), then EULTR on top.',
-          '❌ "Student years count the same for both" — For national ARP (art. 80), they count in full. For EULTR (art. 126 nº 3), only 50%; pure students are excluded altogether.',
-          '❌ "Long absences are equally dangerous" — Different thresholds: national ARP is lost after 24 consecutive months or 30/36 interpolated. EULTR is lost after 12 months outside the EU.',
-          '❌ "Resources for EULTR are the same as for ARP" — EULTR requires recursos estáveis e regulares (benchmarked against SMN/pension), plus EXPLICITLY health insurance or SNS. ARP wording is softer — meios de subsistência.',
-          '❌ "Manifestação de Interesse counted for one of them" — No, it never counted for either ARP or EULTR.',
-          '❌ "The EULTR card moves with you to another EU country" — No. EULTR is a Portuguese status. In another EU country you apply for THEIR residence permit (usually within 3 months of entry), but the Portuguese EULTR strengthens the case.'
-        ] }
+      "id": "retention",
+      "title": "Moving abroad and retaining status",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "ERLD can facilitate obtaining residence in another participating EU state, but you must meet that country’s conditions and submit a local application. It is not EU-citizen freedom of movement. Before moving, check destination-country rules and the grounds for loss of status under Article 131; national permanent residence and ERLD do not share identical absence rules."
+        },
+        {
+          "kind": "warning",
+          "text": "For ordinary temporary residence, Article 85 provides for possible cancellation after unjustified absence of six consecutive months or eight months in total over the permit’s entire validity. For permanent residence the limits are 24 consecutive months or 30 months in total over three years. This is not a requirement to live in Portugal for six months every calendar year. Statutory exceptions and a procedure for justifying absences apply; ARI has separate rules."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Neither status grants nationality automatically. Permanent documents for EU citizens and their families must also be distinguished from ERLD for third-country nationals."
+        }
       ]
     }
   ],
-  costs: [
-    { label: 'AIMA reception + analysis', amountEUR: 133 },
-    { label: 'AIMA permanent (art. 76)', amountEUR: 351.10 },
-    { label: 'Certidões Finanças / SS', amountEUR: 0 },
-    { label: 'Apostilles + translations of criminal record certificates', amountEURMin: 100, amountEURMax: 300 },
-    { label: 'CIPLE (if you do not have a certificate)', amountEUR: 85 }
+  "sources": [
+    {
+      "title": "Lei n.º 23/2007 — versão consolidada, arts. 76, 80, 85, 125–131",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-11-13"
+    },
+    {
+      "title": "AIMA — Autorização de Residência Permanente, Art. 80.º",
+      "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-13"
+    },
+    {
+      "title": "AIMA — Estatuto de Residente de Longa Duração",
+      "url": "https://aima.gov.pt/pt/viver/aquisicao-do-estatuto-de-residente-de-longa-duracao-erld-art-125-o",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-13"
+    },
+    {
+      "title": "AIMA — Formulário de Contacto: Autorização de Residência Permanente (05.11.2026)",
+      "url": "https://aima.gov.pt/pt/noticias/formulario-de-contacto-autorizacao-de-residencia-permanente",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-13"
+    },
+    {
+      "title": "AIMA — Agendamento para ERLD",
+      "url": "https://aima.gov.pt/pt/noticias/formulario-agendamento-para-aquisicao-do-estatuto-de-residente-de-longa-duracao",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-13"
+    },
+    {
+      "title": "AIMA — Autorização de Residência para Investimento",
+      "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-investimento-art-90-o-a",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-13"
+    }
   ],
-  timelineDaysMin: 180,
-  timelineDaysMax: 540,
-  sources: [
-    { title: 'Lei 23/2007 — Autorização de Residência Permanente (arts. 76, 80) and Residente de Longa Duração (arts. 125+)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'DL 29/2012 — EU Long-Term Resident', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/29-2012-542995', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Permanent Authorisation', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Portal de Renovações atualizado para nacionais da União Europeia (UE) e familiares (15.09.2026)', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes-atualizado-para-nacionais-da-uniao-europeia-ue-e-familiares', kind: 'official', language: 'pt', lastRetrieved: '2026-09-25' }
-  ],
-  lastVerified: '2026-09-25',
-  changeSummary: 'May 2026 update: (1) Deeper comparison of national ARP (art. 80) and EULTR (art. 125+): students count differently, different absence thresholds, different resource standards. (2) Step "When the 5 years start" with 9 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT, students). (3) Common myths about ARP vs EULTR differences. (4) Lei Orgânica 1/2026 (in force from 19.05.2026): citizenship now takes 7/10 years, ARP becomes more important as an intermediate status.',
-  verifyIntervalDays: 180
+  "lastVerified": "2026-11-13",
+  "verifyIntervalDays": 30,
+  "recentlyChangedAt": "2026-11-13",
+  "changeSummary": "Checked application channels and status differences; corrected residence calculations, conviction requirements and unsupported processing-time promises."
 }

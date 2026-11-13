@@ -95,6 +95,9 @@ function validateGuide(g, categoryIds) {
   if (!g.title || g.title.length < 3) err(g.id, 'title too short')
   if (!g.tldr || g.tldr.length < 20) err(g.id, 'tldr too short')
   if (!categoryIds.has(g.categoryId)) err(g.id, `unknown categoryId: ${g.categoryId}`)
+  for (const flag of ['premium', 'pinned']) {
+    if (g[flag] !== undefined && typeof g[flag] !== 'boolean') err(g.id, `${flag} must be boolean`)
+  }
 
   // Editorial voice flag — warning for now, will become error once all guides are updated
   if (g.editorialVoice !== 'hackportugal') warn(g.id, 'missing editorialVoice="hackportugal"')

@@ -1,0 +1,47 @@
+{
+  "reviewedAt": "2026-11-13",
+  "scope": "One new Article 80 appointment guide and full refresh of two overlapping permanent-residence guides; not a whole-catalogue audit.",
+  "languages": [
+    "ru",
+    "en",
+    "pt"
+  ],
+  "added": [
+    "aima-permanente-art80-agendamento"
+  ],
+  "updated": [
+    "residencia-permanente-5-anos",
+    "permanent-residence-eu"
+  ],
+  "visibility": {
+    "pinned": true,
+    "premium": true,
+    "requiresAppUpdateForPinnedSection": true
+  },
+  "evidence": {
+    "announcement": "https://aima.gov.pt/pt/noticias/formulario-de-contacto-autorizacao-de-residencia-permanente",
+    "procedure": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-permanente-art-80-o",
+    "law": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445",
+    "form": "https://contactenos.aima.gov.pt/contact-form"
+  },
+  "observedForm": [
+    "Autorização de Residência",
+    "Pedido de agendamento - Concessão Autorização Residência Permanente",
+    "Endereço de E-mail",
+    "Enviar Código"
+  ],
+  "verificationLimits": [
+    "Stopped before email verification; no personal data entered and no application submitted.",
+    "Upload fields beyond email verification were not inspected. Contagem do Tempo instructions are explicitly conditional.",
+    "No universal new rule for counting waiting periods or gaps was found in the announcement.",
+    "No fixed appointment waiting time or complete online grant is promised."
+  ],
+  "corrections": [
+    "Appointment request versus in-person application",
+    "Separate national, ERLD and EU-family routes",
+    "Article 80 sentences imposed, not maximum statutory penalties",
+    "Article 85 absence periods and exceptions",
+    "Removed categorical first-card-print date and automatic reset assertions",
+    "Removed unsupported timelines, court success promises and generic fee estimates"
+  ]
+}

@@ -75,6 +75,10 @@ for (const [id, ruG] of ruById) {
       issues.push(`${id} [${lang}]: editorialVoice drift "${other.editorialVoice}" vs "${ruG.editorialVoice}"`)
     if (ruG.categoryId !== other.categoryId)
       issues.push(`${id} [${lang}]: categoryId drift`)
+    for (const flag of ['premium', 'pinned']) {
+      if (Boolean(ruG[flag]) !== Boolean(other[flag]))
+        issues.push(`${id} [${lang}]: ${flag} drift`)
+    }
     if (JSON.stringify(ruG.audience) !== JSON.stringify(other.audience))
       issues.push(`${id} [${lang}]: audience drift`)
 
