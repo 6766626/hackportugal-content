@@ -1,108 +1,83 @@
 export default {
-  editorialVoice: 'hackportugal',
-  id: 'aima-contact',
-  categoryId: 'residence_permit',
-  title: 'How to contact AIMA — all channels',
-  tldr: 'AIMA is overloaded: the phone line is often busy, email replies take 2–6 weeks, in-person service is by appointment only. The realistic route: the AIMA Portal online account (portal.aima.gov.pt), booking via Espaço Cidadão, and for general questions the Linha de Apoio a Migrantes 808 257 257 (from a mobile/abroad +351 218 106 191). For urgent cases — email by region, list below. Re-check every number and address on aima.gov.pt: they change.',
-  tags: ['aima', 'contacts', 'contact', 'phone', 'email'],
-  estimatedReadMinutes: 6,
-  steps: [
+  "editorialVoice": "hackportugal",
+  "id": "aima-contact",
+  "categoryId": "residence_permit",
+  "title": "Contact AIMA: form, telephone and email",
+  "tldr": "Start with the channel for your procedure. AIMA’s contact form has separate appointment and data-correction topics; renewals use the portal designated for your permit type. A general enquiry does not replace an application or booked appointment.",
+  "tags": [
+    "aima",
+    "contacts",
+    "agendamento"
+  ],
+  "estimatedReadMinutes": 4,
+  "steps": [
     {
-      id: 'channels',
-      title: 'Contact channels — by priority',
-      content: [
-        { kind: 'substeps', items: [
-          { id: 'c1', title: '1. AIMA Portal (portal.aima.gov.pt) — online account', content: [
-            { kind: 'paragraph', text: 'The official online channel for available AIMA digital procedures. Login is via Chave Móvel Digital (the state electronic identification and signature tool).\n\nAvailable functions depend on the type of process: for some services, case status, document submission, notifications and appointment booking are available; for others, an in-person appointment or a separate AIMA notification is still required. Check in your online account and on the AIMA/ePortugal page whether your specific service can be completed online.' }
-          ]},
-          { id: 'c2', title: '2. Espaço Cidadão / ePortugal — in-person appointment', content: [
-            { kind: 'paragraph', text: 'On ePortugal/SIGA, you can check available AIMA services and service locations. Not all Espaço Cidadão sites provide AIMA services, and the available services are limited to specific procedures; availability depends on the municipality and the type of service. Slots may be unavailable — check regularly.' }
-          ]},
-          { id: 'c3', title: '3. Official phone line — Linha de Apoio a Migrantes', content: [
-            { kind: 'checklist', items: [
-              'Numbers: 808 257 257 (from a Portuguese landline) and +351 218 106 191 (from a mobile / abroad). 808 202 653 is the old SEF number — do not use it anymore',
-              'Hours: Mon–Fri 09:00–19:00 (per the official gov.pt page; the AIMA page may show different hours — cross-check)',
-              'The 808 tariff depends on the operator and network type — before calling, check the cost and whether there is an alternative official number on the AIMA contacts page',
-              'Often busy; the best chance is during the first 30 minutes after opening',
-              'Speak clearly in Portuguese; English may be possible, but slower',
-              'If AIMA publishes an alternative geographic number, try that as well. Do not use unverified numbers from chats'
-            ]}
-          ]},
-          { id: 'c4', title: '4. The “free line” 800 203 373 — NOT confirmed', content: [
-            { kind: 'paragraph', text: 'The number 800 203 373 circulates in chats as a “free line for people with an open process”, but it is not confirmed on the official AIMA/gov.pt pages, and AIMA explicitly states there is no separate free line to speak with the agency. Do not rely on it: use only the numbers and channels published on aima.gov.pt.' }
-          ]},
-          { id: 'c5', title: '5. Email', content: [
-            { kind: 'paragraph', text: 'Use email addresses and contact forms published on the official AIMA “Contactos” page or on the page of the specific service location / in the AIMA notification you received. Unverified regional addresses in the format cidade@aima.gov.pt circulate regularly — do not send personal data there unless confirmed on aima.gov.pt.' },
-            { kind: 'checklist', items: [
-              'Always state the número de processo, full name, NIF, and submission date',
-              'Send only the necessary documents and only to official addresses / via AIMA Portal',
-              'DO NOT send your passport, bank details or full document packs to unverified emails or chats'
-            ]}
-          ]}
-        ]}
+      "id": "form",
+      "title": "Choose the form topic",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Open https://contactenos.aima.gov.pt/contact-form and select the exact purpose. November brought separate routes for first permanent residence under Article 80, family reunification and parents of Portuguese children under Article 122(k). Each has its own conditions and attachments. Choosing an unrelated topic does not speed up processing."
+        }
       ]
     },
     {
-      id: 'community-tools',
-      title: 'Community tools for getting through by phone',
-      content: [
-        { kind: 'paragraph', text: 'The AIMA phone line is often busy. SEF was abolished in October 2023, and its immigration functions were transferred to AIMA — old materials may mention SEF and its number 808 202 653, but you need to contact AIMA on the current numbers. Any unofficial bots/chats have NO connection to AIMA:' },
-        { kind: 'checklist', items: [
-          '⚠️ Telegram bots with “automatic dialling” (for example, @callaimabot) are NOT official. By giving a bot your phone number, NIF, número de processo or passport scan, you are giving personal data to a third party. Use only at your own risk',
-          '⚠️ Public/private chats (such as @aimasefgroup) can be useful for general information, but DO NOT post DUC, CN codes, NIF, número de processo, recibos, passport details or screenshots with personal data there',
-          'For statistics on “calling windows”, the community runs unofficial channels — use them only as a guide, without sharing personal data'
-        ]}
+      "id": "email",
+      "title": "If no suitable option is available",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "AIMA’s FAQ gives geral@aima.gov.pt for an appointment request when the form has no suitable option. Use the subject Pedido de Agendamento and include your name, date of birth, nationality, contact email and purpose. Do not send repeated identical requests or unnecessary personal documents beyond AIMA’s instructions."
+        }
       ]
     },
     {
-      id: 'tips',
-      title: 'Practice: how to get a response',
-      content: [
-        { kind: 'checklist', items: [
-          '📅 The waiting time for booking through the portal depends on the service and region; slots may be unavailable. Check regularly and keep confirmations of your booking attempts',
-          '☎️ It is best to call Tuesday–Thursday. Monday and Friday are dead. The first 30 minutes after opening give the highest chance of getting through',
-          '🗣️ Script: “Bom dia, tenho o processo número X e gostaria de saber o estado” (good morning, I have process X and would like to know the status)',
-          '📧 An email without a processo is often ignored. Always attach documents or a portal screenshot',
-          '📮 In the event of an unjustified delay, you can submit a queixa ao Provedor de Justiça (ombudsman), attaching evidence of your contacts with AIMA — this does NOT guarantee acceleration and does not replace procedural appeal deadlines',
-          '⚖️ A legal measure against AIMA inaction is chosen by a lawyer — usually it is an administrative action, intimação para a prática de ato devido (CPTA). “Injunção” in Portugal is a procedure for recovering monetary claims, not a remedy against administrative inaction'
-        ]}
+      "id": "phone",
+      "title": "Telephone enquiries",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "AIMA’s contact centre: +351 217 115 000, weekdays 08:00–20:00 Portuguese time. Have your case reference, NIF and a precise question ready. The telephone service does not guarantee an available appointment or a decision during the call. Check current hours on AIMA’s website."
+        }
       ]
     },
     {
-      id: 'physical-addresses',
-      title: 'Physical addresses — where to check the current list',
-      content: [
-        { kind: 'warning', text: 'AIMA office addresses and functions change. Before visiting, check “Locais de atendimento” on aima.gov.pt and your appointment confirmation. The address stated in the SMS/email appointment confirmation is more important than any static list.' },
-        { kind: 'checklist', items: [
-          'Delegations operate in Lisboa, Porto, Coimbra, Faro, Funchal (Madeira), Ponta Delgada (Açores) and other cities — the exact list and addresses are on aima.gov.pt',
-          '⚠️ WITHOUT a prior appointment, service has NOT been available since 2024'
-        ]}
-      ]
-    },
-    {
-      id: 'when-escalate',
-      title: 'When to escalate',
-      content: [
-        { kind: 'checklist', items: [
-          'AIMA refusal → IMMEDIATELY check the prazo e meio de impugnação in the AIMA notification itself and contact a lawyer; deadlines depend on the type of decision and can be short (often 30 days, but not universally)',
-          'Silence > 90 days on a request → queixa to the Provedor de Justiça (provedor-jus.pt) — this does not guarantee acceleration, but records the systemic problem',
-          'Service complaints → Livro de Reclamações (physical/digital) or an official AIMA complaint; for systemic breaches — Provedor de Justiça',
-          'Suspected corruption/crime by an employee → Polícia Judiciária / Ministério Público (NOT IGAI: IGAI is the Inspeção-Geral da Administração Interna and works mainly with security forces)',
-          'Problems with a residence permit and risk of deportation → urgently contact a lawyer from the Ordem dos Advogados with immigration practice',
-          'Vulnerable group (refugees, minors) → CPR (Conselho Português para os Refugiados)'
-        ]}
+      "id": "follow-up",
+      "title": "Keep a record and follow up",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "Keep the reference, date, message and attachments; check spam. If AIMA assigned a different portal to your process, follow its notifications. The contact form does not replace permit renewal or guarantee a response deadline. For documented urgency, explain the actual deadline and consequences; consult a lawyer about judicial remedies."
+        }
       ]
     }
   ],
-  sources: [
-    { title: 'AIMA — Contactos (main contacts page)', url: 'https://aima.gov.pt/pt/contactos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'gov.pt — Contactar a Linha de Apoio a Migrantes (808 257 257 / +351 218 106 191)', url: 'https://www2.gov.pt/pt/servicos/contactar-a-linha-de-apoio-a-migrantes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'AIMA — Locais de atendimento', url: 'https://aima.gov.pt/pt/locais-de-atendimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'AIMA Portal — online account', url: 'https://portal.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Appointment booking', url: 'https://www.gov.pt/servicos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Provedor de Justiça — Portuguese ombudsman', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei n.º 41/2023 — creation of AIMA / extinção SEF', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023-212371907', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+  "sources": [
+    {
+      "title": "AIMA — perguntas frequentes e canais de agendamento",
+      "url": "https://aima.gov.pt/pt/decreto-regulamentar-da-lei-de-estrangeiros-alteracoes/perguntas-frequentes",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-23"
+    },
+    {
+      "title": "AIMA — Formulário de Contacto",
+      "url": "https://contactenos.aima.gov.pt/contact-form",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-23"
+    },
+    {
+      "title": "AIMA — reagrupamento familiar",
+      "url": "https://aima.gov.pt/pt/noticias/formulario-de-contacto-reagrupamento-familiar",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-11-23"
+    }
   ],
-  lastVerified: '2026-05-31',
-  verifyIntervalDays: 90
+  "lastVerified": "2026-11-23",
+  "verifyIntervalDays": 90,
+  "premium": true,
+  "recentlyChangedAt": "2026-11-23",
+  "changeSummary": "Contact AIMA: form, telephone and email"
 }

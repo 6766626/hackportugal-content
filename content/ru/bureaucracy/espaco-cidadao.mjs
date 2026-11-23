@@ -40,7 +40,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'e1', title: '1. Найти ближайший Espaço Cidadão', content: [
-            { kind: 'link', text: 'Карта Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
+            { kind: 'link', text: 'Карта Espaços Cidadão', url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao' }
           ]},
           { id: 'e2', title: '2. Записаться онлайн', content: [
             { kind: 'paragraph', text: 'Через ePortugal.gov.pt → выбрать услугу → выбрать место → выбрать время. По умолчанию Espaço Cidadão принимает без записи, но для популярных услуг запись лучше сделать заранее.' }
@@ -66,7 +66,7 @@ export default {
     }
   ],
   sources: [
-    { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ePortugal — Espaços Cidadão', url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-11-23' },
     { title: 'Loja de Cidadão — официальный сайт', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-31',

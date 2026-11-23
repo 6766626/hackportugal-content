@@ -190,10 +190,10 @@ export default {
     },
     {
       "title": "ePortugal — Entregar IRS",
-      "url": "https://www.gov.pt/servicos/entregar-o-irs",
+      "url": "https://www.gov.pt/servicos/simular-e-entregar-a-declaracao-anual-do-irs",
       "kind": "official",
       "language": "pt",
-      "lastRetrieved": "2026-05-17"
+      "lastRetrieved": "2026-11-23"
     },
     {
       "title": "Código do IRS (Diário da República)",

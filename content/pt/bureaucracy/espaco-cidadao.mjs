@@ -40,7 +40,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'e1', title: '1. Encontrar o Espaço Cidadão mais próximo', content: [
-            { kind: 'link', text: 'Mapa dos Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
+            { kind: 'link', text: 'Mapa dos Espaços Cidadão', url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao' }
           ]},
           { id: 'e2', title: '2. Fazer marcação online', content: [
             { kind: 'paragraph', text: 'Através de ePortugal.gov.pt → escolher o serviço → escolher o local → escolher a hora. Por norma o Espaço Cidadão atende sem marcação, mas para os serviços mais procurados convém marcar com antecedência.' }
@@ -66,7 +66,7 @@ export default {
     }
   ],
   sources: [
-    { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ePortugal — Espaços Cidadão', url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-11-23' },
     { title: 'Loja de Cidadão — site oficial', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-31',

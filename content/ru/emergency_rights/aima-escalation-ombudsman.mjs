@@ -132,7 +132,7 @@ export default {
   sources: [
     { title: 'Provedor de Justiça: как подать жалобу', url: 'https://www.provedor-jus.pt/en/who-we-are/faq/file-a-complaint/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Electrónico', url: 'https://livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/decreto-regulamentar-da-lei-de-estrangeiros-alteracoes/perguntas-frequentes', kind: 'official', language: 'pt', lastRetrieved: '2026-11-23' },
     { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DN — Governo vai distribuir processos contra a AIMA para tribunais de todo o país (23.07.2026)', url: 'https://www.dn.pt/sociedade/governo-vai-distribuir-processos-contra-a-aima-para-tribunais-de-todo-o-pas', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
     { title: 'DN Brasil — Task force do tribunal administrativo para processos AIMA será estendida (22.09.2026)', url: 'https://dnbrasil.dn.pt/sociedade/task-force-do-tribunal-administrativo-para-processos-aima-ser-estendida', kind: 'news', language: 'pt', lastRetrieved: '2026-09-25' },

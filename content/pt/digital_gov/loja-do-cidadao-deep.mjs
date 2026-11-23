@@ -143,10 +143,10 @@ export default {
   sources: [
     {
       title: 'Página oficial gov.pt sobre atendimento nas Lojas de Cidadão',
-      url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nas-lojas-de-cidadao',
+      url: 'https://www.gov.pt/guias/atendimento-nas-lojas-de-cidadao',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-11-23'
     },
     {
       title: 'ePortugal: pesquisa de locais de atendimento presencial de serviços públicos',
@@ -157,10 +157,10 @@ export default {
     },
     {
       title: 'Página oficial gov.pt sobre atendimento nos Espaços Cidadão',
-      url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao',
+      url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-11-23'
     },
     {
       title: 'AIMA: Lojas e atendimento presencial',

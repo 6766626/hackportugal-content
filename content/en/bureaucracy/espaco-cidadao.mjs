@@ -40,7 +40,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'e1', title: '1. Find the nearest Espaço Cidadão', content: [
-            { kind: 'link', text: 'Map of Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
+            { kind: 'link', text: 'Map of Espaços Cidadão', url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao' }
           ]},
           { id: 'e2', title: '2. Book online', content: [
             { kind: 'paragraph', text: 'Via ePortugal.gov.pt → choose the service → choose the location → choose the time. By default Espaço Cidadão serves walk-ins without booking, but for popular services it is better to book in advance.' }
@@ -66,7 +66,7 @@ export default {
     }
   ],
   sources: [
-    { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ePortugal — Espaços Cidadão', url: 'https://www.gov.pt/guias/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-11-23' },
     { title: 'Loja de Cidadão — official website', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-31',

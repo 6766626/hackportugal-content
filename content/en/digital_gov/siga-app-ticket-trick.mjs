@@ -109,10 +109,10 @@ export default {
   sources: [
     {
       title: 'ePortugal: access to public services and atendimento nas Lojas de Cidadão',
-      url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nas-lojas-de-cidadao',
+      url: 'https://www.gov.pt/guias/atendimento-nas-lojas-de-cidadao',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-11-23'
     },
     {
       title: 'ePortugal: official portal for public services',
